@@ -271,78 +271,54 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
                 st.success(final_notes)
         
         # 3. IL NUOVO VOTO (Score)
-        st.metric("Voto Finale", f"{final_score}/10")
+        col_score, col_dl = st.columns([1, 1])
+        with col_score:
+            st.metric("Voto Finale", f"{final_score}/10")
+        with col_dl:
+            st.download_button("💾 Scarica Poesia", final_poem, file_name="poesia_studio.txt")
         
         status.update(label=f"✅ Revisione Completata", state="complete", expanded=False)
 
-    # 5. THE FINAL WORK DISPLAY (Simplified or Removed since it's above)
-    st.divider()
-    st.markdown("### ✨ Opera Conclusa")
-    st.download_button("Scarica Poesia", final_poem, file_name="poesia_studio.txt")
-
-    # 6. FOOTER ACTIONS
-    st.markdown("<br>", unsafe_allow_html=True)
-    tab1, tab2, tab3, tab4 = st.tabs(["📊 Analysis", "📚 Sources", "🔄 Versions", "📤 Export"])
-    
-    with tab1:
-        st.markdown(refinement_pack)
-
-    with tab2:
-        st.markdown("#### Risonanze & Ispirazioni")
-        with st.expander(f"📖 Corpus: {style_choice}", expanded=True):
-            st.caption(style_context[:1000] + " [...]")
-            
-    with tab3:
-        col_v1, col_v2 = st.columns(2)
-        with col_v1:
-            st.markdown("**v1 (Original Draft)**")
-            st.markdown(f'<div style="background-color: #f0f2f6; padding: 10px; border-radius: 5px; height: 300px; overflow-y: auto; font-size: 0.9rem; white-space: pre-wrap; color: #333;">{draft.replace(chr(10), "<br>")}</div>', unsafe_allow_html=True)
-        with col_v2:
-            st.markdown("**v3 (Unified Revision)**")
-            st.markdown(f'<div style="background-color: #e8f5e9; padding: 10px; border-radius: 5px; height: 300px; overflow-y: auto; font-size: 0.9rem; white-space: pre-wrap; color: #333;">{final_poem.replace(chr(10), "<br>")}</div>', unsafe_allow_html=True)
-            
-    with tab4:
-        st.download_button(label="💾 Download Text", data=f"{final_poem}\n\n---\n{refinement_pack}", file_name="poetry.txt")
-        
-        # Persistence
+        # Persistence (Save for refresh)
         st.session_state.gen_results = {
             "style_choice": style_choice,
             "style_context": style_context,
             "draft": draft,
             "final_poem": final_poem,
-            "refinement_pack": refinement_pack,
+            "corrections": corrections,
+            "final_notes": final_notes,
             "final_score": final_score,
             "lang_code": lang_code,
             "theme": theme,
             "analysis_data": analysis_data
         }
         st.session_state['history'].append({"style": style_choice, "text": final_poem, "timestamp": time.strftime("%H:%M:%S")})
-        st.success("Saved to History.")
 
 # --- RENDERER (Persistent Stage) ---
 if st.session_state.gen_results:
     res = st.session_state.gen_results
-    style_choice = res['style_choice']
-    style_context = res['style_context']
-    draft = res['draft']
-    final_poem = res['final_poem']
-    refinement_pack = res['refinement_pack']
-    analysis_data = res['analysis_data']
+    # Only render if we're not in the middle of a new generation
+    # Streamlit handles this naturally by control flow
     
-    st.markdown("---") 
-    st.markdown("## 💎 The Final Work")
-    st.markdown(f"""<div class="poem-card" style="max-height: 600px; min-height: 200px; overflow-y: auto;">{final_poem.replace(chr(10), "<br>")}</div>""", unsafe_allow_html=True)
+    # We don't need to re-render everything here because Section 4 already did it
+    # But if the page REFRESHES, Section 4 won't run unless the button is clicked.
+    # So we show a clean mirror of Section 4.
     
-    tab1, tab2, tab3, tab4 = st.tabs(["📊 Analysis", "📚 Sources", "🔄 Versions", "📤 Export"])
-    with tab1: st.markdown(refinement_pack)
-    with tab2: st.markdown(f"#### Sources\n{style_context[:500]}...")
-    with tab3:
-        cv1, cv2 = st.columns(2)
-        cv1.markdown("**v1 Draft**")
-        cv1.markdown(f'<div style="background-color: #f0f2f6; padding: 10px; border-radius: 5px; height: 200px; overflow-y: auto; font-size: 0.9rem; white-space: pre-wrap; color: #333;">{draft.replace(chr(10), "<br>")}</div>', unsafe_allow_html=True)
-        cv2.markdown("**v3 Final**")
-        cv2.markdown(f'<div style="background-color: #e8f5e9; padding: 10px; border-radius: 5px; height: 200px; overflow-y: auto; font-size: 0.9rem; white-space: pre-wrap; color: #333;">{final_poem.replace(chr(10), "<br>")}</div>', unsafe_allow_html=True)
-    with tab4: st.download_button("💾 Download", final_poem, "poem.txt")
+    st.markdown("---")
+    st.markdown("#### 💎 Poesia Rivista (Archivio)")
+    st.markdown(f"""<div style="background-color: #f0fff0; padding: 20px; border-radius: 8px; border: 1px solid #c3e6cb; font-family: 'serif'; font-size: 1.2rem; color: #155724; white-space: pre-wrap; margin-bottom: 20px;">{res['final_poem'].replace(chr(10), "<br>")}</div>""", unsafe_allow_html=True)
+    
+    st.markdown("#### 🛠️ Correzioni e Note")
+    if res['corrections']: st.info(res['corrections'])
+    if res['final_notes']: st.success(res['final_notes'])
+    
+    c1, c2 = st.columns(2)
+    c1.metric("Voto Finale", f"{res['final_score']}/10")
+    c2.download_button("💾 Scarica Poesia", res['final_poem'], "poesia.txt")
 
-# Credits Footer
-st.markdown("<br><br><div style='text-align: center; color: #666; font-size: 0.8rem;'>Powered by LangChain & Llama 3</div>", unsafe_allow_html=True)
+# Credits Footer (STRICT)
+st.markdown("<br><br><hr>", unsafe_allow_html=True)
+st.markdown("<div style='text-align: center; color: #888; font-size: 0.9rem; font-family: monospace;'>"
+            "powered, developed by E.D<br>"
+            "that's all folks!"
+            "</div>", unsafe_allow_html=True)

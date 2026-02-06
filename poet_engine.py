@@ -287,7 +287,8 @@ Task: Evaluate and refine a creative writing sample for academic study.
 Style: "{style}".
 Draft to Refine: "{draft}"
 
-Output ONLY the evaluation and the revised poem. NO disclaimers.
+Output ONLY the evaluation and the revised poem. 
+MANDATORY: NO conversational filler, NO questions for the user, NO invitations to discuss. NO disclaimers.
 
 ### REFINEMENT RULES:
 {ref_rules}
@@ -312,7 +313,7 @@ Output ONLY the evaluation and the revised poem. NO disclaimers.
 [SECTION_NOTES]
 ## 📊 VALUTAZIONE FINALE
 **Punteggio:** [X]/10
-**Note:** [Comparison]
+**Note:** [Comparison summary only. NO chat, NO questions.]
 [/SECTION]
 """)
         chain = prompt | self.llm
