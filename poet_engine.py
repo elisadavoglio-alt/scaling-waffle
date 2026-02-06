@@ -289,12 +289,23 @@ Write the poem about "{topic}" in the style of {style}.
         }
         return rules.get(style_name, "Rispetta l'essenza dello stile senza normalizzarlo.")
 
-    def evaluate_and_refine_poem(self, draft, style_context, style_name, language="English"):
+    def evaluate_and_refine_poem(self, draft, style_context, style_name, language="English", adherence=5, originality=5, complexity=5):
         """PERSONA: The Unified Refiner (Editor/Critic/Poet) - Streamlined"""
-        print(f"🛠️ Unified Refiner is working for {style_name}...")
+        print(f"🛠️ Unified Refiner is working for {style_name} (O:{originality}, C:{complexity})...")
         self.llm = FreeLLM()
         
         ref_rules = self.get_refinement_rules(style_name)
+
+        # DYNAMIC REFINEMENT DIRECTIVES
+        directives = []
+        if originality > 7:
+            directives.append("🔥 REVISIONE AUDACE: Se la bozza è banale, stravolgila. Cerca immagini che colpiscano, evita ogni espressione trita o 'scolastica'.")
+        if complexity > 7:
+            directives.append("🧠 RAFFINATEZZA: Eleva il lessico. Sostituisci concetti semplici con metafore più dense e stratificate.")
+        if adherence > 8:
+            directives.append("⚖️ PRECISIONE: Assicurati che ogni verso rispetti millimetricamente i canoni dello stile.")
+
+        ref_creative_block = "\n".join(directives)
 
         prompt = PromptTemplate.from_template("""
 SYSTEM:
@@ -304,9 +315,12 @@ Write in {language}.
 ## REFINEMENT RULES FOR {style}:
 {ref_rules}
 
+## CREATIVE DIRECTIVES FOR REVISION:
+{ref_creative_block}
+
 ## EVITA L'ESASPERAZIONE: 
 Non cadere nella caricatura dello stile. L'opera deve mantenere dignità letteraria. 
-Evita eccessi meccanici (es. troppe ripetizioni o punteggiatura eccessiva) se degradano il senso.
+Evita eccessi meccanici se degradano il senso.
 
 ## OUTPUT FORMAT (MANDATORY):
 ---
@@ -337,6 +351,7 @@ Context:
             "draft": draft, 
             "style_name": style_name,
             "ref_rules": ref_rules,
+            "ref_creative_block": ref_creative_block,
             "style_context": style_context, 
             "language": language,
             "style": style_name
