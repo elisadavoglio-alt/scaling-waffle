@@ -184,6 +184,13 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
         st.markdown("#### ✍️ Poet (Bozza Originale)")
         with st.status("✍️ Drafting Verses...", expanded=True) as status:
             draft = agent.write_draft(topic, style_context, style_choice, lang_code, adherence, originality, complexity)
+            
+            # Ensure draft is a string to avoid AttributeErrors
+            if draft is None:
+                draft = "[ERROR] Generation failed. Please try again."
+            elif not isinstance(draft, str):
+                draft = str(draft)
+                
             st.markdown(f"""
             <div style="background-color: #f9f9f9; padding: 15px; border-radius: 5px; border: 1px solid #ddd; font-family: 'Roboto Mono', monospace; font-size: 0.9rem; white-space: pre-wrap; color: #333; max-height: 400px; min-height: 200px; overflow-y: auto;">
                 {draft.replace(chr(10), "<br>")}
@@ -199,6 +206,12 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
         # A. Execute Unified Refinement
         refinement_pack = agent.evaluate_and_refine_poem(draft, style_context, style_choice, lang_code, adherence, originality, complexity)
         
+        # Ensure refinement_pack is a string
+        if refinement_pack is None:
+            refinement_pack = "[ERROR] Refinement failed."
+        elif not isinstance(refinement_pack, str):
+            refinement_pack = str(refinement_pack)
+            
         # B. Parse logic
         import re
         try:
@@ -206,10 +219,11 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
             parts = re.split(r'## ✍️ POESIA RIVISTA|## 📊 VALUTAZIONE FINALE', refinement_pack)
             if len(parts) >= 2:
                 final_poem = parts[1].strip().strip('---').strip()
+                if not final_poem: final_poem = draft
             else:
-                final_poem = refinement_pack # Fallback
+                final_poem = draft # Fallback to original if not found
         except:
-            final_poem = refinement_pack
+            final_poem = draft
             
         final_score = agent.parse_critic_score(refinement_pack)
         
