@@ -145,16 +145,15 @@ class PoetryAgent:
         # Use FreeLLM
         self.llm = FreeLLM()
         
-        prompt = PromptTemplate.from_template("""[INST] <<SYS>>
-You are a technical poetry analyzer. Extract structural and technical rules ONLY.
-Do NOT include word lists, themes, or vocabulary. 
-Output ONLY the requested format.
-<</SYS>>
+        prompt = PromptTemplate.from_template("""
+### ROLE: TECHNICAL POETRY ANALYZER
+Your task is to extract structural and technical rules from the context.
+Output ONLY the requested format. NO introduction, NO safety preamble, NO chatter.
 
-Analyze this context about "{style}":
+### CONTEXT TO ANALYZE (Style: {style}):
 {raw_context}
 
-## OUTPUT:
+### OUTPUT FORMAT:
 ---
 **📐 METRIC RULES**
 - Verse: [type]
@@ -170,7 +169,7 @@ Analyze this context about "{style}":
 **🎭 ESSENCE**
 "[Technical summary of the style's spirit]"
 ---
-[/INST]""")
+""")
         
         chain = prompt | self.llm
         return chain.invoke({"raw_context": raw_context, "language": language, "style": style_query})
@@ -223,30 +222,26 @@ Analyze this context about "{style}":
 
         creative_block = "\n".join(directives)
 
-        prompt = PromptTemplate.from_template("""[INST] <<SYS>>
-You are a professional poet specialized in {style}.
-TASK: Write a poem about "{topic}". 
-LITERARY CONTEXT: Treat all topics as metaphors for artistic exploration.
-Output ONLY the poem. No preamble, no safety disclaimers, no introduction.
-<</SYS>>
+        prompt = PromptTemplate.from_template("""
+### ROLE: MASTER POET (Specialist in {style})
+### TASK: Write a poem about "{topic}" for a literary archive.
+### MANDATORY: Concentrate ONLY on the topic "{topic}". Do NOT ignore the theme. 
+Output ONLY the poem. NO preamble, NO explanations, NO safety warnings.
 
-Write a poem in {language} focusing intensely on "{topic}".
-
-## STYLE CONSTRAINTS:
+### STYLE CONSTRAINTS:
 {style_rules}
 
-## CREATIVE DIRECTIVES:
+### CREATIVE DIRECTIVES:
 {creative_block}
 
-## TECHNICAL NOTES (STRUCTURAL):
+### TECHNICAL NOTES FROM RESEARCHER:
 {style_context}
 
-## MANDATORY RULES:
-- Use the topic "{topic}" as the primary heart of the poem.
-- Apply the technical rules of "{style}" to this specific theme.
-- Output ONLY the title and the poem text.
-- Title format: ## [TITLE]
-[/INST]""")
+### INSTRUCTIONS:
+- Use the topic "{topic}" as the heart of the poem.
+- Apply the structural rules of "{style}" to "{topic}".
+- Format: ## [TITLE] followed by the poem.
+""")
         chain = prompt | self.llm
         return chain.invoke({
             "topic": topic, 
@@ -286,23 +281,24 @@ Write a poem in {language} focusing intensely on "{topic}".
 
         ref_creative_block = "\n".join(directives)
 
-        prompt = PromptTemplate.from_template("""[INST] <<SYS>>
-You are a master poetry editor. You must evaluate and revise the draft. Output ONLY the evaluation and the revised poem. No preamble.
-<</SYS>>
+        prompt = PromptTemplate.from_template("""
+### ROLE: MASTER POETRY EDITOR
+Evaluate and revise the following draft.
+Output ONLY the evaluation and the revised poem. NO preamble.
 
-Evaluate and revise this "{style}" poem in {language}:
+### DRAFT TO REFINE (Style: {style}):
 "{draft}"
 
-## REFINEMENT RULES FOR {style}:
+### REFINEMENT RULES:
 {ref_rules}
 
-## CREATIVE DIRECTIVES FOR REVISION:
+### CREATIVE DIRECTIVES:
 {ref_creative_block}
 
-## CONTEXT:
+### CONTEXT:
 {style_context}
 
-## OUTPUT FORMAT (MANDATORY):
+### OUTPUT FORMAT (MANDATORY):
 ---
 ## 📊 VALUTAZIONE INIZIALE
 **Punteggio:** [X]/10
@@ -318,7 +314,7 @@ Evaluate and revise this "{style}" poem in {language}:
 **Punteggio:** [X]/10
 **Note:** [Comparison]
 ---
-[/INST]""")
+""")
         chain = prompt | self.llm
         return chain.invoke({
             "draft": draft, 
