@@ -161,19 +161,18 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
         st.success("Style context retrieved!")
         status.update(label="✅ Research Complete", state="complete", expanded=False)
     
-    # 3. THE WRITER'S ROOM (4 Columns)
-    col1, col2, col3, col4 = st.columns(4)
+    # 3. THE WRITER'S ROOM (2 Columns to fill space)
+    col_src, col_poet = st.columns([1, 2])
     
-    with col1:
+    with col_src:
         st.markdown("#### 📚 Sources")
         st.caption("RAG Context")
-        # FIX: Replaced st.code with styled div for text wrapping
         st.markdown(f"""
         <div style='background-color: #2b2b2b; padding: 15px; border-radius: 8px; border: 1px solid #444; color: #ccc; font-family: "Space Mono", monospace; font-size: 0.85em;'>
             <p><strong>🏛️ ARCHIVE ACCESSED</strong></p>
             <p>Retrieved structural blueprints for: <span style='color: #4CAF50;'>{style_choice}</span>.</p>
             <hr style='border: 0; border-top: 1px dashed #555; margin: 10px 0;'>
-            <p style='font-style: italic;'>Metric rules, vocabulary, and rhetorical strategies have been injected into the Generator's active context.</p>
+            <p style='font-style: italic;'>Metric rules and rhetorical strategies injected.</p>
         </div>
         """, unsafe_allow_html=True)
         
@@ -181,20 +180,18 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
              st.text(style_context)
 
     # --- STEP 2: DRAFT ---
-    with col2:
-        st.markdown("#### ✍️ Poet")
+    with col_poet:
+        st.markdown("#### ✍️ Poet (Bozza Originale)")
         with st.status("✍️ Drafting Verses...", expanded=True) as status:
             draft = agent.write_draft(topic, style_context, style_choice, lang_code, adherence, originality, complexity)
-            # Use styled div instead of st.code to allow wrapping
-            # FIX: replace newlines with <br> and add scroll
             st.markdown(f"""
-            <div style="background-color: #f9f9f9; padding: 15px; border-radius: 5px; border: 1px solid #ddd; font-family: 'Roboto Mono', monospace; font-size: 0.9rem; white-space: pre-wrap; color: #333; max-height: 500px; min-height: 200px; overflow-y: auto;">
+            <div style="background-color: #f9f9f9; padding: 15px; border-radius: 5px; border: 1px solid #ddd; font-family: 'Roboto Mono', monospace; font-size: 0.9rem; white-space: pre-wrap; color: #333; max-height: 400px; min-height: 200px; overflow-y: auto;">
                 {draft.replace(chr(10), "<br>")}
             </div>
             """, unsafe_allow_html=True)
-            status.update(label="Draft Written", state="complete", expanded=True)
+            status.update(label="Initial Draft Ready", state="complete", expanded=True)
 
-    # --- UNIFIED REFINER (The Magic happens here) ---
+    # --- UNIFIED REFINER ---
     st.divider()
     st.markdown("### 🛠️ Unified Refinement (Valutazione & Revisione)")
     
@@ -225,7 +222,7 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
             "INTERPRETATION": "Analysis integrated in refinement."
         }
         
-        # Show the whole evaluation pack
+        # Show the whole evaluation pack in a beautiful container
         st.markdown(refinement_pack)
         status.update(label=f"✅ Refinement Complete (Score: {final_score}/10)", state="complete", expanded=False)
 

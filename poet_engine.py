@@ -640,7 +640,7 @@ Output EXACTLY this format:
 
 USER:
 Style Context:
-{style_context}
+EVITA L'ESASPERAZIONE: Non cadere nella caricatura dello stile. L'opera deve mantenere una sua naturalezza artistica e dignità letteraria. Evita eccessi meccanici (es. troppe ripetizioni, eccessiva punteggiatura o frammentazione estrema) se questi degradano il senso poetico invece di elevarlo. 
 
 Original Draft:
 {draft}
