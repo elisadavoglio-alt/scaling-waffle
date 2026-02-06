@@ -243,6 +243,15 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
             
         final_score = agent.parse_critic_score(refinement_pack)
         
+        # Restore analysis_data for session state persistence
+        analysis_data = {
+            "SCHEME": "Style-Aware",
+            "METRICS": "Technical",
+            "DEVICES": "Integrated",
+            "RATING_ADHERENCE": f"{int(final_score*10)}%",
+            "INTERPRETATION": "Analysis integrated in refinement."
+        }
+        
         # C. DISPLAY IN REQUESTED ORDER: 1) Poem, 2) Corrections, 3) Score
         
         # 1. IL NUOVO TESTO (Revised Poem)
