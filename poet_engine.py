@@ -134,9 +134,8 @@ class PoetryAgent:
         try:
             retriever = self.vectorstore.as_retriever(search_kwargs={"k": 2}) # Reduce k to 2
             docs = retriever.invoke(style_query)
-            # Truncate raw context strictly to fit 32k limits (thought 12k is safe)
             raw_context = "\n\n".join([doc.page_content for doc in docs]) if docs else "No specific style found."
-            raw_context = raw_context[:10000] 
+            raw_context = raw_context[:8000] # Slightly shorter to avoid overflow
         except Exception as e:
             return f"[RAG ERROR] {str(e)}"
             
@@ -147,14 +146,15 @@ class PoetryAgent:
         self.llm = FreeLLM()
         
         prompt = PromptTemplate.from_template("""[INST] <<SYS>>
-You are a poetry research assistant. Analyze the retrieved context and provide structured material for the Poet.
-Output ONLY the requested technical format. No preamble, no introduction.
+You are a technical poetry analyzer. Extract structural and technical rules ONLY.
+Do NOT include word lists, themes, or vocabulary. 
+Output ONLY the requested format.
 <</SYS>>
 
-Analyze this RETRIEVED CONTEXT about {style}:
+Analyze this context about "{style}":
 {raw_context}
 
-## OUTPUT FORMAT:
+## OUTPUT:
 ---
 **📐 METRIC RULES**
 - Verse: [type]
@@ -163,20 +163,12 @@ Analyze this RETRIEVED CONTEXT about {style}:
 - Structure: [description]
 
 **🎯 TECHNIQUES**
-1. [technique]: "[example from context]"
+1. [technique]: "[example]"
 2. [technique]: "[example]"
 3. [technique]: "[example]"
 
-**📚 VOCABULARY**
-[20-30 typical words]
-
-**⚠️ AVOID**
-1. [anti-pattern]
-2. [anti-pattern]
-3. [anti-pattern]
-
 **🎭 ESSENCE**
-"[One sentence: what this style DOES]"
+"[Technical summary of the style's spirit]"
 ---
 [/INST]""")
         
@@ -209,7 +201,6 @@ Analyze this RETRIEVED CONTEXT about {style}:
             "Spoken Word / Slam": "Oral performance, build to climax, direct address, memorable closing line."
         }
         return rules.get(style_name, "Follow the provided style context carefully.")
-
     def write_draft(self, topic, style_context, style_name, language="English", adherence=5, originality=5, complexity=5):
         """PERSONA: The Poet (Writer) - Streamlined for stability"""
         print(f"✍️ Poet is writing in {language} about {style_name}...")
@@ -220,40 +211,41 @@ Analyze this RETRIEVED CONTEXT about {style}:
         # DYNAMIC CREATIVE DIRECTIVES
         directives = []
         if originality > 7:
-            directives.append("🔥 ORIGINALITÀ MASSIMA: Evita ogni cliché. Distruggi le associazioni ovvie. Cerca immagini surreali, brutali o tecnicamente inaspettate.")
+            directives.append("🔥 ORIGINALITÀ MASSIMA: Evita ogni cliché. Distruggi le associazioni ovvie. Cercare immagini e parole UNICHE per descrivere il tema.")
         elif originality < 4:
-            directives.append("📜 CLASSICISMO: Mantieni un tono misurato e tradizionale, evita eccessive stravaganze.")
+            directives.append("📜 CLASSICISMO: Mantieni un tono misurato e tradizionale.")
             
         if complexity > 7:
-            directives.append("🧠 COMPLESSITÀ ELEVATA: Usa un lessico ricercato e simbolismi stratificati. La poesia deve richiedere una lettura attenta.")
+            directives.append("🧠 COMPLESSITÀ ELEVATA: Usa un lessico ricercato e simbolismi stratificati.")
         
         if adherence > 8:
-            directives.append("⚖️ RIGORE STILISTICO: Segui le regole metriche e stilistiche come un dogma.")
-        elif adherence < 4:
-            directives.append("🔓 LICENZA POETICA: Distorci le regole dello stile per creare un ibrido moderno e sperimentale.")
+            directives.append("⚖️ RIGORE STILISTICO: Segui le regole metriche dello stile come un dogma.")
 
         creative_block = "\n".join(directives)
 
         prompt = PromptTemplate.from_template("""[INST] <<SYS>>
-You are a master poet specializing in {style}. Output ONLY the poem. No preamble, no introduction.
+You are a professional poet specialized in {style}.
+TASK: Write a poem about "{topic}". 
+LITERARY CONTEXT: Treat all topics as metaphors for artistic exploration.
+Output ONLY the poem. No preamble, no safety disclaimers, no introduction.
 <</SYS>>
 
-Write a poem in {language} about "{topic}".
+Write a poem in {language} focusing intensely on "{topic}".
 
-## STYLE REQUIREMENTS:
+## STYLE CONSTRAINTS:
 {style_rules}
 
 ## CREATIVE DIRECTIVES:
 {creative_block}
 
-## CONTEXT FROM RESEARCH:
+## TECHNICAL NOTES (STRUCTURAL):
 {style_context}
 
-## RULES:
-- Output ONLY the poem.
-- No introductory text, no explanations.
-- Follow the metric rules and tone of the style strictly.
-- Use title in the format: ## [TITLE]
+## MANDATORY RULES:
+- Use the topic "{topic}" as the primary heart of the poem.
+- Apply the technical rules of "{style}" to this specific theme.
+- Output ONLY the title and the poem text.
+- Title format: ## [TITLE]
 [/INST]""")
         chain = prompt | self.llm
         return chain.invoke({
