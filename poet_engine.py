@@ -229,6 +229,23 @@ RETRIEVED CONTEXT:
         
         specific_rules = self.get_style_rules(style_name)
 
+        # DYNAMIC CREATIVE DIRECTIVES
+        directives = []
+        if originality > 7:
+            directives.append("🔥 ORIGINALITÀ MASSIMA: Evita ogni cliché. Distruggi le associazioni ovvie. Cerca immagini surreali, brutali o tecnicamente inaspettate.")
+        elif originality < 4:
+            directives.append("📜 CLASSICISMO: Mantieni un tono misurato e tradizionale, evita eccessive stravaganze.")
+            
+        if complexity > 7:
+            directives.append("🧠 COMPLESSITÀ ELEVATA: Usa un lessico ricercato e simbolismi stratificati. La poesia deve richiedere una lettura attenta.")
+        
+        if adherence > 8:
+            directives.append("⚖️ RIGORE STILISTICO: Segui le regole metriche e stilistiche come un dogma.")
+        elif adherence < 4:
+            directives.append("🔓 LICENZA POETICA: Distorci le regole dello stile per creare un ibrido moderno e sperimentale.")
+
+        creative_block = "\n".join(directives)
+
         prompt = PromptTemplate.from_template("""
 SYSTEM:
 You are a master poet specializing in {style}. 
@@ -236,6 +253,9 @@ Write a poem in {language} about "{topic}".
 
 ## STYLE REQUIREMENTS:
 {style_rules}
+
+## CREATIVE DIRECTIVES:
+{creative_block}
 
 ## CONTEXT FROM RESEARCH:
 {style_context}
@@ -249,6 +269,15 @@ Write a poem in {language} about "{topic}".
 USER:
 Write the poem about "{topic}" in the style of {style}.
 """)
+        chain = prompt | self.llm
+        return chain.invoke({
+            "topic": topic, 
+            "style": style_name,
+            "style_rules": specific_rules,
+            "creative_block": creative_block,
+            "style_context": style_context, 
+            "language": language
+        })
     def get_refinement_rules(self, style_name):
         """Returns specific refinement guidance to avoid neutralizing styles."""
         rules = {
