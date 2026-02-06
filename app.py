@@ -212,42 +212,55 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
         elif not isinstance(refinement_pack, str):
             refinement_pack = str(refinement_pack)
             
-        # B. Parse logic
+        # B. Parse logic using new [SECTION] tags
         import re
         try:
-            # Extract poem between headers
-            parts = re.split(r'## ✍️ POESIA RIVISTA|## 📊 VALUTAZIONE FINALE', refinement_pack)
-            if len(parts) >= 2:
-                final_poem = parts[1].strip().strip('---').strip()
-                if not final_poem: final_poem = draft
-            else:
-                final_poem = draft # Fallback to original if not found
+            # Extract Poem
+            poem_match = re.search(r'\[SECTION_POEM\](.*?)(?=\[SECTION_NOTES\]|\[/SECTION\])', refinement_pack, re.DOTALL)
+            final_poem = poem_match.group(1).strip() if poem_match else draft
+            
+            # Extract Initial Evaluation (Corrections)
+            eval_match = re.search(r'\[SECTION_EVALUATION\](.*?)(?=\[SECTION_POEM\])', refinement_pack, re.DOTALL)
+            corrections = eval_match.group(1).strip() if eval_match else ""
+            
+            # Extract Final Notes
+            notes_match = re.search(r'\[SECTION_NOTES\](.*?)(?=\[/SECTION\])', refinement_pack, re.DOTALL)
+            final_notes = notes_match.group(1).strip() if notes_match else ""
+            
         except:
             final_poem = draft
+            corrections = "Analisi non disponibile."
+            final_notes = ""
             
         final_score = agent.parse_critic_score(refinement_pack)
         
-        # Build analysis summary for the UI
-        analysis_data = {
-            "SCHEME": "Style-Aware",
-            "METRICS": "Technical",
-            "DEVICES": "Integrated",
-            "RATING_ADHERENCE": f"{int(final_score*10)}%",
-            "INTERPRETATION": "Analysis integrated in refinement."
-        }
+        # C. DISPLAY IN REQUESTED ORDER: 1) Poem, 2) Corrections, 3) Score
         
-        # Show the whole evaluation pack in a beautiful container
-        st.markdown(refinement_pack)
-        status.update(label=f"✅ Refinement Complete (Score: {final_score}/10)", state="complete", expanded=False)
+        # 1. IL NUOVO TESTO (Revised Poem)
+        st.markdown("#### 💎 Poesia Rivista")
+        st.markdown(f"""
+        <div style="background-color: #f0fff0; padding: 20px; border-radius: 8px; border: 1px solid #c3e6cb; font-family: 'serif'; font-size: 1.2rem; color: #155724; white-space: pre-wrap; margin-bottom: 20px;">
+            {final_poem.replace(chr(10), "<br>")}
+        </div>
+        """, unsafe_allow_html=True)
+        
+        # 2. LE CORREZIONI FATTE (Evaluation & Notes)
+        st.markdown("#### 🛠️ Correzioni e Note")
+        with st.container():
+            if corrections:
+                st.info(corrections)
+            if final_notes:
+                st.success(final_notes)
+        
+        # 3. IL NUOVO VOTO (Score)
+        st.metric("Voto Finale", f"{final_score}/10")
+        
+        status.update(label=f"✅ Revisione Completata", state="complete", expanded=False)
 
-    # 5. THE FINAL WORK DISPLAY
-    st.markdown("---") 
-    st.markdown("## 💎 The Final Work")
-    st.markdown(f"""
-    <div class="poem-card" style="max-height: 600px; min-height: 200px; overflow-y: auto;">
-        {final_poem.replace(chr(10), "<br>")}
-    </div>
-    """, unsafe_allow_html=True)
+    # 5. THE FINAL WORK DISPLAY (Simplified or Removed since it's above)
+    st.divider()
+    st.markdown("### ✨ Opera Conclusa")
+    st.download_button("Scarica Poesia", final_poem, file_name="poesia_studio.txt")
 
     # 6. FOOTER ACTIONS
     st.markdown("<br>", unsafe_allow_html=True)

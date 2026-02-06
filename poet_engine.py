@@ -299,21 +299,21 @@ Output ONLY the evaluation and the revised poem. NO preamble.
 {style_context}
 
 ### OUTPUT FORMAT (MANDATORY):
----
+[SECTION_EVALUATION]
 ## 📊 VALUTAZIONE INIZIALE
 **Punteggio:** [X]/10
 **Problemi:** [List]
 
----
+[SECTION_POEM]
 ## ✍️ POESIA RIVISTA
 ## [TITLE]
 [Revised Text]
 
----
+[SECTION_NOTES]
 ## 📊 VALUTAZIONE FINALE
 **Punteggio:** [X]/10
 **Note:** [Comparison]
----
+[/SECTION]
 """)
         chain = prompt | self.llm
         return chain.invoke({
