@@ -87,7 +87,10 @@ class PoetryAgent:
             model_name="sentence-transformers/all-MiniLM-L6-v2",
             model_kwargs={'device': 'cpu'}
         )
-        self.vector_store_path = "06_Poetry_Agent/chroma_db"
+        # Path Resolution (Auto-detect if running inside the folder or from parent)
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        self.vector_store_path = os.path.join(base_dir, "chroma_db")
+        self.knowledge_base_path = os.path.join(base_dir, "knowledge_base/")
         
         # 2. Setup LLM (The Brain) - CUSTOM FREE LLM
         self.llm = FreeLLM()
@@ -101,8 +104,8 @@ class PoetryAgent:
             self.vectorstore = Chroma(persist_directory=self.vector_store_path, embedding_function=self.embeddings)
             return
 
-        print("📚 Initializing Knowledge Base from Folder...")
-        loader = DirectoryLoader("06_Poetry_Agent/knowledge_base/", glob="*.txt", loader_cls=TextLoader)
+        print(f"📚 Initializing Knowledge Base from: {self.knowledge_base_path}")
+        loader = DirectoryLoader(self.knowledge_base_path, glob="*.txt", loader_cls=TextLoader)
         documents = loader.load()
         
         if not documents:
