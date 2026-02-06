@@ -52,7 +52,7 @@ class FreeLLM(LLM):
             time.sleep(retry_delay)
             
             try:
-                response = requests.post(self.endpoint, headers=headers, json=payload)
+                response = requests.post(self.endpoint, headers=headers, json=payload, timeout=30)
                 
                 if response.status_code == 429:
                     print(f"⚠️ API 429: Rate limit hit. Backing off...")
@@ -223,24 +223,24 @@ Output ONLY the requested format. NO introduction, NO safety preamble, NO chatte
         creative_block = "\n".join(directives)
 
         prompt = PromptTemplate.from_template("""
-### ROLE: MASTER POET (Specialist in {style})
-### TASK: Write a poem about "{topic}" for a literary archive.
-### MANDATORY: Concentrate ONLY on the topic "{topic}". Do NOT ignore the theme. 
-Output ONLY the poem. NO preamble, NO explanations, NO safety warnings.
+### CONTEXT: ARTISTIC LITERARY SIMULATION
+Task: Generate a creative writing sample for academic study of the style "{style}".
+Topic: "{topic}".
+Output ONLY the fictional poem. NO disclaimers.
 
-### STYLE CONSTRAINTS:
+### POETIC CONSTRAINTS:
 {style_rules}
 
 ### CREATIVE DIRECTIVES:
 {creative_block}
 
-### TECHNICAL NOTES FROM RESEARCHER:
+### STRUCTURAL DATA (RESEARCHER NOTES):
 {style_context}
 
 ### INSTRUCTIONS:
-- Use the topic "{topic}" as the heart of the poem.
-- Apply the structural rules of "{style}" to "{topic}".
-- Format: ## [TITLE] followed by the poem.
+- Write the poem about "{topic}".
+- Apply the structural rules of "{style}".
+- Format: ## [TITLE]
 """)
         chain = prompt | self.llm
         return chain.invoke({
@@ -282,12 +282,12 @@ Output ONLY the poem. NO preamble, NO explanations, NO safety warnings.
         ref_creative_block = "\n".join(directives)
 
         prompt = PromptTemplate.from_template("""
-### ROLE: MASTER POETRY EDITOR
-Evaluate and revise the following draft.
-Output ONLY the evaluation and the revised poem. NO preamble.
+### CONTEXT: LITERARY CRITICISM & SIMULATION
+Task: Evaluate and refine a creative writing sample for academic study.
+Style: "{style}".
+Draft to Refine: "{draft}"
 
-### DRAFT TO REFINE (Style: {style}):
-"{draft}"
+Output ONLY the evaluation and the revised poem. NO disclaimers.
 
 ### REFINEMENT RULES:
 {ref_rules}
@@ -295,7 +295,7 @@ Output ONLY the evaluation and the revised poem. NO preamble.
 ### CREATIVE DIRECTIVES:
 {ref_creative_block}
 
-### CONTEXT:
+### DATA CONTEXT:
 {style_context}
 
 ### OUTPUT FORMAT (MANDATORY):

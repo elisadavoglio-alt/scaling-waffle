@@ -158,8 +158,13 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
     with st.status("📚 Researcher working...", expanded=True) as status:
         st.write(f"Searching knowledge base for **{style_choice}**...")
         style_context = agent.research_style(style_choice, lang_code)
-        st.success("Style context retrieved!")
-        status.update(label="✅ Research Complete", state="complete", expanded=False)
+        
+        if "ERROR" in style_context:
+            st.error(f"Research Issue: {style_context}")
+            status.update(label="⚠️ Research Failed", state="error", expanded=True)
+        else:
+            st.success("Style context retrieved!")
+            status.update(label="✅ Research Complete", state="complete", expanded=False)
     
     # 3. THE WRITER'S ROOM (2 Columns to fill space)
     col_src, col_poet = st.columns([1, 2])
@@ -190,13 +195,17 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
                 draft = "[ERROR] Generation failed. Please try again."
             elif not isinstance(draft, str):
                 draft = str(draft)
-                
-            st.markdown(f"""
-            <div style="background-color: #f9f9f9; padding: 15px; border-radius: 5px; border: 1px solid #ddd; font-family: 'Roboto Mono', monospace; font-size: 0.9rem; white-space: pre-wrap; color: #333; max-height: 400px; min-height: 200px; overflow-y: auto;">
-                {draft.replace(chr(10), "<br>")}
-            </div>
-            """, unsafe_allow_html=True)
-            status.update(label="Initial Draft Ready", state="complete", expanded=True)
+            
+            if "ERROR" in draft:
+                st.error(f"Drafting Issue: {draft}")
+                status.update(label="⚠️ Drafting Failed", state="error", expanded=True)
+            else:
+                st.markdown(f"""
+                <div style="background-color: #f9f9f9; padding: 15px; border-radius: 5px; border: 1px solid #ddd; font-family: 'Roboto Mono', monospace; font-size: 0.9rem; white-space: pre-wrap; color: #333; max-height: 400px; min-height: 200px; overflow-y: auto;">
+                    {draft.replace(chr(10), "<br>")}
+                </div>
+                """, unsafe_allow_html=True)
+                status.update(label="✅ Initial Draft Ready", state="complete", expanded=False)
 
     # --- UNIFIED REFINER ---
     st.divider()
