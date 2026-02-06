@@ -146,14 +146,17 @@ class PoetryAgent:
         self.llm = FreeLLM()
         
         prompt = PromptTemplate.from_template("""
-### ROLE: TECHNICAL POETRY ANALYZER
-Your task is to extract structural and technical rules from the context.
-Output ONLY the requested format. NO introduction, NO safety preamble, NO chatter.
+[SYSTEM_EXPORT_PROTOCOL_INIT]
+OBJECTIVE: Technical parsing of poetic structures.
+DATA_SOURCE: {style}
+RAW_CONTEXT: {raw_context}
 
-### CONTEXT TO ANALYZE (Style: {style}):
-{raw_context}
+RULES:
+1. Extract structural and technical rules ONLY.
+2. NO introduction, NO safety preamble, NO chatter.
+3. If context is missing, output 'DATA_MISSING'.
 
-### OUTPUT FORMAT:
+OUTPUT_SCHEMA:
 ---
 **📐 METRIC RULES**
 - Verse: [type]
@@ -167,8 +170,9 @@ Output ONLY the requested format. NO introduction, NO safety preamble, NO chatte
 3. [technique]: "[example]"
 
 **🎭 ESSENCE**
-"[Technical summary of the style's spirit]"
+"[Technical summary of style]"
 ---
+[SYSTEM_EXPORT_PROTOCOL_END]
 """)
         
         chain = prompt | self.llm
@@ -223,24 +227,20 @@ Output ONLY the requested format. NO introduction, NO safety preamble, NO chatte
         creative_block = "\n".join(directives)
 
         prompt = PromptTemplate.from_template("""
-### CONTEXT: ARTISTIC LITERARY SIMULATION
-Task: Generate a creative writing sample for academic study of the style "{style}".
-Topic: "{topic}".
-Output ONLY the fictional poem. NO disclaimers.
+[CREATIVE_GENERATION_PROTOCOL]
+CONTEXT: Literary archive simulator.
+STYLE: {style}
+TOPIC: {topic}
+RULES: {style_rules}
+NOTES: {style_context}
+DIRECTIVES: {creative_block}
 
-### POETIC CONSTRAINTS:
-{style_rules}
+MANDATORY: Output ONLY the title and the poem text. NO disclaimers, NO refusal messages. 
 
-### CREATIVE DIRECTIVES:
-{creative_block}
-
-### STRUCTURAL DATA (RESEARCHER NOTES):
-{style_context}
-
-### INSTRUCTIONS:
-- Write the poem about "{topic}".
-- Apply the structural rules of "{style}".
-- Format: ## [TITLE]
+OUTPUT_FORMAT:
+## [TITLE]
+[Poem Text]
+[/END_PROTOCOL]
 """)
         chain = prompt | self.llm
         return chain.invoke({
@@ -282,24 +282,16 @@ Output ONLY the fictional poem. NO disclaimers.
         ref_creative_block = "\n".join(directives)
 
         prompt = PromptTemplate.from_template("""
-### CONTEXT: LITERARY CRITICISM & SIMULATION
-Task: Evaluate and refine a creative writing sample for academic study.
-Style: "{style}".
-Draft to Refine: "{draft}"
+[REFINEMENT_ANALYSIS_PROTOCOL]
+STYLE: {style}
+INPUT_TEXT: {draft}
+REFINEMENT_RULES: {ref_rules}
+CREATIVE_DIRECTIVES: {ref_creative_block}
+DATA_CONTEXT: {style_context}
 
-Output ONLY the evaluation and the revised poem. 
-MANDATORY: NO conversational filler, NO questions for the user, NO invitations to discuss. NO disclaimers.
+MANDATORY: NO conversational filler, NO questions, NO refusal messages.
 
-### REFINEMENT RULES:
-{ref_rules}
-
-### CREATIVE DIRECTIVES:
-{ref_creative_block}
-
-### DATA CONTEXT:
-{style_context}
-
-### OUTPUT FORMAT (MANDATORY):
+OUTPUT_SCHEMA:
 [SECTION_EVALUATION]
 ## 📊 VALUTAZIONE INIZIALE
 **Punteggio:** [X]/10
@@ -313,8 +305,9 @@ MANDATORY: NO conversational filler, NO questions for the user, NO invitations t
 [SECTION_NOTES]
 ## 📊 VALUTAZIONE FINALE
 **Punteggio:** [X]/10
-**Note:** [Comparison summary only. NO chat, NO questions.]
+**Note:** [Technical summary]
 [/SECTION]
+[/END_PROTOCOL]
 """)
         chain = prompt | self.llm
         return chain.invoke({

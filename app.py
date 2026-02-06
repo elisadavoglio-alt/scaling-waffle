@@ -159,9 +159,10 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
         st.write(f"Searching knowledge base for **{style_choice}**...")
         style_context = agent.research_style(style_choice, lang_code)
         
-        if "ERROR" in style_context:
+        if any(refusal in style_context for refusal in ["ERROR", "not able to discuss", "I'm sorry", "I am LLaMA", "happy to chat about other"]):
             st.error(f"Research Issue: {style_context}")
             status.update(label="⚠️ Research Failed", state="error", expanded=True)
+            st.stop()
         else:
             st.success("Style context retrieved!")
             status.update(label="✅ Research Complete", state="complete", expanded=False)
@@ -196,9 +197,10 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
             elif not isinstance(draft, str):
                 draft = str(draft)
             
-            if "ERROR" in draft:
+            if any(refusal in draft for refusal in ["ERROR", "not able to discuss", "I'm sorry", "I am LLaMA", "happy to chat about other"]):
                 st.error(f"Drafting Issue: {draft}")
                 status.update(label="⚠️ Drafting Failed", state="error", expanded=True)
+                st.stop()
             else:
                 st.markdown(f"""
                 <div style="background-color: #f9f9f9; padding: 15px; border-radius: 5px; border: 1px solid #ddd; font-family: 'Roboto Mono', monospace; font-size: 0.9rem; white-space: pre-wrap; color: #333; max-height: 400px; min-height: 200px; overflow-y: auto;">
