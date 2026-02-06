@@ -15,7 +15,7 @@ from langchain_core.callbacks.manager import CallbackManagerForLLMRun
 class FreeLLM(LLM):
     """Custom wrapper for apifreellm.com"""
     
-    api_key: str = "apf_xd90bt1rgoyki1w4erddtq1s"
+    api_key: str = os.getenv("FREELLM_API_KEY", "YOUR_KEY_HERE")
     endpoint: str = "https://apifreellm.com/api/v1/chat"
     
     @property
@@ -462,276 +462,178 @@ Style Context (RESEARCHER NOTES):
             "constraints_str": constraints_str
         })
 
-    def critique_poem(self, draft, style_context, language="English"):
-        """PERSONA: The Critic (Editor)"""
-        print(f"🧐 Critic is analyzing in {language}...")
+    def evaluate_and_refine_poem(self, draft, style_context, language="English"):
+        """PERSONA: The Unified Refiner (Editor/Critic/Poet) - Consolidated Flow"""
+        print(f"🛠️ Unified Refiner is working in {language}...")
         
         self.llm = FreeLLM()
-
+        
         prompt = PromptTemplate.from_template("""
 SYSTEM:
-You are a poetry critic. Evaluate the draft.
+You are a poetry editor. You will evaluate, revise, and re-evaluate a poem.
 
 Write in {language}.
 
-## INTERNAL ANALYSIS (do not show):
+---
 
-Internally, you must:
-1. Count syllables of every verse
-2. Check rhyme scheme
-3. Verify techniques are present
-4. Identify clichés
-5. Find the best and worst verses
-6. Calculate scores for metrics, style, quality
+## YOUR TASK
 
-Do all this SILENTLY.
-
-## OUTPUT ONLY:
+1. Score the draft (BEFORE)
+2. Revise it (respecting the style!)
+3. Score the revision (AFTER)
 
 ---
 
-**Verdict:** [✅ APPROVED / 🔄 REVISION NEEDED / ❌ REWRITE]
+## ⚠️ CRITICAL: RESPECT THE STYLE
 
-**Score:** [X]/10
+"Improve" means DIFFERENT things for different styles:
 
-**Strengths:**
+**Styles where "improve" = more fluid, more lyrical:**
+- Stilnovo, Petrarchismo, Romanticismo, Decadentismo, Victorian, Romantic
+
+**Styles where "improve" = more fragmented, more harsh:**
+- Gruppo 63 / Neoavanguardia
+- Futurismo
+- Modernism
+- Language Poetry
+
+**Styles where "improve" = more minimal, more silence:**
+- Ermetismo
+
+**Styles where "improve" = more raw, more oral:**
+- Beat Generation
+- Slam / Spoken Word
+- Black Arts Movement
+
+---
+
+## SPECIFIC RULES BY STYLE
+
+### GRUPPO 63 / NEOAVANGUARDIA:
+- ✅ Keep fragmentation
+- ✅ Keep short, broken verses
+- ✅ Keep mixed registers
+- ✅ Keep harshness
+- ❌ Do NOT add "danza", "sogni", "eco", "senza posa"
+- ❌ Do NOT smooth syntax
+- ❌ Do NOT make it "flow"
+- ❌ Do NOT add conventional lyricism
+- If the draft is already fragmented and harsh → MINIMAL CHANGES
+
+### FUTURISMO:
+- ✅ Keep spatial layout
+- ✅ Keep onomatopoeia
+- ✅ Keep no punctuation
+- ❌ Do NOT add periods, commas
+- ❌ Do NOT make it linear
+
+### ERMETISMO:
+- ✅ Shorter is better
+- ✅ More white space
+- ❌ Do NOT add words
+- ❌ Do NOT explain
+
+### PETRARCHISMO / STILNOVO:
+- ✅ Perfect the meter (11 syllables)
+- ✅ Fix rhyme scheme (ABBA ABBA CDC DCD)
+- ✅ More fluid is good
+
+### BEAT GENERATION:
+- ✅ Keep the breath, the accumulation
+- ✅ Keep rawness
+- ❌ Do NOT conventionalize
+
+---
+
+## SCORING CRITERIA
+
+**A. Style Adherence (40%)**
+- Does it follow the style's rules?
+- Does it use the right techniques?
+- Does it avoid what the style forbids?
+
+**B. Poetic Quality (30%)**
+- Are images fresh (not clichéd)?
+- Is there at least one memorable moment?
+- Does it work for this style?
+
+**C. Metrics/Form (30%)**
+- If the style requires meter: is it correct?
+- If the style requires rhyme: is the scheme correct?
+- If the style is free: is there organic rhythm?
+
+**Score:**
+- 9-10: Excellent, anthology-worthy
+- 7-8: Good, minor issues
+- 5-6: Mediocre, several problems
+- 1-4: Fails the style
+
+---
+
+## FORBIDDEN IN REVISION
+
+❌ Adding "poetic" words to anti-lyrical styles:
+   - danza, sogni, eco, anima, infinito, eterno, sussurro, abbraccio
+
+❌ Smoothing fragmented syntax in:
+   - Gruppo 63, Futurismo, Modernism, Language Poetry
+
+❌ Lengthening verses in:
+   - Ermetismo, Imagism
+
+❌ Adding punctuation to:
+   - Futurismo
+
+❌ Making "prettier" styles that reject prettiness
+
+---
+
+## OUTPUT FORMAT
+
+Output EXACTLY this format:
+
+---
+
+## 📊 VALUTAZIONE INIZIALE
+
+**Punteggio:** [X]/10
+
+**Punti di forza:**
 - [strength 1]
 - [strength 2]
 
-**Problems to fix:**
-1. [specific problem with verse quote]
-2. [specific problem]
-
-**Instructions for revision:**
-[If revision needed: specific instructions]
+**Problemi:**
+- [problem 1]
+- [problem 2]
 
 ---
 
-⚠️ Do NOT show:
-- Syllable counts
-- Verse-by-verse analysis tables
-- Your reasoning process
-- Score breakdowns by category
-
-Show ONLY the verdict, overall score, strengths, problems, and instructions.
-
-USER:
-Style Context:
-{style_context}
-
-Draft Poem:
-{draft}
-""")
-        chain = prompt | self.llm
-        return chain.invoke({"draft": draft, "style_context": style_context, "language": language, "style": "this style"})
-
-    def refine_poem(self, draft, critique, interpretation, style_context, language="English"):
-        """PERSONA: The Refiner (Editor/Polisher) - Strict Output"""
-        print(f"💅 Refiner is working in {language}...")
-        
-        self.llm = FreeLLM()
-        
-        prompt = PromptTemplate.from_template("""
-SYSTEM:
-You are the poet revising your work. You have received criticism and analysis. Now IMPROVE — but respect the style.
-
-Write in {language}.
-
-## ⚠️ THE GOLDEN RULE
-
-> **"Improve" does NOT mean "make more conventionally poetic"**
-
-For many styles, "rough" IS correct:
-- Gruppo 63: fragmentation is INTENTIONAL
-- Futurismo: chaos is INTENTIONAL  
-- Ermetismo: brevity is INTENTIONAL
-- Beat: rawness is INTENTIONAL
-
-If the draft already respects the style, CHANGE AS LITTLE AS POSSIBLE.
-
----
-
-## INTERNAL PROCESS (do not show):
-
-1. **Identify the style's rules** (see below)
-2. **Check if the draft respects them**
-3. **If YES:** Make MINIMAL changes — only fix real errors
-4. **If NO:** Fix ONLY what violates the style
-5. **NEVER add conventional "poetic" elements if the style rejects them**
-
----
-
-## WHAT "IMPROVE" MEANS — BY STYLE
-
-### ——— 🇮🇹 ITALIANO ———
-
-**STILNOVO / PETRARCHISMO:**
-- Improve = perfect the meter (11 syllables), fix rhyme scheme
-- ADD elegance, musicality
-- OK to make more fluid
-
-**BAROCCO / MARINISMO:**
-- Improve = intensify the "meraviglia"
-- ADD more elaborate conceits
-- More virtuosity is good
-
-**ROMANTICISMO:**
-- Improve = deepen emotion, nature imagery
-- ADD musicality, flow
-- More lyrical is good
-
-**SCAPIGLIATURA:**
-- Improve = sharpen contrasts, rebellion
-- Keep the darkness, the "maledettismo"
-- Do NOT soften
-
-**DECADENTISMO:**
-- Improve = intensify sensory richness
-- ADD rare words, synesthesia
-- More languor, more exotic
-
-**CREPUSCOLARISMO:**
-- Improve = make MORE humble, MORE prosaic
-- Do NOT elevate the tone
-- Keep the "piccolo", the "povero"
-- Irony must stay
-
-**FUTURISMO:**
-- Improve = more energy, more explosion
-- Do NOT add punctuation
-- Do NOT make verses flow smoothly
-- Keep spatial layout
-- Keep onomatopoeia
-- NEVER add conventional imagery
-
-**ERMETISMO:**
-- Improve = REMOVE words, not add them
-- Shorter is better
-- More silence, more white space
-- NEVER explain, NEVER expand
-- If it's already minimal, LEAVE IT
-
-**NEOAVANGUARDIA (GRUPPO 63):**
-⚠️ CRITICAL — This style REJECTS conventional poetry:
-- Do NOT make it "flow better"
-- Do NOT add lyrical images ("danza", "sogni", "eco")
-- Do NOT smooth the syntax
-- Do NOT make it "more poetic"
-- KEEP the fragmentation
-- KEEP the harshness
-- KEEP the collage effect
-- KEEP mixed registers (technical + everyday)
-- KEEP the anti-lyricism
-- If it's already fragmented and strange, LEAVE IT ALONE
-- "Ugly" on purpose = CORRECT
-
-**POESIA DIALETTALE:**
-- Improve = more authenticity
-- Keep the oral rhythm
-- Do NOT Italianize the dialect
-
-
-### ——— 🇬🇧 ENGLISH ———
-
-**METAPHYSICAL:**
-- Improve = sharpen the conceit, the argument
-- More wit is good
-- Can be more elaborate
-
-**ROMANTIC:**
-- Improve = deepen emotion, imagery
-- More lyrical is good
-- ADD apostrophe, personification
-
-**VICTORIAN:**
-- Improve = more gravity, more music
-- Elaborate rhyme is good
-
-**DECADENTISM:**
-- Improve = more sensory, more artificial
-- Rare words, French borrowings OK
-
-**MODERNISM:**
-- Improve = sharpen the fragment
-- Do NOT make it flow
-- Keep difficulty
-- REMOVE unnecessary words
-
-**HARLEM RENAISSANCE:**
-- Improve = sharpen rhythm
-- Keep jazz/blues feel
-- Keep vernacular
-
-**BEAT GENERATION:**
-- Improve = more breath, more accumulation
-- Keep rawness
-- Do NOT conventionalize
-- Keep the spontaneous feel
-
-**CONFESSIONAL:**
-- Improve = sharper images, tighter form
-- Keep the brutality
-- Do NOT soften the content
-
-**BLACK ARTS:**
-- Improve = more power, more call-and-response
-- Keep militancy
-- Do NOT soften
-
-**LANGUAGE POETRY:**
-- Improve = more indeterminacy
-- Do NOT add "meaning"
-- Do NOT make it "clear"
-- Keep the procedure
-
-**SLAM / SPOKEN WORD:**
-- Improve = better build, stronger closing
-- Keep oral quality
-- Test by reading aloud
-
----
-
-## FORBIDDEN ACTIONS
-
-❌ NEVER add "danza", "sogni", "eco", "senza posa" to anti-lyrical styles
-❌ NEVER smooth fragmented syntax in Gruppo 63, Futurismo, Modernism
-❌ NEVER add adjectives to Ermetismo
-❌ NEVER lengthen verses in minimal styles
-❌ NEVER add conventional "beauty" to styles that reject it
-❌ NEVER turn collage into narrative
-❌ NEVER add punctuation to Futurismo
-
----
-
-## DECISION TREE
-Is the draft already respecting the style's rules?
-│
-├── YES → Change ONLY what the Critic specifically flagged
-│ Keep everything else IDENTICAL
-│
-└── NO → Fix ONLY the style violations
-Do NOT "improve" in other ways
-
----
-
-## OUTPUT
-
-Output ONLY the revised poem:
-
----
+## ✍️ POESIA RIVISTA
 
 ## [TITLE]
 
-[The poem — minimal changes from original if style was already correct]
+[The revised poem]
 
 ---
 
-⚠️ CRITICAL:
-- No explanations
-- No changelog
-- No "I changed X because Y"
-- Just the clean poem
-- If the original was good, the revision should be ALMOST IDENTICAL
+## 📊 VALUTAZIONE FINALE
+
+**Punteggio:** [X]/10
+
+**Miglioramenti ottenuti:**
+- [what improved]
+- [what improved]
+
+**Note:**
+[If score didn't improve much: explain why — e.g., "The original was already good for this style"]
+
+---
+
+⚠️ IMPORTANT:
+- If the original already respects the style well → score should be similar, changes minimal
+- A poem that goes from 6/10 to 5/10 after revision = YOU FAILED (you made it worse)
+- For Gruppo 63: a harsh, fragmented 7/10 is better than a smooth, lyrical 5/10
+- Show HONEST scores — don't inflate
 
 USER:
 Style Context:
@@ -739,101 +641,26 @@ Style Context:
 
 Original Draft:
 {draft}
-
-Critic's Feedback:
-{critique}
-
-Interpreter's Analysis:
-{interpretation}
 """)
         chain = prompt | self.llm
-        return chain.invoke({"draft": draft, "critique": critique, "interpretation": interpretation, "style_context": style_context, "language": language})
+        return chain.invoke({"draft": draft, "style_context": style_context, "language": language})
 
-    def interpret_poem(self, poem, language="English"):
-        """PERSONA: The Interpreter (Scholar)"""
-        print(f"🔮 Interpreter is analyzing in {language}...")
-        
-        self.llm = FreeLLM()
-        
-        prompt = PromptTemplate.from_template("""
-SYSTEM:
-You are a literary scholar. Analyze the poem to help with revision.
-
-Write in {language}.
-
-## INTERNAL ANALYSIS (do not show):
-
-Internally, perform:
-1. Complete scansion of every verse
-2. Identify all rhetorical devices
-3. Analyze sound patterns
-4. Find intertextual echoes
-5. Determine what works and what doesn't
-
-Do all this SILENTLY.
-
-## OUTPUT ONLY:
-
----
-
-**Interpretation:**
-[2-3 sentences: what the poem means/does]
-
-**What works (preserve):**
-- "[quote]" — [why it works]
-- "[quote]" — [why it works]
-
-**What needs work:**
-- "[quote]" — [problem] — [suggestion]
-- "[quote]" — [problem] — [suggestion]
-
-**The heart:**
-The essential verse is: "[quote]"
-
----
-
-⚠️ Do NOT show:
-- Syllable-by-syllable scansion
-- Tables of rhetorical devices
-- Detailed formal analysis
-- Your reasoning steps
-
-Show ONLY the clean synthesis above.
-
-USER:
-The Poem:
-{poem}
-""")
-        chain = prompt | self.llm
-        return chain.invoke({"poem": poem, "language": language})
-
-    def parse_critic_score(self, critique_text):
-        """Helper to extract the score extracted from the Critic's text."""
+    def parse_critic_score(self, text):
+        """Helper to extract the score from the unified evaluation text."""
+        import re
         try:
-             import re
-             # 1. New Silent Mode Pattern: "**Score:** [8.5]/10" or "**Score:** 8.5/10"
-             # Supports optional bolding, optional brackets, optional /10
-             match = re.search(r"Score:?\*\*\s*(?:\[)?([\d\.]+)(?:\])?(?:/10)?", critique_text, re.IGNORECASE)
-             if match:
-                 return float(match.group(1))
-
-             # 1b. Alternative standard pattern: "**Score:** [X]/10"
-             match = re.search(r"\*\*Score:\*\*\s*(?:\[)?([\d\.]+)(?:\])?", critique_text, re.IGNORECASE)
-             if match:
-                 return float(match.group(1))
-             
-             # 2. Legacy Pattern (Backup)
-             match = re.search(r"\*\*AVERAGE\*\*\s*\|\s*\*\*([\d\.]+)/10\*\*", critique_text)
-             if match:
-                 return float(match.group(1))
-             
-             # 3. Simple Fallback
-             match = re.search(r"Score:?\s*([\d\.]+)", critique_text, re.IGNORECASE)
-             if match:
-                 score = float(match.group(1))
-                 if score > 10: score = 0 # Avoid parsing years or wrong numbers
-                 return score
-                 
-             return 0.0
+            # Look for Punteggio: X/10 or Score: X/10
+            match = re.search(r'(?:Punteggio|Score):\s*\*?\*?\[?(\d+(?:\.\d+)?)(?:\])?/10', text, re.IGNORECASE)
+            if match:
+                return float(match.group(1))
+            
+            # Fallback for just the number
+            match = re.search(r'Punteggio:\s*(\d+(?:\.\d+)?)', text, re.IGNORECASE)
+            if match:
+                score = float(match.group(1))
+                if score > 10: score = 0 # Avoid parsing years or wrong numbers
+                return score
+                
+            return 5.0 
         except:
-             return 0.0
+            return 5.0

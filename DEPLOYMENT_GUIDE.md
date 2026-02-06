@@ -1,42 +1,33 @@
-# 🚀 Deployment Guide: Palimpsest AI
+# 🚀 Deployment Guide: Poetry Agent Studio
 
-## 1. Prepare for GitHub
+## 1. GitHub Setup
 
-You are about to push your code. We have already created a `.gitignore` to exclude your API keys (`.env`) and the heavy database (`chroma_db`). The database will rebuild itself automatically on the cloud.
+We have already initialized Git and made the first commit locally. Now you just need to connect it to your GitHub account.
 
-### Step 1: Push to GitHub
+1. **Create a Repo**: Go to GitHub and create a new repository named `poetry-agent-studio` (Public or Private).
+2. **Link and Push**: Open your terminal in the project folder and run:
 
-If you haven't initialized a repository yet:
+   ```bash
+   git remote add origin https://github.com/YOUR_USERNAME/poetry-agent-studio.git
+   git branch -M main
+   git push -u origin main
+   ```
 
-```bash
-cd 06_Poetry_Agent
-git init
-git add .
-git commit -m "Initial commit of Palimpsest AI"
-# Link to your new GitHub repo
-git remote add origin https://github.com/YOUR_USERNAME/palimpsest-ai.git
-git push -u origin main
-```
+## 2. Streamlit Cloud Deployment
 
-## 2. Deploy on Streamlit Cloud
-
-1. Go to [share.streamlit.io](https://share.streamlit.io/).
-2. Click **New App**.
-3. Select your GitHub repository (`palimpsest-ai`).
-4. Set **Main file path** to: `app.py` (or `06_Poetry_Agent/app.py` if in a subfolder).
-5. **IMPORTANT**: Before clicking Deploy, click **Advanced Settings** (or "Secrets").
-
-### Step 3: Configure Secrets
-
-Streamlit Cloud needs your API keys. Copy the content of your local `.env` file into the Secrets area:
+1. **Connect**: Go to [share.streamlit.io](https://share.streamlit.io/) and click **"Create app"**.
+2. **Select Repo**: Choose your `poetry-agent-studio` repository.
+3. **Settings**:
+   - **Main file path**: `app.py`
+4. **Secrets (CRITICAL)**: Click on **"Advanced settings..."** before deploying. Copy and paste the following into the **Secrets** box:
 
 ```toml
-GROQ_API_KEY = "gsk_..."
-TAVILY_API_KEY = "tvly-..."
+FREELLM_API_KEY = "YOUR_FREE_LLM_KEY"
+GROQ_API_KEY = "YOUR_GROQ_KEY"
+TAVILY_API_KEY = "YOUR_TAVILY_KEY"
+LANGCHAIN_API_KEY = "YOUR_LANGCHAIN_KEY"
 LANGCHAIN_TRACING_V2 = "true"
-LANGCHAIN_ENDPOINT = "https://api.smith.langchain.com"
-LANGCHAIN_API_KEY = "lsv2_..."
-LANGCHAIN_PROJECT = "Poetry_Agent"
+LANGCHAIN_PROJECT = "Poetry_Studio"
 ```
 
 1. Click **Deploy**! 🎈
