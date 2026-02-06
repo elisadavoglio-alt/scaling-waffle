@@ -197,7 +197,7 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
     
     with st.status("🛠️ Unified Refiner at work...", expanded=True) as status:
         # A. Execute Unified Refinement
-        refinement_pack = agent.evaluate_and_refine_poem(draft, style_context, lang_code)
+        refinement_pack = agent.evaluate_and_refine_poem(draft, style_context, style_choice, lang_code)
         
         # B. Parse logic
         import re
