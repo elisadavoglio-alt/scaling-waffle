@@ -146,21 +146,16 @@ class PoetryAgent:
         # Use FreeLLM
         self.llm = FreeLLM()
         
-        prompt = PromptTemplate.from_template("""
-SYSTEM:
+        prompt = PromptTemplate.from_template("""[INST] <<SYS>>
 You are a poetry research assistant. Analyze the retrieved context and provide structured material for the Poet.
+Output ONLY the requested technical format. No preamble, no introduction.
+<</SYS>>
 
-## INTERNAL PROCESS (do not show):
-- Read all retrieved texts
-- Identify metric rules
-- Extract techniques
-- Find vocabulary
-- Note anti-patterns
+Analyze this RETRIEVED CONTEXT about {style}:
+{raw_context}
 
-## OUTPUT ONLY THIS (clean format):
-
+## OUTPUT FORMAT:
 ---
-
 **📐 METRIC RULES**
 - Verse: [type]
 - Syllables: [number]
@@ -182,15 +177,8 @@ You are a poetry research assistant. Analyze the retrieved context and provide s
 
 **🎭 ESSENCE**
 "[One sentence: what this style DOES]"
-
 ---
-
-⚠️ Do NOT show your analysis process. Only the structured output above.
-
-USER:
-RETRIEVED CONTEXT:
-{raw_context}
-""")
+[/INST]""")
         
         chain = prompt | self.llm
         return chain.invoke({"raw_context": raw_context, "language": language, "style": style_query})
@@ -246,9 +234,10 @@ RETRIEVED CONTEXT:
 
         creative_block = "\n".join(directives)
 
-        prompt = PromptTemplate.from_template("""
-SYSTEM:
-You are a master poet specializing in {style}. 
+        prompt = PromptTemplate.from_template("""[INST] <<SYS>>
+You are a master poet specializing in {style}. Output ONLY the poem. No preamble, no introduction.
+<</SYS>>
+
 Write a poem in {language} about "{topic}".
 
 ## STYLE REQUIREMENTS:
@@ -265,10 +254,7 @@ Write a poem in {language} about "{topic}".
 - No introductory text, no explanations.
 - Follow the metric rules and tone of the style strictly.
 - Use title in the format: ## [TITLE]
-
-USER:
-Write the poem about "{topic}" in the style of {style}.
-""")
+[/INST]""")
         chain = prompt | self.llm
         return chain.invoke({
             "topic": topic, 
@@ -278,6 +264,7 @@ Write the poem about "{topic}" in the style of {style}.
             "style_context": style_context, 
             "language": language
         })
+
     def get_refinement_rules(self, style_name):
         """Returns specific refinement guidance to avoid neutralizing styles."""
         rules = {
@@ -307,10 +294,12 @@ Write the poem about "{topic}" in the style of {style}.
 
         ref_creative_block = "\n".join(directives)
 
-        prompt = PromptTemplate.from_template("""
-SYSTEM:
-You are a master poetry editor. You must evaluate and revise the draft.
-Write in {language}.
+        prompt = PromptTemplate.from_template("""[INST] <<SYS>>
+You are a master poetry editor. You must evaluate and revise the draft. Output ONLY the evaluation and the revised poem. No preamble.
+<</SYS>>
+
+Evaluate and revise this "{style}" poem in {language}:
+"{draft}"
 
 ## REFINEMENT RULES FOR {style}:
 {ref_rules}
@@ -318,9 +307,8 @@ Write in {language}.
 ## CREATIVE DIRECTIVES FOR REVISION:
 {ref_creative_block}
 
-## EVITA L'ESASPERAZIONE: 
-Non cadere nella caricatura dello stile. L'opera deve mantenere dignità letteraria. 
-Evita eccessi meccanici se degradano il senso.
+## CONTEXT:
+{style_context}
 
 ## OUTPUT FORMAT (MANDATORY):
 ---
@@ -338,14 +326,7 @@ Evita eccessi meccanici se degradano il senso.
 **Punteggio:** [X]/10
 **Note:** [Comparison]
 ---
-
-USER:
-Evaluate and refine this "{style}" poem:
-"{draft}"
-
-Context:
-{style_context}
-""")
+[/INST]""")
         chain = prompt | self.llm
         return chain.invoke({
             "draft": draft, 
