@@ -243,7 +243,8 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
             corrections = "Analisi non disponibile."
             final_notes = ""
             
-        final_score = agent.parse_critic_score(refinement_pack)
+        initial_score = agent.parse_critic_score(refinement_pack, type="iniziale")
+        final_score = agent.parse_critic_score(refinement_pack, type="finale")
         
         # Restore analysis_data for session state persistence
         analysis_data = {
@@ -254,9 +255,14 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
             "INTERPRETATION": "Analysis integrated in refinement."
         }
         
-        # C. DISPLAY IN REQUESTED ORDER: 1) Poem, 2) Corrections, 3) Score
+        # C. DISPLAY IN REQUESTED ORDER: 1) Voto Iniziale/Spiegazione, 2) Poesia Rivista, 3) Voto Finale/Spiegazione
         
-        # 1. IL NUOVO TESTO (Revised Poem)
+        # 1. VOTO INIZIALE + SPIEGAZIONE
+        st.markdown(f"#### 📊 Valutazione Iniziale: {initial_score}/10")
+        if corrections:
+            st.info(corrections)
+            
+        # 2. IL NUOVO TESTO (Revised Poem)
         st.markdown("#### 💎 Poesia Rivista")
         st.markdown(f"""
         <div style="background-color: #f0fff0; padding: 20px; border-radius: 8px; border: 1px solid #c3e6cb; font-family: 'serif'; font-size: 1.2rem; color: #155724; white-space: pre-wrap; margin-bottom: 20px;">
@@ -264,20 +270,12 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
         </div>
         """, unsafe_allow_html=True)
         
-        # 2. LE CORREZIONI FATTE (Evaluation & Notes)
-        st.markdown("#### 🛠️ Correzioni e Note")
-        with st.container():
-            if corrections:
-                st.info(corrections)
-            if final_notes:
-                st.success(final_notes)
-        
-        # 3. IL NUOVO VOTO (Score)
-        col_score, col_dl = st.columns([1, 1])
-        with col_score:
-            st.metric("Voto Finale", f"{final_score}/10")
-        with col_dl:
-            st.download_button("💾 Scarica Poesia", final_poem, file_name="poesia_studio.txt")
+        # 3. VOTO FINALE + SPIEGAZIONE
+        st.markdown(f"#### 📊 Valutazione Finale: {final_score}/10")
+        if final_notes:
+            st.success(final_notes)
+            
+        st.download_button("💾 Scarica Poesia", final_poem, file_name="poesia_studio.txt")
         
         status.update(label=f"✅ Revisione Completata", state="complete", expanded=False)
 
@@ -289,6 +287,7 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
             "final_poem": final_poem,
             "corrections": corrections,
             "final_notes": final_notes,
+            "initial_score": initial_score,
             "final_score": final_score,
             "lang_code": lang_code,
             "theme": theme,
@@ -307,16 +306,21 @@ if st.session_state.gen_results:
     # So we show a clean mirror of Section 4.
     
     st.markdown("---")
+    # 1. VOTO INIZIALE + SPIEGAZIONE
+    st.markdown(f"#### 📊 Valutazione Iniziale: {res.get('initial_score', 5.0)}/10")
+    if res.get('corrections'):
+        st.info(res['corrections'])
+
+    # 2. IL NUOVO TESTO (Revised Poem)
     st.markdown("#### 💎 Poesia Rivista (Archivio)")
     st.markdown(f"""<div style="background-color: #f0fff0; padding: 20px; border-radius: 8px; border: 1px solid #c3e6cb; font-family: 'serif'; font-size: 1.2rem; color: #155724; white-space: pre-wrap; margin-bottom: 20px;">{res['final_poem'].replace(chr(10), "<br>")}</div>""", unsafe_allow_html=True)
     
-    st.markdown("#### 🛠️ Correzioni e Note")
-    if res['corrections']: st.info(res['corrections'])
-    if res['final_notes']: st.success(res['final_notes'])
+    # 3. VOTO FINALE + SPIEGAZIONE
+    st.markdown(f"#### 📊 Valutazione Finale: {res.get('final_score', 5.0)}/10")
+    if res.get('final_notes'):
+        st.success(res['final_notes'])
     
-    c1, c2 = st.columns(2)
-    c1.metric("Voto Finale", f"{res['final_score']}/10")
-    c2.download_button("💾 Scarica Poesia", res['final_poem'], "poesia.txt")
+    st.download_button("💾 Scarica Poesia", res['final_poem'], "poesia.txt", key="dl_btn_archive")
 
 # Credits Footer (STRICT)
 st.markdown("<br><br><hr>", unsafe_allow_html=True)

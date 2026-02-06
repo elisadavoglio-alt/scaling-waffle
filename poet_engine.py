@@ -294,8 +294,8 @@ MANDATORY: NO conversational filler, NO questions, NO refusal messages.
 OUTPUT_SCHEMA:
 [SECTION_EVALUATION]
 ## 📊 VALUTAZIONE INIZIALE
-**Punteggio:** [X]/10
-**Problemi:** [List]
+**Voto Iniziale:** [X]/10
+**Spiegazione:** [Detailed technical analysis of the initial draft]
 
 [SECTION_POEM]
 ## ✍️ POESIA RIVISTA
@@ -304,8 +304,8 @@ OUTPUT_SCHEMA:
 
 [SECTION_NOTES]
 ## 📊 VALUTAZIONE FINALE
-**Punteggio:** [X]/10
-**Note:** [Technical summary]
+**Voto Finale:** [X]/10
+**Spiegazione:** [Notes on improvements and final adherence]
 [/SECTION]
 [/END_PROTOCOL]
 """)
@@ -320,21 +320,19 @@ OUTPUT_SCHEMA:
             "style": style_name
         })
 
-    def parse_critic_score(self, text):
-        """Helper to extract the score from the unified evaluation text."""
+    def parse_critic_score(self, text, type="finale"):
+        """Helper to extract the score (initial or final) from the unified evaluation text."""
         import re
         try:
-            # Look for Punteggio: X/10 or Score: X/10
-            match = re.search(r'(?:Punteggio|Score):\s*\*?\*?\[?(\d+(?:\.\d+)?)(?:\])?/10', text, re.IGNORECASE)
+            pattern = r'Voto Iniziale:\s*\*?(\d+(?:\.\d+)?)/10' if type == "iniziale" else r'Voto Finale:\s*\*?(\d+(?:\.\d+)?)/10'
+            match = re.search(pattern, text, re.IGNORECASE)
             if match:
                 return float(match.group(1))
             
-            # Fallback for just the number
-            match = re.search(r'Punteggio:\s*(\d+(?:\.\d+)?)', text, re.IGNORECASE)
+            # Fallback to general score if specific not found
+            match = re.search(r'(?:Punteggio|Voto|Score):\s*\*?(\d+(?:\.\d+)?)/10', text, re.IGNORECASE)
             if match:
-                score = float(match.group(1))
-                if score > 10: score = 0 # Avoid parsing years or wrong numbers
-                return score
+                return float(match.group(1))
                 
             return 5.0 
         except:
