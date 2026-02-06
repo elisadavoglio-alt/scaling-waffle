@@ -1,0 +1,646 @@
+Style: Stilnovo
+Period: 1280-1310
+Key Characteristic: "Tanto gentile e tanto onesta pare" — la donna come tramite verso Dio.
+
+### 🏛️ REFERENCE AUTHORS & WORKS
+- Dante Alighieri (Vita Nova) - Beatrice, visione
+- Guido Cavalcanti (Rime) - Amore come tormento
+- Guido Guinizelli ("Al cor gentil rempaira sempre amore") - Manifesto
+- Lapo Gianni (Rime) - Dolcezza
+- Cino da Pistoia (Rime) - Giuridico + lirico
+- Dino Frescobaldi (Rime) - Malinconia
+- Gianni Alfani (Rime) - Corrispondenze
+- Cecco Angiolieri (Rime) - Parodia, realismo (Anti-stilnovo)
+- Guittone d'Arezzo (Rime) - Transizione (Pre-stilnovo)
+- Bonagiunta Orbicciani (Rime) - Critico di Dante
+
+### 🧬 STRUCTURAL PATTERNS (YAML)
+themes:
+  - Amor cortese spiritualizzato
+  - Donna-angelo (saluto = salvezza)
+  - Cor gentile (nobiltà d'animo)
+
+techniques:
+  - Sonetto, canzone, ballata
+  - Allegoria amorosa
+  - Lessico selezionato (gentile, valore, onestade)
+
+avoid:
+  - Sensualità esplicita
+  - Realismo basso
+  - Ironia (tranne parodia di Cecco)
+
+### 📜 ANTHOLOGY EXAMPLES (GROUND TRUTH)
+
+--- DANTE ALIGHIERI ---
+[Tanto gentile e tanto onesta pare]
+Tanto gentile e tanto onesta pare
+la donna mia quand'ella altrui saluta,
+ch'ogne lingua deven tremando muta,
+e gli occhi no l'ardiscon di guardare.
+
+[Vita Nova, XIX]
+Donne ch'avete intelletto d'amore,
+i' vo' con voi de la mia donna dire,
+non perch'io creda sua lauda finire,
+ma ragionar per isfogar la mente.
+
+[Ne li occhi porta la mia donna Amore]
+Ne li occhi porta la mia donna Amore,
+per che si fa gentil ciò ch'ella mira;
+ov'ella passa, ogn'om ver lei si gira,
+e cui saluta fa tremar lo core.
+
+[Guido, i' vorrei che tu e Lapo ed io]
+Guido, i' vorrei che tu e Lapo ed io
+fossimo presi per incantamento,
+e messi in un vasel, ch'ad ogni vento
+per mare andasse al voler vostro e mio.
+
+[Oltre la spera che più larga gira]
+Oltre la spera che più larga gira
+passa 'l sospiro ch'esce del mio core:
+intelligenza nova, che l'Amore
+piangendo mette in lui, pur su lo tira.
+
+[Deh pellegrini che pensosi andate]
+Deh pellegrini che pensosi andate,
+forse di cosa che non v'è presente,
+venite voi da sì lontana gente,
+com'a la vista voi ne dimostrate?
+
+[Vede perfettamente onne salute]
+Vede perfettamente onne salute
+chi la mia donna tra le donne vede;
+quelle che vanno con lei son tenute
+di bella grazia a Dio render mercede.
+
+[Color d'amore e di pietà sembianti]
+Color d'amore e di pietà sembianti
+non preser mai così mirabilmente
+viso di donna, per veder sovente
+occhi gentili o dolorosi pianti...
+
+[Spesse fiate vegnonmi a la mente]
+Spesse fiate vegnonmi a la mente
+le oscure qualità ch'Amor mi dona,
+e venmene pietà, sì che sovente
+io dico: "Lasso!, avviene elli a persona?".
+
+[Tutti li miei penser parlan d'Amore]
+Tutti li miei penser parlan d'Amore;
+e hanno in lor sì gran varietate,
+ch'altro mi fa voler sua potestate,
+altro folle ragiona il suo valore.
+
+--- GUIDO CAVALCANTI ---
+[Chi è questa che vèn, ch'ogn'om la mira]
+Chi è questa che vèn, ch'ogn'om la mira,
+che fa tremar di chiaritate l'âre
+e mena seco Amor, sì che parlare
+null'omo pote, ma ciascun sospira?
+
+[Voi che per li occhi mi passaste 'l core]
+Voi che per li occhi mi passaste 'l core
+e destaste la mente che dormia,
+guardate a l'angosciosa vita mia,
+che sospirando la distrugge Amore.
+
+[Perch'i' no spero di tornar giammai]
+Perch'i' no spero di tornar giammai,
+ballatetta, in Toscana,
+va' tu, leggera e piana,
+dritt' a la donna mia.
+
+[Tu m'hai sì piena di dolor la mente]
+Tu m'hai sì piena di dolor la mente,
+che l'anima si briga di partire,
+e li sospir' che manda 'l cor dolente
+mostrano agli occhi che non può soffrire.
+
+[Donna me prega]
+Donna me prega, - per ch'eo voglio dire
+d'un accidente - che sovente - è fero
+ed è sì altero - ch'è chiamato amore:
+sì chi lo nega - possa 'l ver sentire!
+
+[Avete 'n voi li fior' e la verdura]
+Avete 'n voi li fior' e la verdura
+e ciò che luce od è bello a vedere;
+risplende più che sol vostra figura:
+chi voi non vede, ma' non può valere.
+
+[Biltà di donna e di saccente core]
+Biltà di donna e di saccente core
+e cavalieri armati che sien genti;
+cantar d'augelli e ragionar d'amore;
+adorni legni 'n mar forte correnti...
+
+[I' vegno 'l giorno a te 'nfinite volte]
+I' vegno 'l giorno a te 'nfinite volte
+e trovoti pensar troppo vilmente:
+molto mi dol de la gentil tua mente
+e d'assai tue vertù che ti son tolte.
+
+[L'anima mia vilment' è sbigottita]
+L'anima mia vilment' è sbigottita
+de la battaglia ch'e' soave ha orta:
+sì che, se 'l braccio suo non la riporta,
+lei fia tosto de la vita partita.
+
+[Noi siàn le triste penne isbigotite]
+Noi siàn le triste penne isbigotite,
+le cesoie e 'l coltello dolente,
+ch'avemo scritte dolorosamente
+quelle parole che vo' avete udite.
+
+--- GUIDO GUINIZELLI ---
+[Al cor gentil rempaira sempre amore]
+Al cor gentil rempaira sempre amore
+come l'ausello in selva a la verdura;
+né fe' amor anti che gentil core,
+né gentil core anti ch'amor, natura.
+
+[Io voglio del ver la mia donna laudare]
+Io voglio del ver la mia donna laudare
+ed asembrarli la rosa e lo giglio:
+più che stella dïana splende e pare,
+e ciò ch'è lassù bello a lei somiglio.
+
+[Vedut'ho la lucente stella diana]
+Vedut'ho la lucente stella diana,
+ch'appare anzi che 'l giorno, render clare
+l'aere e la terra...
+ed, in tra le altre, viso di grana
+con meo colore.
+
+[Donna, l'amor mi sforza]
+Donna, l'amor mi sforza
+c'ho ver voi nel core:
+ma non oso mostrare
+che ver voi l'abbia...
+
+[Ch'eo cor avesse, mi potea laudare]
+Ch'eo cor avesse, mi potea laudare
+prima che fosti a li occhi miei paruta;
+allor mi parve il cor morto in separe,
+e l'alma mia rimase sbigottita.
+
+[Tegno de folle 'mpresa, a lo ver dire]
+Tegno de folle 'mpresa, a lo ver dire,
+chi s'abbandona in ver l'amor feruto:
+ché non ha possa il mal di sofferire
+chi d'esso non è prima canosciuto.
+
+[Madonna, il fino amor ched eo vo porto]
+Madonna, il fino amor ched eo vo porto,
+e 'l gran disio, c'ho de voi ubidire,
+mi fa 'n tutt'i penser viver accorto,
+ch'eo non so far né dire mio placere.
+
+[Lo vostro bel saluto e 'l gentil sguardo]
+Lo vostro bel saluto e 'l gentil sguardo
+che fate quando v'encontro, m'ancide:
+Amor m'assale e già non ha riguardo
+s'elli face peccato over mercede.
+
+[Oramai quando flore]
+Oramai quando flore
+e mostra la verdura,
+l'augello in la pastura
+se gloria d'amore.
+
+[Gentil donzella, di pregio nomata]
+Gentil donzella, di pregio nomata,
+degna di loda e di tutto onore,
+ché par de voi non fu ancora nata,
+né sì compiuta di tutto valore.
+
+--- LAPO GIANNI ---
+[Amor, eo chero mia donna in domino]
+Amor, eo chero mia donna in domino,
+l'Arno balsamo fino,
+le mura di Firenze inargentate,
+le rughe di cristallo lastricate,
+fortezze alte, merlate.
+
+[Dolc' è 'l pensier che mi nutrica il core]
+Dolc' è 'l pensier che mi nutrica il core,
+il qual si pente d'ogni villania,
+e sol desia leali ovre pensare.
+
+[Angioletta in sembianza]
+Angioletta in sembianza
+fu la mia donna, quando
+venne imprimier guardando
+là dov'io dimorava.
+
+[Questa rosa novella]
+Questa rosa novella,
+che fa piacer sua loda,
+tuttor surga e si snoda;
+e nel ver, ch'è più bella...
+
+[Ballata, poi che ti componse Amore]
+Ballata, poi che ti componse Amore
+di sua mano leggiadra e te fe' bella,
+vattene a quella, che 'l mio cor ha 'n core.
+
+[Donna, se 'l prego de la mente mia]
+Donna, se 'l prego de la mente mia
+e del cor che distrugge la speranza,
+a voi non giugne con quella pietanza
+ch'a la vostra biltà s'apparteria...
+
+[Si come i fior vermigli e bianchi]
+Si come i fior vermigli e bianchi
+stanno 'nfra l'erbe verdi freschi e gai,
+così le vostre, donna, leali manchi
+stanno coperte di fregi a non mai.
+
+[Io sono amor, che per la tua bellezza]
+Io sono amor, che per la tua bellezza
+discesi in terra, e feci in te soggiorno:
+tuo cor giocondo e i tuoi begli occhi adorno
+d'ogni valor, d'ogni gentil chezza.
+
+[Nel vostro viso angelico amoroso]
+Nel vostro viso angelico amoroso
+Amor s'ha posto, credo, in paradiso;
+onde l'un bacio d'esso, ed un sorriso,
+faria l'om di morire disïoso.
+
+[Gentil donna, la vostra biltate]
+Gentil donna, la vostra biltate,
+che non ha par nel mondo, a la mia creda,
+mi fa pensare a la vostra onestate,
+che non vi sia nessuna che possieda.
+
+--- CINO DA PISTOIA ---
+[Io fu’ ’n su l’alto e ’n sul beato monte]
+Io fu’ ’n su l’alto e ’n sul beato monte,
+ove adorai la donna vostra e mia;
+e vidi lei in vertù tanto pia,
+che l’anima ne prese alto conforto.
+
+[La dolce vista e 'l bel guardo soave]
+La dolce vista e 'l bel guardo soave
+de' più begli occhi che si vider mai,
+c'ho perduto, mi fa parer sì grave
+la vita mia, ch'i' vo traendo guai.
+
+[Amore è uno spirito aspettato]
+Amore è uno spirito aspettato
+da l'angelico coro in ciel diletto;
+non discende in vil cor, ma in cor perfetto,
+come in suo loco, sta ed è 'l suo stato.
+
+[Oimè, lasso, quelle trecce bionde]
+Oimè, lasso, quelle trecce bionde,
+da le quai rilucieno d'aureo colore,
+fatte di neve e di vermiglio fiore,
+le belle guance e 'l polso e le man tonde!
+
+[Tutto l'altrui dolor che m'è incontrato]
+Tutto l'altrui dolor che m'è incontrato
+è stato quasi un riso a la mia doglia;
+ma non si toglie che 'l cor non si voglia
+di quella donna che m'è stato fato.
+
+[Dante, i' ho preso l'abito di doglia]
+Dante, i' ho preso l'abito di doglia
+per la partita de la donna mia;
+la qual non credo che mai più io veggia
+in questa vita, che m'è dura e ria.
+
+[Cercando di trovar minera in oro]
+Cercando di trovar minera in oro
+e in ogni parte il fior di primavera,
+non spero mai trovar cosa che 'l core
+consoli, poi che mia donna è sparita.
+
+[Poscia ch'io vidi gli occhi di colei]
+Poscia ch'io vidi gli occhi di colei
+che m'hanno fatto di me stesso fore,
+non ebbi mai ne l'animo valore
+se non quanto da loro ne presi lei.
+
+[Deh, quando rivedrò 'l dolce paese]
+Deh, quando rivedrò 'l dolce paese
+di Toscana, dove 'l mio cor dimora,
+e rivedrò la donna che m'accora,
+che d'ogne sua biltate m'ha 'ccese?
+
+[Sì m'ha conquiso la selvaggia fera]
+Sì m'ha conquiso la selvaggia fera,
+che di pietà non sa nulla, né sente:
+la qual m'ha tolto il cor sì malamente,
+che d'altro non mi cal, né mi dispera.
+
+--- DINO FRESCOBALDI ---
+[Un sol pensier mi dà guerra e tormento]
+Un sol pensier mi dà guerra e tormento,
+che nasce sol di voi, donna mia bella;
+e questo è che di voi non veggio quella
+pietà che 'l cor mi chiede a tradimento.
+
+[Morte ha bandito il mio viso dal riso]
+Morte ha bandito il mio viso dal riso
+e 'l cor da l'allegrezza, e m'ha conquiso
+in parte ove non spero aver mai pace,
+né cosa alcuna che mi sia verace.
+
+[Questa donna che andar mi fa pensoso]
+Questa donna che andar mi fa pensoso,
+porta ne li occhi suoi la mia salute;
+e quando la sua vista mi saluta,
+fa tremar lo mio cor dentro nascoso.
+
+[Lasso! che ne la mente m'è venuto]
+Lasso! che ne la mente m'è venuto
+il dolce sguardo e 'l bel parlar soave,
+la dove Amor mi diede, per suo schiavo,
+a quella che m'ha il core in due partuto.
+
+[Amor mi fa sovente lo cor piangere]
+Amor mi fa sovente lo cor piangere
+e la mente di doglia si distringe,
+che non posso né so qual mi dipinge
+la figura di lei, che mi fa frangere.
+
+[Se la mia donna si mostrasse a voi]
+Se la mia donna si mostrasse a voi,
+come si mostra a me ne la mia mente,
+i' so che ciascun di voi, veramente,
+direbbe che non è donna di noi.
+
+[Voi che piangete, udite il mio lamento]
+Voi che piangete, udite il mio lamento,
+e vedrete che 'l vostro non è nulla;
+ch'io piango per colei ch'è d'amor culla,
+e di pietà non ha nullo sentimento.
+
+[Non spero mai, donna, di vedere]
+Non spero mai, donna, di vedere
+lo vostro viso angelico e giocondo;
+però che son bandito da quel mondo
+ove voi state, per lo mio volere.
+
+[Amore, i' veggio ben che la tua forza]
+Amore, i' veggio ben che la tua forza
+vince ogni ardir che l'omo al mondo porte;
+e non è alcun che scampi da la morte,
+se tu li dai pur una volta scorza.
+
+[Dolente e lasso, già non posso dire]
+Dolente e lasso, già non posso dire
+quanta sia la mia pena e 'l mio martire;
+ch'io porto nel mio cor un tal disire,
+che non mi lascia vivere né morire.
+
+--- GIANNI ALFANI ---
+[Ballatetta dolente, va' piangendo]
+Ballatetta dolente, va' piangendo;
+e va' da la mia donna, e dille il vero:
+ch'io mi distruggo in un pensier severo,
+che mi fa dir: "Oimè, lasso, che attendo?".
+
+[Donne, se voi udisse il mio preghiero]
+Donne, se voi udisse il mio preghiero,
+e vedeste il dolor che 'l cor m'assale,
+i' credo che di me vi dorria male,
+veggendomi disfatto e prigioniero.
+
+[Guido, quel Gianni ch'a te fu l'altrieri]
+Guido, quel Gianni ch'a te fu l'altrieri,
+ti manda a dir che 'l suo cor è distrutto;
+e non ha più speranza d'alcun frutto,
+se non di pianto e di dolenti pensieri.
+
+[Se 'l cor di voi, madonna, non si piega]
+Se 'l cor di voi, madonna, non si piega
+a la pietà del mio grave tormento,
+i' prego Amor che vi faccia contenta
+di ciò che 'l vostro servo a voi si spiega.
+
+[La mia donna m'ha messo in tal distretto]
+La mia donna m'ha messo in tal distretto,
+ch'io non posso parlar, né mover passo;
+e stomi come un uom di vita casso,
+che guarda e non discerne alcun obietto.
+
+[Luce degli occhi miei, donna gentile]
+Luce degli occhi miei, donna gentile,
+che m'hai rubato il cor con un sembiante;
+i' sono il tuo fedel, povero amante,
+che vive in pena e in un pensier sottile.
+
+[Io vado come chi non ha sentire]
+Io vado come chi non ha sentire,
+né volontà di cosa che sia bella;
+se non pensando a quella chiara stella,
+che mi fa 'n un momento e viver e morire.
+
+[Amor, che muove il sole e l'altre stelle]
+(Citation/Response to Dante)
+Amor, che muove il tuo cor e la mente,
+faccia sì che la donna tua si penta;
+e la pietà le sia nel cor presente,
+sì che la tua speranza si contenta.
+
+[Di lagrime e di sangue è fatto il pianto]
+Di lagrime e di sangue è fatto il pianto
+che l'occhi miei gittan per la doglia;
+e non è chi mi sciolga o chi mi scioglia
+da questo laccio che m'ha preso tanto.
+
+[Madonna, i' vi rimando il vostro core]
+Madonna, i' vi rimando il vostro core,
+che non è degno di star nel mio petto;
+poi che di falsità l'avete infetto,
+e d'ogni vizio che offende Amore.
+
+--- CECCO ANGIOLIERI (ANTI-STILNOVO) ---
+[S'i' fosse foco, arderei 'l mondo]
+S'i' fosse foco, arderei 'l mondo;
+s'i' fosse vento, lo tempesterei;
+s'i' fosse acqua, i' l'annegherei;
+s'i' fosse Dio, mandereil'en profondo.
+
+[Becchin'amor!]
+"Becchin'amor!" "Che vuo', falso tradito?"
+"Che mi perdoni." "Tu non ne se' degno."
+"Merzé, per Dio!" "Tu vien' molto gecchito."
+"E verrò sempre." "Che sarammi pegno?"
+
+[Tre cose solamente mi son in grado]
+Tre cose solamente mi son in grado,
+le quali posso non ben ben fornire,
+ciò è la donna, la taverna e 'l dado:
+queste mi fanno 'l cuor lieto sentire.
+
+[Dante Alighier, s'i' so bon begolardo]
+Dante Alighier, s'i' so bon begolardo,
+tu mi tien' bene la lancia a le reni;
+s'i' desno con altrui, e tu vi ceni;
+s'i' mordo 'l grasso, tu vi suga 'l lardo.
+
+[I' ho un padre, che Dio 'l facesse stento]
+I' ho un padre, che Dio 'l facesse stento,
+che vorre' prima veder lo 'mperadore
+esser scannato, ch'un bo' d'abate.
+
+[La mia malinconia è tanta e tale]
+La mia malinconia è tanta e tale,
+che s'i' la dessi a un che fosse morto,
+si leveria e direbbe: "Or ho gran torto,
+che non m'uccisi quando non avea male".
+
+[Babb'e Becchina, l'Amor e la madre]
+Babb'e Becchina, l'Amor e la madre
+m'hanno sì come tordo in ragna preso;
+il babbo e la mamma a l'esser ladre,
+Amor e Becchina al cuor offeso.
+
+[Accorr'uomo, accorr'uomo! i' son rubato]
+Accorr'uomo, accorr'uomo! i' son rubato.
+Chi t'ha rubato, Cecco? Una, che pare
+che rida, quando gli omini ha gabato,
+e non si intende d'altro che d'ingannare.
+
+[Se Die m'aiuti, a le sante guagnele]
+Se Die m'aiuti, a le sante guagnele,
+i' non vo' dir de la Becchina male;
+ma di soperchio è la donna disleale,
+e ha la bocca, che sa di fiele.
+
+[Chi dice del suo padre altro che onore]
+Chi dice del suo padre altro che onore,
+la lingua gli dovrebbe esser tagliata;
+però che l'ha fatto di gran valore,
+e ha la vita sua molto onorata.
+(Ironico/Sarcastic)
+
+--- GUITTONE D'AREZZO (PRE-STILNOVO) ---
+[Tuttor ch'eo dirò "gioi", gioiva cosa]
+Tuttor ch'eo dirò "gioi", gioiva cosa,
+intenderete che di voi favello,
+che gioia sete di beltà gioiosa
+e gioia di piacer gioioso e bello.
+
+[Gente noiosa e villana]
+Gente noiosa e villana,
+che biasimate Amore
+e non sapete il valore
+che 'n lui si trova e regna.
+
+[Ahi lasso, or è stagion de doler tanto]
+Ahi lasso, or è stagion de doler tanto
+a ciascun'om che ben ama ragione,
+ch'eo meraviglio u' trova guerigione,
+che non si more 'ncontanente a planto.
+
+[O tu, de nome Amor, guerra de fatto]
+O tu, de nome Amor, guerra de fatto,
+vergogna de la terra e de la gente,
+cui prega onne viltà, onne mal fatto,
+e onne laido, e onne caitivo niente.
+
+[Vergogna ho, lasso, ed ho di me gran pietà]
+Vergogna ho, lasso, ed ho di me gran pietà,
+de lo laido pensero e fello e reo,
+che fa la mente mia contra 'l mio Deo,
+contra ragion e contra onestà.
+
+[Altra fiata aggio già, donne, parlato]
+Altra fiata aggio già, donne, parlato
+a voi, per rima, de la vostra onore;
+or si mi sforza e stringe il Dio d'Amore,
+ch'io vi ragioni de lo suo estato.
+
+[Voglia de dir giusta ragion m'ha porto]
+Voglia de dir giusta ragion m'ha porto
+Amor, che sa e pò, ed ha 'l podere;
+onde mi piace di far suo volere,
+poi ch'a la verità mi sono scorto.
+
+[Chi è da la ragion di Dio lontano]
+Chi è da la ragion di Dio lontano,
+è come nave che non ha timone,
+che va per l'onde sbalestrata e vana,
+e tosto pere a la prima stagione.
+
+[Amor, merzé! che m'hai al tutto vinto]
+Amor, merzé! che m'hai al tutto vinto,
+e son al tutto tuoi, e non son mio;
+e ho perduto il senno e 'l mio disio,
+e son come un che sia di vita spinto.
+
+[Ciascun fedel cristian, che Dio onora]
+Ciascun fedel cristian, che Dio onora,
+deve aver mente e core a la sua fine;
+e non curar di cose peregrine,
+ma sol di quelle che l'anima indora.
+
+--- BONAGIUNTA ORBICCIANI ---
+[Voi ch'avete mutata la mainera]
+Voi ch'avete mutata la mainera
+de li piagenti ditti de l'amore
+de la forma dell'esser là dov'era,
+per avansare ogn'altro trovatore...
+(Critica a Guinizelli)
+
+[La sfera, che si volge, mi dimostra]
+La sfera, che si volge, mi dimostra
+che 'l tempo vola e la morte s'avanza;
+onde convien che l'omo haggia speranza
+di far bene in questa vita nostra.
+
+[Donna, vostro beltà mi fa sovente]
+Donna, vostro beltà mi fa sovente
+pensare e dire: "Lasso, che faraggio?";
+ch'io sono preso, e non so far passaggio,
+se non mi scampa la vostra mente.
+
+[Feruto sono isattamente al core]
+Feruto sono isattamente al core
+d'una saetta, che m'ha lanciata Amore;
+la qual m'ha fatto di venin sapore,
+e non trovo a la piaga alcun dottore.
+
+[Quand'io veggio la rosa in sul mattino]
+Quand'io veggio la rosa in sul mattino
+aprir le foglie al sole e risplendere,
+mi par vedere il vostro viso fino,
+che fa d'amor la gente innamorare.
+
+[Amore, che m'hai fatto a te suggetto]
+Amore, che m'hai fatto a te suggetto,
+e m'hai legato con la tua catena,
+dammi conforto d'esta grave pena,
+che mi distrugge il cuore e lo 'ntelletto.
+
+[Molto si fa l'avoltoio a l'alto volare]
+Molto si fa l'avoltoio a l'alto volare,
+e crede d'agghiar l'aquila sovrana;
+ma poi che vede che non può arrivare,
+si cala e torna a la sua preda vana.
+
+[Chi non ha forza, d'ingegno s'aiuti]
+Chi non ha forza, d'ingegno s'aiuti;
+e chi non ha saver, chieda consiglio;
+ché 'l savio, quando vede il periglio,
+prende riparo, anzi che sia perduto.
+
+[Fino amor mi fa di gioia sperare]
+Fino amor mi fa di gioia sperare,
+e mi conforta di star allegro;
+benché la gente mi veggia magro,
+il cor ho grasso di voler amare.
+
+[Ave, Maria, di grazia piena]
+(Sacred poem)
+Ave, Maria, di grazia piena,
+il Signore è teco, benedetta tu;
+fra le donne, e benedetto il frutto
+del ventre tuo, Iesù.

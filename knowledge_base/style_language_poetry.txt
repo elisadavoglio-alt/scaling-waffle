@@ -1,0 +1,553 @@
+Style: Language Poetry
+Period: 1970s-1990s
+Key Characteristic: Linguaggio come materiale. "Writing is made of writing."
+
+### 🏛️ REFERENCE AUTHORS & WORKS
+- Lyn Hejinian (My Life) - Autobiografia decostruita
+- Ron Silliman (The Alphabet, Tjanting) - Nuovo verso
+- Charles Bernstein (Controlling Interests) - Teoria + prassi
+- Susan Howe (Singularities) - Storia, archivio
+- Rae Armantrout (Versed) - Minimal Language
+- Bruce Andrews (Give Em Enough Rope) - Politico estremo
+- Bob Perelman (The First World) - Narrativa spezzata
+- Barrett Watten (Progress) - Procedura
+- Leslie Scalapino (Considering how exaggerated) - Tempo
+- Clark Coolidge (Space) - Suono puro
+
+### 🧬 STRUCTURAL PATTERNS (YAML)
+ideology:
+  - Anti-espressivo
+  - Linguaggio non trasparente
+  - Lettore come produttore
+  
+techniques:
+  - New Sentence (frase autonoma)
+  - Procedura > ispirazione
+  - Indeterminacy
+  - Rimozione "io lirico"
+  
+avoid:
+  - Voce "autentica"
+  - Confessione
+  - Narratività lineare
+
+### 📜 ANTHOLOGY EXAMPLES (GROUND TRUTH)
+
+--- LYN HEJINIAN ---
+[My Life]
+A pause, a rose, something on paper.
+A moment yellow, just as four years later, when my father returned home from the war, the moment of greeting him, as he stood at the bottom of the stairs, younger, thinner than I had remembered, was purple.
+
+[My Life]
+As for we who "love to be astonished," the night is the best time to see the shapes of things.
+The windows were open and the morning air was entirely clear.
+The obvious analogy is with music.
+
+[My Life]
+It was only a coincidence.
+The tree in the park was a "monument" to a "hero."
+It is hard to distinguish the "real" from the "fake."
+In the schoolroom, the teacher said, "Write a story using the words 'picnic', 'lightning', and 'bun'."
+
+[The Cell]
+It is the person of the poet that is the problem.
+The person is "in the way."
+The person is a "thing" that is "in the way."
+
+[The Guard]
+Can one take a distinct pleasure in the "tedium" of the "ordinary"?
+The "ordinary" is what is "there."
+The "tedium" is the "feeling" of the "ordinary."
+
+[My Life]
+What is the meaning of this?
+The meaning is the use.
+The use is the meaning.
+
+[My Life]
+I am not "I" but a "we."
+We are "we" but a "they."
+They are "they" but an "it."
+
+[My Life]
+The "sun" is a "star."
+The "moon" is a "rock."
+The "stars" are "suns."
+
+[My Life]
+There is no "end" to the "story."
+The "story" is the "life."
+The "life" is the "writing."
+
+[My Life]
+It is impossible to return to the "beginning."
+The "beginning" is a "myth."
+The "myth" is a "lie."
+
+--- RON SILLIMAN ---
+[Albany]
+If the function of writing is to "express the world."
+My father withheld child support, forcing my mother to live with her parents.
+There were 58 steps to the street.
+A panic in the needle's eye.
+
+[Tjanting]
+Not this.
+What then?
+I started over & over.
+Not this.
+And then I started over & over.
+Not this.
+
+[The Chinese Notebook]
+4. What is the "new sentence"?
+It is a sentence that is "not" a "sentence."
+It is a sentence that "refuses" to "complete" the "thought."
+
+[Sunset Debris]
+Do you feel "better" now?
+Is the "pain" "gone"?
+Can you "see" the "light"?
+
+[Ketjak]
+Revolving door.
+The "I" is a "fiction."
+The "world" is a "text."
+
+[Demo]
+The "political" is the "personal."
+The "personal" is the "linguistic."
+The "linguistic" is the "material."
+
+[Paradise]
+The "poem" is a "machine."
+It "produces" "meaning."
+It does not "express" "emotion."
+
+[Lit]
+I "write" therefore I "am."
+I "read" therefore I "am."
+I "am" therefore I "text."
+
+[Xing]
+The "image" is a "trap."
+The "word" is a "key."
+The "sentence" is a "door."
+
+[BART]
+The train "arrives."
+The people "exit."
+The doors "open."
+The doors "close."
+
+--- CHARLES BERNSTEIN ---
+[The Klupzy Girl]
+Poetry is like a swoon, with this difference:
+it brings you to your senses.
+You can't "say" it in "words."
+You have to "say" it in "language."
+
+[Artifice of Absorption]
+The "artifice" is the "reality."
+The "reality" is the "artifice."
+There is no "outside" the "text."
+
+[Senses of Responsibility]
+The "reader" is the "author."
+The "author" is the "reader."
+The "text" is the "collaboration."
+
+[Islets/Irritations]
+The "meaning" is the "noise."
+The "noise" is the "meaning."
+There is no "silence."
+
+[Content's Dream]
+The "dream" is the "content."
+The "content" is the "dream."
+Wake up & smell the "signifiers."
+
+[Rough Trades]
+The "market" determines the "value."
+The "poem" has no "value."
+Therefore the "poem" is "free."
+
+[With Strings]
+"I" hate "poetry."
+"I" love "language."
+"I" am a "poet."
+
+[My Way]
+"I" did it "my" way.
+Which is to say, "I" didn't do it at all.
+"Language" did it.
+
+[Parsing]
+Parse "this."
+Parse "that."
+Parse "the other thing."
+
+[Recantatorium]
+"I" take it all "back."
+"I" didn't "mean" a word of it.
+"It" meant "itself."
+
+--- SUSAN HOWE ---
+[My Emily Dickinson]
+Representation is a "gap."
+History is a "gap."
+Poetry fills the "gap" with "silence."
+
+[Singularities]
+The "archive" is a "ruin."
+The "ruin" is a "text."
+Read the "ruin."
+
+[The Nonconformist's Memorial]
+"I" am a "ghost."
+The "text" is a "haunting."
+We are "haunted" by "language."
+
+[Pythagorean Silence]
+Silence is not "empty."
+Silence is "full" of "noise."
+The "noise" of history.
+
+[Defenestration of Prague]
+Throw the "meaning" out the "window."
+Let it "fall."
+Let it "shatter."
+
+[Thorow]
+The "land" is a "text."
+The "text" is a "map."
+We are "lost" in the "map."
+
+[Melville's Marginalia]
+Read the "margins."
+The "margins" are the "center."
+The "center" is "empty."
+
+[Pierce-Arrow]
+The "arrow" points to "nothing."
+The "arrow" IS the "point."
+
+[Bed Hangings]
+The "bed" is a "stage."
+The "poem" is a "curtain."
+Draw the "curtain."
+
+[That This]
+That "this" is "that."
+That "that" is "this."
+"This" is all there is.
+
+--- RAE ARMANTROUT ---
+[Versed]
+"Dark matter"
+is a "metaphor"
+for "what we don't know."
+And we don't know "much."
+
+[Necromance]
+"Love" is a "word."
+"Death" is a "word."
+They rhyme with "breath."
+
+[Veil]
+The "veil" is the "world."
+Lift the "veil."
+See the "nothing."
+
+[Next Life]
+In the "next life"
+we will be "words."
+We will be "sentences."
+
+[Money Shot]
+"Money" talks.
+"Poetry" listens.
+"Nobody" hears.
+
+[Just Saying]
+I'm just "saying."
+I'm not "meaning."
+Just "saying."
+
+[Up to Speed]
+Get "up to speed."
+The "speed" of "light."
+The "speed" of "thought."
+
+[Itself]
+The "thing" itself.
+Not the "idea" of the thing.
+The "thing."
+
+[Partly]
+"Partly" cloudy.
+"Partly" sunny.
+"Wholly" confusing.
+
+[Conjure]
+"Conjure" a "world."
+Out of "words."
+Out of "thin air."
+
+--- BRUCE ANDREWS ---
+[Give Em Enough Rope]
+Capitalism is a "language."
+It "speaks" us.
+We must "interrupt" it.
+
+[I Don't Have Any Paper So Shut Up]
+Shut "up."
+Sit "down."
+Listen to the "noise."
+
+[Lip Service]
+Pay "lip service."
+To the "state."
+To the "gods."
+
+[Getting Ready to Have Been Frightened]
+Be "afraid."
+Be very "afraid."
+Of the "syntax."
+
+[Ex Machina]
+The "machine" is "broken."
+Fix the "machine."
+With "words."
+
+[Tizzy Boost]
+Get into a "tizzy."
+Boost the "signal."
+Jam the "frequency."
+
+[Love Songs]
+"Love" is a "commodity."
+Buy "low."
+Sell "high."
+
+[Moebius]
+Round and "round."
+We "go."
+Where we "stop."
+
+[Executive Summary]
+The "summary" is "executive."
+The "executive" is "summary."
+Cut to the "chase."
+
+[Designated Heartbeat]
+The "heart" beats.
+The "beat" goes on.
+The "beat" is a "word."
+
+--- BOB PERELMAN ---
+[The First World]
+The "first world" is a "fiction."
+The "third world" is a "reality."
+We live in the "fiction."
+
+[China]
+We are not in "China."
+We are in "language."
+Language is a "wall."
+
+[Captive Audience]
+You are a "captive audience."
+Escape is "impossible."
+Enjoy the "show."
+
+[Face Value]
+Take it at "face value."
+The "face" is a "mask."
+The "value" is "zero."
+
+[Virtual Reality]
+"Virtual" reality.
+"Real" virtuality.
+What's the "difference"?
+
+[Ten to One]
+Ten words to "one."
+One word to "ten."
+Do the "math."
+
+[The Marginalization of Poetry]
+Poetry is "marginal."
+The "margin" is "wide."
+Live in the "margin."
+
+[Playing Bodies]
+Bodies "play."
+Words "work."
+Work is "play."
+
+[Iflife]
+If "life" were a "sentence."
+Would it end with a "period"?
+Or a "question mark"?
+
+[I Fought the Law]
+I fought the "law."
+And the "law" won.
+Because the "law" owns the "dictionary."
+
+--- BARRETT WATTEN ---
+[Progress]
+"Progress" is a "myth."
+We are "standing still."
+Moving "fast."
+
+[Plasma]
+"Plasma" is "fluid."
+Language is "fluid."
+Drink the "plasma."
+
+[Total Syntax]
+Total "syntax."
+Total "control."
+Total "chaos."
+
+[Frame]
+Frame the "picture."
+Picture the "frame."
+Break the "frame."
+
+[Under Erasure]
+Write it "down."
+Cross it "out."
+Read what remains.
+
+[Mode Z]
+Mode "Z."
+The end of the "alphabet."
+The beginning of "silence."
+
+[Conduit]
+The "conduit" is open.
+The "information" flows.
+Drown in the "flow."
+
+[Bad History]
+History is "bad."
+Poetry is "good."
+Be "good."
+
+[Complete Thought]
+Complete the "thought."
+Before it "escapes."
+Before it "dies."
+
+[Decay]
+Everything "decays."
+Even "words."
+Especially "words."
+
+--- LESLIE SCALAPINO ---
+[Considering how exaggerated]
+Considering how "exaggerated."
+Music is.
+The "city" is.
+
+[way]
+The "way" is not a "path."
+It is a "place."
+To "be."
+
+[clock]
+The "clock" ticks.
+Time "passes."
+We "remain."
+
+[that they were at the beach]
+They were at the "beach."
+Ideally.
+In the "mind."
+
+[New Time]
+"New" time.
+"Old" time.
+No "time."
+
+[Crowd and not evening or light]
+The "crowd."
+Not "evening."
+Not "light."
+
+[The Return of Painting]
+Painting "returns."
+Poetry "stays."
+Looking.
+
+[Sight]
+"Sight" is "blind."
+Sound is "deaf."
+Touch is "numb."
+
+[Dahlia's Iris]
+The "flower."
+Does not "know."
+Its "name."
+
+[Zither & Autobiography]
+The "instrument."
+The "life."
+Played "badly."
+
+--- CLARK COOLIDGE ---
+[Space]
+Space.
+The "final" frontier.
+Of the "page."
+
+[The Crystal Text]
+The "text" is "crystal."
+Clear.
+Hard.
+Cold.
+
+[Solution Passage]
+The "passage."
+Is the "solution."
+Walk "through."
+
+[Own Face]
+Your "own" face.
+In the "mirror."
+Looking "back."
+
+[Sound as Thought]
+Sound "is" thought.
+Thought "is" sound.
+Listen "hard."
+
+[Ing]
+Go-ing.
+Be-ing.
+See-ing.
+
+[Quartz Hearts]
+Hearts of "quartz."
+Minds of "stone."
+Words of "sand."
+
+[At Egypt]
+Pyramids.
+Of "words."
+Built to "last."
+
+[Polaroid]
+Instant "picture."
+Fading "fast."
+Gone.
+
+[Mine: The One That Enters the Stories]
+Mine.
+Yours.
+Ours.
+Theirs.
+Words.

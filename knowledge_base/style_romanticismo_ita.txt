@@ -1,0 +1,676 @@
+Style: Romanticismo Italiano
+Period: 1815-1860
+Key Characteristic: "Sempre caro mi fu quest'ermo colle" — natura e infinito interiore.
+
+### 🏛️ REFERENCE AUTHORS & WORKS
+- Giacomo Leopardi (Canti, Operette morali) - Pessimismo cosmico, l'Infinito
+- Ugo Foscolo (Dei Sepolcri, Sonetti) - Patria, memoria, esilio (Ponte col Neoclassicismo)
+- Alessandro Manzoni (Inni sacri, "Il cinque maggio") - Fede, storia, impegno civile
+- Giovanni Berchet (Lettera semiseria) - Manifesto romantico, poesia popolare
+- Ippolito Nievo (Versi) - Risorgimento, amore patriottico
+- Aleardo Aleardi (Lettere a Maria) - Sentimentale, languido
+- Giovanni Prati (Canti) - Lirico, melodico, leggende
+- Giuseppe Giusti (Poesie) - Satira civile, "Il Re Travicello"
+- Niccolò Tommaseo (Confessioni) - Religioso, intimo
+- Vincenzo Monti (Traduzioni, Odi) - Neoclassico-romantico, versatilità
+
+### 🧬 STRUCTURAL PATTERNS (YAML)
+themes:
+  - Patria e libertà (Risorgimento)
+  - Natura come specchio dell'anima (locus amoenus o terribilis)
+  - Infinito, noia, illusioni perdute (Leopardi)
+  - Rimpianto, memoria, sepolcri
+
+techniques:
+  - Idillio (piccolo quadro soggettivo)
+  - Canzone libera leopardiana (senza schema fisso)
+  - Personificazione (natura, morte, gloria)
+  - Interrogative retoriche ("O natura, o natura...")
+
+vocabulary:
+  - Vago, indefinito (caro a Leopardi: "ermo", "sovrumano", "profondissima")
+  - Lessico sepolcrale (Foscolo: "urne", "cipressi", "pianto")
+  - Registro elevato ma aperto alle passioni
+
+### 📜 ANTHOLOGY EXAMPLES (GROUND TRUTH)
+
+--- GIACOMO LEOPARDI ---
+[L'Infinito]
+Sempre caro mi fu quest'ermo colle,
+e questa siepe, che da tanta parte
+dell'ultimo orizzonte il guardo esclude.
+Ma sedendo e mirando, interminati
+spazi di là da quella, e sovrumani
+silenzi, e profondissima quiete
+io nel pensier mi fingo...
+
+[A Silvia]
+Silvia, rimembri ancora
+quel tempo della tua vita mortale,
+quando beltà splendea
+negli occhi tuoi ridenti e fuggitivi,
+e tu, lieta e pensosa, il limitare
+di gioventù salivi?
+
+[Canto notturno di un pastore errante dell'Asia]
+Che fai tu, luna, in ciel? dimmi, che fai,
+silenziosa luna?
+Sorgi la sera, e vai,
+contemplando i deserti; indi ti posi.
+Ancor non sei tu paga
+di riandare i sempiterni calli?
+
+[La quiete dopo la tempesta]
+Passata è la tempesta:
+odo augelli far festa, e la gallina,
+tornata in su la via,
+che ripete il suo verso. Ecco il sereno
+rompe là da ponente, alla montagna...
+
+[Il sabato del villaggio]
+La donzelletta vien dalla campagna,
+in sul calar del sole,
+col suo fascio dell'erba; e reca in mano
+un mazzolin di rose e di viole,
+onde, siccome suole,
+ornare ella si appresta
+dimani, al dì di festa, il petto e il crine.
+
+[A se stesso]
+Or poserai per sempre,
+stanco mio cor. Perì l'inganno estremo,
+ch'eterno io mi credei. Perì. Ben sento,
+in noi di cari inganni,
+non che la speme, il desiderio è spento.
+Posa per sempre. Assai
+palpitasti. Non val cosa nessuna
+i moti tuoi...
+
+[Alla Luna]
+O graziosa luna, io mi rammento
+che, or volge l'anno, sovra questo colle
+io venia pien d'angoscia a rimirarti:
+e tu pendevi allor su quella selva
+siccome or fai, che tutta la rischiari.
+
+[Il passero solitario]
+D'in su la vetta della torre antica,
+passero solitario, alla campagna
+cantando vai finché non more il giorno;
+ed erra l'armonia per questa valle.
+
+[Ultimo canto di Saffo]
+Placida notte, e verecondo raggio
+della cadente luna; e tu che spunti
+fra la tacita selva in su la rupe,
+nunzio del giorno; oh dilettose e care
+mentre ignote mi fur l'erinni e il fato...
+
+[Le ricordanze]
+Vaghe stelle dell'Orsa, io non credea
+tornare ancor per uso a contemplarvi
+sul paterno giardino scintillanti,
+e ragionar con voi dalle finestre
+di questo albergo ove abitai fanciullo.
+
+--- UGO FOSCOLO ---
+[Dei Sepolcri]
+All'ombra de' cipressi e dentro l'urne
+confortate di pianto è forse il sonno
+della morte men duro? Ove più il Sole
+per me alla terra non fecondi questa
+bella d'erbe famiglia e d'animali...
+
+[Alla Sera]
+Forse perché della fatal quiete
+tu sei l'immago a me sì cara vieni
+o Sera! E quando ti corteggian liete
+le nubi estive e i zeffiri sereni...
+
+[A Zacinto]
+Né più mai toccherò le sacre sponde
+ove il mio corpo fanciulletto giacque,
+Zacinto mia, che te specchi nell'onde
+del greco mar da cui vergine nacque
+Venere...
+
+[In morte del fratello Giovanni]
+Un dì, s'io non andrò sempre fuggendo
+di gente in gente, me vedrai seduto
+su la tua pietra, o fratel mio, gemendo
+il fior de' tuoi gentili anni caduto.
+
+[Alla amica risanata]
+Qual dagli antri marini
+l'astro più caro a Venere
+co' rugiadosi crini
+fra le fuggenti tenebre
+appare, e il suo vïaggio
+orna col lume dell'eterno raggio...
+
+[Le Grazie]
+Spesso, o Grazie, a voi penso, ed un desio
+di pingervi mi torna; e la mia mente
+il vostro bel consorzio in sé ravvisa,
+pieno d'armonia, di luce e di beltate.
+
+[Solcata ho fronte, occhi incavati intenti]
+Solcata ho fronte, occhi incavati intenti,
+crin fulvo, emunte guance, ardito aspetto,
+labbro tumido acceso, e tersi denti,
+capo chino, bel collo, e largo petto...
+
+[Non son chi fui; perì di noi gran parte]
+Non son chi fui; perì di noi gran parte:
+questo che avanza è sol languore e pianto.
+E se l'arte ancor vive, è perché l'arte
+dal dolor prende e nudrimento e vanto.
+
+[Meritamente, però ch'io potei]
+Meritamente, però ch'io potei
+abbandonarti, or grido alle spelanche
+il nome tuo; e s'io chiamo gli dèi,
+gli dèi mi sbeffan dalle sedi bianche.
+
+[Così gl'interi giorni in lungo incerto]
+Così gl'interi giorni in lungo incerto
+sonno consumo; e mentre il vulgo vile
+suda e s'affanna per un breve serto,
+io mi sto solo in parte e in atto umile.
+
+--- ALESSANDRO MANZONI ---
+[Il cinque maggio]
+Ei fu. Siccome immobile,
+dato il mortal sospiro,
+stette la spoglia immemore
+orba di tanto spiro,
+così percossa, attonita
+la terra al nunzio sta...
+
+[Inni Sacri - La Pentecoste]
+Madre de' Santi, immagine
+della città superna;
+del Sangue incorruttibile
+conservatrice eterna;
+tu che, da tanti secoli,
+soffri, combatti e preghi...
+
+[Adelchi - Coro dell'Atto III]
+Dagli atrii muscosi, dai Fori cadenti,
+dai boschi, dall'arse, fucine stridenti,
+dai solchi bagnati di servo sudor,
+un volgo disperso repente si desta...
+
+[Adelchi - Coro dell'Atto IV]
+Sparsa le trecce morbide
+sull'affannoso petto,
+lenta le palme, e rorida
+di morte il bianco aspetto,
+giace la pia, col tremolo
+sguardo cercando il ciel.
+
+[Marzo 1821]
+Soffermati sull'arida sponda,
+volti i guardi al varcato Ticino,
+tutti assorti nel nuovo destino,
+certi in cor dell'antica virtù...
+
+[Il Nome di Maria]
+Tacita un giorno a non so qual pendice
+salia d'un fabbro nazaren la sposa;
+salia non vista alla magion felice
+d'una pregnante annosa...
+
+[La Risurrezione]
+È risorto: or come a morte
+la sua preda fu ritolta?
+come ha l'avanzo de la porte
+il Signor de la vita ascolta?
+
+[Ognissanti]
+Serafini che in Dio vi beate,
+Voi che il trono gli fate di voi,
+cui dell'Inno che eterno cantate
+l'eco a noi lunge, come in sogno, udiamo...
+
+[Strofe per una Prima Comunione]
+Ecco il Signor! Le sue
+invisibili schiere
+lo precedono a due,
+lo seguon come al re.
+
+[Il Natale]
+Qual masso che dal vertice
+di lunga erta montana,
+abbandonato all'impeto
+di rumorosa frana,
+per lo scheggiato calle
+precipitando a valle...
+
+--- GIOVANNI BERCHET ---
+[Il Rimorso (Lettera semiseria)]
+Su, maledetti, a voi!
+Guerra a chi non è dei nostri!
+Chi si sparte, chi s'imbosca,
+l'ira nostra lo conosca.
+
+[Le Fantasie]
+O profughi d'Italia,
+a voi l'ardente affetto!
+Su voi dal cielo i folgori,
+su voi dal mondo il getto
+dell'odio e del dispetto!
+
+[Matilde]
+Ella è sola, e nella valle
+geme l'acqua e il vento fischia;
+su quel tremulo cristallo
+cade il raggio della luna.
+
+[Il Romito del Cenisio]
+Viandante, a che t'arresti?
+La notte è buia e l'aria
+si copre di tempesta.
+Passa, non ti fermar.
+
+[Clarina]
+Sola, soletta, in questo
+bosco deserto e nero,
+aspetto il mio fedele,
+che mi promise amor.
+
+[I Profughi di Parga]
+Stretti l'un l'altro, con le man giunte,
+guardan la patria che s'abbandona;
+e l'onda instabile che li circonda
+par che risponda al lor dolor.
+
+[All'Armi!]
+Su, figli d'Italia! su, in armi!
+coraggio! il suolo è nostro;
+del barbaro che l'occupa
+non rimanga che il chiostro!
+
+[L'Esule]
+Lungi, lungi! ove il cielo è più bello,
+ove il sole più caldo risplende;
+là si vive, là si muore,
+senza il peso del giogo straniero.
+
+[Giuramento di Pontida]
+L'han giurato. Li ho visti in Pontida
+convenuti dal monte e dal piano.
+L'han giurato; e si strinser la mano
+cittadini di venti città.
+
+[Romanza]
+Era stella del mattino,
+era fior di primavera;
+ma la morte, in un momento,
+l'ha rapita al mio desir.
+
+--- IPPOLITO NIEVO ---
+[Le confessioni d'un italiano]
+Io nacqui veneziano...
+(Inciso in prosa poetica, ma Nievo ha anche poesie)
+[Amori garibaldini]
+Eravam mille, e in fronte
+avevamo una stella;
+la libertà sorella
+ci guidava al monte.
+
+[Venezia]
+O Venezia, regina del mare,
+che i secoli han fatto grande;
+or giaci, schiava e mesta,
+sotto il tallon straniero.
+
+[Il primo amore]
+Era un fanciullo, e tu pure eri
+fanciulla, o mia dolce speranza;
+e ne la nostra stanza
+regnava l'innocenza e l'amor.
+
+[La partenza del Crociato]
+Addio, mia bella, addio!
+L'onore mi chiama al campo.
+Spergiuro non son io;
+ritornerò col lampo.
+
+[Sogno patriottico]
+Ho sognato l'Italia unita,
+dalle Alpi al mare nostro;
+e il tricolore in vetta
+sventolar come un mostro (di bellezza).
+
+[La madre]
+Madre, che in ciel mi guardi,
+benedici il tuo figlio,
+che va tra l'armi e i dardi
+per la patria e il consiglio.
+
+[Notte in accampamento]
+Dorme il campo. Solo il fuoco
+di guardia rosseggia nel buio.
+Io penso a te, mio foco,
+che sei lontana e 'l cuor mi struggo.
+
+[Resurrezione]
+Italia risorge!
+Dalla polvere e dal fango
+si leva la testa orgogliosa.
+
+[Amore e Morte]
+Se morir degg'io per la patria,
+morrò col tuo nome in core;
+ché patria e amore son una
+fiamma che mai non muore.
+
+--- ALEARDO ALEARDI ---
+[Monte Circello]
+È triste il monte, e la palude è mesta;
+e l'onda che si frange a la scogliera
+par che lamenti una sventura nera,
+e il vento sibila ne la foresta.
+
+[Lettere a Maria]
+Maria, se tu sapessi
+quanto t'amai nel tempo che fu mio!
+Tu fosti l'universo e fosti Dio
+ne' miei pensier dimessi.
+
+[I Sette Soldati]
+Sette soldati nel campo santo
+dormono insieme l'ultimo sonno;
+non hanno croce, non hanno pianto,
+ma l'erba cresce sul lor contorno.
+
+[Canti Patrii]
+Oh, se potessi con la cetra mia
+svegliar l'Italia dal suo lungo sonno!
+Ma la mia voce è debole e non ponno
+i canti miei cacciar la tirannia.
+
+[Accanto al fuoco]
+Siedo e contemplo la fiamma che sale,
+e vedo ne la brace i volti cari;
+passano l'ombre come in un viale,
+e mi salutano con gesti amari.
+
+[Il Tevere]
+Scorre il fiume de la storia nostra,
+torbido e lento, verso il mar latino;
+porta con sé la gloria e il destino
+d'una gente che al mondo si mostra.
+
+[La Morte della fanciulla]
+Ella morì nel fior de gli anni suoi,
+come rosa che 'l vento ha dispogliata;
+e la bellezza sua, pur profumata,
+resta nel cuore di chi l'amò, noi.
+
+[Tramonto]
+Il sole scende dietro le montagne,
+e l'ombra avvolge la valle e il piano;
+tutto tace, e ne le mie campagne
+scende la pace, dolce e sovrana.
+
+[La Ferrovia]
+Fuma il mostro di ferro e di vapore,
+e corre per la via che l'uomo ha fatta;
+è l'avvenir che passa e che scombatta
+il vecchio mondo e il suo antico onore.
+
+[Malinconia]
+Dolce compagna de la vita mia,
+che mi segui ovunque e mai mi lasci;
+tu sei l'ombra che i miei giorni fasci,
+e fai soave la mia poetica via.
+
+--- GIOVANNI PRATI ---
+[Edmenegarda]
+Edmenegarda, il nome tuo risuona
+come un'eco di tempi lontani;
+tu fosti bella, e le tue bianche mani
+spinsero il mondo a chiederti perdono.
+
+[Canti per il popolo]
+Canto per voi, gente che lavorate,
+e che soffrite in silenzio e in pace;
+il mio canto è per voi, che siete la brace
+che tiene viva l'Italia ne l'estate.
+
+[Armando]
+Armando è morto, e l'ha ucciso l'amore;
+l'amore per la donna e per la terra;
+ora riposa dove non c'è guerra,
+e dove il cuore non sente dolore.
+
+[Psyche]
+Anima mia, farfalla pellegrina,
+che voli in cerca di non so che luce;
+attenta a la fiamma che ti seduce,
+e che ti brucia, o povera regina.
+
+[Satanasso]
+Ridi, Satanasso, ridi pure;
+il mondo è tuo, per ora, o re del male;
+ma verrà un giorno, un giorno fatale,
+che la giustizia rompera le mura.
+
+[La battaglia di San Martino]
+Fumava il colle, e la valle tremava
+sotto il tuono del bronzo micidiale;
+e la morte, con l'ala sua fatale,
+sopra i caduti la falce passava.
+
+[Isis]
+Mistero antico, che dal Nilo vieni,
+e ci racconti favole di dèi;
+noi siamo bimbi, e tu ci tieni
+con le tue storie, e ci fai pigmei.
+
+[A Venezia]
+Venezia, sposa del mare, tradita;
+ma la tua gloria non sarà mai morta;
+tornerà il doge su la tua porta,
+e la tua gente sarà risarcita.
+
+[Ballata]
+Balla, fanciulla, balla finché puoi;
+ché la vita è breve e la giovinezza
+passa veloce come una carezza,
+e lascia solo ricordi bui.
+
+[Il Futuro]
+Guardo l'orizzonte e vedo nubi nere,
+ma dietro a quelle, forse, c'è il sole;
+speriamo in Dio, e ne le sue parole,
+che ci promettono gioie vere.
+
+--- GIUSEPPE GIUSTI ---
+[Il Re Travicello]
+C'era una volta un Re,
+che stette, finché stette,
+a farsi dar del Re
+da tutte le gazzette.
+Era un Re di pastafrolla,
+buono a nulla, se non a colla.
+
+[Sant'Ambrogio]
+Vostra Eccellenza che mi sta in cagnesco
+per que' pochi scherzucci di dozzina,
+e mi gabella per anti-tedesco
+perché metto le birbe alla berlina...
+
+[La Guigliottina a vapore]
+Hanno fatto una macchina a vapore
+per tagliare la testa alla gente;
+si fa presto, si fa pulitamente,
+e si conserva l'onor del signore.
+
+[Il Gingillino]
+È un bravo giovinotto,
+rispettoso, devoto,
+che fa il suo compitino,
+e bacia la mano al prete e al padrino.
+
+[Povera Italia]
+Povera Italia, in che mani sei caduta!
+Dai ladri agli sciocchi, la via è battuta;
+e tu stai zitta, e piangi, e ti lamenti,
+mentre ti mangiano i tuoi "sapienti".
+
+[Lo Stivale]
+Io non son che uno stivale,
+ma se mi metto in gamba a un generale,
+posso pestare chi mi fa del male,
+e far tremare il colle e la valle.
+
+[L'Incoronazione]
+Hanno unto il Re col sacro olio,
+e gli han messo la corona in testa;
+ma sotto il manto, e sotto la vesta,
+c'è sempre l'uomo, col suo orgoglio.
+
+[Il Brindisi di Girella]
+Viva Girella, che gira col vento!
+Oggi è bianco, domani è nero,
+sempre fedele al suo pensiero:
+stare a galla in ogni momento.
+
+[A San Pietro]
+San Pietro mio, che tieni le chiavi,
+non aprir troppo a questi "bravi";
+ché se ti entrano in Paradiso,
+ti guastan tutto con il lor riso.
+
+[La Chiocciola]
+Viva la chiocciola, viva una bestia,
+che unisce il merito alla modestia.
+Essa all'astronomo e all'architetto
+forse nell'animo destò il concetto.
+
+--- NICCOLÒ TOMMASEO ---
+[La fede]
+Senza la fede, la vita è un deserto,
+dove l'uom vaga senza meta e scopo;
+ma con la fede, ogni dolor è aperto
+verso il cielo, e si trova ristoro dopo.
+
+[Amore e Dolore]
+Amore e dolore son due facce
+de la stessa medaglia divina;
+chi ama soffre, e chi soffre s'avvicina
+a Dio, seguendo le sue tracce.
+
+[La preghiera]
+Prega, figliuol, che la preghiera sale
+come incenso gradito al Creatore;
+e scende poi, come rugiada al fiore,
+a consolar l'anima mortale.
+
+[Confessioni]
+Ho peccato, Signore, ho peccato;
+ma il tuo perdono è grande come il mare;
+e io mi getto nel tuo abbraccio alato,
+sperando in te di poterci salvare.
+
+[Ricordi]
+I ricordi son l'ombra de la vita,
+che ci segue ovunque andiamo noi;
+son dolci o amari, ma son sempre noi,
+che riviviamo la storia finita.
+
+[Italia]
+Italia mia, terra di santi e poeti,
+terra di martiri e di peccatori;
+quando sarai degna de' tuoi allori,
+e dei tuoi figli liberi e lieti?
+
+[La Mamma]
+La parola più dolce che c'è
+è "mamma", sussurrata piano;
+ella è l'angelo che ci tien per mano,
+e ci protegge da ogni ahimè.
+
+[Il Perdono]
+Perdonare è divino, dice il saggio;
+e in ver, chi perdona vince il mondo;
+spezza la catena de l'odio immondo,
+e porta in terra un celeste raggio.
+
+[La Speranza]
+Speranza, ultima dea, non ci lasciare;
+rimani a farci lume ne la notte;
+senza di te, le nostre vie son rotte,
+e non sappiamo dove approdare.
+
+[La Carità]
+La più grande di tutte è la carità;
+che si fa pane per chi ha fame,
+e si fa veste per chi non ha trame,
+e si fa amore per l'umanità.
+
+--- VINCENZO MONTI ---
+[Il Cinque Maggio (Traduzione/Ode, stile)]
+(Nota: Monti è noto per traduzioni Iliade e odi)
+[Traduzione dell'Iliade, Proemio]
+Cantami, o Diva, del Pelìde Achille
+l'ira funesta che infiniti addusse
+lutti agli Achei, molte anzi tempo all'Orco
+generose travolse alme d'eroi...
+
+[Per la liberazione d'Italia]
+Bella Italia, amate sponde,
+pur vi torno a riveder!
+Trema in petto e si confonde
+l'alma oppressa dal piacer.
+
+[Al Signor di Montgolfier]
+Che tenti? ove vai? Su l'auree piume
+Ose il nauta del ciel le vie tentar?
+E di Icaro il folle andar
+Rinnova al mondo e 'l lume?
+
+[La Mascheroniana]
+O anima cortese, o spirto pio,
+che a consolar la mia doglia se' sceso;
+dimmi, che fa la patria? e 'l bel desio
+di libertà, è forse in tutto offeso?
+
+[In morte di Ugo Bassville]
+L'ombra di Bassville errante e sola
+vidi su 'l Tevere pianger e gemere;
+e le sue colpe in vita a la tremenda
+giustizia di Dio chieder parola.
+
+[Prometeo]
+O tu che il foco al ciel rapisti, e 'l donasti
+al genere umano per suo gran bene;
+or ne la rupe, tra catene e pene,
+scomba il tuo ardir che i numi ben guasti.
+
+[Bella donna]
+L'occhio tuo nero, la tua bocca rossa,
+fanno di me quel che il vento fa a la fronda;
+io tremo tutto, e l'anima profonda
+sente la forza de la tua scossa.
+
+[Sulla Mitologia]
+Audace scuola boreal, che tenti?
+La favola è la veste del vero;
+senza il mito, il mondo è un cimitero
+freddo e spoglio di sogni e di portenti.
+
+[Napoleone]
+Gloria al guerriero, gloria al vincitore!
+Ma la pace è più bella de la guerra;
+posa la spada, o figlio de la terra,
+e regna con giustizia e con amore.
+
+[Il Tevere]
+Padre Tevere, che l'antica Roma
+bagni con l'onda tua sacra e divina;
+guarda i tuoi figli, che la suuperba chioma
+alzan di nuovo al ciel dalla rovina.

@@ -1,0 +1,661 @@
+Style: Petrarchismo
+Period: 1350-1600
+Key Characteristic: "Solo e pensoso i più deserti campi" — l'io che si contempla.
+
+### 🏛️ REFERENCE AUTHORS & WORKS
+- Francesco Petrarca (Canzoniere) - Archetipo
+- Pietro Bembo (Rime, Prose della volgar lingua) - Codificatore
+- Giovanni Della Casa (Rime) - Gravitas
+- Gaspara Stampa (Rime) - Voce femminile, passione
+- Vittoria Colonna (Rime spirituali) - Amore sacro, vedovanza
+- Torquato Tasso (Rime) - Manierismo, musicalità
+- Angelo Poliziano (Stanze per la giostra, Rime) - Pre-petrarchismo colto
+- Luigi Tansillo (Rime) - Napoli, "spiegat'ho l'ali"
+- Michelangelo Buonarroti (Rime) - Tormento, materia, scultura
+- Veronica Gambara (Rime) - Cortigiana nobile
+
+### 🧬 STRUCTURAL PATTERNS (YAML)
+form:
+  - Sonetto ABBA ABBA CDC DCD (o CDE CDE)
+  - Canzone petrarchesca (stanze complesse con congedo)
+  - Sestina
+
+themes:
+  - Amore non corrisposto (donna crudele o defunta)
+  - Memoria e tempo (fugacità)
+  - Laura (o figura femminile idealizzata/assente)
+  - Paesaggio interiore (natura come specchio dell'anima)
+
+techniques:
+  - Antitesi (ghiaccio/fuoco, vita/morte, pace/guerra)
+  - Ossimoro (dolce pena, viva morte)
+  - Apostrofe (a luoghi, oggetti, amore)
+  - Lessico codificato (lume, sospiri, pianto, rai, capelli d'oro)
+  - Enjambement (spezzatura, soprattutto in Della Casa)
+
+### 📜 ANTHOLOGY EXAMPLES (GROUND TRUTH)
+
+--- FRANCESCO PETRARCA ---
+[Voi ch’ascoltate in rime sparse il suono]
+Voi ch’ascoltate in rime sparse il suono
+di quei sospiri ond’io nudriva ’l core
+in sul mio primo giovenile errore
+quand’era in parte altr’uom da quel ch’i’ sono.
+
+[Solo e pensoso i più deserti campi]
+Solo e pensoso i più deserti campi
+vo mesurando a passi tardi e lenti,
+e gli occhi porto per fuggire intenti
+ove vestigio human l’arena stampi.
+
+[Erano i capei d’oro a l’aura sparsi]
+Erano i capei d’oro a l’aura sparsi
+che ’n mille dolci nodi gli avvolgea,
+e ’l vago lume ultra misura ardea
+di quei begli occhi, ch’or ne son sì scarsi.
+
+[Chiare, fresche et dolci acque]
+Chiare, fresche et dolci acque,
+ove le belle membra
+pose colei che sola a me par donna;
+gentil ramo ove piacque
+(con sospir mi rimembra)
+a lei di fare al bel fianco colonna.
+
+[Pace non trovo, et non ò da far guerra]
+Pace non trovo, et non ò da far guerra;
+e temo, et spero; et ardo, et son un ghiaccio;
+et volo sopra ’l cielo, et giaccio in terra;
+et nulla stringo, et tutto ’l mondo abbraccio.
+
+[Benedetto sia ’l giorno, e ’l mese, e l’anno]
+Benedetto sia ’l giorno, e ’l mese, e l’anno,
+e la stagione, e ’l tempo, e l’ora, e ’l punto,
+e ’l bel paese, e ’l loco ov’io fui giunto
+da’ duo begli occhi che legato m’hanno.
+
+[I’ vo piangendo i miei passati tempi]
+I’ vo piangendo i miei passati tempi
+i quai posi in amar cosa mortale,
+senza levarmi a volo, avend’io l’ale,
+per dar forse di me non bassi esempi.
+
+[La vita fugge, et non s’arresta un’ora]
+La vita fugge, et non s’arresta un’ora,
+et la morte vien dietro a gran giornate,
+et le cose presenti et le passate
+mi dànno guerra, et le future ancora.
+
+[S’amor non è, che dunque è quel ch’io sento?]
+S’amor non è, che dunque è quel ch’io sento?
+Ma s’egli è amor, per Dio, che cosa et quale?
+Se bona, onde l’effetto aspro mortale?
+Se ria, onde sì dolce ogni tormento?
+
+[Padre del ciel, dopo i perduti giorni]
+Padre del ciel, dopo i perduti giorni,
+dopo le notti vaneggiando spese,
+con quel fero desio ch’al cor s’accese,
+mirando gli atti per mio mal sì adorni.
+
+--- PIETRO BEMBO ---
+[Crin d’oro crespo e d’ambra tersa e pura]
+Crin d’oro crespo e d’ambra tersa e pura,
+ch’a l’aura su la neve ondeggi e voli,
+occhi soavi e più chiari che ’l sole,
+da far giorno seren la notte oscura.
+
+[Piansi e cantai lo strazio e l'aspra guerra]
+Piansi e cantai lo strazio e l'aspra guerra
+ch'i' ebbi a sostener molti e molt'anni,
+e la cagion di così lunghi affanni,
+cose tutte, che 'l ciel ne chiude e serra.
+
+[O imagine mia celeste e pura]
+O imagine mia celeste e pura,
+ch'entro al mio cor qual sola dea ti seggi,
+e la mia vita e 'l mio pensier correggi,
+e sei d'ogni mio mal medicina e cura.
+
+[Re degli altri, superbo e sacro monte]
+Re degli altri, superbo e sacro monte,
+ch'a l'Italia sei fianco e l'Alpi serri,
+e 'l mar da questo a quel lato sotterri,
+e spargi il tuo valor per ogni fonte.
+
+[Questa è la mia, non tua, spoglia mortale]
+Questa è la mia, non tua, spoglia mortale,
+che qui racchiudo, e l'alma è in ciel salita;
+l'alma, che visse in terra e 'n ciel gradita,
+e or gode di Dio luce immortale.
+
+[Lieta e chiusa contrada, ov'io m'involo]
+Lieta e chiusa contrada, ov'io m'involo
+al vulgo, e meco vivo e meco albergo,
+e l'impeto de' miei pensier dispergo,
+e rido e canto, e non ho pena o duolo.
+
+[Quand'io penso al martir, ch'Amor mi dona]
+Quand'io penso al martir, ch'Amor mi dona,
+e alla sua forza, che mi vince e strugge,
+mi par che 'l cor si spezzi e si distrugge,
+e che l'alma dal corpo s'abbandona.
+
+[Sì come il cigno, che vicino a morte]
+Sì come il cigno, che vicino a morte
+canta soave e dolcemente more,
+così canto io del mio dolce signore,
+che m'ha condotto a sì felice sorte.
+
+[Voi mi poneste in foco]
+Voi mi poneste in foco,
+perché 'l mio cor si strusse a poco a poco;
+poi mi poneste in ghiaccio,
+perch'io gelasse al vostro freddo braccio.
+
+[Donna, de la cui man la mia vita pende]
+Donna, de la cui man la mia vita pende,
+e la cui vista mi fa lieto e tristo,
+deh, volgi a me quel guardo, ch'io n'acquisto
+pace e riposo, e l'alma si difende.
+
+--- GIOVANNI DELLA CASA ---
+[O sonno, o de la queta, umida, ombrosa]
+O sonno, o de la queta, umida, ombrosa
+notte placido figlio; o de’ mortali
+egri conforto, oblio dolce de’ mali
+sì gravi ond’è la vita aspra e noiosa.
+
+[Cura, che di timor ti nutri e cresci]
+Cura, che di timor ti nutri e cresci,
+e de l’altrui dolor ti pasci e vivi;
+che mi vai rodendo i pensier, che privi
+di riposo e di pace i giorni miei riesci.
+
+[Questa vita mortal, che ’n una o ’n due]
+Questa vita mortal, che ’n una o ’n due
+brevi e notturne ore trapassa, è tale,
+che ’n essa (oimè) la parte che più vale,
+di sé non ha, se non l’ombra, in le sue.
+
+[Già lessi, e or conosco in me, sì come]
+Già lessi, e or conosco in me, sì come
+quel che in altrui parea, mi pare in me;
+che ’l tempo, che sì tosto via se ne va,
+ci lascia, in cambio di se stesso, il nome.
+
+[Mentre fra valli ombrose e boschi opachi]
+Mentre fra valli ombrose e boschi opachi
+cerco la pace, che ’l mondo mi toglie,
+sento che ’l cor di nuovo si scioglie,
+e i pensier miei si fan di pianto carchi.
+
+[Vivo mio scoglio, altero e duro sasso]
+Vivo mio scoglio, altero e duro sasso,
+contra cui l'onda del mio pianto frange;
+e l'aura de' sospir, che 'l cor mi piange,
+non move un punto il tuo rigido passo.
+
+[Le chiome d'oro e 'l lampeggiar del riso]
+Le chiome d'oro e 'l lampeggiar del riso,
+che solean far sereno il viver mio,
+sono spariti, e 'n lor vece 'l desio
+e 'l rimembrar m'han posto in grembo al viso.
+
+[Solone, a cui la greca istoria diede]
+Solone, a cui la greca istoria diede
+nome di savio, e che le leggi pose;
+disse che niun beato si credede,
+fin che la vita sua non si nascose.
+
+[L'aer gravato, e l'importuna nebbia]
+L'aer gravato, e l'importuna nebbia,
+che d'intorno mi cinge e mi circonda,
+mi toglie il sole, e la luce gioconda,
+e fa che 'l cor di duol si nutra e debbia.
+
+[Dolce mio ben, se 'l ciel mi ti contese]
+Dolce mio ben, se 'l ciel mi ti contese,
+e se la terra t'ha coperto il viso,
+almen nel sogno, ov'io son diviso,
+torna a veder colui che tanto accese.
+
+--- GASPARA STAMPA ---
+[Voi, ch’ascoltate in queste meste rime]
+Voi, ch’ascoltate in queste meste rime,
+in questi mesti, in questi oscuri accenti,
+il suon degli amorosi miei lamenti
+e de le pene mie tra l’altre prime.
+
+[Arsi, piansi, cantai; piango, ardo e canto]
+Arsi, piansi, cantai; piango, ardo e canto;
+piangerò, arderò, canterò sempre,
+finché Morte o Fortuna o tempo stempre
+a l'ingegno, agli occhi, al cor, la vena, il foco, il pianto.
+
+[La piaga ch'io nel cor donna riceve]
+La piaga ch'io nel cor donna riceve
+da quei begli occhi che mi fenno guerra,
+fa che 'l mio stanco corpo, che sotterra
+già fora, ancor la vita si beve.
+
+[Chi vuol conoscer, donne, il mio signore]
+Chi vuol conoscer, donne, il mio signore,
+miri un signor di vago e dolce aspetto,
+giovane d'anni e vecchio d'intelletto,
+imagina di gloria e di valore.
+
+[O notte, a me più chiara e più beata]
+O notte, a me più chiara e più beata
+che i più beati giorni ed i più chiari,
+notte degna da' primi e dai più rari
+ingegni esser, non pur da me, lodata.
+
+[Mesta e pentita de’ miei gravi errori]
+Mesta e pentita de’ miei gravi errori
+e del mio vaneggiar tanto e sì lieve,
+e d’aver speso questo tempo breve
+de la vita fugace in vani amori.
+
+[Signor, io so che 'n me non son più viva]
+Signor, io so che 'n me non son più viva,
+e veggo omai ch'ancor in voi son morta;
+e l'alma, ch'è da me e da voi scorta,
+è di salute e di speranza priva.
+
+[Io non v'invidio punto, angeli santi]
+Io non v'invidio punto, angeli santi,
+le vostre tante glorie e tanti beni,
+e que' disiri di ciò, che e bramate, pieni,
+stando voi di quel sommo Sole avanti.
+
+[Se, come tu se' bella, o vaga rosa]
+Se, come tu se' bella, o vaga rosa,
+che 'n un giardin d'Amor felice stai,
+fossi pietosa, io non vivrei in guai,
+ma in una vita lieta e gloriosa.
+
+[Alba, che spesso a l'altrui danno vieni]
+Alba, che spesso a l'altrui danno vieni,
+e a me sovente a tanta noia ed onta;
+deh, non venir così rapida e pronta
+a departir i miei dolci beni.
+
+--- VITTORIA COLONNA ---
+[Scrivo sol per sfogar l’interna doglia]
+Scrivo sol per sfogar l’interna doglia,
+di che si pasce il cor, ch’altro non vole,
+e non per giunger luce al mio bel Sole,
+che lasciò in terra sì onorata spoglia.
+
+[Veggio d’alga e di fango omai sì carca]
+Veggio d’alga e di fango omai sì carca,
+Pietro, la rete tua, che se scompone
+lento e non tocca, a le sue rime buone,
+il mondo, che ’l mal segue e ’l ben non varca.
+
+[Qual digiuno augellin, che vede ed ode]
+Qual digiuno augellin, che vede ed ode
+batter l’ali a la madre intorno, quando
+li reca il nudrimento, ond’egli amando
+il cibo e quella, si rallegra e gode.
+
+[Vivo su questo scoglio orrido e solo]
+Vivo su questo scoglio orrido e solo,
+come augellin che ’l cacciator persegua,
+né per la mia partita il duol si tregua,
+né per fuggir, mi scampo da lo stuolo.
+
+[Padre Eterno, del ciel che 'l mondo reggi]
+Padre Eterno, del ciel che 'l mondo reggi,
+a cui non è nascoso alcun pensiero,
+volgi li occhi al mio pianto, e 'l sentier vero
+mostrami, ond'io a te ritorni e deggi.
+
+[Di così nobil fiamma Amor mi cinse]
+Di così nobil fiamma Amor mi cinse,
+ch'essendo spenta, ancor l'alma l'adora;
+e se nel petto mio non vive ancora,
+è perché morte il suo bel lume estinse.
+
+[Quando del mio bel Sol l'ombra sparita]
+Quando del mio bel Sol l'ombra sparita
+mi lascia in tenebre e in dolor profondo,
+piango la mia sventura e 'l grave pondo
+de la miseria de la mia vita.
+
+[Spirto gentil, che sei nel ciel salito]
+Spirto gentil, che sei nel ciel salito,
+lasciando in terra il corpo, e 'l nome, e 'l velo;
+prega per me, che son rimasa al gelo,
+senza il tuo raggio, in questo lido.
+
+[L'alto signor, del cui valor mi vanto]
+L'alto signor, del cui valor mi vanto,
+che fu scudo e difesa al popol mio,
+è gito al ciel, e qui m'ha lasciato in pio
+e amaro duolo, e in sempiterno pianto.
+
+[Benedetto sia 'l dì che pria mi piacque]
+Benedetto sia 'l dì che pria mi piacque
+la vista e l'atto e 'l ragionar accorto
+del mio fedel, che mi condusse al porto
+de la salute, ove il mio mal si tacque.
+
+--- TORQUATO TASSO ---
+[Qual rugiada o qual pianto]
+Qual rugiada o qual pianto,
+quai lagrime eran quelle
+che sparger vidi dal notturno manto
+e dal candido volto de le stelle?
+E perché seminò la bianca luna
+di cristalline stelle un puro nembo
+a l'erba fresca in grembo?
+
+[Ecco mormorar l’onde]
+Ecco mormorar l’onde
+e tremolar le fronde
+a l’aura mattutina e a gli arboscelli,
+e sovra i verdi rami i vaghi augelli
+cantar soavemente.
+E l’oriente
+rider d’ecco già l’alba appare.
+
+[Non è quest'una selva, e non son questi]
+Non è quest'una selva, e non son questi
+gli orridi sassi e i tronchi, ove si chiude
+l'orrore e la paura e l'ombre ignude?
+Deh, come or son ridenti e son modesti!
+
+[Amore alma è del mondo, Amore è mente]
+Amore alma è del mondo, Amore è mente
+che lo governa e in lui per tutto spira;
+e quanto il sol, quanto la luna gira,
+tutto è d'Amore, e tutto Amore sente.
+
+[Io non comprai, ma la mia sorte dura]
+Io non comprai, ma la mia sorte dura
+mi vendé a voi, signora, e a quel crudele
+che mi trafigge, ed a la sua fedele
+madre, che 'l mio dolor non cura.
+
+[Mentre, mia stella, miri]
+Mentre, mia stella, miri
+i bei celesti giri,
+il cielo esser vorrei,
+perché ne gli occhi miei
+fisso tu rivolgessi
+i tuoi dolci, soavi e lieti e spessi.
+
+[Gelo ha nel cor, di fredda neve è il seno]
+Gelo ha nel cor, di fredda neve è il seno,
+e di diamante l'alma, e 'l pensier duro;
+e sol di fuor, nel viso a l'aer puro,
+mostra il bel sol, e 'l dì lieto e sereno.
+
+[Perché la vita è breve]
+Perché la vita è breve,
+e l'ingegno paventa a l'alta impresa,
+né di lui mi fido; ma l'offesa,
+che m'ha fatto il destino, è grave e greve.
+
+[Negro capel, che in su la fronte umana]
+Negro capel, che in su la fronte umana
+scendendo a l'occhi, fai l'aere bruno;
+tu mi sei ne la notte, e ne l'altruno
+tempo, cagion di doglia e vita strana.
+
+[O bella man, che mi destringi il core]
+O bella man, che mi destringi il core
+e 'n poco spazio la mia vita chiudi;
+man, ove tutte le grazie e tutti i nudi
+Amori, hanno il lor seggio e 'l lor valore.
+
+--- ANGELO POLIZIANO ---
+[I’ mi trovai, fanciulle, un bel mattino]
+I’ mi trovai, fanciulle, un bel mattino
+di mezzo maggio in un verde giardino.
+Eran d’intorno violette e gigli
+fra l’erba verde, e vaghi fior novelli,
+azzurri, gialli, candidi e vermigli:
+ond’io porsi la mano a cor di quelli.
+
+[Chi è questa che vèn, ch’ogn’om la mira?]
+(Echoing Cavalcanti/Stilnovo but distinct)
+Chi è questa che vèn, ch’ogn’om la mira,
+che fa tremar di chiaritate l’âre?
+...
+Ell'è la bella Simonetta, ch'è morta.
+(Variante/Rielaborazione tematica)
+
+[Stanze, I, 1]
+Le gloriose pompe e ' fieri ludi
+della città che 'l freno allenta e stringe
+a' magnanimi Toschi, e i regni crudi
+di quella dea che 'l terzo ciel dipinge...
+
+[Monti, valli, antri, colli, onde e foreste]
+Monti, valli, antri, colli, onde e foreste,
+che 'l mio lamento udite, e 'l mio sospiro;
+e voi, ninfe, che 'n queste acque e 'n queste
+rive danzate al suon del mio deliro.
+
+[Udite, selve, mie dolci parole]
+Udite, selve, mie dolci parole,
+poi che la ninfa mia udir non vuole.
+La bella ninfa è sorda al mio lamento,
+e 'l suon di quello sperde il vano vento.
+
+[Ben venga maggio]
+Ben venga maggio
+e 'l gonfalon selvaggio!
+Ben venga primavera,
+che vuol l'uom s'innamori.
+
+[La brunettina mia]
+La brunettina mia
+con l'acqua si lava.
+La si lava il visino
+e 'l bianco petto,
+la pare un angioletto.
+
+[Biltà di donna]
+Biltà di donna e di saccente core...
+(Tema ricorrente)
+Ah, Simonetta, tu m'hai fatto un tale,
+Ch'io non so s'io mi viva o s'io mi muoia.
+
+[Canzone a ballo]
+Donne, io mi struggo, e non so di che cosa;
+io mi sento un non so che nel core.
+Sarà forse amore? Sarà forse amore?
+
+[Sotto l'ombra di un pino]
+Sotto l'ombra di un pino,
+cantava un pastorello;
+e 'l suo canto era sì dolce e bello,
+che facea innamorar ogni vicino.
+
+--- LUIGI TANSILLO ---
+[Poi che spiegat’ho l’ali al bel desio]
+Poi che spiegat’ho l’ali al bel desio,
+quanto più sotto ’l piè l’aria mi scorgo,
+più le veloci penne al vento porgo,
+e spreggio il mondo, e verso il ciel m’invio.
+
+[Amor m'impenna l'ale, e tanto in alto]
+Amor m'impenna l'ale, e tanto in alto
+le spiega, che men tosto l'aria fendo,
+ch'io non veggia di sotto il mondo, e 'l salto,
+che farò, se mi mancano.
+
+[Se quel dolor che mi distrugge il core]
+Se quel dolor che mi distrugge il core,
+si potesse mostrar di fuori a l'occhi,
+io credo che pietà ne' sassi e 'n rocchi
+metteria, non che 'n voi, donna, e in Amore.
+
+[Qual uom che tratto fuer di prigionia]
+Qual uom che tratto fuer di prigionia
+a la luce del sol, ch'avea smarrita,
+tutto si allegra, e par che torni in vita,
+e benedice la sua sorte pia.
+
+[Lasso, che mal accorto fui da prima]
+Lasso, che mal accorto fui da prima,
+quando mi misi in mar senza nocchiero;
+or che la tempesta è fiera e l'onda è in cima,
+veggo il periglio e tremo del pensiero.
+
+[Occhi, che 'l cor m'avete arso e consuma]
+Occhi, che 'l cor m'avete arso e consuma,
+e di lagrime amare il volto asperso;
+piangete omai, ché 'l tempo si riduma,
+e la speranza mia è ita a traverso.
+
+[Donna, se la mia vita è in vostra mano]
+Donna, se la mia vita è in vostra mano,
+e voi potete farmi vivo o morto;
+perché mi tenete in questo stato strano,
+privo di speme e d'ogni mio conforto?
+
+[Come il vago augelletto, che la state]
+Come il vago augelletto, che la state
+canta per la verdura e per l'ombroso
+bosco, e par che non abbia altro pensoso,
+che di goder la sua libertà grata.
+
+[O invidia, nemica di virtute]
+O invidia, nemica di virtute,
+che rodendo te stessa ti consumi;
+perché tenti oscurar i chiari lumi
+di chi cerca onor, gloria e salute?
+
+[Vetri son fatti i fiumi]
+Vetri son fatti i fiumi, ed i ruscelli
+serra il gelo di fuor, ma dentro scorre
+l'acqua, così il mio pianto; e non soccorre
+nulla al mio stato, o cieli empï ed felli.
+
+--- MICHELANGELO BUONARROTI ---
+[Non ha l’ottimo artista alcun concetto]
+Non ha l’ottimo artista alcun concetto
+ch’un marmo solo in sé non circonscriva
+col suo soverchio, e solo a quello arriva
+la man che ubbidisce all’intelletto.
+
+[Giunto è già ’l corso della vita mia]
+Giunto è già ’l corso della vita mia,
+con tempestoso mar, per fragil barca,
+al comun porto, ov’a render si varca
+conto e ragion d’ogni opra trista e pia.
+
+[O notte, o dolce tempo, benché nero]
+O notte, o dolce tempo, benché nero,
+con pace ogn’opra sempr’al fin assalta;
+ben vede e ben intende chi t’esalta,
+e chi t’onora ha l’intelletto intero.
+
+[Veggio nel tuo bel viso, signor mio]
+Veggio nel tuo bel viso, signor mio,
+quel che narrar mal puossi in questa vita:
+l'anima, della carne ancor vestita,
+con esso è già più volte ascesa a Dio.
+
+[Ben può talor col casto e buon desio]
+Ben può talor col casto e buon desio
+di parlar, di vedere e d’abbracciare
+la bellezza, che non si può lodare,
+sollevar l'alma al suo fattor, a Dio.
+
+[Se ’l mio rozzo martello i duri sassi]
+Se ’l mio rozzo martello i duri sassi
+forma d’uman aspetto or questo or quello,
+dal principio, che ’l guida e che ’l cancello,
+movendo, il fa, che ’n aria i colpi passi.
+
+[Carico d’anni e di peccati pieno]
+Carico d’anni e di peccati pieno,
+col tristo uso radicato e forte,
+vicin mi veggio a l’una e l’altra morte,
+e in parte ’l cor nutrisco di veleno.
+
+[Vorrei voler, Signor, quel ch’io non voglio]
+Vorrei voler, Signor, quel ch’io non voglio:
+tra ’l foco e ’l cor di ghiaccia un vel s’asconde
+che ’l foco ammorza, onde non corrisponde
+la penna all’opre, e fa bugiardo ’l foglio.
+
+[La forza d’un bel viso a che mi sprona?]
+La forza d’un bel viso a che mi sprona?
+C’altro non è ch’al mondo mi diletti:
+ascender vivo fra gli spirti eletti,
+per grazia tal, c’ogni altra par men buona.
+
+[Dimmi di grazia, Amor, se gli occhi miei]
+Dimmi di grazia, Amor, se gli occhi miei
+veggono ’l ver della beltà ch’aspiro,
+o s’io l’ho dentro allor che, dov’io miro,
+veggo scolpito el viso di colei.
+
+--- VERONICA GAMBARA ---
+[Or passata è la guerra, e la tempesta]
+Or passata è la guerra, e la tempesta,
+che mi facea sì trista e sbigottita;
+e tornata è la pace, e la mia vita
+è fatta lieta, tranquilla e modesta.
+
+[Scelse da tutta la schiera infinita]
+Scelse da tutta la schiera infinita
+de le bellezze, il Ciel, quella che sola
+potea far invidiosa ogni parola,
+e beata la mia, non ch'altra, vita.
+
+[Vincami omai la tua onrata voglia]
+Vincami omai la tua onrata voglia,
+Signor, di far di me quel che ti piace;
+ché 'l servir te è regno, e vera pace,
+e l'ubidir a te, vera e gran doglia.
+
+[Occhi, che la mia vita e la mia morte]
+Occhi, che la mia vita e la mia morte
+tenete in man; e potete farmi
+beata o misera, secondo che v'armi
+pietà o sdegno, o mia nemica sorte.
+
+[Quel nodo, che d'amor mi strinse pria]
+Quel nodo, che d'amor mi strinse pria,
+fu sì dolce, legame e sì soave,
+ch'io non sentii giammai peso men grave,
+né cosa alcuna che mi fosse ria.
+
+[Mentre che 'l saggio e 'l buon pastor ne laura]
+Mentre che 'l saggio e 'l buon pastor ne laura
+sacra de la Chiesa, e 'l gregge guarda;
+l'alma mia d'altro ben non si retarda,
+ma sol di lui si pasce e si ristaura.
+(Allusione politica/religiosa)
+
+[O de le donne altero e raro onore]
+O de le donne altero e raro onore,
+che con la vista vostra il mondo fate
+chiaro e felice; e con la vostra etate
+rendete al secol d'oro il suo valore.
+
+[Se 'l meritar o 'l non aver fallato]
+Se 'l meritar o 'l non aver fallato
+potesse in voi, Amor, trovar mercede;
+io non vivrei in sì misero stato,
+senza speranza e senza alcuna fede.
+
+[Prendi, Signor, l'omaggio e la mia fede]
+Prendi, Signor, l'omaggio e la mia fede,
+che ti prometto con sincero core;
+e fa che 'l mio servir ti sia in onore,
+e la mia alma da te grazia impetre.
+
+[Lieti fiori e felici e ben nate erbe]
+Lieti fiori e felici e ben nate erbe,
+che setè premiti da la bella mano;
+e voi, perle e rubini, che in vano
+cercate di pareggiar le sue superbe.

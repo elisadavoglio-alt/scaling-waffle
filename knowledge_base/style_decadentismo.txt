@@ -1,0 +1,667 @@
+Style: Decadentismo Italiano
+Period: 1880-1910
+Key Characteristic: "Il Piacere è il mio unico scopo" — estetismo estremo, panismo, fanciullino.
+
+### 🏛️ REFERENCE AUTHORS & WORKS
+- Gabriele D'Annunzio (Alcyone, Poema paradisiaco) - Il Vate, Superuomo, Panismo
+- Giovanni Pascoli (Myricae, Canti di Castelvecchio) - Il Fanciullino, simbolismo, natura
+- Antonio Fogazzaro (Valsolda) - Spiritualismo inquieto, natura nebbiosa
+- Arturo Graf (Medusa, Le Danaidi) - Pessimismo cosmico, morte, macabro colto
+- Vittorio Pica (Critico/Poeta) - Introduttore del Simbolismo francese
+- Domenico Gnoli (Odi tiberine) - Classicismo decadente, Roma sparita
+- Enrico Thovez (Il poema dell'adolescenza) - Crepuscolarismo ante-litteram, classicismo
+- Gian Pietro Lucini (Il libro delle figurazioni ideali) - Verso libero, simbolismo eversivo
+- Diego Angeli (Poesie) - Estetismo romano, preraffaellita
+- Enrico Panzacchi (Lyrica) - Carducciano ma con inquietudini decadenti
+
+### 🧬 STRUCTURAL PATTERNS (YAML)
+themes:
+  - Estetismo (l'arte per l'arte) e Panismo (fusione con la natura, D'Annunzio)
+  - Il Fanciullino (stupore, piccole cose cariche di mistero, Pascoli)
+  - Morte, malattia, languore, noia aristocratica
+  - Eros raffinato, perverso, o sublimato
+  - Spiritualismo tormentato (Fogazzaro)
+
+techniques:
+  - Musicalità estrema (fonosimbolismo)
+  - Sinestesia (suoni colorati, profumi sonori)
+  - Lessico prezioso (gemme, tessuti, flora esotica)
+  - Verso libero (Lucini, D'Annunzio) o forme chiuse raffinate (sonetto)
+
+vocabulary:
+  - Parole auliche/rare (glauco, ermo, tamerici, crespuscolo)
+  - Colori sfumati (azzurrognolo, violetto, grigio-perla)
+  - Profumi intensi (glicine, gelsomino, incenso)
+
+### 📜 ANTHOLOGY EXAMPLES (GROUND TRUTH)
+
+--- GABRIELE D'ANNUNZIO ---
+[La pioggia nel pineto]
+Taci. Su le soglie
+del bosco non odo
+parole che dici
+umane; ma odo
+parole più nuove
+che parlano gocciole e foglie
+lontane.
+Ascolta. Piove
+dalle nuvole sparse.
+
+[La sera fiesolana]
+Fresche le mie parole ne la sera
+ti sien come il fruscìo che fan le foglie
+del gelso ne la man di chi le coglie
+silenzioso e ancor s'attarda a l'opra lenta
+su l'alta scala che s'annera...
+
+[I pastori]
+Settembre, andiamo. È tempo di migrare.
+Ora in terra d'Abruzzi i miei pastori
+lascian gli stazzi e vanno verso il mare:
+scendono all'Adriatico selvaggio
+che verde è come i pascoli dei monti.
+
+[O falce di luna calante]
+O falce di luna calante
+che brilli su l'acque deserte,
+o falce d'argento, qual mèsse di sogni
+ondeggia al tuo mite chiarore qua giù!
+
+[L'onda]
+Ne la cala tranquilla
+scintilla,
+intocco di luce,
+l'onda che nasce...
+(Virtuosismo fonico)
+
+[Stabat Nuda Aestas]
+Primamente intravidi il suo piè stretto
+scorrere su per la radura,
+e poi la gamba, fino al ginocchio
+ignuda, e poi la coscia, e poi il ventre...
+
+[Consolazione]
+Non pianger più. Torna il diletto figlio
+alla tua casa. È stanco di mentire.
+Vieni, usciamo. Tempo è di rifiorire.
+Troppo sei bianca: il volto è quasi un giglio.
+
+[Meriggio]
+A mezzo il giorno
+sul Mare etrusco
+pallido verdicante
+come il dissepolto
+bronzo degli ipogei,
+grava la bonaccia.
+
+[Assisi]
+Assisi, nella tua pace è la mia guerra,
+nella tua luce la mia tenebra scava;
+o Francesco, che amasti la terra
+e il cielo, in te l'anima mia si lava.
+
+[Il Piacere (incipit versificato)]
+Bisogna fare della propria vita
+come si fa un'opera d'arte.
+Bisogna che la vita d'un uomo d'intelletto
+sia opera di lui. La superiorità vera
+è tutta qui.
+
+--- GIOVANNI PASCOLI ---
+[X Agosto]
+San Lorenzo, io lo so perché tanto
+di stelle per l'aria tranquilla
+arde e cade, perché si gran pianto
+nel concavo cielo sfavilla.
+
+[L'assiuolo]
+Dov'era la luna? ché il cielo
+notava in un'alba di perla,
+ed ergersi il mandorlo e il melo
+parevano a meglio vederla.
+Venivano soffi di lampi
+da un nero di nubi laggiù;
+veniva una voce dai campi:
+chiù...
+
+[Lavandare]
+Nel campo mezzo grigio e mezzo nero
+resta un aratro senza buoi, che pare
+dimenticato, tra il vapor leggero.
+E cadenzato dalla gora viene
+lo sciabordare delle lavandare.
+
+[Il gelsomino notturno]
+E s'aprono i fiori notturni,
+nell'ora che penso a' miei cari.
+Sono apparse in mezzo ai viburni
+le farfalle crepuscolari.
+
+[Nebbia]
+Nascondi le cose lontane,
+tu nebbia impalpabile e scialba,
+tu fumo che ancora rampolli,
+su l'alba,
+da' lampi notturni e da' crolli
+d'aeree frane!
+
+[Temporale]
+Un bubbolìo lontano...
+Rosseggia l'orizzonte,
+come affocato, a mare:
+nero di pece, a monte,
+stracci di nubi chiare:
+tra il nero un casolare:
+un'ala di gabbiano.
+
+[La mia sera]
+Il giorno fu pieno di lampi;
+ma ora verranno le stelle,
+le tacite stelle. Nei campi
+c'è un breve gre gre di ranelle.
+
+[Arano]
+Al campo, dove roggio nel filare
+qualche pampano brilla, e dalle fratte
+sembra la nebbia mattinal fumare,
+arano: a lente grida, uno le lenti
+vacche spinge...
+
+[Digitale purpurea]
+Rizzarsi il fiore quasi in un sospiro,
+guardarsi, e l'uno all'altro: "Tu? Tu?" "Mai!"
+"Io sì!" "Tu...cogli?" "Io!" "No!" "No!, ch'io moriro!"
+"Io sì, moriro! Ma vederlo io voglio!"
+
+[Alexandros]
+Giungemmo: è il Fine. O sacro Araldo, squilla!
+Non più! se questo è il Fine, non v'è nuovo
+che un sogno. E il sogno è l'ombra della vita.
+
+--- ANTONIO FOGAZZARO ---
+[A Sera]
+Suonano le campane a sera
+e l'anima mia si fa preghiera;
+preghiera per chi vive e chi muore,
+preghiera per il mio stanco cuore.
+
+[Valsolda]
+O cara valle, o mio rifugio amato,
+dove l'acqua del lago si confonde
+col cielo grigio, e il monte incantato
+veglia su le tue rive e le tue onde.
+
+[Novissima Verba]
+Quando sarò partito, non piangete;
+la morte è un viaggio verso la luce.
+Cercate Dio, che solo ci conduce
+alla pace che voi non conoscete.
+
+[La campana di San Mamette]
+Din don, din don, la voce del passato
+risuona nella valle silenziosa;
+e mi parla di un tempo che è andato,
+di una gioia che fu, e che riposa.
+
+[Mistero]
+Tutto è mistero intorno a noi, mistero
+la vita, la morte, il dolore;
+solo la fede è un raggio, un sentiero
+che ci guida nel buio con amore.
+
+[Notte sul lago]
+Dorme il lago, dormono le barche,
+dorme il vento tra le canne scure;
+solo la luna, pallida monarca,
+veglia su le nostre paure.
+
+[Anima]
+Anima mia, scintilla divina,
+prigioniera in un corpo mortale;
+apri le ali, vola, cammina
+verso l'eterno, verso l'immortale.
+
+[Il Poeta]
+Non cercate l'oro nelle mie rime,
+ma il palpito di un cuore inquieto;
+che cerca il vero nelle cime,
+e trova solo un canto segreto.
+
+[Autunno]
+Cadono le foglie, come i giorni,
+e l'albero resta nudo e solo;
+così la vita, che non ha ritorni,
+ci spoglia di tutto, in un sol volo.
+
+[Preghiera della sera]
+Signore, proteggi la mia casa,
+proteggi chi amo e chi mi ama;
+e fa che la mia anima, invasa
+dalla tua grazia, non tema la lama.
+
+--- ARTURO GRAF ---
+[Medusa]
+Io sono la Medusa, che impetra
+chi la guarda negli occhi profondi;
+io sono il dolore che non arretra,
+e che gela i cuori e i mondi.
+
+[Le Danaidi]
+Riempite l'orcio bucato, o donne,
+riempitelo di acqua e di pianto;
+è la fatica che mai non assonnè,
+il destino che vi sta accanto.
+
+[Pessimismo]
+Tutto è male, tutto è dolore.
+La vita è una malattia mortale.
+Non c'è speranza, non c'è amore,
+solo il nulla che ci assale.
+
+[La Città Morta]
+Vedo una città di marmo e d'oro,
+sepolta sotto la sabbia del tempo;
+nessuno vi abita, nessun tesoro,
+solo il vento che fischia il suo scempio.
+
+[Il Corvo]
+Un corvo nero, su un ramo secco,
+gracchia la sua nenia funebre;
+è il messaggero di un dio bieco,
+che ci attende nelle tenebre.
+
+[Inverno]
+Il gelo stringe la terra in una morsa,
+il sole è pallido e lontano;
+la vita sembra aver perso la corsa,
+e la morte ci tende la mano.
+
+[Solitudine]
+Sono solo, come un astro spento
+che vaga nel vuoto infinito;
+nessuno mi ascolta, nessuno mi sente,
+sono un grido che non è udito.
+
+[La Sfinge]
+Mi guarda con occhi di pietra,
+e mi chiede l'enigma della vita;
+io taccio, perché non ho la cetra,
+e la mia voce è ormai finita.
+
+[Tramonto di sangue]
+Il sole muore in un lago di sangue,
+e tinge le nuvole di orrore;
+così la mia speranza langue,
+e si spegne nel mio cuore.
+
+[Epilogo]
+Fine del viaggio. Scendo nella fossa.
+Non porto nulla, se non il mio male.
+La terra mi copre, fredda e grossa,
+e del mio nome non resta un segnale.
+
+--- VITTORIO PICA ---
+[All'Ideale]
+Tu sei la stella che guida il mio passo,
+l'arte sublime che non ha confini;
+io ti seguo, stanco e lasso,
+tra i rovi e i fiori dei miei giardini.
+
+[Verlaine]
+O povero Lelian, poeta maledetto,
+che hai cantato la musica e il pianto;
+il tuo verso è un fiore, un insetto,
+che ci punge e ci incanta col suo canto.
+
+[Mallarmè]
+Il Fauno danza nel pomeriggio d'oro,
+e sogna ninfe bianche e fuggenti;
+la tua parola è un raro tesoro,
+che svela mondi agli occhi attenti.
+
+[Simbolismo]
+Non dire tutto, lascia indovinare.
+La poesia è un velo, un mistero;
+un cenno, un profumo, un sognare,
+che ci porta lontano dal vero.
+
+[Notte a Parigi]
+Luci a gas, nebbia, assenzio.
+Parigi dorme, Parigi vive;
+città del vizio e del silenzio,
+dove l'arte scrive e rivive.
+
+[Spleen]
+Noia grigia, noia sottile,
+che penetra nell'ossa e nel cuore;
+come una pioggia d'aprile,
+che bagna e non porta fiore.
+
+[L'Arte per l'Arte]
+L'arte non serve a nulla, è vero;
+ma è l'unica cosa che conta.
+È il fiore inutile sul sentiero,
+che la bellezza ci racconta.
+
+[Estetismo]
+Vivere di bellezza, morire di bellezza.
+Questo è il credo del poeta nuovo.
+Cercare in ogni cosa l'ebbrezza
+di un attimo che non ritrovo.
+
+[A un giovane poeta]
+Non imitare, crea il tuo mondo.
+Sii te stesso, anche se fa male.
+Scendi nel tuo abisso profondo,
+e porta alla luce il tuo graale.
+
+[Commiato]
+Lascio la penna, la carta, l'inchiostro.
+Il mio compito è finito, amici.
+Ho aperto una porta, un chiostro,
+a voi entrare e farvi felici.
+
+--- DOMENICO GNOLI ---
+[Odi tiberine]
+Scorre il Tevere, biondo e lento,
+sotto i ponti di Roma eterna;
+e porta con sé il mio lamento,
+e la memoria che ci governa.
+
+[Roma sparita]
+Dov'è la Roma dei Papi e dei re?
+Dov'è la grandezza, la gloria?
+Ora vedo palazzi, tram e tè,
+e una folla senza storia.
+
+[Al Campidoglio]
+Salgo la scala che porta al colle,
+dove un tempo regnava Giove;
+ora ci sono turisti e folle,
+e statue mute che non si muòve.
+
+[Villa Borghese]
+Pini, cipressi, fontane e statue.
+Il parco è un'isola di pace;
+qui l'anima si rifugia e tace,
+e il caos della città giace.
+
+[Il tramonto di Roma]
+Il sole cala dietro San Pietro,
+e tinge la cupola di fuoco;
+è la fine di un giorno, o il metro
+di un'epoca che dura poco?
+
+[La via Appia]
+Tombe antiche, cipressi neri.
+La via della morte e della gloria.
+Qui passavano i legionari fieri,
+ora passa solo la memoria.
+
+[Amore romano]
+T'amo come si ama una rovina,
+bella e triste, nobile e fiera;
+sei la mia Roma, la mia regina,
+la mia luce e la mia preghiera.
+
+[Il Papa]
+Prigioniero in Vaticano,
+il vecchio pontefice prega;
+il mondo cambia, va lontano,
+ma la sua fede non si piega.
+
+[Classicismo]
+Torno agli antichi, ai greci, ai latini.
+Loro sapevano la bellezza vera;
+forme pure, armonie, confini,
+non questa arte malata e nera.
+
+[Epigrafe]
+Qui riposa un poeta romano,
+che amò la sua città sopra ogni cosa;
+la sua voce fu un canto piano,
+che ora tace e si riposa.
+
+--- ENRICO THOVEZ ---
+[Il poema dell'adolescenza]
+Ero un fanciullo, e sognavo l'amore.
+Sognavo donne bionde e lontane.
+Il cuore mi batteva, d'onore
+e di speranze, tutte vane.
+
+[Giardini torinesi]
+Il Valentino, con i suoi viali,
+nebbiosi e tristi in autunno;
+qui passeggiavo, senza ali,
+cercando un bacio, un alunno.
+
+[Malinconia]
+La malinconia è una donna velata,
+che mi siede accanto e mi parla;
+ha la voce dolce e malata,
+e mi culla come una tarla.
+
+[La fontana]
+Zampilla l'acqua, canta e ride.
+Ma io vedo solo le lacrime.
+La fontana piange, e mi divide
+dal mondo e dalle sue rime.
+
+[Spleen torinese]
+Torino è grigia, quadrata, seria.
+È la città della noia perfetta.
+Qui la vita è una materia
+che si consuma in fretta.
+
+[Amore platonico]
+L'amavo da lontano, senza dirlo.
+Lei passava, bella e altera.
+Io mi accontentavo di vederlo
+il suo sorriso, la sua chimera.
+
+[Il Poeta critico]
+Analizzo i versi, smonto le rime.
+Cerco l'errore, la nota stonata.
+Ma forse uccido il fiore, le cime
+della poesia, che va amata.
+
+[Tramonto sulle Alpi]
+Le montagne si tingono di rosa.
+Il Monviso è un re incoronato.
+La natura è bella e grandiosa,
+e l'uomo è piccolo e malato.
+
+[Solitudine]
+Meglio soli che male accompagnati.
+Meglio i libri che gli sciocchi amici.
+Nel mio studio, tra i fogli usati,
+trovo i miei mondi, i miei uffici.
+
+[Fine della giovinezza]
+I capelli bianchi, le rughe, il passo
+lento e stanco. Sono vecchio.
+L'adolescenza è un ricordo, un sasso
+gettato in fondo allo specchio.
+
+--- GIAN PIETRO LUCINI ---
+[Il libro delle figurazioni ideali]
+Rompo il verso, spezzo la rima.
+Voglio la libertà, l'anarchia.
+La poesia non è una stima,
+è un urlo, una follia.
+
+[Revolverate]
+Sparso parole come proiettili.
+Contro i borghesi, contro i preti.
+La mia penna è un'arma, i miei stili
+sono lame, sono arieti.
+
+[Elogio dell'Anarchia]
+Né Dio né padrone. Solo l'Io.
+L'individuo libero e forte.
+Questo è il mio credo, il mio dio,
+la mia vita e la mia morte.
+
+[Simbolismo eversivo]
+Il simbolo non è un fiore, è una bomba.
+Nasconde una verità che esplode.
+Chi sa leggere, scava la tomba
+al vecchio mondo che ci rode.
+
+[La prostituta]
+Santa prostituta, che vendi il corpo
+per sfamare l'anima tua;
+tu sei più pura del vescovo orpo,
+che vende Dio per la sua.
+
+[Milano moderna]
+Città di traffici, di soldi, di fumo.
+Città che corre verso il nulla.
+Io ti canto col mio profumo
+di zolfo e di mirra, sulla culla.
+
+[Anti-D'Annunzio]
+Vate di cartapesta, pavone gonfio.
+La tua retorica mi fa schifo.
+Io cerco il vero, non il trionfo,
+cerco l'uomo, non il glifo.
+
+[Guerra]
+La guerra è un macello inutile.
+Carne da cannone per i potenti.
+Io maledico la gloria futilie,
+e piango i morti innocenti.
+
+[Verso Libero]
+Nessuna gabbia, nessuna catena.
+Il pensiero scorre come un fiume.
+Il verso libero è la mia pena,
+e la mia gioia, e il mio lume.
+
+[Morte dell'Arte]
+L'arte è morta? No, si trasforma.
+Diventa azione, diventa vita.
+Il poeta non dorma,
+ma combatta, con o senza dita.
+
+--- DIEGO ANGELI ---
+[Roma decadente]
+Roma bizantina, Roma papale.
+Città di incensi e di peccati.
+Il tuo fascino è un male
+che ci tiene incatenati.
+
+[Villa d'Este]
+Fontane, giochi d'acqua, cipressi.
+Un labirinto di verde e di sogni.
+Qui venivano i papi, depressi,
+a cercare pace e bisogni.
+
+[Preraffaellismo]
+Donne dai lunghi colli, dai capelli
+rossi e sciolti, come fiori.
+Angeli tristi, santi ribelli,
+in un mondo di strani colori.
+
+[La campana]
+Suona a morto la campana d'oro.
+Qualcuno muore, qualcuno nasce.
+La vita è un breve ristoro,
+tra due notti che ci fasce.
+
+[Profumo]
+Profumo di rose appassite,
+di vecchi libri, di incenso.
+È l'odore delle vite
+che finiscono nel senso.
+
+[Eleganza]
+Il guanto bianco, il bastone, il fiore
+all'occhiello. L'eleganza è tutto.
+Copre il vuoto, copre il dolore,
+come una maschera sul lutto.
+
+[Il Tevere a sera]
+Il fiume riflette le luci tremolanti.
+Sembra un serpente d'oro e di nero.
+Porta via i nostri rimpianti,
+verso il mare, verso il vero.
+
+[Statue]
+Statue di marmo, fredde e perfette.
+Vi invidio la vostra immobilità.
+Voi non soffrite, non avete fretta,
+vivete nell'eternità.
+
+[Dandy]
+Sono un dandy, un esteta, un snob.
+Disprezzo la folla, amo il bello.
+La mia vita è un'opera d'arte, un lob,
+giocato con stile e coltello.
+
+[Fine secolo]
+Siamo alla fine di un secolo, di un mondo.
+Tutto crolla, tutto muore.
+Noi balliamo sull'orlo del fondo,
+aspettando l'ultimo bagliore.
+
+--- ENRICO PANZACCHI ---
+[Lyrica]
+Canto l'amore, canto la bellezza.
+Canto la donna, musa e sirena.
+La mia voce ha una dolcezza
+che nasconde una lunga pena.
+
+[Pre-decadentismo]
+Sento che qualcosa sta cambiando.
+L'aria è pesante, il cielo è scuro.
+I vecchi idoli stanno crollando,
+e il nuovo è incerto e impuro.
+
+[Bologna]
+Città dotta, città grassa, città rossa.
+Città di portici e di torri.
+Ti amo, anche se sei grossa,
+e se il tempo in te non scorri.
+
+[La diva]
+Ella canta, e il teatro trema.
+È una dea, una maga, una stella.
+Tutti l'amano, è il tema
+di ogni sogno, di ogni cella.
+
+[Notturno]
+La notte scende, dolce e misteriosa.
+Le stelle brillano come diamanti.
+L'anima mia si fa pensosa,
+e vola verso lidi distanti.
+
+[Malinconia senile]
+Sono vecchio, i ricordi mi assalgono.
+Visi amati, voci perdute.
+Le lacrime agli occhi mi salgono,
+per le gioie che son scadute.
+
+[Musica]
+La musica è la lingua dell'anima.
+Dice ciò che la parola non sa.
+Ci porta in alto, ci disanima,
+ci dona l'immensità.
+
+[Amore tardivo]
+Amare a vent'anni è facile e bello.
+Amare a sessanta è un dolore.
+È un fuoco che brucia il cervello,
+e che strazia il povero cuore.
+
+[Il bosco]
+Entro nel bosco sacro e silente.
+Gli alberi mi parlano, mi dicono:
+"Tutto passa, tutto è niente,
+solo la natura è un'icona".
+
+[Commiato finale]
+Addio, mondo. Addio, vita.
+Ho cantato, ho amato, ho vissuto.
+La mia storia è ormai finita,
+e il mio canto è divenuto muto.

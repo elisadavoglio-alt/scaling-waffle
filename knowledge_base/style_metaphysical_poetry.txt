@@ -1,0 +1,560 @@
+Style: Metaphysical Poetry
+Period: 17th Century (approx. 1600-1690)
+Key Characteristic: Wit, conceit, intellectual argumentation, blending emotion with logic. "The most heterogeneous ideas are yoked by violence together" (Johnson).
+
+### 🏛️ REFERENCE AUTHORS & WORKS
+- John Donne (Songs and Sonnets, Holy Sonnets) - The master of conceit, sacred/profane mix
+- George Herbert (The Temple) - Devotional, structural complexity, concrete poetry
+- Andrew Marvell (To His Coy Mistress, The Garden) - Political, philosophical, carpe diem
+- Henry Vaughan (Silex Scintillans) - Mystical, nature-focused, Neoplatonic
+- Richard Crashaw (Steps to the Temple) - Baroque, emotional, Catholic fervor
+- Thomas Traherne (Centuries of Meditations) - Childlike wonder, infinite soul
+- Abraham Cowley (The Mistress) - Pindaric odes, scientific imagery
+- Henry King (The Exequy) - Elegiac, personal grief
+- Lord Herbert of Cherbury (Ode upon a Question...) - Philosophical, deist
+- John Cleveland (Poems) - Political satire, extreme wit (mannerist)
+
+### 🧬 STRUCTURAL PATTERNS (YAML)
+ideology:
+  - Correspondences between macrocosm (universe) and microcosm (man)
+  - Argumentative structure (poem as a proof/logic problem)
+  - Rejection of smooth Elizabethan lyricism for rough, colloquial speech
+  
+techniques:
+  - Metaphysical Conceit (extended, unlikely metaphor)
+  - Paradox and Oxymoron
+  - Dramatic Opening ("Busy old fool, unruly Sun!")
+  - Scientific/Medical/Geographical imagery
+  - Irregular meter to mimic speech
+
+vocabulary:
+  - Intellectual, geometric (sphere, compass, map)
+  - Scholastic (soul, essence, atom)
+  - Paradoxical (death/life, pleasure/pain)
+
+### 📜 ANTHOLOGY EXAMPLES (GROUND TRUTH)
+
+--- JOHN DONNE ---
+[The Flea]
+Mark but this flea, and mark in this,
+How little that which thou deniest me is;
+It sucked me first, and now sucks thee,
+And in this flea our two bloods mingled be;
+Thou know’st that this cannot be said
+A sin, nor shame, nor loss of maidenhead,
+    Yet this enjoys before it woo,
+    And pampered swells with one blood made of two,
+    And this, alas, is more than we would do.
+
+[A Valediction: Forbidding Mourning]
+If they be two, they are two so
+As stiff twin compasses are two;
+Thy soul, the fixed foot, makes no show
+To move, but doth, if the other do.
+And though it in the center sit,
+Yet when the other far doth roam,
+It leans and hearkens after it,
+And grows erect, as that comes home.
+
+[The Sun Rising]
+Busy old fool, unruly sun,
+Why dost thou thus,
+Through windows, and through curtains call on us?
+Must to thy motions lovers' seasons run?
+Saucy pedantic wretch, go chide
+Late school boys and sour prentices...
+She's all states, and all princes, I,
+Nothing else is.
+
+[Holy Sonnet 10: Death, be not proud]
+Death, be not proud, though some have called thee
+Mighty and dreadful, for thou art not so;
+For those whom thou think'st thou dost overthrow
+Die not, poor Death, nor yet canst thou kill me.
+One short sleep past, we wake eternally
+And death shall be no more; Death, thou shalt die.
+
+[Holy Sonnet 14: Batter my heart]
+Batter my heart, three-person'd God, for you
+As yet but knock, breathe, shine, and seek to mend;
+That I may rise and stand, o'erthrow me, and bend
+Your force to break, blow, burn, and make me new.
+Reason, your viceroy in me, me should defend,
+But is captiv'd, and proves weak or untrue.
+
+[The Canonization]
+For God's sake hold your tongue, and let me love,
+Or chide my palsy, or my gout,
+My five gray hairs, or ruined fortune flout,
+With wealth your state, your mind with arts improve...
+The phoenix riddle hath more wit
+By us, we two being one, are it.
+
+[The Good-Morrow]
+I wonder, by my troth, what thou and I
+Did, till we loved? Were we not weaned till then?
+But sucked on country pleasures, childishly?
+Or snorted we in the seven sleepers’ den?
+
+[Song: Go and catch a falling star]
+Go and catch a falling star,
+Get with child a mandrake root,
+Tell me where all past years are,
+Or who cleft the devil's foot.
+Teach me to hear mermaids singing,
+Or to keep off envy's stinging.
+
+[The Relic]
+When my grave is broke up again
+Some second guest to entertain...
+And he that digs it, spies
+A bracelet of bright hair about the bone,
+Will he not let me alone?
+
+[Hymn to God the Father]
+Wilt thou forgive that sin where I begun,
+Which was my sin, though it were done before?
+Wilt thou forgive that sin, through which I run,
+And do run still, though still I do deplore?
+When thou hast done, thou hast not done,
+For I have more.
+
+--- GEORGE HERBERT ---
+[The Altar]
+A broken ALTAR, Lord, thy servant rears,
+Made of a heart and cemented with tears;
+Whose parts are as thy hand did frame;
+No workman's tool hath touch'd the same.
+A HEART alone
+Is such a stone,
+As nothing but
+Thy pow'r doth cut.
+
+[Easter Wings]
+Lord, who createdst man in wealth and store,
+Though foolishly he lost the same,
+Decaying more and more,
+Till he became
+Most poor:
+With thee
+O let me rise
+As larks, harmoniously,
+And sing this day thy victories:
+Then shall the fall further the flight in me.
+
+[The Pulley]
+When God at first made man,
+Having a glass of blessings standing by,
+"Let us," said he, "pour on him all we can.
+Let the world's riches, which dispersed lie,
+Contract into a span."
+Rest in the bottom lay.
+"For if I should," said he,
+"Bestow this jewel also on my creature,
+He would adore my gifts instead of me."
+
+[Love (III)]
+Love bade me welcome. Yet my soul drew back
+Guilty of dust and sin.
+But quick-eyed Love, observing me grow slack
+From my first entrance in,
+Drew nearer to me, sweetly questioning,
+If I lacked anything.
+"You must sit down," says Love, "and taste my meat."
+So I did sit and eat.
+
+[The Collar]
+I struck the board, and cried, "No more;
+I will abroad!
+What? shall I ever sigh and pine?
+My lines and life are free; free as the road,
+Loose as the wind, as large as store."
+But as I rav'd and grew more fierce and wild
+At every word,
+Me thought I heard one calling, Child!
+And I replied, My Lord.
+
+[Virtue]
+Sweet day, so cool, so calm, so bright,
+The bridal of the earth and sky;
+The dew shall weep thy fall to-night,
+For thou must die.
+Only a sweet and virtuous soul,
+Like season'd timber, never gives.
+
+[The Flower]
+How fresh, O Lord, how sweet and clean
+Are thy returns! ev'n as the flowers in spring;
+To which, besides their own demean,
+The late-past frosts tributes of pleasure bring.
+Grief melts away
+Like snow in May,
+As if there were no such cold thing.
+
+[Jordan (I)]
+Who says that fictions only and false hair
+Become a verse? Is there in truth no beauty?
+Is all good structure in a winding stair?
+May no lines pass, except they do their duty
+Not to a true, but painted chair?
+
+[Prayer (I)]
+Prayer the church's banquet, angel's age,
+God's breath in man returning to his birth,
+The soul in paraphrase, heart in pilgrimage,
+The Christian plummet sounding heaven and earth.
+
+[Life]
+I made a posy, while the day ran by:
+Here will I smell my remnant out, and tie
+My life within this band.
+But Time did beckon to the flowers, and they
+By noon most cunningly did steal away,
+And wither'd in my hand.
+
+--- ANDREW MARVELL ---
+[To His Coy Mistress]
+Had we but world enough, and time,
+This coyness, lady, were no crime.
+We would sit down and think which way
+To walk, and pass our long love's day...
+But at my back I always hear
+Time's winged chariot hurrying near;
+And yonder all before us lie
+Deserts of vast eternity.
+The grave's a fine and private place,
+But none I think do there embrace.
+
+[The Garden]
+How vainly men themselves amaze
+To win the palm, the oak, or bays,
+And their uncessant labours see
+Crowned from some single herb or tree...
+The soul that can
+Cast the body's vest,
+And here, though like the bird it sits and sings,
+Then whets, and combs its silver wings.
+
+[A Dialogue Between the Soul and Body]
+SOUL: O who shall, from this dungeon, raise
+A soul enslav’d so many ways?
+With bolts of bones, that fetter’d stands
+In feet; and manacled in hands.
+BODY: O who shall me deliver whole
+From bonds of this tyrannic soul?
+Which, stretch’d upright, impales me so,
+That mine own precipice I go.
+
+[The Definition of Love]
+My love is of a birth as rare
+As 'tis for object strange and high:
+It was begotten by despair
+Upon impossibility.
+Magnanimous despair alone
+Could show me so divine a thing.
+
+[The Mower Against Gardens]
+Luxurious man, to bring his vice in use,
+Did after him the world seduce...
+And flowers themselves, were taught to paint.
+The tulip, white, did for complexion seek;
+And learned to interline its cheek.
+
+[An Horatian Ode upon Cromwell's Return from Ireland]
+The forward youth that would appear
+Must now forsake his muses dear,
+Nor in the shadows sing
+His numbers languishing.
+'Tis time to leave the books in dust,
+And oil th' unused armour's rust.
+
+[Bermudas]
+Where the remote Bermudas ride
+In the ocean's bosom unespied,
+From a small boat, that rowed along,
+The listening winds received this song.
+
+[On a Drop of Dew]
+See how the orient dew,
+Shed from the bosom of the morn
+Into the blowing roses,
+Yet careless of its mansion new.
+
+[Eyes and Tears]
+How wisely Nature did decree,
+With the same eyes to weep and see!
+That, having viewed the object vain,
+We might be ready to complain.
+
+[The Coronet]
+When for the thorns with which I long, too long,
+With many a piercing wound,
+My Savior’s head have crowned,
+I seek with garlands to redress that wrong.
+
+--- HENRY VAUGHAN ---
+[The World]
+I saw Eternity the other night,
+Like a great ring of pure and endless light,
+All calm, as it was bright;
+And round beneath it, Time in hours, days, years,
+Driv'n by the spheres
+Like a vast shadow mov'd.
+
+[The Retreat]
+Happy those early days! when I
+Shin'd in my Angel-infancy.
+Before I understood this place
+Appointed for my second race,
+Or taught my soul to fancy ought
+But a white, Celestial thought.
+
+[They are all gone into the world of light]
+They are all gone into the world of light!
+And I alone sit lingering here;
+Their very memory is fair and bright,
+And my sad thoughts doth clear.
+
+[Peace]
+My Soul, there is a country
+Far beyond the stars,
+Where stands a winged sentry
+All skillful in the wars.
+
+[The Waterfall]
+With what deep murmurs through time's silent stealth
+Doth thy transparent, cool and wat'ry wealth
+Here flowing fall,
+And chide, and call...
+
+--- RICHARD CRASHAW ---
+[The Weeper]
+Hail, sister springs!
+Parents of silver-footed rills!
+Ever bubbling things!
+Thawing crystal! snowy hills!
+Tears, where the very stars...
+
+[A Hymn to the Name and Honor of the Admirable Saint Teresa]
+Love, thou art absolute sole lord
+Of life and death. To prove the word,
+We'll now appeal to none of all
+Those thy old soldiers, great and tall.
+
+[Wishes to His Supposed Mistress]
+Whoe'er she be,
+That not impossible She
+That shall command my heart and me;
+Where'er she lie,
+Lock'd up from mortal eye,
+In shady leaves of destiny.
+
+[On the Water of Our Lord's Baptism (Latin Trans.)]
+The conscious water saw its God and blushed.
+(Nympha pudica Deum vidit, et erubuit).
+
+[The Flaming Heart]
+O Heart! the equal poise of love's both parts
+Big alike with wound and darts.
+Live in these conquering leaves; live all the same;
+And walk through all tongues one triumphant flame.
+
+--- THOMAS TRAHERNE ---
+[Wonder]
+How like an Angel came I down!
+How bright are all things here!
+When first among His works I did appear
+O how their Glory me did crown!
+The world resembled his Eternity,
+In which my soul did walk;
+And every thing that I did see
+Did with me talk.
+
+[Shadows in the Water]
+In unexperienc'd Infancy
+Many a sweet Mistake
+Doth make the Holy Mother's Eye
+Weeping for Pity's sake.
+
+[The Salutation]
+These little Limbs,
+These Eyes and Hands which here I find,
+This panting Heart wherewith my Life begins;
+Where have ye been? Behind
+What Curtain were ye from me hid so long!
+
+[Eden]
+A learned and a Happy Ignorance
+Divided me...
+I knew not that there was a Serpent's Sting,
+Whose Poison shed
+On Men, did overspread
+The World.
+
+[Consummation]
+The Thoughts of Men appear
+Freely to move within a Sphere
+Of endless Reach; and naturally grow
+Infinite in their Flow.
+
+--- ABRAHAM COWLEY ---
+[The Wish]
+Well then! I now do plainly see
+This busy world and I shall ne'er agree.
+The very honey of all earthly joy
+Does of all meats the soonest cloy.
+
+[The Grasshopper]
+Happy Insect! what can be
+In happiness compared to thee?
+Fed with nourishment divine,
+The dewy morning's gentle wine!
+
+[The Swap]
+If mine eyes do e'er declare
+They've seen a second thing that's fair,
+Or ears, that they have music found
+Besides thy voice, in any sound...
+
+[Beauty]
+Beauty, thou wild fantastic ape,
+Who dost in every country change thy shape!
+Here black, there brown, here tawny, and there white;
+Thou flatterer which compliest with every sight!
+
+[Against Hope]
+Hope, whose weak being ruined is,
+Alike, if it succeed, and if it miss;
+Whom good or ill does equally confound,
+And both the horns of Fate's dilemma wound.
+
+--- HENRY KING ---
+[The Exequy]
+Accept, thou shrine of my dead saint,
+Instead of dirges, this complaint;
+And for sweet flowers to crown thy hearse,
+Receive a strew of weeping verse
+From thy grieved friend, whom thou might'st see
+Quite melted into tears for thee.
+Sleep on, my Love, in thy cold bed,
+Never to be disquieted!
+
+[Sic Vita]
+Like to the falling of a star,
+Or as the flights of eagles are,
+Or like the fresh spring's gaudy hue,
+Or silver drops of morning dew...
+So is my life. The wind is blown,
+The star is fallen, the eagle flown.
+
+[My Midnight Meditation]
+Ill-busied man! why should’st thou take such care
+To lengthen out thy life’s short calendar?
+
+[The Legacy]
+My dearest Love! since thou wilt go,
+And leave me here behind thee,
+For love or pity let me know
+The place where I may find thee.
+
+[On Two Children, Dying of One Disease]
+Brought forth in sorrow, and bred up in care,
+Two tender children here laid down are:
+One die, the other could not live.
+
+--- LORD HERBERT OF CHERBURY ---
+[Ode Upon a Question Moved, Whether Love Should Continue for Ever?]
+Having interr'd her Infant-birth,
+The wat'ry ground that late did mourn,
+Was strew'd with flow'rs for the return
+Of the wish'd Bridegroom of the earth.
+"Must then," said she, "our love return
+To dust, as must its object do?"
+
+[Sonnet of Black Beauty]
+Black beauty, which above that common light,
+Whose power can no most blackest clouds embrace,
+Preferr'st thy dark and hidden inward grace.
+
+[Kissing]
+Come hither Womankind and all their worth,
+Give me thy kisses as I call them forth.
+
+[Elegy over a Tomb]
+Must I then see, alas! eternal night
+Sitting upon those fairest eyes,
+And closing all those beams, which once did rise
+So radiant and bright,
+That light and heat in them to us did prove
+Knowledge and Love?
+
+[To His Watch, When He Could Not Sleep]
+Uncessant minutes, whilst you move you tell
+The time that tells our life, which though it run
+Never so fast or far, your new begun
+Short steps shall overtake.
+
+--- JOHN CLEVELAND ---
+[The Rebel Scot]
+Come, keen iambics, with your badger's feet
+And badger-like bite till the teeth do meet.
+Help, ye tart satirists, to imp my rage
+With all the scorpions that should whip this age.
+
+[Mark Antony]
+When as the nightingale chanted her vespers,
+And the wild forester couched on the ground,
+Venus invited me in the evening whispers
+Unto a fragrant field with roses crowned.
+
+[Fuscara, or The Bee Errant]
+Nature’s confectioner, the bee,
+(Whose suckets are moist alchimy,
+The still of his refining mold
+Minting the garden into gold.)
+
+[To the State of Love]
+I saw a vision yesternight
+Enough to startle all but right.
+Political love, it seems, is blind,
+Wait, or the state will change its mind.
+
+[On the Memory of Mr. Edward King]
+I like not tears in tune, nor do I prize
+His artificial grief, who scans his eyes.
+Mine weep down pious beads, but lovers' verses
+Are like the hired mourners at hearses.
+
+--- THOMAS CAREW ---
+[A Rapture]
+I will enjoy thee now, my Celia, come
+And fly with me to Love's Elysium.
+The giant, Honour, that keeps cowards out,
+Is but a masquer, and the formal rout
+Of ceremonious rites.
+
+[The Spring]
+Now that the winter's gone, the earth hath lost
+Her snow-white robes, and now no more the frost
+Candies the grass, or casts an icy cream
+Upon the silver lake or crystal stream.
+
+[Ask me no more where Jove bestows]
+Ask me no more where Jove bestows,
+When June is past, the fading rose;
+For in your beauty's orient deep
+These flowers, as in their causes, sleep.
+
+[Mediocrity in Love Rejected]
+Give me more love, or more disdain;
+The torrid or the frozen zone
+Bring equal ease unto my pain,
+The temperate affords me none.
+
+[To My Inconstant Mistress]
+When thou, poor excommunicate
+From all the joys of love, shalt see
+The full reward and glorious fate
+Which my strong faith shall purchase me,
+Then shalt thou curse the fair and cruel maid
+That would’ve yielded, but was betrayed.

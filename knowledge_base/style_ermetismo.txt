@@ -1,0 +1,743 @@
+Style: Ermetismo
+Period: 1930-1945
+Key Characteristic: "M'illumino d'immenso" — la parola nuda, l'analogia pura, il silenzio.
+
+### 🏛️ REFERENCE AUTHORS & WORKS
+- Giuseppe Ungaretti (L'Allegria, Sentimento del tempo) - Il maestro, parola scavata, essenziale
+- Eugenio Montale (Ossi di seppia, Le occasioni) - Il "male di vivere", il correlativo oggettivo (ponte con l'Ermetismo, ma oltre)
+- Salvatore Quasimodo (Ed è subito sera) - Lirico puro, Sicilia mitica
+- Mario Luzi (Avvento notturno) - Ermetismo fiorentino, spirituale
+- Alfonso Gatto (Isola) - Musicalità, colore, sud
+- Leonardo Sinisgalli (Vidi le Muse) - Poeta-ingegnere, geometrico
+- Vittorio Sereni (Frontiera) - Linea lombarda, post-ermetico
+- Sandro Penna (Poesie) - Grazia assoluta, eros, "strana gioia di vivere"
+- Attilio Bertolucci (La camera da letto) - Lirico, memoria affettuosa
+- Giorgio Caproni (Il congedo del viaggiatore cerimonioso) - Ermetico tardo, Genova
+
+### 🧬 STRUCTURAL PATTERNS (YAML)
+core:
+  - Analogia ermetica (salto logico, "A è B" senza "come")
+  - Parola come illuminazione (il verso di una sola parola)
+  - Massima concentrazione (poesia "pura")
+  
+techniques:
+  - Ellissi (omettere verbi e connettivi)
+  - Verso breve/brevissimo (anche monosillabico)
+  - Spazio bianco come respiro e silenzio
+  - NO aggettivazione ornamentale (solo essenziale)
+  
+vocabulary:
+  - Parole "nude", arcane, assolute
+  - Sostantivi concreti che diventano astratti
+  - Articoli spesso omessi per universalizzare
+
+### 📜 ANTHOLOGY EXAMPLES (GROUND TRUTH)
+
+--- GIUSEPPE UNGARETTI ---
+[Mattina]
+M'illumino
+d'immenso.
+
+[Soldati]
+Si sta come
+d'autunno
+sugli alberi
+le foglie.
+
+[San Martino del Carso]
+Di queste case
+non è rimasto
+che qualche
+brandello di muro
+Di tanti
+che mi corrispondevano
+non è rimasto
+neppure tanto
+Ma nel cuore
+nessuna croce manca
+È il mio cuore
+il paese più straziato.
+
+[Veglia]
+Un'intera nottata
+buttato vicino
+a un compagno
+massacrato
+con la sua bocca
+digrignata
+volta al plenilunio
+ho scritto
+lettere piene d'amore
+Non sono mai stato
+tanto
+attaccato alla vita.
+
+[Fratelli]
+Di che reggimento siete
+fratelli?
+Parola tremante
+nella notte
+Foglia appena nata
+Nell'aria spasimante
+involontaria rivolta
+dell'uomo presente alla sua
+fragilità
+Fratelli.
+
+[Sono una creatura]
+Come questa pietra
+del S. Michele
+così fredda
+così dura
+così prosciugata
+così refrattaria
+così totalmente
+disanimata
+Come questa pietra
+è il mio pianto
+che non si vede
+La morte
+si sconta
+vivendo.
+
+[I fiumi]
+Mi tengo a quest'albero mutilato
+abbandonato in questa dolina
+che ha il languore
+di un circo
+prima o dopo lo spettacolo
+e guardo
+il passaggio quieto
+delle nuvole sulla luna.
+
+[Natale]
+Non ho voglia
+di tuffarmi
+in un gomitolo
+di strade
+Ho tanta
+stanchezza
+sulle spalle
+Lasciatemi così
+come una
+cosa
+posata
+in un
+angolo
+e dimenticata.
+
+[Eterno]
+Tra un fiore colto e l'altro donato
+l'inesprimibile nulla.
+
+[Stasera]
+Balaustrata di brezza
+per appoggiare stasera
+la mia malinconia.
+
+--- EUGENIO MONTALE ---
+[Meriggiare pallido e assorto]
+Meriggiare pallido e assorto
+presso un rovente muro d'orto,
+ascoltare tra i pruni e gli sterpi
+schiocchi di merli, frusci di serpi...
+E andando nel sole che abbaglia
+sentire con triste meraviglia
+com'è tutta la vita e il suo travaglio
+in questo seguitare una muraglia
+che ha in cima cocci aguzzi di bottiglia.
+
+[Non chiederci la parola]
+Non chiederci la parola che squadri da ogni lato
+l'animo nostro informe, e a lettere di fuoco
+lo dichiari e risplenda come un croco
+perduto in mezzo a un polveroso prato.
+...
+Codesto solo oggi possiamo dirti,
+ciò che non siamo, ciò che non vogliamo.
+
+[Spesso il male di vivere ho incontrato]
+Spesso il male di vivere ho incontrato:
+era il rivo strozzato che gorgoglia,
+era l'incartocciarsi della foglia
+riarsa, era il cavallo stramazzato.
+
+[I limoni]
+Ascoltami, i poeti laureati
+si muovono soltanto fra le piante
+dai nomi poco usati: bossi ligustri o acanti.
+Io, per me, amo le strade che riescono agli erbosi
+fossi dove in pozzanghere
+mezzo seccate agguantano i ragazzi
+qualche sparuta anguilla:
+le viuzze che seguono i ciglioni,
+discendono tra i ciuffi delle canne
+e mettono negli orti, tra gli alberi dei limoni.
+
+[Forse un mattino andando]
+Forse un mattino andando in un'aria di vetro,
+arida, rivolgendomi, vedrò compiersi il miracolo:
+il nulla alle mie spalle, il vuoto dietro
+di me, con un terrore di ubriaco.
+
+[La casa dei doganieri]
+Tu non ricordi la casa dei doganieri
+sul rialzo a strapiombo sulla scogliera:
+desolata t'attende dalla sera
+in cui v'entrò lo sciame dei tuoi pensieri
+e vi sostò irrequieto.
+
+[Cigola la carrucola del pozzo]
+Cigola la carrucola del pozzo,
+l'acqua sale alla luce e vi si fonde.
+Trema un ricordo nel ricolmo secchio,
+nel puro cerchio un'immagine ride.
+Accosto il volto a evanescenti labbri:
+si deforma il passato, si fa vecchio...
+
+[Ho sceso, dandoti il braccio]
+Ho sceso, dandoti il braccio, almeno un milione di scale
+e ora che non ci sei è il vuoto ad ogni gradino.
+Anche così è stato breve il nostro lungo viaggio.
+
+[Gloria del disteso mezzogiorno]
+Gloria del disteso mezzogiorno
+quand'ombra non rendono gli alberi,
+e più e più si mostrano d'attorno
+per troppa luce, le parvenze, falbe.
+
+[Felicità raggiunta]
+Felicità raggiunta, si cammina
+per te su fil di lama.
+Agli occhi sei barlume che vacilla,
+al piede, teso ghiaccio che s'incrina;
+e dunque non ti tocchi chi più t'ama.
+
+--- SALVATORE QUASIMODO ---
+[Ed è subito sera]
+Ognuno sta solo sul cuor della terra
+trafitto da un raggio di sole:
+ed è subito sera.
+
+[Alle fronde dei salici]
+E come potevamo noi cantare
+con il piede straniero sopra il cuore,
+fra i morti abbandonati nelle piazze
+sull'erba dura di ghiaccio, al lamento
+d'agnello dei fanciulli, all'urlo nero
+della madre che andava incontro al figlio
+crocifisso sul palo del telegrafo?
+
+[Vento a Tindari]
+Tindari, mite ti so
+fra larghi colli pensile sull'acque
+delle isole dolci del dio,
+oggi m'assali
+e ti chini in cuore.
+
+[Uomo del mio tempo]
+Sei ancora quello della pietra e della fionda,
+uomo del mio tempo. Eri nella carlinga,
+con le ali maligne, le meridiane di morte,
+t'ho visto – dentro il carro di fuoco, alle forche,
+alle ruote di tortura. T'ho visto: eri tu.
+
+[Specchio]
+Ed ecco sul tronco
+si rompono gemme:
+un verde più nuovo dell'erba
+che il cuore riposa:
+il tronco pareva già morto,
+piegato sul botro.
+E tutto mi sa di miracolo;
+e sono quell'acqua di nube
+che oggi rispecchia nei fossi
+più azzurro il suo pezzo di cielo.
+
+[Isola]
+Amo i tuoi colori, o isola,
+i tuoi odori di zolfo e di miele.
+La terra bruciata dal sole,
+e il mare che canta leggende
+di eroi e di dei scomparsi.
+
+[Lamento per il Sud]
+La luna rossa, il vento, il tuo colore
+di donna del Nord, la distesa di neve...
+Il mio cuore è ormai su queste praterie,
+in queste acque annuvolate dalle nebbie.
+
+[Neve]
+Scende la sera: ancora ci lasciate,
+o immagini care della terra, alberi,
+animali, povera gente chiusa
+dentro i mantelli dei soldati, madri
+dal ventre inaridito dal pianto.
+
+[Milano, agosto 1943]
+Invano cerchi tra la polvere,
+povera mano, la città è morta.
+È morta: s'è udito l'ultimo rombo
+sul cuore del Naviglio. E l'usignolo
+è caduto dall'antenna, alta sul convento,
+dove cantava prima del tramonto.
+
+[Lettera alla madre]
+Mater dulcissima, ora scendono le nebbie,
+il Naviglio urta confusamente sulle dighe,
+gli alberi si gonfiano d'acqua, bruciano di neve;
+non sono triste nel Nord: non sono
+in pace con me, ma non aspetto
+perdono da nessuno...
+
+--- MARIO LUZI ---
+[Avvento notturno]
+Il vento è un'anima che cerca
+il suo corpo nella notte.
+Le stelle sono occhi aperti
+sul mistero che ci inghiotte.
+
+[Ciborio]
+Entro nella chiesa vuota,
+il ciborio d'oro splende
+nel buio della navata.
+La presenza di Dio è un fuoco
+che non brucia, ma attende.
+
+[Primavera]
+La primavera è una ferita
+che si apre nel cuore della terra.
+Fiori di sangue, fiori di vita,
+che nascono dalla guerra.
+
+[La notte lava la mente]
+La notte lava la mente.
+Poco dopo si è qui come sai bene,
+fila d'anime lungo la cornice,
+chi pronto al balzo, chi quasi in catene.
+
+[Vola alta, parola]
+Vola alta, parola, cresci in profondità,
+tocca nadir e zenit della tua significazione,
+giacché talvolta lo puoi – sogno che la cosa esclami
+nel buio della mente...
+
+[Inferno e Limbo]
+Siamo nel limbo, tra la luce e il buio.
+Non siamo salvi, non siamo dannati.
+Aspettiamo un segno, un indizio,
+che ci dica chi siamo stati.
+
+[Alla vita]
+Amici ci aspetta una barca e una deriva,
+nessuno sa dove, l'ormeggio s'è sciolto;
+la corrente ci porta lenta e viva
+verso il mare aperto, verso il volto...
+
+[Pasqua di Risurrezione]
+La pietra è rotolata via.
+Il sepolcro è vuoto.
+Ma il cuore dell'uomo è ancora chiuso,
+pietra su pietra, nel suo vuoto.
+
+[Sotto la specie umana]
+Tutto accade sotto la specie umana.
+Il dolore, la gioia, la morte.
+Non c'è scampo dalla nostra tana,
+siamo prigionieri della sorte.
+
+[Muore ignominiosamente la repubblica]
+Muore ignominiosamente la repubblica.
+Ignominiosamente la spiano
+i suoi molti bastardi nei suoi ultimi tormenti.
+Arrotano i denti per morderne la carogna.
+
+--- ALFONSO GATTO ---
+[Isola]
+L'isola è una nuvola posata
+sul mare azzurro, ferma nel sole.
+Un sogno di terra, una giornata
+che non finisce, senza parole.
+
+[A mio padre]
+Se mi tornassi questa sera accanto
+lungo la via dove scende l'ombra
+azzurra già che sembra primavera,
+per dirti quanto è buio il mondo e come
+ai nostri sogni in libertà s'arrenda...
+
+[Erba e latte]
+Odore di erba tagliata, odore di latte.
+La mattina è fresca, il mondo è nuovo.
+La vita è semplice, le cose fatte
+di luce e di aria, che ritrovo.
+
+[Bambino]
+Il bambino guarda il mondo
+con occhi grandi di stupore.
+Tutto è miracolo, tutto è tondo,
+tutto è un gioco del Signore.
+
+[Morte del poeta]
+Il poeta muore, ma il canto resta.
+Vola nell'aria, come un uccello.
+Si posa sui rami, fa festa,
+e rende il mondo più bello.
+
+[Sera]
+La sera scende viola sui tetti.
+Le rondini gridano l'addio al giorno.
+Io resto solo coi miei difetti,
+e aspetto che faccia ritorno.
+
+[Venezia]
+Venezia è un merletto di pietra
+tessuto dall'acqua e dal vento.
+Un sogno che mai non arretra,
+un miracolo lento.
+
+[Neve a Milano]
+La neve copre lo sporco e il rumore.
+Milano diventa bianca e pura.
+Un attimo di pace nel cuore,
+una tregua alla vita dura.
+
+[Memoria]
+La memoria è un fiume che scorre
+all'indietro, verso la fonte.
+Porta detriti, porta le torre
+dei sogni crollati sul ponte.
+
+[Sud]
+Sole a picco, muri bianchi, cicale.
+Il Sud è un urlo di luce.
+Una bellezza che fa male,
+una croce che ci conduce.
+
+--- LEONARDO SINISGALLI ---
+[Vidi le Muse]
+Vidi le Muse appollaiate sui tombin,
+tra l'erba e l'immondizia della periferia.
+Erano stanche, sporche, malandrine,
+ma avevano negli occhi la poesia.
+
+[I fanciulli battono le monete]
+I fanciulli battono le monete rosse
+contro il muro (la noia, la noia!).
+Cadono i soldini nelle fosse
+della terra, senza gioia.
+
+[Campi Flegrei]
+Terra di fuoco, terra di zolfo.
+Qui la natura è nuda e cruda.
+Il respiro del diavolo nel golfo,
+che la mente illuda.
+
+[Geometria]
+Il cerchio, il quadrato, il triangolo.
+Forme pure, perfette, eterne.
+Dio è un geometra che in un angolo
+disegna le stelle e le lucerne.
+
+[La luce]
+La luce è una lama che taglia il buio.
+Divide il vero dal falso, il bene dal male.
+Io cerco la luce nel mio buglio,
+e trovo solo un'ombra tale.
+
+[Lucania]
+Terra di sassi, di capre, di vento.
+La mia terra dura e amara.
+Porto nel sangue il suo tormento,
+e la sua bellezza rara.
+
+[Il calcolo]
+Tutto è numero, tutto è misura.
+La vita è un'equazione complessa.
+Cerco la X nella natura,
+ma la soluzione non è concessa.
+
+[Vecchiaia]
+La vecchiaia è un numero che cresce,
+una sottrazione di forze e di sogni.
+Il corpo cede, l'anima esce
+dai suoi confini, dai suoi bisogni.
+
+[Pioggia]
+Piove sui numeri, piove sulle carte.
+L'acqua cancella i conti sbagliati.
+La natura vince sull'arte,
+e noi restiamo bagnati.
+
+[Epigrafe]
+Qui giace un ingegnere poeta,
+che cercò l'ordine nel caos.
+Trovò il silenzio come meta,
+e la morte come pausa.
+
+--- VITTORIO SERENI ---
+[Frontiera]
+Siamo al confine, sulla linea d'ombra.
+Di là c'è il mondo, di qua c'è il nulla.
+L'anima è ferma, la mente sgombra,
+aspettando che la notte ci culla.
+
+[Algeria]
+Deserto, filo spinato, sole feroce.
+La prigionia è un tempo sospeso.
+Sogniamo l'Italia, dolce e veloce,
+e il nostro cuore è un peso.
+
+[Terrazza]
+Improvvisa ci coglie la sera.
+Più non sai dove il lago finisca;
+un murmure di voci a chiacchiera
+in basso, e la luce che si mischia.
+
+[Settembre]
+Già l'olea fragrante nei giardini
+d'amarezza ci punge: il lago è un poco
+ritirato da noi, scopre sassi...
+
+[Non sa più nulla, è alto sulle ali]
+Non sa più nulla, è alto sulle ali
+il primo caduto bocconi sulla spiaggia normanna.
+Per questo qualcuno stanotte
+mi toccava la spalla mormorando
+di pregar per l'Europa...
+
+[Anni dopo]
+La splendida la delirante pioggia s'è quietata,
+con le rade ci bacia ultime stille.
+Ritornano al sereno l'abitudini
+e la dolcezza...
+
+[Il grande amico]
+Un grande amico mi ha lasciato.
+Il vuoto che resta è grande come il cielo.
+Cammino solo nel prato,
+e sento il freddo del gelo.
+
+[Milano]
+Città di grigio, città di nebbia.
+Ti amo e ti odio, mia prigione.
+Sei la mia casa, la mia gabbia,
+la mia dannazione e ragione.
+
+[La spiaggia]
+I morti non sono quel che appena
+si perde. Sono le nostre
+ombre più lunghe, sono la vena
+che si gonfia nelle nostre giostre.
+
+[Stella variabile]
+La vita è una stella variabile,
+che brilla e si spegne a tratti.
+Nulla è certo, nulla è stabile,
+siamo solo poveri matti.
+
+--- SANDRO PENNA ---
+[Poesie (La vita... è ricordarsi di un risveglio)]
+La vita... è ricordarsi di un risveglio
+triste in un treno all'alba: aver veduto
+fuori la luce incerta: aver sentito
+nel corpo rotto la malinconia
+vergine e aspra dell'aria pungente.
+
+[Il mare è tutto azzurro]
+Il mare è tutto azzurro.
+Il mare è tutto calmo.
+Nel cuore è quasi un urlo
+di gioia. E tutto è calmo.
+
+[Era la mia città]
+Era la mia città, la città vuota
+all'alba, piena di un mio desiderio.
+Ma il mio canto d'amore, il mio più vero,
+era per gli altri una canzone ignota.
+
+[Sotto il cielo di aprile]
+Sotto il cielo di aprile la mia pace
+è incerta. I verdi chiari ora si muovono
+sotto il vento a capriccio. Ancora dormono
+l'acque ma, sembra, come a viva forza.
+
+[Io vivere vorrei addormentato]
+Io vivere vorrei addormentato
+entro il dolce rumore della vita.
+
+[Felicità]
+Felicità, tu sei una cosa semplice.
+Un bicchiere di vino, un raggio di sole,
+un ragazzo che ride, una cornice
+di cielo azzurro, senza parole.
+
+[L'amore]
+L'amore è un ladro che viene di notte,
+e ruba il sonno e la pace del cuore.
+Lascia solo ferite e botte,
+e un dolce, terribile dolore.
+
+[Treni]
+Amo i treni che partono la sera,
+pieni di gente e di destinazioni.
+Amo l'odore di fumo e di cera,
+e il rumore delle stazioni.
+
+[Ombra]
+Cerco l'ombra in un giorno di sole.
+Cerco il silenzio nel chiasso del mondo.
+Sono diverso, non ho parole
+per dire ciò che sento nel fondo.
+
+[La luna]
+La luna bianca sopra il tetto nero.
+Un gatto miagola alla sua luce.
+Il mondo è strano, il mondo è vero,
+e la bellezza ci conduce.
+
+--- ATTILIO BERTOLUCCI ---
+[La camera da letto]
+Qui dormo, qui sogno, qui vivo.
+Tra queste mura, tra questi oggetti.
+È il mio regno, il mio archivio
+di memorie e di affetti.
+
+[Amore]
+L'amore è un fuoco che scalda l'inverno.
+È una mano che stringe la tua.
+È un rifugio contro l'inferno
+del mondo che grida la sua.
+
+[Paesaggio]
+La nebbia sale dai campi arati.
+Il sole tramonta rosso e stanco.
+I contadini tornano a casa, grati
+per il riposo sul panco.
+
+[I figli]
+Guardo i miei figli che crescono in fretta.
+Sono il futuro, sono la vita.
+Io resto indietro, faccio la vetta
+della mia storia ormai finita.
+
+[Il tempo]
+Il tempo passa, inesorabile.
+Scorre come l'acqua del fiume.
+Porta via tutto, l'amabile
+e l'odiato, nel suo lume.
+
+[Neve]
+La neve cade silenziosa e lenta.
+Copre il mondo di bianco e di pace.
+Ogni rumore si addormenta,
+e il cuore mio si compiace.
+
+[Casa]
+Casa mia, dolce e sicura.
+Rifugio dalle tempeste della vita.
+Qui non ho paura,
+qui la mia ferita è guarita.
+
+[Rose]
+Le rose fioriscono nel giardino.
+Rosse, bianche, gialle e rosa.
+Sono il sorriso del mattino,
+la bellezza che si posa.
+
+[Pioggia d'estate]
+Piove col sole, è un'allegria.
+La terra beve e ringrazia.
+L'arcobaleno è una via
+che porta in cielo, con grazia.
+
+[Congedo]
+Saluto i giorni che sono passati.
+Saluto gli amici che non ci sono più.
+Saluto i sogni che ho sognati,
+e guardo il cielo, lassù.
+
+--- GIORGIO CAPRONI ---
+[Il congedo del viaggiatore cerimonioso]
+Amici, credo che sia
+meglio per me cominciare
+a tirar giù la valigia.
+Anche se non so bene l'ora
+di arrivo, e neppure
+conosca quali stazioni
+precedano la destinazione,
+decisa anzitempo...
+
+[L'ascensore]
+Quando andrò in paradiso
+non voglio che una campana
+lunga sappia di tegola
+o d'aria mattutana.
+Vorrei che l'ascensore
+mi portasse su, dritto,
+senza fermate, al Signore.
+
+[Per lei]
+Per lei voglio rime chiare,
+usuali: in -are.
+Rime magari vietate,
+ma aperte: ventilate.
+Rime coi suoni fini
+(di mare) dei suoi orecchini.
+
+[Genova]
+Genova mia, città di scale
+e di caruggi stretti e scuri.
+Qui ho imparato che il bene e il male
+vivono insieme, dentro i muri.
+
+[La funicolare]
+Sale la cabina verso il cielo.
+La città si rimpicciolisce giù.
+Mi sento leggero, senza velo,
+vicino a Dio, e niente più.
+
+[Il muro]
+C'è un muro bianco in cima alla salita.
+Dietro, non so cosa ci sia.
+Forse il nulla, forse la vita,
+forse la fine della mia via.
+
+[Preghiera (L'ultimo borgo)]
+Anima mia, fa' che la morte
+mi colga vivo, con le scarpe ai piedi.
+Non nel letto, tra le coperte,
+ma in cammino, se ci credi.
+
+[Alba]
+L'alba è un brivido freddo e grigio.
+La città si sveglia con fatica.
+Un nuovo giorno, un nuovo prodigio,
+o la solita storia antica?
+
+[Rime]
+Cerco la rima facile e schietta.
+Cuore, amore, fiore, dolore.
+Non voglio l'arte che sibelletta,
+ma la parola che ha odore.
+
+[Epilogo]
+Ho chiuso la valigia. Sono pronto.
+Il treno fischia, è ora di andare.
+Non chiedetemi il conto,
+ho pagato tutto col mio amare.
+
+### ⛔ EXAMPLES OF WHAT NOT TO DO (NEGATIVE CONSTRAINT)
+
+#### ❌ BAD HERMETICISM (Avoid this style)
+"The deep silence
+of my soul
+in the infinite sea
+is silent."
+
+**WHY IT FAILS:**
+- "Deep", "Soul", "Infinite" -> Generic, abused vocabulary.
+- "Of my soul" -> Explicit Lyric I. Hermeticism hides the I in the object.
+- "Is silent" -> Explains the feeling instead of evoking it (Show, Don't Tell).
+- Lacks the "Analogical Spark" (Analogy implies a distant connection).
+- Too easy/banal.

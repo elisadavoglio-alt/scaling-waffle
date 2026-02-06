@@ -1,0 +1,806 @@
+Style: Neoavanguardia (Gruppo 63)
+Period: 1963-1979
+Key Characteristic: "Bisogna distruggere / la poesia / per fare della poesia" — caos, cut-up, rifiuto dell'io lirico.
+
+### 🏛️ REFERENCE AUTHORS & WORKS
+- Edoardo Sanguineti (Laborintus, Triperuno) - Il teorico, caos, "palus putredinis"
+- Nanni Balestrini (Tape Mark I, Blackout) - Cut-up, computer poetry, violenza mediatica
+- Antonio Porta (I rapporti, Metropolis) - Corpo, violenza, precisione chirurgica
+- Alfredo Giuliani (I Novissimi, Povera Juliet) - Schizofrenia controllata, montaggio
+- Elio Pagliarani (La ragazza Carla) - Poema narrativo, alienazione urbana, prosa
+- Amelia Rosselli (Variazioni belliche) - Plurilinguismo, lapsus, "libellula" (vicina ma autonoma)
+- Andrea Zanzotto (La Beltà, Il Galateo in Bosco) - Scomposizione del significante, petèl, psicanalisi
+- Emilio Villa (Attributi, Heurarium) - Estremo, plurilingue, magico
+- Corrado Costa (The Complete Films) - Ludico, patafisico, visuale
+- Cesare Viviani (L'opera lasciata sola) - Post-63, crisi del soggetto
+
+### 🧬 STRUCTURAL PATTERNS (YAML)
+ideology:
+  - Anti-lirica (abbasso il "cuore", viva il cervello)
+  - Rifiuto dell'io espressivo tradizionale (l'io è una finzione grammaticale)
+  - Critica della società attraverso la critica del linguaggio
+  
+techniques:
+  - Montaggio, collage, cut-up (Balestrini)
+  - Parentesi, sospensioni, citazioni straniate
+  - Sintassi spezzata o labirintica (Sanguineti)
+  - Plurilinguismo (latino, francese, inglese, dialetto)
+  - Uso di materiali "bassi" (slogan, cronaca, scienza)
+
+### 📜 ANTHOLOGY EXAMPLES (GROUND TRUTH)
+
+--- EDOARDO SANGUINETI ---
+[Laborintus, 1]
+compostela, diversamente: e che l'utero, per sempre,
+il mio (mio?) terreno (sepolcreto)
+dove (questa è la palude, questa è la palude, la palude):
+(e l'ossesso fanciullo che gridava per la vigna,
+vittima designata):
+(e i fanciulli che si cercano nelle ossa)
+
+[Laborintus, 4]
+inquietum est cor nostrum: e i sogni, i sogni
+(e de his quae: e la parte, la parte: e scrivi)
+(scrivi la parte? scrivi la parte? la parte?):
+e vidi (vidi) il cadavere (il cadavere)
+
+[Erotopaegnia]
+se tu mi ami, se tu (non) mi ami: ma se
+tu: perché la tua (mia?) pelle (pelle?)
+è un guanto (un guanto?): rovesciato:
+(rovesciato?): e il tuo (mio?) scheletro
+(scheletro?): è un albero (un albero?): di
+ossa (ossa?): (e di carne?):
+
+[Postkarten]
+ti scrivo (ti scrivo?): da questo albergo (albergo?):
+dove (dove?): il tempo (il tempo?): è un
+gatto (un gatto?): morto (morto?):
+(e i tuoi occhi?): (i tuoi occhi?):
+
+[Reisebilder]
+le nuvole sono (sono?) pidocchi (pidocchi?):
+del cielo (del cielo?):
+e la terra (la terra?): è un (un?)
+formaggio (formaggio?): coi vermi (vermi?)
+
+[Purgatorio de l'Inferno]
+il mio corpo è (è?) una (una?)
+valigia (valigia?): piena (piena?)
+di (di?): sassi (sassi?):
+(e la tua anima?): (la tua anima?):
+
+[Stracciafoglio]
+la poesia è (è?) un (un?)
+buco (buco?): nella (nella?)
+carta (carta?):
+(e il mondo?): (il mondo?):
+è il (il?) verme (verme?):
+
+[Alfabeto Apocalittico]
+A come (come?) bomba (bomba?):
+B come (come?) cancro (cancro?):
+C come (come?) Dio (Dio?):
+D come (come?) fine (fine?):
+
+[Poesia da spiaggia]
+il mare è (è?) un (un?)
+monnezzaio (monnezzaio?): magico (magico?):
+(e i pesci?): (i pesci?):
+sono (sono?) parole (parole?):
+morte (morte?):
+
+[Commiato]
+bisogna distruggere / la poesia / per fare della poesia
+bisogna uccidere / il poeta / per fare il poeta
+(e il lettore?): (il lettore?):
+si fotta (si fotta?)
+
+--- NANNI BALESTRINI ---
+[Tape Mark I]
+La testa premuta contro la spalla
+trenta volte più luminoso del sole
+io contemplo il loro ritorno
+finché non muove le dita
+lentamente
+e mentre la moltitudine delle cose accade
+la testa premuta contro la spalla...
+
+[Tape Mark II]
+I capelli tra le dita
+l'acqua sale nella stanza
+le parole cadono come pietre
+il computer non ha pietà
+la testa premuta contro il vetro
+trenta volte più buio della notte.
+
+[Blackout]
+Il cielo è nero
+la città brucia
+la ragazza corre
+senza scarpe
+senza nome
+il blackout è totale
+la lingua si spezza.
+
+[Vogliamo tutto]
+Vogliamo tutto
+vogliamo la vita
+vogliamo il sole
+vogliamo la fabbrica bruciata
+vogliamo il padrone impiccato
+vogliamo tutto e subito.
+(Slogan poetico)
+
+[Istruzioni per l'uso]
+Prendete un giornale
+prendete delle forbici
+tagliate gli articoli
+mescolate i pezzi
+incollate a caso
+ecco la poesia.
+
+[Tristano]
+C'è un corpo che cade
+c'è una storia che finisce
+c'è un amore che muore
+c'è un libro che si scrive da solo
+senza autore
+senza fine.
+
+[La violenza illustrata]
+Testa spaccata
+sangue sul marciapiede
+polizia che carica
+vetrine in frantumi
+la violenza è il linguaggio
+del nostro tempo.
+
+[Ecologia]
+Il fiume è veleno
+l'aria è piombo
+l'albero è plastica
+la natura è morta
+viva la natura
+artificiale.
+
+[Il pubblico del poema]
+Voi che leggete
+non capite niente
+perché non c'è niente da capire
+c'è solo da guardare
+le parole che ballano
+sulla pagina bianca.
+
+[Conclusione provvisoria]
+Tutto è frammento
+tutto è citazione
+tutto è già stato detto
+tutto è da rifare
+senza senso
+con molto rumore.
+
+--- ANTONIO PORTA ---
+[I rapporti]
+Il rapporto tra me e te
+è un rapporto di forza
+di carne che preme
+di ossa che scricchiolano
+di sangue che scorre
+rapporto nudo.
+
+[Metropolis]
+La città è un corpo malato
+le strade sono vene infette
+i palazzi sono tumori
+la gente è il virus
+che si moltiplica
+senza scopo.
+
+[Aprire]
+Aprire la testa
+aprire il ventre
+aprire la parola
+vedere cosa c'è dentro
+il vuoto, il buio, il nulla
+o forse una luce fredda.
+
+[La dieta]
+Mangiare parole
+vomitare frasi
+digerire concetti
+la poesia è un atto
+fisiologico
+escretorio.
+
+[Invasioni]
+Gli insetti invadono la casa
+le parole invadono la mente
+le immagini invadono gli occhi
+non c'è scampo
+dall'invasione del reale.
+
+[Il giardiniere contro il becchino]
+Il giardiniere pianta
+il becchino sotterra
+chi vince?
+La terra vince sempre
+perché mangia tutto
+fiori e cadaveri.
+
+[Zero]
+Zero speranza
+zero fede
+zero amore
+zero assoluto
+punto di partenza
+per rifare tutto.
+
+[Breviario]
+Svegliarsi
+lavarsi
+vestirsi
+uccidere il tempo
+dormire
+morire.
+
+[Cara]
+Cara, ti scrivo
+con un coltello
+sulla pelle
+per dirti che ti amo
+e che ti odio
+nello stesso taglio.
+
+[Poesia visiva]
+Occhio
+Orecchio
+Bocca
+Mano
+Tutto in un colpo
+Sulla pagina.
+
+--- ALFREDO GIULIANI ---
+[Povera Juliet]
+Oh Juliet, povera Juliet
+nel labirinto dei specchi
+non trovi più il tuo Romeo
+ma solo il suo riflesso
+che ride e si spezza
+in mille pezzi.
+
+[Compleanno]
+Tanti auguri a me
+che invecchio nel caos
+tra libri non letti
+e amori non fatti
+candeline spente
+sul nulla.
+
+[Il Tautologo]
+Io sono io
+la rosa è una rosa
+il mondo è il mondo
+tutto è quello che è
+e niente di più
+che noia, che pace.
+
+[Versi per un amico malato]
+Il tuo corpo si guasta
+la macchina si rompe
+i pezzi non si trovano
+dispiacere meccanico
+dolore idraulico.
+
+[Chi l'ha visto?]
+Hanno perso il soggetto
+l'hanno visto correre
+verso la periferia
+senza verbi, senza aggettivi
+nudo come un verme.
+
+[Prologo a I Novissimi]
+Abbassate le maschere
+buttate via i vecchi giocattoli
+la poesia non è un conforto
+è un bisturi
+è un acido
+è un sasso.
+
+[Predica ai pesci]
+Pesci muti, pesci freddi
+voi siete i veri saggi
+che nuotate nel silenzio
+e non abboccate all'amo
+delle parole umane.
+
+[Sogno di un impiegato]
+Sognare di volare
+e svegliarsi alla scrivania
+tra timbri e scartoffie
+la vita è un errore
+di archiviazione.
+
+[Zoo]
+La tigre in gabbia
+il poeta in pagina
+entrambi feroci
+entrambi innocui
+dietro le sbarre.
+
+[Ultima]
+L'ultima parola
+non sarà detta
+perché la lingua
+sarà tagliata
+prima.
+
+--- ELIO PAGLIARANI ---
+[La ragazza Carla]
+Carla Dondi, di anni 17
+stenodattilografa
+all'ombra del Duomo
+sotto il cielo di latta
+di una Milano che corre
+e non si ferma mai.
+
+[La ragazza Carla (II)]
+Mangiato il panino?
+Lavato i denti?
+Preso il tram?
+Timbrato il cartellino?
+Brava Carla, brava.
+La vita è un dovere.
+
+[La ragazza Carla (III)]
+Ma la sera, nel letto,
+Carla piange piano
+senza sapere perché.
+Forse per la stanchezza,
+forse per la tristezza
+di non essere nessuno.
+
+[Lezione di fisica]
+La forza è uguale alla massa
+per l'accelerazione.
+Ma la forza dell'amore
+a cosa è uguale?
+Forse al nulla
+per l'infinito.
+
+[Cronaca]
+Hanno trovato un morto
+nel Naviglio, stamattina.
+Nessuno sa chi sia.
+Forse era un poeta,
+forse era un cane.
+Fa lo stesso.
+
+[Invettiva]
+Voi che comandate,
+voi che avete i soldi,
+voi che fate le guerre.
+Non crediate di salvarvi.
+La poesia vi giudica,
+la storia vi condanna.
+
+[Domenica proletaria]
+La partita, il cinema,
+la passeggiata al parco.
+Povere gioie di povera gente
+che dimentica per un'ora
+la catena di montaggio.
+
+[Amore in città]
+Ci siamo baciati
+sotto un lampione spento
+tra i rifiuti e i topi.
+È stato bello,
+è stato vero,
+è stato schifo.
+
+[Il poeta e la merce]
+Il poeta vende parole
+come il macellaio vende carne.
+Tutto è merce,
+anche l'anima,
+anche il dolore.
+
+[Fine della storia]
+E vissero tutti
+infelici e scontenti
+fino alla morte.
+Amen.
+
+--- AMELIA ROSSELLI ---
+[Variazioni belliche]
+Il mondo è una guerra,
+la mente è una trincea.
+Le parole sono proiettili
+che esplodono in testa.
+Bum! Crack! Ziss!
+La sintassi salta in aria.
+
+[Libellula]
+Libellula, libellula,
+vola via dalla mia testa.
+Sei leggera, sei bella,
+ma le tue ali tagliano
+i miei pensieri
+come lame di rasoio.
+
+[Serie ospedaliera]
+Bianco, tutto bianco.
+Letti, camici, muri.
+Il dolore è bianco,
+la pazzia è bianca.
+Voglio un po' di rosso,
+un po' di sangue.
+
+[Documento]
+Io sottoscritta dichiaro
+di non essere io.
+Sono un'altra, una straniera,
+che abita nel mio corpo
+e parla la mia lingua
+con un accento sbagliato.
+
+[Improvviso]
+Improvvisamente
+la luce si spegne.
+Resto sola col buio,
+col mostro che ride.
+Scrivo per non morire,
+scrivo per ucciderlo.
+
+[Lingua]
+Parlo francese, inglese, italiano.
+Ma la mia vera lingua
+è il silenzio,
+è l'urlo,
+è il balbettio
+di chi non sa più dire.
+
+[Padre]
+Padre mio, eroe morto,
+ombra gigante.
+Mi hai lasciato un cognome
+pesante come una pietra.
+Io cerco di portarlo,
+ma cado, cado, cado.
+
+[Musica]
+La poesia è musica,
+è ritmo, è suono.
+Non senso, non logica.
+Solo note che vibrano
+nel vuoto dell'anima.
+
+[Dio]
+Dio, se ci sei,
+perché mi fai questo?
+Perché mi dai il genio
+e mi togli la pace?
+Maledetto, benedetto,
+assente.
+
+[Fine]
+Non c'è fine,
+solo interruzione.
+Il nastro si spezza,
+la voce tace.
+Resta il fruscio
+dell'universo vuoto.
+
+--- ANDREA ZANZOTTO ---
+[La Beltà]
+La beltà, la beltà...
+Che cos'è?
+Un imbroglio, un trucco,
+un gioco di specchi.
+La lingua si impasta,
+si scioglie, si perde
+nel balbettio infantile.
+
+[Petèl]
+Mama, mama, pappa, cacca.
+Il linguaggio dei bambini,
+dolce e terribile.
+Lì c'è la verità,
+prima della grammatica,
+prima della menzogna.
+
+[Il Galateo in Bosco]
+Il bosco è oscuro,
+le regole sono perse.
+Come ci si comporta
+tra gli alberi e le bestie?
+Si urla, si morde,
+si vive.
+
+[Al mondo]
+Mondo, sii buono.
+Esisti buonamente.
+Non farci troppo male.
+Siamo piccoli, fragili,
+sperduti nel tuo grande
+ventre indifferente.
+
+[Fosfeni]
+Lampi negli occhi,
+luci che non ci sono.
+Vedo cose che voi umani...
+No, vedo solo il caos
+che balla la rumbà
+nella mia retina.
+
+[Dietro il paesaggio]
+Dietro le colline,
+dietro i fiumi,
+c'è il nulla.
+Il paesaggio è una quinta,
+una scena dipinta
+per nascondere il vuoto.
+
+[Ipersonetto]
+Sonetto al quadrato,
+sonetto esploso.
+14 versi che diventano
+14 mondi, 14 abissi.
+La forma che si mangia
+da sola.
+
+[Lingua morta]
+Il latino, il dialetto,
+l'italiano aulico.
+Tutte lingue morte,
+fantasmi che parlano
+attraverso la mia bocca
+viva per sbaglio.
+
+[Oltranza oltraggio]
+Andare oltre, sempre oltre.
+Offendere il senso,
+violare la norma.
+Solo così si tocca
+il nervo scoperto
+del reale.
+
+[Conglomerati]
+Sassi, parole, ossa.
+Tutto si mischia,
+tutto si cementa.
+Siamo fatti di questo:
+un impasto duro
+che resiste al tempo.
+
+--- EMILIO VILLA ---
+[Attributi dell'arte odierna]
+L'arte è magia,
+è rito, è sangue.
+Non è salotto, non è museo.
+È la caverna dell'uomo primitivo,
+è il graffito sul muro,
+l'urlo nella notte.
+
+[Heurarium]
+Parole in libertà,
+senza sintassi, senza senso.
+Latino, greco, dialetto,
+tutto insieme in un calderone.
+Bevi questa pozione,
+e diventerai pazzo o dio.
+
+[17 Variazioni]
+Variazione 1: Il nulla.
+Variazione 2: Il tutto.
+...
+Variazione 17: Il silenzio
+che urla.
+
+[Labirinti]
+Entra nel labirinto
+delle mie parole.
+Non troverai l'uscita,
+non troverai il Minotauro.
+Troverai te stesso,
+perso per sempre.
+
+[Oggetti]
+Sassi dipinti, legni bruciati,
+carte strappate.
+Le mie poesie sono cose,
+non idee.
+Toccale, sentile,
+fatti male.
+
+[Eresia]
+Io sono l'eretico,
+il bestemmiatore.
+Nego la vostra arte,
+la vostra logica,
+il vostro dio.
+Credo solo nel caos
+generatore.
+
+[Kamikaze]
+Mi lancio contro il muro
+del linguaggio.
+Bum!
+La testa si rompe,
+il muro si incrina.
+Forse passa un raggio
+di luce.
+
+[Criptico]
+Non chiedetemi cosa vuol dire.
+Non lo so nemmeno io.
+È un segreto,
+un codice,
+un mistero
+che non va svelato.
+
+[Genesi]
+In principio era il Verbo?
+No, in principio era il Grido.
+Il Verbo è venuto dopo,
+per mettere in gabbia
+la bestia libera.
+
+[Apocalisse]
+La fine è vicina.
+Le parole si sgretolano,
+i significati crollano.
+Resta solo il bianco
+della pagina vuota.
+
+--- CORRADO COSTA ---
+[The Complete Films]
+Film 1: Un uomo dorme.
+Film 2: Un uomo mangia.
+Film 3: Un uomo muore.
+Titoli di coda.
+La vita è un film noioso
+girato da un regista ubriaco.
+
+[Poesia visiva (Rebus)]
+Disegno un occhio,
+disegno un cuore,
+disegno una mano.
+Occhio + Cuore + Mano = ?
+Soluzione: Amore cieco e manesco.
+
+[Pseudonimi]
+Io non sono io.
+Sono il signor Rossi,
+il signor Bianchi,
+il signor Nessuno.
+Cambio nome come cambio camicia,
+per non farmi prendere.
+
+[Il fiume]
+Il fiume scorre al contrario.
+I pesci volano.
+Le barche affondano.
+Benvenuti nel mondo
+della Patafisica.
+(La scienza delle soluzioni immaginarie)
+
+[Lezione di anatomia]
+Il cuore è una pompa.
+Il cervello è un computer.
+L'anima è...
+L'anima non risulta
+nell'inventario.
+
+[Giochi di parole]
+Amore / Amaro.
+Vita / Vite.
+Morte / Morso.
+Basta cambiare una lettera
+e cambia tutto il destino.
+
+[Istruzioni per diventare poeta]
+1. Comprare una penna.
+2. Comprare un foglio.
+3. Scrivere "Mamma".
+4. Stracciare il foglio.
+Bravo, sei un poeta d'avanguardia.
+
+[Storia d'Italia]
+Garibaldi fu ferito...
+ma non morì.
+Purtroppo.
+Così ci tocca sopportare
+i suoi eredi.
+
+[Cartoline]
+Saluti da Rimini.
+Saluti dall'Inferno.
+Saluti dalla Luna.
+Tutto bene,
+fa caldo,
+si sta come d'autunno.
+
+[Finale a sorpresa]
+E alla fine,
+il mago tirò fuori dal cappello
+non un coniglio,
+ma se stesso.
+E sparì nel nulla.
+
+--- CESARE VIVIANI ---
+[L'opera lasciata sola]
+La poesia è orfana.
+Il poeta se n'è andato,
+il lettore non è arrivato.
+Il libro resta lì,
+chiuso, solo,
+a prendere polvere.
+
+[Preghiera del nome]
+Non ho nome,
+non ho volto.
+Sono solo una voce
+che chiama nel buio.
+Qualcuno risponda,
+per pietà.
+
+[La casa]
+La casa è vuota,
+le finestre sono occhi ciechi.
+Il vento entra e esce,
+come i pensieri
+di un pazzo.
+
+[Amore imperfetto]
+Ti amo, forse.
+O forse amo solo
+l'idea di amarti.
+Chi lo sa?
+L'amore è un equivoco
+tra due solitudini.
+
+[Psicanalisi]
+L'inconscio parla,
+ma dice cose strane.
+Sogni, lapsus, atti mancati.
+La verità è un puzzle
+che manca di pezzi.
+
+[Il padre]
+Dov'è il padre?
+È morto, è fuggito,
+è nascosto?
+Siamo figli di nessuno,
+orfani della storia.
+
+[La fine del '68]
+La rivoluzione è finita.
+Abbiamo perso.
+O forse abbiamo vinto,
+ma non ce ne siamo accorti,
+perché siamo diventati
+come loro.
+
+[Silenzio]
+Dopo tante parole,
+tante urla, tanti slogan.
+Finalmente il silenzio.
+Puro, bianco,
+terribile.
+
+[Natura]
+La natura se ne frega
+delle nostre avanguardie.
+L'albero cresce,
+il fiore sboccia,
+l'uccello canta.
+Loro sanno la poesia vera.
+
+[Ultimo verso]
+Non ho più niente da dire.
+La parola è finita.
+Resta il gesto,
+lo sguardo,
+il respiro.

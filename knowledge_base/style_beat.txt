@@ -1,0 +1,658 @@
+Style: Beat Generation
+Period: 1944-1964
+Key Characteristic: Spontaneous bop prosody. "I saw the best minds of my generation destroyed by madness".
+
+### 🏛️ REFERENCE AUTHORS & WORKS
+- Allen Ginsberg (Howl, Kaddish) - Breath-line, profetico
+- Jack Kerouac (Mexico City Blues) - Spontaneità
+- Lawrence Ferlinghetti (A Coney Island of the Mind) - Accessibile
+- Gregory Corso ("Marriage", "Bomb") - Surreale
+- Gary Snyder (Riprap, Turtle Island) - Zen, ecologia
+- Diane di Prima (Revolutionary Letters) - Femminile, politico
+- Amiri Baraka (early) (Preface to a Twenty Volume Suicide Note) - Jazz
+- Bob Kaufman (Solitudes Crowded) - Jazz puro
+- Michael McClure (Ghost Tantras) - Biologico
+- Anne Waldman (Fast Speaking Woman) - Performance
+
+### 🧬 STRUCTURAL PATTERNS (YAML)
+prosody:
+  - Breath as measure (respiro come metro)
+  - Long Whitman line
+  - Accumulation, catalogs
+  - Anaphora ("who...", "I saw...")
+  
+themes:
+  - Viaggio (road, autostop)
+  - Visione mistica (angelheaded hipsters)
+  - Anti-establishment (Moloch)
+  - Fratellanza, sesso, droga
+  
+vocabulary:
+  - Colloquial + sacred
+  - Jazz slang (dig, cool, beat, man)
+  - Buddhist references
+  - Real names, real places
+
+### 📜 ANTHOLOGY EXAMPLES (GROUND TRUTH)
+
+--- ALLEN GINSBERG ---
+[Howl, Part I]
+I saw the best minds of my generation destroyed by madness, starving hysterical naked,
+dragging themselves through the negro streets at dawn looking for an angry fix,
+angelheaded hipsters burning for the ancient heavenly connection to the starry dynamo in the machinery of night,
+who poverty and tatters and hollow-eyed and high sat up smoking in the supernatural darkness of cold-water flats floating across the tops of cities contemplating jazz.
+
+[Howl, Part II]
+Moloch! Solitude! Filth! Ugliness! Ashcans and unobtainable dollars! Children screaming under the stairways! Boys sobbing in armies! Old men weeping in the parks!
+Moloch! Moloch! Nightmare of Moloch! Moloch the loveless! Mental Moloch! Moloch the heavy judger of men!
+
+[Howl, Part III]
+I’m with you in Rockland
+   where you’re madder than I am
+I’m with you in Rockland
+   where you must feel very strange
+I’m with you in Rockland
+   where you imitate the shade of my mother...
+
+[A Supermarket in California]
+What thoughts I have of you tonight, Walt Whitman, for I walked down the sidestreets under the trees with a headache self-conscious looking at the full moon.
+In my hungry fatigue, and shopping for images, I went into the neon fruit supermarket, dreaming of your enumerations!
+
+[America]
+America I’ve given you all and now I’m nothing.
+America two dollars and twenty-seven cents January 17, 1956.
+I can’t stand my own mind.
+America when will we end the human war?
+Go fuck yourself with your atom bomb.
+
+[Sunflower Sutra]
+I walked on the banks of the tincan banana dock and sat down under the huge shade of a Southern Pacific locomotive to look at the sunset over the box house hills and cry.
+Jack Kerouac sat beside me on a busted rusty iron pole, companion, we thought the same thoughts of the soul...
+
+[Kaddish]
+Strange now to think of you, gone without corsets & eyes, while I walk on the sunny pavement of Greenwich Village.
+downtown Manhattan, clear winter noon, and I’ve been up all night, talking, talking, reading the Kaddish aloud...
+
+[Footnote to Howl]
+Holy! Holy! Holy! Holy! Holy! Holy! Holy! Holy! Holy! Holy! Holy! Holy! Holy! Holy! Holy!
+The world is holy! The soul is holy! The skin is holy! The nose is holy! The tongue and cock and hand and asshole holy!
+Everything is holy! everybody’s holy! everywhere is holy! everyday is in eternity! Everyman’s an angel!
+
+[Song]
+The weight of the world
+is love.
+Under the burden
+of solitude,
+under the burden
+of dissatisfaction
+the weight,
+the weight we carry
+is love.
+
+[Transcription of Organ Music]
+The flower in the glass peanut bottle formerly in the kitchen crooked to take a place in the light,
+the closet door opened, because I used it before, I kindly stayed open for me, its owner.
+
+--- JACK KEROUAC ---
+[Mexico City Blues, 113th Chorus]
+Got up and dressed up
+and went out & got laid
+Then died and got buried
+in a coffin in the grave,
+Man—
+Yet everything is perfect,
+Because it is empty,
+Because it is perfect
+with emptiness,
+Because it's not even happening.
+
+[Mexico City Blues, 211th Chorus]
+The wheel of the quivering meat
+conception
+Turns in the void expelling human beings,
+Pigs, turtles, frogs, insects, nits,
+Mice, lice, lizards, rats, roan
+Racinghorses, paretic poets, paterfamilias,
+Cannibalistic charlatans of the living day...
+
+[Mexico City Blues, 230th Chorus]
+Starspangled Angel of the
+Apex of Light,
+Excruciate my lot,
+Make it light,
+Make it bright,
+Make it white...
+
+[San Francisco Blues]
+The roofs are panting
+   In the Panic
+Of the Sun
+   In the Panic
+Of the Truth
+   Of the Dumb
+White
+   Sun.
+
+[Haiku]
+The low yellow
+moon above the
+Quiet lamplit house
+
+[Haiku]
+In my medicine cabinet
+the winter fly
+Has died of old age
+
+[Haiku]
+Useless! Useless!
+—heavy rain driving
+Into the sea.
+
+[Old Angel Midnight]
+Friday afternoon in the universe, in all directions in & out you got your men women dogs children horses pones tics perts parts pans pools palls pails parturiences...
+
+[October in the Railroad Earth]
+There was a little alley in San Francisco back of the Southern Pacific station at Third and Townsend in redbrick of drowsy lazy afternoons with everybody at work in offices...
+
+[Desolation Blues]
+I’m a man on the road
+and I got no home
+and I got no hope
+and I got no bones...
+
+--- LAWRENCE FERLINGHETTI ---
+[A Coney Island of the Mind, 1]
+In Goya’s greatest scenes we seem to see
+the people of the world
+exactly at the moment when
+they first attained the title of
+‘suffering humanity’
+
+[A Coney Island of the Mind, 13]
+The pennycandystore beyond the El
+is where I first
+    fell in love
+        with unreality
+Jellybeans glowed in the semi-gloom
+of that september afternoon...
+
+[I Am Waiting]
+I am waiting for my case to come up
+and I am waiting
+for a rebirth of wonder
+and I am waiting for someone
+to really discover America
+and wail...
+
+[Dog]
+The dog trots freely in the street
+and sees reality
+and the things he sees
+are bigger than himself
+and the things he sees
+are his reality...
+
+[The World Is a Beautiful Place]
+The world is a beautiful place
+to be born into
+if you don't mind happiness
+not always being
+so very much fun
+if you don't mind a touch of hell
+now and then...
+
+[Two Scavengers in a Truck]
+Two scavengers in a truck,
+two beautiful people in a Mercedes
+at the stoplight...
+
+[Constantly Risking Absurdity]
+Constantly risking absurdity
+and death
+whenever he performs
+above the heads
+of his audience
+the poet like an acrobat
+climbs on rime...
+
+[Sometime During Eternity]
+Sometime during eternity
+some guys show up
+and one of them
+who shows up real late
+is a kind of carpenter...
+
+[Underwear]
+I didn't suffer I didn't get
+anything
+I didn't get the girl I didn't get
+the money...
+I got the underwear.
+
+[Pity the Nation]
+Pity the nation whose people are sheep
+And whose shepherds mislead them
+Pity the nation whose leaders are liars
+Whose sages are silenced...
+
+--- GREGORY CORSO ---
+[Marriage]
+Should I get married? Should I be good?
+Astound the girl next door with my velvet suit and faustus hood?
+Don't take her to movies but to cemeteries
+tell her all about werewolf bathtubs and forked clarinets...
+
+[Bomb]
+Budger of history Brake of time You
+Bomb
+Toy of universe Grandest of all apprehended playthings
+Stoppable heater of heart
+Do not die...
+
+[Hair]
+Hair is heaven's water flowing down to us
+Through the weird sieve of the sky...
+
+[The Mad Yak]
+I am watching them churn the last milk
+they'll ever get from me.
+They are waiting for me to die;
+They want my bones...
+
+[I Am 25]
+With a love a madness for Shelley
+Chatterton Rimbaud
+and the needy-yap of my youth
+has gone from ear to ear...
+
+[Gasoline]
+I offer you this book of Gasoline
+This book of gasoline is an attempt
+to destroy the world...
+
+[But I Do Not Need Kindness]
+I have known the strange nurses of Kindness,
+I have seen them washing the wounds of the City,
+But I do not need Kindness.
+
+[Transformation & Escape]
+I am a top spinning on the table of the world
+I am a top spinning on the table of the world...
+
+[Poets Hitchhiking on the Highway]
+The poetry of the open road
+is not the poetry of the library
+it is the poetry of the thumb...
+
+[Power]
+Power is the only thing that matters
+Power is the only thing that matters...
+
+--- GARY SNYDER ---
+[Riprap]
+Lay down these words
+Before your mind like rocks.
+          placed solid, by hands
+In choice of place, set
+Before the body of the mind
+in space and time...
+
+[Mid-August at Sourdough Mountain Lookout]
+Down valley a smoke haze
+Three days heat, after five days rain
+Pitch glows on the fir-cones
+Across rocks and meadows
+Swarms of new flies.
+
+[Pine Tree Tops]
+in the blue night
+frost haze, the sky glows
+with the moon
+pine tree tops
+bend snow-blue, fade
+into sky, frost, starlight.
+
+[Milton by Firelight]
+"O hell, what do mine eyes
+with grief behold?"
+Working with an old
+Singlejack miner, who can sense
+The vein and cleavage
+In the very guts of rock...
+
+[Hay for the Horses]
+He had driven half the night
+From far down San Joaquin
+Through Mariposa, up the
+Dangerous mountain roads,
+And pulled in at eight a.m.
+
+[For the Children]
+The rising hills, the slopes,
+of statistics
+lie before us.
+the steep climb
+of everything, going up,
+up, as we all
+go down.
+
+[Smokey the Bear Sutra]
+And he will show you the way to the other world
+which is this world
+as it truly is
+a world of magic and mystery...
+
+[Axe Handles]
+One afternoon the last week in April
+Showing Kai how to throw a hatchet
+One-half turn and it sticks in a stump.
+
+[Above Pate Valley]
+We finished clearing the last
+Section of trail by noon,
+High on the ridge-side
+Two thousand feet above the creek.
+
+[Prayer for the Great Family]
+Gratitude to Mother Earth, sailing through night and day,
+and to her soil: rich, rare, and sweet
+in our minds so be it.
+
+--- DIANE DI PRIMA ---
+[Revolutionary Letter #1]
+I have just realized that the stakes are myself
+I have no other
+ransom money, nothing to break or barter but my life...
+
+[Revolutionary Letter #2]
+The value of an individual life a credo they taught us
+to instill fear, and inaction, 'you only live once'
+a fog in our eyes, we are
+endless as the sea, not separate, we die
+a million times a day...
+
+[Loba, Part I]
+She is the wind that blows
+She is the rain that falls
+She is the fire that burns
+She is the earth that heals...
+
+[Rant]
+You cannot write a single line w/out a cosmology
+a cosmogony
+laid out, before all eyes...
+there is no part of yourself you can separate out
+saying, this is memory, this is sensation...
+
+[Poem in Praise of My Husband]
+I suppose it hasn't been easy living with me
+my moods, my changes, my endless
+demands for attention, affection, food...
+
+[First Snow, Kerhonkson]
+This, then, is the gift the world has given me
+(you have given me)
+softly the snow
+cupped in the hollows
+of my breasts...
+
+[Chronology]
+I loved you in October
+when the leaves were red and gold
+I loved you in November
+when the wind was sharp and cold...
+
+[Song for Baby-O]
+Sweetheart
+when you break your neck
+don't come to me for sympathy.
+
+[Brass Furnace Going Out]
+I want you to know that I am happy
+I want you to know that I am free
+I want you to know that I am dancing
+dancing on the grave of my past...
+
+[April Fool Birthday Poem for Grandpa]
+I am riding the subway
+thinking of you
+and the way the light
+slanted across the floor
+in your Bronx apartment...
+
+--- AMIRI BARAKA (LeRoi Jones) ---
+[Preface to a Twenty Volume Suicide Note]
+Lately, I’ve become accustomed to the way
+The ground opens up and envelopes me
+Each time I go out to walk the dog.
+Or the broad edged silly music the wind
+Makes when I run for a bus...
+
+[In Memory of Radio]
+Who has ever stopped to think of the divinity of Lamont Cranston?
+(Only Jack Kerouac, that I know of: & me.
+The rest of you probably had on WCBS and Kate Smith,
+Or something equally unattractive.)
+
+[A Poem for Black Hearts]
+For Malcolm's eyes, when they broke
+the face of some dumb white man.
+For Malcolm's hands raised to bless us
+all black and strong in his image...
+
+[Ka 'Ba]
+A closed window looks down
+on a dirty courtyard, and black people
+call across or scream across or walk across
+defying physics in the stream of their will.
+
+[Legacy]
+(For Blues People)
+In the south, sleeping against
+the drugstore, growling under
+the trucks and stoves, stumbling
+through and over the cluttered eyes
+of early mysterious night.
+
+[Black Art]
+Poems are bullshit unless they are
+teeth or trees or lemons piled
+on a step. Or black ladies dying
+of men leaving nickel hearts
+beating them down.
+
+[SOS]
+Calling black people
+Calling all black people, man woman child
+Wherever you are, calling you, urgent, come in...
+
+[Incident]
+He came back and shot the rich white man
+who painted the walls of his house.
+
+[Notes for a Speech]
+African blues
+does not know me.
+Their steps, in sands
+of their own
+land.
+
+[Crow Jane]
+Crow Jane, Crow Jane, don't hold your head so high
+You realize you got to die.
+
+--- BOB KAUFMAN ---
+[Abomunist Manifesto]
+ABOMUNISTS JOIN NOTHING BUT THEIR HANDS OR LEGS, OR OTHER SAME.
+ABOMUNISTS SPIT ANTI-POETRY FOR POETIC REASONS AND FRIGID AIR.
+ABOMUNISTS DO NOT LOOK AT PICTURES PAINTED BY PRESIDENTS AND UNEMPLOYED PRIME MINISTERS.
+
+[Jail Poems]
+I sit in a cell,
+I am not in a cell,
+The cell is in me.
+The cell is the world,
+The world is a cell.
+
+[Believe, Believe]
+Believe in this. Young apple seeds
+In blue skies, radiating young breast quivering
+In the room of the heart, believe in this.
+
+[Ginsberg (for Allen)]
+I saw the best minds of my generation
+Destroyed by boredom at poetry readings.
+
+[Walking Parker Home]
+Sweet beats of jazz impaled on slivers of wind
+Kansas City Billys on the sidewalk...
+
+[Bagel Shop Jazz]
+Coffee-faced Ivy Leaguers,
+Blue-eyed nihilists,
+Swinging the blues...
+
+[Forget to Not]
+Forget to not be happy
+Forget to not be sad
+Forget to not be living
+Forget to not be dead.
+
+[Unanimity Has Been Achieved, Not a Dot Less for Its Accidentalness]
+Raga of the afternoon,
+Raga of the evening,
+Raga of the night.
+
+[Heavy Water Blues]
+Consumed by the heavy water
+of the broken faucet
+dripping time.
+
+[War Memoir]
+I was a general in the war
+I killed a million men
+I blew up the world
+And then I went to sleep.
+
+--- MICHAEL MCCLURE ---
+[Ghost Tantras, No. 1]
+GOOOOOOR! GOOOOOOOOOO!
+GOOOOOOOOOO!
+GRAHHH! GRAHHH!
+Grah gooooor!
+Grah gooooor!
+GRAH!
+
+[Ghost Tantras, No. 49]
+SILENCE THE EYES!
+SILENCE THE NOSE!
+SILENCE THE MOUTH!
+SILENCE THE EARS!
+SILENCE THE SKIN!
+LISTEN TO THE BEATING HEART!
+
+[Peyote Poem]
+I am the man who sits in the room
+And sees the wall move
+and the floor move
+and the ceiling move...
+
+[Dark Brown]
+Oh love, oh love, oh love
+the brown earth
+the brown earth
+the brown earth...
+
+[Action Philosophy]
+There is no such thing as a "thing"
+There is only the way
+that we act upon it.
+
+[Meat Science Essays]
+The body is a meat cloud
+floating in the meat sky
+of the meat world.
+
+[For the Death of 100 Whales]
+Goya! Goya! Oh Goya!
+The massive bodies
+The massive bodies
+Rotting on the beach...
+
+[Hail Thee Who Play]
+Hail thee who play!
+Hail thee who play!
+Hail thee who play!
+
+[Canticle]
+I am the beast
+who sings the song
+of the beast
+who is a man...
+
+[Ode to the Rose]
+The rose is a rose
+is a rose is a rose
+is a rose...
+
+--- ANNE WALDMAN ---
+[Fast Speaking Woman]
+I am a fast speaking woman
+I am a counting woman
+I am a chanting woman
+I am a woman of water
+I am a woman of fire...
+
+[Makeup on Empty Space]
+I am putting makeup on empty space
+all patinas growing tired
+of the same old face...
+
+[Battery]
+I will not shut up
+I will not shut up
+I will not shut up
+until the world is safe for poetry...
+
+[Lines on the Egyptian Museum]
+The dead are so many
+and so beautiful
+and so quiet
+and so much with us...
+
+[Baby Breakdown]
+Baby breakdown
+Baby breakdown
+Baby breakdown
+I'm having a baby breakdown...
+(rhythm of hysteria)
+
+[Revolution]
+The revolution is now
+The revolution is here
+The revolution is in your heart...
+
+[Giant Night]
+The night is giant
+and I am small
+and the stars are far
+and I am here...
+
+[Musical Garden]
+I cultivate a musical garden
+where the flowers sing
+and the trees hum
+and the grass whistles...
+
+[Light and Shadow]
+I walk in light
+I walk in shadow
+I walk in light
+I walk in shadow...
+
+[Endeaver]
+To try
+To try
+To try
+To fail
+To try again.

@@ -1,0 +1,791 @@
+Style: Futurismo
+Period: 1909-1944
+Key Characteristic: "ZANG TUMB TUMB" — la parola esplode, la sintassi muore.
+
+### 🏛️ REFERENCE AUTHORS & WORKS
+- F.T. Marinetti (Zang Tumb Tumb, Manifesti) - Fondatore, parole in libertà
+- Aldo Palazzeschi (L'incendiario, "Lasciatemi divertire") - Gioco, ironia, contro-dolore
+- Corrado Govoni (Rarefazioni) - Visivo, analogico
+- Ardengo Soffici (BÏF§ZF+18) - Collage, simultaneità
+- Paolo Buzzi (Aeroplani) - Velocità, tecnologia
+- Luciano Folgore (Ponti sull'oceano) - Lirico, sintetico
+- Francesco Cangiullo (Caffè-concerto) - Performance, rumore
+- Farfa (Noi miliardario della fantasia) - Aeropittura, nonsense
+- Tullio d'Albisola (Lito-latta) - Libro-oggetto, metallo
+- Benedetta Cappa (Viaggio di Gararà) - Futurismo femminile, tattilismo
+
+### 🧬 STRUCTURAL PATTERNS (YAML)
+techniques:
+  - Parole in libertà (nessuna sintassi)
+  - Onomatopea inventata (tumb, ta-pum, zang)
+  - Layout tipografico spaziale (testo in diagonale, grassetti)
+  - Abolizione della punteggiatura
+  - Segni matematici (+ - = x) per collegare sostantivi
+  - Verbo all'infinito (nessun io narrante)
+
+themes:
+  - Macchine, velocità, aeroplani, treni
+  - Guerra come igiene del mondo
+  - Città moderna, elettricità, folla
+  - Distruzione musei/passato (contro il "chiaro di luna")
+
+avoid:
+  - Io lirico sentimentale
+  - Metrica tradizionale
+  - Aggettivi (usare l'analogia diretta sostantivo-sostantivo)
+
+### 📜 ANTHOLOGY EXAMPLES (GROUND TRUTH)
+
+--- F.T. MARINETTI ---
+[Zang Tumb Tumb (Bombardamento di Adrianopoli)]
+Ogni 5 secondi cannoni da assedio sventrare
+spazio con un accordo tam-tuuumb
+ammutinamento di 500 echi
+per azzannarlo sminuzzarlo sparpagliarlo
+all'infinito
+nel centro di quei tam-tuuumb
+spiccicati...
+
+[Manifesto Tecnico]
+Bisogna distruggere la sintassi disponendo i sostantivi a caso, come nascono.
+Si deve usare il verbo all'infinito.
+Si deve abolire l'aggettivo.
+Si deve abolire l'avverbio.
+Ogni sostantivo deve avere il suo doppio...
+Donna-golfo, piazza-imbuto, porta-rubinetto.
+
+[Battaglia]
+Peso + odore
+Mezzogiorno 3/4 flauti gemiti
+canicola
+tumbtumb allarme
+Gargaresch schiantarsi crepitazione
+Avanzare xxxx
+GialloGialloGiallo
+
+[All'Automobile da corsa]
+Veemente dio d'una razza d'acciaio,
+Automobile ebbrrra di spazio,
+che scalpiti e fremi d'angoscia
+rodendo il morso con striduli denti...
+Io sono il tuo signore!
+
+[Uccidiamo il Chiaro di Luna]
+Noi vogliamo cantare l'amor del pericolo,
+l'abitudine all'energia e alla temerità.
+Il coraggio, l'audacia, la ribellione,
+saranno elementi essenziali della nostra poesia.
+
+[8 Anime in una bomba]
+3000 franchi + 3000 franchi = 6000 franchi
+di polvere da sparo + odio + velocità
+BUM!
+Carne umana sparsa
+come coriandoli
+in una festa di morte.
+
+[Dune]
+Dune dune dune dune dune
+Sole sole sole sole
+Sete
+Oasi = miraggio
+Cammello + pazienza
+Deserto infinito.
+
+[Aereoplano]
+Ronnnnnnza
+Ellica
+Vento in faccia
+Salire salire salire
+Dio meccanico
+Vedere la terra piccola piccola.
+
+[Guerra sola igiene]
+La guerra è bella perché realizza la metallizzazione
+del corpo umano.
+La guerra è bella perché crea nuove architetture,
+come quella dei grandi carri armati.
+
+[Caffè]
+Cameriere!
+Un caffè + un'idea + un giornale
+Rumore di tazze
+Chiacchiere di donne
+Fumo fumo fumo.
+
+--- ALDO PALAZZESCHI ---
+[Lasciatemi divertire]
+Tri tri tri,
+fru fru fru,
+ihu ihu ihu,
+uhi uhi uhi!
+Il poeta si diverte,
+pazzamente,
+smisuratamente!
+Non lo state a insolentire,
+lasciatelo divertire
+poveretto,
+queste piccole corbellerie
+sono il suo diletto.
+
+[La Passeggiata]
+Andiamo?
+Andiamo.
+E tutti,
+tutti,
+tutti?
+Tutti.
+Uno,
+due,
+tre.
+Via!
+
+[E lasciatemi divertire (Canzonetta)]
+Cucururù,
+rurù,
+rurù,
+cuccurucù!
+
+[Chi sono?]
+Son forse un poeta?
+No, certo.
+Non scrive che una parola, ben strana,
+la penna dell'anima mia:
+follia.
+Son dunque un pittore?
+Neanche.
+Son dunque un musico?
+Meno che mai.
+Son solo un saltimbanco
+dell'anima mia.
+
+[Rio Bo]
+Tre casettine
+dai tetti aguzzi,
+un verde praticello,
+un esiguo ruscello:
+Rio Bo,
+vigile stella.
+
+[La fontana malata]
+Clof, clop, cloch,
+cloffete,
+cloppete,
+clocchete,
+chchch...
+È giù,
+nel cortile,
+la povera
+fontana
+malata.
+
+[Visita alla Contessa]
+Buon giorno, Contessa.
+Come sta?
+Bene, grazie.
+E i cani?
+Bene, grazie.
+E i gatti?
+Bene, grazie.
+E il marito?
+Ah, quello... è morto.
+
+[Il passo delle Nazarene]
+Nazarene, nazarene,
+bianche e nere, nere e bianche;
+vanno in fila, stanche stanche,
+verso il regno del Signor.
+(Ironia sottile)
+
+[Ara Mara Amara]
+Ara mara amara,
+la vita è una chiara
+sorgente di guai.
+
+[Pizzicheria]
+Formaggio, salame, prosciutto,
+che bella vetrina, che tutto!
+Vien voglia di mangiare,
+vien voglia di scoppiare.
+
+--- CORRADO GOVONI ---
+[Il Palombaro]
+Il palombaro è un ragno
+che tesse la sua tela
+nel fondo del mare.
+Pesca le perle
+come lacrime di sirene.
+
+[Le fiammifere]
+Le fiammifere sono
+piccole bare di legno
+con la testa rossa.
+Basta un graffio
+per farle resuscitare
+in una fiammata di vita.
+
+[Auto-ritratto]
+Io sono un poeta
+che vende le sue parole
+al mercato delle pulci.
+Chi le vuole?
+Costano poco,
+valgono niente.
+
+[La Tromba]
+La tromba è un fiore d'ottone
+che sboccia nel silenzio
+e fa tremare i vetri
+della noia.
+
+[Arcobaleno]
+Ponte di colori
+tra la terra e il cielo.
+Chi lo attraversa
+trova la pentola d'oro
+o la fine del mondo?
+
+[Temporale]
+Il cielo si è rotto
+in mille pezzi neri.
+Il tuono è un gigante
+che batte i piedi.
+La pioggia è il pianto
+degli angeli caduti.
+
+[Città vuota]
+Le case sono scatole vuote,
+le strade sono nastri grigi.
+Solo il vento
+spazza la polvere
+dei sogni perduti.
+
+[Il mendicante]
+Ha la faccia di cuoio
+e le mani di legno.
+Chiede l'elemosina
+di un sorriso,
+ma riceve solo monete fredde.
+
+[Libellula]
+Elicottero vivo,
+fata meccanica,
+fiore che vola.
+
+[Santa Lucia]
+La notte più lunga,
+le candele accese,
+i doni nascosti,
+la gioia attesa.
+
+--- ARDENGO SOFFICI ---
+[BÏF§ZF+18 (Simultaneità e Chimismi Lirici)]
+Finestra aperta
+Sole crocevia
+Tram 24 rosso
+Passanti = formiche
+Giornali che volano
+BÏF§ZF+18
+Manifesti colorati
+Bitter Campari
+Cinzzzano.
+
+[Arcobaleno]
+7 colori
+7 note musicali
+7 giorni della settimana
+7 peccati capitali
+Tutto in un arco
+di luce e acqua.
+
+[Firenze]
+Città di pietra e di fiori,
+città di poeti e di signori.
+L'Arno scorre lento
+sotto i ponti vecchi
+portando via i ricordi
+e i peccati.
+
+[Caffè Giubbe Rosse]
+Qui si fa l'Italia,
+o si muore.
+Poeti, pittori, pazzi,
+tutti insieme a urlare
+contro il mondo borghese.
+Caffè nero + sigaretta = rivoluzione.
+
+[Aeroplano]
+Ronzio di vespa gigante
+nel cielo blu.
+Ali di tela e legno
+che sfidano Dio.
+Giù la terra è un tappeto
+di case e campi.
+
+[Trincea]
+Fango, puzzo, morte.
+Ratti grossi come gatti.
+Il nemico è là,
+dietro il filo spinato.
+Ta-pum, ta-pum.
+Qualcuno cade.
+
+[Dinamismo]
+Tutto si muove,
+tutto corre,
+tutto cambia.
+Fermarsi è morire.
+Avanti, sempre avanti!
+
+[Notte a Parigi]
+Luci, donne, champagne.
+La Ville Lumière
+che non dorme mai.
+Baudelaire è morto,
+viva il Futurismo!
+
+[Natura morta]
+Una mela, una bottiglia, un giornale.
+Oggetti muti
+che parlano di vita quotidiana.
+L'arte è qui,
+nel semplice, nel vero.
+
+[Scomposizione]
+Rompiamo le forme,
+spezziamo le linee.
+Il mondo non è solido,
+è fluido, è energia.
+
+--- PAOLO BUZZI ---
+[Aeroplani]
+I.
+O grandi uccelli di tela e d'acciaio!
+Voi violentate l'azzurro vergine
+con le vostre eliche
+che frullano come cuori impazziti.
+II.
+Sopra le nubi,
+sopra le montagne,
+verso il sole,
+verso l'infinito.
+
+[L'Ellisse e la Spirale]
+La vita non è una retta,
+è un'ellisse che torna su se stessa,
+o una spirale che sale
+verso il nulla.
+
+[Il Canto delle Turbine]
+Sssssssssssssss...
+Fischio potente
+energia compressa
+che esplode in movimento.
+Noi siamo i nuovi dèi
+della città elettrica.
+
+[Sintesi della Guerra]
+Sangue + ferro + fuoco = purificazione.
+I deboli muoiono,
+i forti sopravvivono.
+Legge di natura,
+legge di guerra.
+
+[Notturno Elettrico]
+Lampioni come lune artificiali.
+Insegne luminose che lampeggiano:
+BAR - HOTEL - CINEMA.
+La notte è sconfitta
+dalla luce dell'uomo.
+
+[Velocità]
+100 km all'ora,
+200, 300...
+Il paesaggio diventa una striscia
+indistinta di colori.
+L'ebbrezza di correre,
+di superare il vento.
+
+[Inno alla Materia]
+Materia bruta, materia viva,
+materia che si trasforma.
+Noi cantiamo la bellezza
+del metallo, della pietra,
+dell'atomo che vibra.
+
+[Il Poeta-Aviatore]
+Io scrivo nel cielo
+con la scia del mio aereo.
+Le mie parole sono nuvole
+che il vento disperde.
+
+[Rumori di Battaglia]
+Craaack! Bum! Zzzzip!
+Il concerto della morte
+ha strumenti d'acciaio
+e musicisti invisibili.
+
+[Futuro]
+Il passato è un peso morto.
+Buttiamolo a mare.
+Guardiamo avanti,
+verso l'ignoto, verso il domani.
+
+--- LUCIANO FOLGORE ---
+[Ponti sull'oceano]
+Ponti invisibili
+di onde radio
+che collegano i continenti.
+Marconi ha ucciso la distanza.
+La voce vola
+senza fili.
+
+[Città veloce]
+Auto che sfrecciano,
+tram che sferragliano,
+gente che corre.
+Nessuno ha tempo,
+nessuno si ferma.
+La città divora i suoi figli.
+
+[Odor di macchina]
+Olio, benzina, gomma bruciata.
+Profumo moderno,
+profumo di progresso.
+Meglio questo puzzo
+che l'odore di incenso.
+
+[Lirica sintetica]
+Amore.
+Sole.
+Mare.
+Basta.
+
+[Uomo meccanico]
+Ha ingranaggi al posto del cuore,
+fili al posto dei nervi.
+Non piange, non ride,
+funziona.
+È l'uomo del domani?
+
+[Sera urbana]
+Le luci si accendono,
+le ombre si allungano.
+La città respira
+la sua fatica quotidiana.
+
+[Pioggia elettrica]
+Non piove acqua,
+piovono scintille.
+Il cielo è un cortocircuito
+di lampi e tuoni.
+
+[Folla]
+Mille teste, mille gambe,
+un solo corpo
+che si muove ondivago
+per le strade del centro.
+
+[Silenzio rotto]
+Il silenzio non esiste più.
+C'è sempre un ronzio,
+un fischio, un rombo.
+È la colonna sonora
+della nostra era.
+
+[Addio alle muse]
+Addio, vecchie muse polverose!
+Noi abbiamo nuove ispiratrici:
+la Dinamo, la Turbina, l'Elica.
+
+--- FRANCESCO CANGIULLO ---
+[Caffè-concerto]
+Luci! Musica! Donne!
+La sciantosa canta,
+muove i fianchi.
+Il pubblico applaude,
+fuma, beve.
+È il trionfo della carne
+e della stupidità.
+
+[Piedigrotta]
+Festa di rumori,
+di colori, di sapori.
+Trombe, fischietti, petardi.
+Napoli impazzita
+di gioia pagana.
+
+[Lettere umanizzate]
+La A è una tenda,
+la B è un seno,
+la C è una bocca aperta...
+Le lettere vivono,
+hanno una forma, un'anima.
+
+[Poesia pentagrammata]
+Scrivo le parole
+sul rigo musicale.
+Do re mi fa sol la si...
+Amore cuore fiore dolore...
+La poesia diventa musica,
+diventa canto.
+
+[Teatro della sorpresa]
+Nessuna trama,
+nessun personaggio fisso.
+Tutto improvvisato,
+tutto assurdo.
+Il pubblico deve restare
+a bocca aperta.
+
+[Danza dei numeri]
+1 2 3 4 5
+saltano, ballano,
+si moltiplicano.
+La matematica non è noiosa,
+è una danza frenetica.
+
+[Rumorismo]
+Non servono strumenti,
+basta la voce, le mani, i piedi.
+Fischiare, battere, urlare.
+Questa è la musica del popolo.
+
+[Scomposizione di una donna]
+Occhi = stelle
+Bocca = rosa
+Capelli = oro
+No!
+Occhi = fari
+Bocca = tunnel
+Capelli = fili elettrici.
+
+[Vesuvio]
+Fumaiolo naturale,
+che fumi la tua pipa eterna.
+Quando ti arrabbi,
+sputi fuoco e fai tremare
+tutti i poltroni.
+
+[Napoli futurista]
+Non più mandolini e pizze,
+ma porto industriale,
+fabbriche, navi da guerra.
+Napoli si sveglia
+dal suo sonno millenario.
+
+--- FARFA (VITTORIO OSVALDO TOMMASINI) ---
+[Noi miliardario della fantasia]
+Sono ricco, ricchissimo!
+Possiedo castelli in aria,
+miniere di sogni,
+fiumi di parole.
+Chi è più ricco di me?
+
+[Aeropittura]
+Dipingo le nuvole dall'alto,
+la terra che gira,
+il mare che brilla.
+La mia tela è il cielo,
+il mio pennello è l'elica.
+
+[Nonsense]
+Biribì, biribò,
+chi ce l'ha non lo so.
+Palla palla pallina,
+salta fuori la gallina.
+La logica è morta,
+viva il caso!
+
+[Cartellonismo]
+Colori piatti,
+forme geometriche,
+scritte cubitali.
+L'arte deve colpire
+come un pugno nell'occhio.
+Pubblicità = Poesia.
+
+[Tuberie]
+Tubi, tubi, tubi.
+L'acqua scorre, il gas scorre.
+La città è un intrico
+di vene metalliche.
+
+[Locomotiva]
+Mostro sbuffante,
+drago d'acciaio.
+Corri sui binari,
+mangi carbone,
+sputi fumo.
+
+[Radiopoesia]
+Parlo al microfono,
+e la mia voce va
+in tutte le case,
+in tutte le orecchie.
+Sono onnipresente
+come Dio.
+
+[Il mondo alla rovescia]
+I pesci volano,
+gli uccelli nuotano.
+Il sole è freddo,
+la neve è calda.
+Nel mio mondo tutto è possibile.
+
+[Futurismo ligure]
+Mare + monti + industrie.
+Genova superba,
+città di traffici e di gru.
+
+[L'uovo]
+Forma perfetta,
+senza inizio né fine.
+Dentro c'è la vita,
+fuori c'è il guscio.
+Rompiamo il guscio,
+liberiamo il futuro!
+
+--- TULLIO D'ALBISOLA ---
+[Lito-latta (Libro di metallo)]
+Questo libro non si strappa,
+non si brucia, non si bagna.
+È fatto di latta,
+freddo, lucido, eterno.
+Le parole sono stampate
+sul metallo.
+
+[Ceramica futurista]
+Non più vasi greci,
+ma forme aerodinamiche,
+colori esplosivi.
+La ceramica diventa scultura
+di velocità.
+
+[Anguria lirica]
+Verde fuori, rossa dentro.
+Dolce, fresca, succosa.
+Mangiatoia di poeti
+nell'estate rovente.
+
+[Parole in libertà]
+Le parole escono dalla pagina,
+volano nell'aria.
+Non hanno più catene
+grammaticali.
+Sono liberee!!
+
+[Aria di mare]
+Salsedine, iodio, vento.
+Respiro a pieni polmoni
+l'energia dell'onda.
+
+[Costruzioni]
+Mattoni, cemento, ferro.
+Costruiamo il nuovo mondo,
+solido, funzionale, bello.
+
+[Omaggio a Marinetti]
+Maestro, guida, faro.
+Ci hai insegnato a osare,
+a rompere, a creare.
+Grazie, F.T.M.!
+
+[Velocità della luce]
+300.000 km al secondo.
+Niente è più veloce.
+Vogliamo essere luce,
+essere ovunque nello stesso istante.
+
+[Pace e Guerra]
+La pace è noia, stagnazione.
+La guerra è movimento, selezione.
+Meglio un giorno da leoni
+che cento anni da pecore.
+(Ideologia interventista)
+
+[Fine del libro]
+Chiudi il libro di latta.
+Senti il rumore?
+Clang!
+È il rumore del futuro.
+
+--- BENEDETTA CAPPA (MARINETTI) ---
+[Viaggio di Gararà]
+Gararà è una donna,
+ma è anche un concetto.
+Viaggia nei mondi astratti,
+tocca le idee con le mani.
+Tattilismo.
+
+[Aeropittura di donna]
+Non dipingo solo ciò che vedo,
+ma ciò che sento volando.
+La vertigine, la spirale,
+l'abbraccio del cielo.
+
+[Spicologia delle macchine]
+Le macchine hanno un'anima?
+Forse sì.
+Soffrono quando si rompono,
+cantano quando funzionano.
+
+[Le forze umane]
+L'uomo non è solo carne,
+è forza, volontà, spirito.
+Può piegare la materia,
+può dominare il mondo.
+
+[Tattilismo]
+Chiudete gli occhi.
+Toccate.
+Liscio, ruvido, caldo, freddo.
+Il tatto è un'arte,
+come la pittura e la musica.
+
+[Velocità spirituale]
+Non conta solo correre col corpo,
+ma correre con la mente.
+Superare i pregiudizi,
+le paure, i limiti.
+
+[Maternità futurista]
+Non madre chioccia,
+ma madre che lancia i figli
+verso il domani.
+Figli forti, liberi, audaci.
+
+[L'elica]
+Gira, gira, gira.
+Ipnotica, perfetta.
+Taglia l'aria,
+ci porta su.
+
+[Azzurro]
+Il colore dell'infinito,
+dei sogni, della libertà.
+Immergersi nell'azzurro
+e non tornare più.
+
+[Sintesi]
+Poche parole, molti fatti.
+La donna futurista
+agisce, crea, vive.
+Non è l'angelo del focolare,
+è la compagna di volo.
+
+### ⛔ EXAMPLES OF WHAT NOT TO DO (NEGATIVE CONSTRAINT)
+
+#### ❌ BAD FUTURISM (Avoid this style)
+"BOOM! CRASH! The sea
+explodes with blue silence
+like a peace bomb
+ZANG!"
+
+**WHY IT FAILS:**
+- Generic onomatopoeia (BOOM, CRASH) -> You MUST invent new sounds.
+- Simile "like a bomb" -> SIMILES ARE FORBIDDEN in Futurism ("Come" è vietato). Use direct analogy.
+- "Blue silence" -> Sentimental adjective. Adjectives must be destroyed.
+- "ZANG" used without typographic reason.
+- Still uses traditional syntax/grammar.
+

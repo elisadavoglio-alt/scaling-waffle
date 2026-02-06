@@ -1,0 +1,732 @@
+Style: Harlem Renaissance
+Period: 1920-1935
+Key Characteristic: Black identity, pride, jazz/blues rhythm. "I, too, sing America".
+
+### 🏛️ REFERENCE AUTHORS & WORKS
+- Langston Hughes (The Weary Blues) - Jazz, folk
+- Claude McKay (Harlem Shadows) - Militante + lirico
+- Countee Cullen (Color) - Formale, classico
+- Jean Toomer (Cane) - Ibrido prosa/poesia
+- James Weldon Johnson (God's Trombones) - Sermone, oralità
+- Georgia Douglas Johnson (The Heart of a Woman) - Femminile
+- Anne Spencer (Poems) - Natura, intimità
+- Gwendolyn Bennett (Poems) - Arte, identità
+- Angelina Weld Grimké (Rachel poems) - Lesbica, tragica
+- Sterling A. Brown (Southern Road) - Blues, folk
+
+### 🧬 STRUCTURAL PATTERNS (YAML)
+themes:
+  - Black identity, pride
+  - Double consciousness (Du Bois)
+  - Africa ancestrale
+  - Urban Black life (Harlem)
+  - Razzismo, resistenza
+  
+techniques:
+  - Jazz/blues rhythm and syncopation
+  - Call and response
+  - Vernacular + high register
+  - Sermone secolarizzato
+  
+tone:
+  - Celebratorio + dolente
+  - "I, too" — rivendicazione
+
+### 📜 ANTHOLOGY EXAMPLES (GROUND TRUTH)
+
+--- LANGSTON HUGHES ---
+[The Negro Speaks of Rivers]
+I've known rivers:
+I've known rivers ancient as the world and older than the
+     flow of human blood in human veins.
+My soul has grown deep like the rivers.
+
+[I, Too]
+I, too, sing America.
+I am the darker brother.
+They send me to eat in the kitchen
+When company comes,
+But I laugh,
+And eat well,
+And grow strong.
+
+[The Weary Blues]
+Droning a drowsy syncopated tune,
+Rocking back and forth to a mellow croon,
+     I heard a Negro play.
+Down on Lenox Avenue the other night
+By the pale dull pallor of an old gas light
+     He did a lazy sway...
+
+[Harlem]
+What happens to a dream deferred?
+      Does it dry up
+      like a raisin in the sun?
+      Or fester like a sore—
+      And then run?
+
+[Mother to Son]
+Well, son, I’ll tell you:
+Life for me ain’t been no crystal stair.
+It’s had tacks in it,
+And splinters,
+And boards torn up,
+And places with no carpet on the floor—
+Bare.
+
+[Dream Variations]
+To fling my arms wide
+In some place of the sun,
+To whirl and to dance
+Till the white day is done.
+Then rest at cool evening
+Beneath a tall tree
+While night comes on gently,
+   Dark like me—
+That is my dream!
+
+[Cross]
+My old man’s a white old man
+And my old mother’s black.
+If ever I cursed my white old man
+I take my curses back.
+
+[Jazzonia]
+Oh, silver tree!
+Oh, shining rivers of the soul!
+In a Harlem cabaret
+Six long-headed jazzers play.
+A dancing girl whose eyes are bold
+Lifts high a dress of silken gold.
+
+[Theme for English B]
+I guess being colored doesn't make me not like
+the same things other folks like who are other races.
+So will my page be colored that I write?
+Being me, it will not be white.
+
+[Afro-American Fragment]
+So long,
+So far away
+Is Africa.
+Not even memories alive
+Save those that history books create,
+Save those that songs
+Beat back into the blood—
+
+--- CLAUDE MCKAY ---
+[If We Must Die]
+If we must die, let it not be like hogs
+Hunted and penned in an inglorious spot,
+While round us bark the mad and hungry dogs,
+Making their mock at our accursed lot.
+If we must die, O let us nobly die...
+
+[America]
+Although she feeds me bread of bitterness,
+And sinks into my throat her tiger’s tooth,
+Stealing my breath of life, I will confess
+I love this cultured hell that tests my youth!
+
+[The Tropics in New York]
+Bananas ripe and green, and ginger-root,
+Cocoa in pods and alligator pears,
+And tangerines and mangoes and grape fruit,
+Fit for the highest prize at parish fairs...
+
+[Harlem Shadows]
+I hear the halting footsteps of a lass
+In Negro Harlem when the night lets fall
+Its veil. I see the shapes of girls who pass
+To bend and barter at desire’s call.
+
+[The White City]
+I will not toy with it nor bend an inch.
+Deep in the secret chambers of my heart
+I muse my life-long hate, and without flinch
+I bear it nobly as I live my part.
+
+[Outcast]
+For the dim regions whence my fathers came
+My spirit, bondaged by the body, longs.
+Words felt, but never heard, my lips would frame;
+My soul would sing forgotten jungle songs.
+
+[Enslaved]
+Oh when I think of my long-suffering race,
+For weary centuries despised, oppressed,
+Enslaved and lynched, denied a human place
+In the great life line of the Christian West...
+
+[Subway Wind]
+Far down, down through the city's great, gaunt gut
+The gray train rushing bears the weary wind;
+In the packed cars the fans the crowd's breath cut,
+Leaving the sick and heavy air behind.
+
+[After the Winter]
+Some day, when trees have shed their leaves
+And against the morning’s white
+The shivering birds beneath the eaves
+Have sheltered for the night...
+
+[To the White Fiends]
+Think you I am not fiend and savage too?
+Think you I could not arm me with a gun
+And shoot down ten of you for every one
+Of my black brothers murdered, burnt by you?
+
+--- COUNTEE CULLEN ---
+[Yet Do I Marvel]
+I doubt not God is good, well-meaning, kind,
+And did He stoop to quibble could tell why
+The little buried mole continues blind,
+Why flesh that mirrors Him must some day die...
+Yet do I marvel at this curious thing:
+To make a poet black, and bid him sing!
+
+[Heritage]
+What is Africa to me:
+Copper sun or scarlet sea,
+Jungle star or jungle track,
+Strong bronzed men, or regal black
+Women from whose loins I sprang
+When the birds of Eden sang?
+
+[Incident]
+Once riding in old Baltimore,
+Heart-filled, head-filled with glee,
+I saw a Baltimorean
+Keep looking straight at me.
+Now I was eight and very small,
+And he was no whit bigger,
+And so I smiled, but he poked out
+His tongue, and called me, "Nigger."
+
+[From the Dark Tower]
+We shall not always plant while others reap
+The golden increment of bursting fruit,
+Not always countenance, abject and mute,
+That lesser men should hold their brothers cheap.
+
+[Tableau]
+Locked arm in arm they cross the way,
+The black boy and the white,
+The golden splendor of the day,
+The sable pride of night.
+
+[Saturday's Child]
+Some are teethed on a silver spoon,
+With the stars strung for a rattle;
+I cut my teeth as the black raccoon—
+For implements of battle.
+
+[Simon the Cyrenian Speaks]
+He never spoke a word to me,
+And yet He called my name;
+He never gave a sign to me,
+And yet I knew and came.
+
+[A Brown Girl Dead]
+With two white roses on her breasts,
+White candles at her head,
+Dark Madonna of the grave sho rests;
+Lord Death has found her sweet.
+
+[Karenge ya Marenge]
+I have no other prayer to make,
+No other choice to choose;
+I keep for my own spirit's sake
+What I must win or lose.
+
+[Fruit of the Flower]
+My father is a quiet man
+With sober, steady ways;
+For toddler and for teetotal clan
+He has a holy praise.
+
+--- JEAN TOOMER ---
+[Georgia Dusk]
+The sky, lazily disdaining to pursue
+The setting sun, too indolent to hold
+A lengthened tournament for flashing gold,
+Passively darkens for night’s barbecue.
+
+[Fern]
+Face flowed into her eyes. Flowed in soft cream foam and plenteous ripples; in such a way that wherever your glance may momentarily have rested, it immediately thereafter wavered in the direction of her eyes.
+
+[Portrait in Georgia]
+Hair—braided chestnut,
+coiled like a lynxer’s rope,
+Eyes—fagots,
+Lips—old scars, or the first red blisters,
+Breath—the last sweet scent of cane,
+And her slim body, white as the ash
+of black flesh after flame.
+
+[Song of the Son]
+Pour O pour that parting soul in song,
+O pour it in the sawdust glow of night,
+Into the velvet pine-smoke air to-night,
+And let the valley carry it along.
+
+[Cotton Song]
+Come, brother, come. Lets lift it;
+Come now, hewit! roll away!
+Shackles fall upon the Judgment Day!
+But lets not wait for it.
+
+[November Cotton Flower]
+Boll-weevil’s coming, and the winter’s cold,
+Made cotton-stalks look rusty, seasons old,
+And cotton, scarce as any southern snow,
+Was vanishing; the branch, so pinched and slow...
+
+[Reapers]
+Black reapers with the sound of steel on stones
+Are sharpening scythes. I see them place the hones
+In their hip-pockets as a thing that's done,
+And start their silent swinging, one by one.
+
+[Storm Ending]
+Thunder blossoms gorgeously above our heads,
+Great, hollow, bell-like flowers,
+Rumbling in the wind,
+Stretching clappers to strike our ears...
+
+[Beehive]
+Within this black hive to-night
+There swarm a million bees;
+Bees passing in and out the moon,
+Bees escaping out the moon,
+Bees returning through the moon...
+
+[Harvest Song]
+I am a reaper whose muscles set at sundown.
+All my oats are cradled.
+But I am too chilled, and too fatigued to bind them.
+And I hunger.
+
+--- JAMES WELDON JOHNSON ---
+[The Creation]
+And God stepped out on space,
+And he looked around and said:
+I'm lonely—
+I'll make me a world.
+
+[Go Down Death]
+Weep not, weep not,
+She is not dead;
+She's resting in the bosom of Jesus.
+Heart-broken husband—weep no more;
+Grief-stricken son—weep no more;
+Left-lonesome daughter—weep no more;
+She's only just gone home.
+
+[Lift Every Voice and Sing]
+Lift every voice and sing
+Till earth and heaven ring,
+Ring with the harmonies of Liberty;
+Let our rejoicing rise
+High as the listening skies,
+Let it resound loud as the rolling sea.
+
+[My City]
+But, ah! Manhattan's sights and sounds, her smells,
+Her crowds, her throbbing force, the thrill that comes
+From being of her a part, her subtle spells,
+Her shining towers, her avenues, her slums—
+O God! the stark, unutterable pity,
+To be dead, and never again behold my city!
+
+[O Black and Unknown Bards]
+O black and unknown bards of long ago,
+How came your lips to touch the sacred fire?
+How, in your darkness, did you come to know
+The power and beauty of the minstrel's lyre?
+
+[The Prodigal Son]
+Young man—
+Young man—
+Your arm’s too short to box with God.
+
+[Fifty Years]
+With hope and faith we wait the day
+When all men shall be truly free,
+When 'might is right' shall pass away
+And justice rules the land and sea.
+
+[Brothers]
+See! There he stands; not brave, but with an air
+Of sullen stupor. Mark him well! Is he
+Not more like brute beast than a man?
+
+[Sence You Went Away]
+Seems lak to me de stars don't shine so bright,
+Seems lak to me de sun done loss his light,
+Seems lak to me der's nothin' goin' right,
+Sence you went away.
+
+[Before a Painting]
+I stood before a painting high and dim,
+Whereon the master’s hand had traced a face,
+A face of sorrow, yet of peace and grace.
+
+--- GEORGIA DOUGLAS JOHNSON ---
+[The Heart of a Woman]
+The heart of a woman goes forth with the dawn,
+As a lone bird, soft winging, so restlessly on,
+Afar o’er life’s turrets and vales does it roam
+In the wake of those echoes the heart calls home.
+
+[Bronze]
+These children of the sun,
+These bronze men,
+Soft-voiced and laughter-bred,
+Are we not kin to them?
+
+[Common Dust]
+And who shall separate the dust
+What later we shall be:
+Whose keen discerning eye will scan
+And solve the mystery?
+
+[I Want to Die While You Love Me]
+I want to die while you love me,
+While yet you hold me fair,
+While laughter lies upon my lips
+And lights are in my hair.
+
+[My Little Dreams]
+I’m folding up my little dreams
+Within my heart tonight,
+And praying I may soon forget
+The torture of their sight.
+
+[Youth]
+The dew is on the grasses, dear,
+The blush is on the rose,
+And swift across our dial-youth,
+A shifting shadow goes.
+
+[Smothered Fires]
+A woman with a burning flame
+Deep covered through the years
+With ashes. Ah! she hid it deep,
+And smothered it with tears.
+
+[Prejudice]
+These fell miasmic rings of mist,
+with ghoulish menace bound,
+Like noose-horizons tightening
+my little world around.
+
+[Calling Dreams]
+The right to make my dreams come true,
+I ask, nay, I demand of life;
+Nor shall fate's deadly contraband
+Impede my steps, nor countermand.
+
+[Cosmopolite]
+Not wholly this or that,
+But every land a part,
+Of my diversity.
+
+--- ANNE SPENCER ---
+[Lady, Lady]
+Lady, Lady, I saw your face,
+Dark as night withholding a star...
+The chisel fell, or it might have been
+You had borne so long the yoke of men.
+
+[Dunbar]
+Ah, how poets sing and die!
+Make one song and Heaven takes it;
+Have one heart and Beauty breaks it;
+Chatterton, Shelley, Keats and I—
+Ah, how poets sing and die!
+
+[White Things]
+Most things are colorful things—
+The sky, earth, and sea.
+Black men are most men;
+But the white are free!
+White things are rare things;
+White things are desired things.
+
+[Translation]
+We trekked into a far country,
+My friend and I.
+Our deeper content was never spoken,
+But each knew all the other said.
+
+[Letter to My Sister]
+It is dangerous for a woman to defy the gods;
+To taunt them with the tongue's thin tip,
+Or strut in the weakness of mere humanity:
+The gods adore the obvious.
+
+[At the Carnival]
+Gay little Girl-of-the-Diving-Tank,
+I desire a name for you,
+Nice, as a right direction,
+And I like your white-teeth laughter.
+
+[Lines to a Nasturtium]
+A lover musing on his belovèd...
+Flame-flower, Day-torch, Mauna Loa,
+I saw a daring bee, today, pause, and soar,
+Into your chalice, yellow as a yolk.
+
+[Before the Feast at Shushan]
+Garden of Shushan!
+After Eden, all terrace, pool, and flower anew;
+With your feasting vases in the casement line,
+And the trellis-pattern of your winds.
+
+[Transformation]
+We are the spirit of the sun;
+We are the pulse of the sea.
+The earth is our flesh and bone;
+The air is our breath and plea.
+
+[Grapes: Still-Life]
+Look at the purple grapes,
+Heavy and round and sweet;
+They are the wine of life,
+Crushed by the dancer's feet.
+
+--- GWENDOLYN BENNETT ---
+[To a Dark Girl]
+I love you for your brownness,
+And the rounded darkness of your breast,
+I love you for the breaking sadness
+In your voice and shadows where your wayward eyelids rest.
+
+[Heritage]
+I want to see the slim palm-trees,
+Pulling at the clouds
+With little pointed fingers...
+I want to see lithe Negro girls
+Etched dark against the sky.
+
+[Hatred]
+I shall hate you
+Like a dart of singing steel
+Shot through still air
+At even-tide.
+
+[Sonnet 1]
+He came in silvern armor, trimmed with black—
+A lover come from legends long ago—
+With silver spurs and silk upon his back,
+And I, the maid who sought to make him know.
+
+[Sonnet 2]
+Some things are very dear to me—
+Such things as flowers bathed by rain
+Or patterns traced upon the sea
+Or crocuses where snow has lain.
+
+[Quatrains]
+Brushes and paints are all I have
+To speak the music in my soul—
+While silent shadows creep across
+The canvas of my self-control.
+
+[Moon Tonight]
+The moon tonight is a silver coin
+Dropped in a pool of lead;
+And the stars are little sparks
+Struck from the anvil of the dead.
+
+[Street Lamps in Early Spring]
+Night wears a garment
+All velvet soft and black,
+Pinned with the silver stars
+Upon her back.
+
+[Fantasy]
+I sailed in my dreams to the Land of Night
+Where you were the dusky Queen,
+Clad in the star-dust’s silver light
+And the moon’s pale, shimmerin’ sheen.
+
+[Advice]
+Save your tears for the rain,
+Save your sighs for the wind,
+Save your heart for the pain
+That love leaves behind.
+
+--- ANGELINA WELD GRIMKÉ ---
+[The Black Finger]
+I have just seen a beautiful thing
+Slim and still,
+Against a gold, gold sky,
+A straight cypress,
+Sensitive,
+Exquisite,
+A black finger
+Pointing upwards.
+Why, beautiful, still finger are you black?
+And why are you pointing upwards?
+
+[Tenebris]
+There is a tree, by day,
+That, at night,
+Has a shadow,
+A hand huge and black,
+With fingers long and black.
+All through the dark
+Against the white man's house,
+In the little wind,
+The black hand plucks and plucks
+At the bricks.
+The bricks are the color of blood and very small.
+Is it a black hand,
+Or is it a shadow?
+
+[A Mona Lisa]
+I should like to creep
+Through the long brown grasses
+That are your lashes;
+I should like to sleep
+On the twin-mooned peaks
+That are your breasts.
+
+[When the Green Lies Over the Earth]
+When the green lies over the earth, my dear,
+A mantle of living joy;
+When the red velvet rose is here,
+And the butterfly, a flying toy...
+
+[Paradox]
+I am the woman with the black black skin
+I am the laughing woman with the black black skin
+I am the woman with the heavy heart
+I am the woman who smiles.
+
+[Dawn]
+Grey trees, grey skies, and a grey, grey sea,
+And a grey dawn creeping up the lea;
+And a grey hope waking in the heart of me.
+
+[Dusk]
+Twin stars through my window pane,
+The shriek of a train...
+An owl's cry,
+And memory.
+
+[Grass Fingers]
+Elusive, faint, fragile fingers,
+Touching my face,
+Touching my hands,
+Touching my feet.
+You are the fingers of the grass.
+
+[Epitaph on a Living Woman]
+She was a rose that bloomed in the winter,
+A bird that sang in the snow.
+She was a light that shone in the darkness,
+A hope when the world was low.
+
+[The Eyes of My Regret]
+Always at my back I hear
+The eyes of my regret;
+They are like the eyes of a deer
+That the hunter has not met.
+
+--- STERLING A. BROWN ---
+[Southern Road]
+Swing dat hammer—hunh—
+Steady, bo';
+Swing dat hammer—hunh—
+Steady, bo';
+Ain't no rush, bebby,
+Long ways to go.
+
+[Ma Rainey]
+When Ma Rainey
+Comes to town,
+Folks from anyplace
+Miles aroun',
+From Cape Girardeau,
+Poplar Bluff,
+Flocks in to hear
+Ma do her stuff.
+
+[Strong Men]
+They dragged you from homeland,
+They chained you in coffles,
+They huddled you spoon-fashion in filthy hatches,
+They sold you to give a few gentlemen ease.
+...
+The strong men keep a-comin' on
+The strong men git stronger.
+
+[Slim in Hell]
+Slim Greer went to heaven;
+St. Peter said, "Slim,
+You been a right good boy."
+An' he winked at him.
+"You been a travelin' rascal
+In yo' day.
+You kin roam once mo';
+Den you come to stay."
+
+[Old Lem]
+I talked to old Lem
+And old Lem said:
+"They weigh the cotton
+They store the corn
+We only good enough
+To work the rows;
+They run the commissary
+They keep the books
+We gotta be grateful
+For being cheated."
+
+[Riverbank Blues]
+A man get weary
+Sick and tired of waitin'
+For the river to rise
+And the sun to set.
+Waiting for the levee
+To break and let
+The water wash away
+His heavy debt.
+
+[Sister Lou]
+Honey
+When de man
+Calls out de las' train
+You're gonna ride,
+Tell him howdy.
+Gather up yo' basket
+An' yo' bundle an' yo' gal,
+An' say goodbye.
+
+[Memphis Blues]
+Nineh's Gal
+She's a high-steppin' dame
+She don't talk to nobody
+She don't know my name
+But when she does the shimmy
+She sets the town aflame.
+
+[Odyssey of Big Boy]
+Lemme be wid Casey Jones,
+Lemme be wid Stagolee,
+Lemme be wid such like men
+When Death takes hol' of me,
+When Death takes hol' of me.
+
+[Long Gone]
+I loves you, baby,
+Deed I do,
+But the road is callin'
+And I must go.
+Don't you cry, baby,
+Don't you moan,
+For I'll be back
+When the wild wind's blown.

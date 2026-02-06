@@ -1,0 +1,657 @@
+Style: Symbolism
+Period: Late 19th Century (approx. 1857-1900)
+Key Characteristic: Suggestion over description. Musicality ("De l'aube avant toute chose"). Correspondences. Synesthesia.
+
+### 🏛️ REFERENCE AUTHORS & WORKS
+- Charles Baudelaire (Les Fleurs du mal) - The father. Spleen, Ideal, Correspondences.
+- Stéphane Mallarmé (L'Après-midi d'un faune) - Hermetic, absolute language, white page.
+- Arthur Rimbaud (Illuminations, Season in Hell) - Derangement of senses, visionary.
+- Paul Verlaine (Romances sans paroles) - Musicality, nuance, melancholy.
+- Jules Laforgue (The Complaints) - Irony, free verse pioneer, spleen + clown.
+- Tristan Corbière (Les Amours jaunes) - Rough, anti-lyrical, Breton sailor style.
+- Paul Valéry (La Jeune Parque) - Intellectual tightrope, pure poetry (late symbolist).
+- Maurice Maeterlinck (Serres chaudes) - Static, greenhouse atmosphere, soul-sickness.
+- Jean Moréas (The Stanzas) - Defined the manifesto, classical turn.
+- Gustave Kahn (Les Palais nomades) - Theorist of vers libre.
+
+### 🧬 STRUCTURAL PATTERNS (YAML)
+ideology:
+  - Rejection of realism and moralizing
+  - Art for Art's sake
+  - The sensible world is a forest of symbols
+  - Accessing the Absolute through derangement or purification
+  
+techniques:
+  - Synesthesia (mixing senses: "Blue sound")
+  - Musicality (Verlaine's "Music above all")
+  - Ambiguity and Suggestion (naming an object destroys 3/4 of the enjoyment)
+  - Free Verse (Vers libre) development
+  - Exotic/Decadent imagery
+
+vocabulary:
+  - Gemstones, perfumes, decaying flowers
+  - Twilight, autumn, mist, abyss
+  - Abstract/Ideal concepts (L'Azur, Le Néant)
+
+### 📜 ANTHOLOGY EXAMPLES (GROUND TRUTH)
+
+--- CHARLES BAUDELAIRE ---
+[Correspondences]
+Nature is a temple in which living pillars
+Sometimes give forth a confused babble of speech;
+Man passes there through forests of symbols
+Which watch him with familiar eyes.
+Like prolonged echoes mingling in the distance
+In a deep and tenebrous unity,
+Vast as the dark of night and as the light of day,
+Perfumes, sounds, and colors correspond.
+
+[The Albatross]
+The Poet is like the prince of the clouds
+Who haunts the tempest and laughs at the archer;
+Exiled on the ground amidst the jeers,
+His giant wings prevent him from walking.
+
+[Spleen (IV)]
+When the low, heavy sky weighs like a lid
+On the groaning spirit, victim of long ennui,
+And from the all-encompassing horizon
+Pours us a black day sadder than nights...
+
+[To the Reader]
+Folly, error, sin, and stinginess
+Occupy our minds and labor our bodies,
+And we feed our amiable remorse
+As beggars nourish their vermin.
+
+[A Carcass]
+Remember the object we saw, my soul,
+That sweet summer morning so mild:
+At the turn of a path, a carcass, infamous,
+On a bed sown with stones...
+And the sky watched that opening flower
+Like a carcass explicitly.
+
+[The Enemy]
+My youth was nothing but a dark storm,
+Traversed here and there by brilliant suns;
+Thunder and rain have made such havoc
+That there remain very few red fruits in my garden.
+
+[Invitation to the Voyage]
+There, all is order and beauty,
+Luxury, peace, and pleasure.
+See on these canals
+Those vessels sleeping...
+
+[The Cat]
+Come, my beautful cat, on my amorous heart;
+Retain the claws of your paw,
+And let me plunge into your beautiful eyes,
+Mixed with metal and agate.
+
+[Hymn to Beauty]
+Do you come from the deep sky or the abyss,
+O Beauty? Your gaze, infernal and divine,
+Pours out confusingly benevolence and crime,
+Wherefore one may compare you to wine.
+
+[The Clock]
+The Clock! God frightful, impassive, and malicious,
+Whose finger threatens us and says: "Remember!"
+The vibrating Pain will plant itself in your full heart
+Like into a target.
+
+--- STÉPHANE MALLARMÉ ---
+[The Azure]
+The eternal Azure's lucid irony
+Overwhelms, beautifully indolent as flowers,
+The impotent poet who curses his genius
+Through a sterile desert of Sorrows.
+
+[Sea Breeze]
+The flesh is sad, alas! and I have read all the books.
+To flee! to flee there! I feel that birds are drunk
+On being among the unknown foam and the skies!
+
+[A Throw of the Dice (Un coup de dés)]
+A THROW OF THE DICE
+NEVER
+WILL ABOLISH
+CHANCE
+Even when launched in eternal circumstances
+From the depths of a shipwreck...
+
+[The Tomb of Edgar Poe]
+Such as into himself at last eternity changes him,
+The Poet arouses with a naked sword
+His age stricken with horror not to have known
+That death had triumphed in this strange voice!
+
+[The Swan]
+The virgin, vivid, and beautiful today—
+Will it tear us with a drunken wingbeat
+This hard, forgotten lake haunted under the frost
+By the transparent glacier of flights not fled!
+
+[Apparition]
+The moon grew sad. Seraphim in tears
+Dreaming, finger on the bow, in the calm of flowers
+Vaporous, drew white sobs gliding
+From their dying viols.
+
+[Saint]
+At the window concealing
+The sandalwood old gold of her viol
+Formerly with flute or mandore,
+Is the pale Saint...
+
+[The Afternoon of a Faun]
+These nymphs, I would perpetuate them.
+So clear,
+Their light carnation, that it hovers in the air
+Heavy with tufted slumbers.
+Was it a dream I loved?
+
+[Fan]
+With language nothing more than a wing
+To hide the face from you
+There is piercing the shadows
+A little enshrouded spice.
+
+[Sonnet in X (Ses purs ongles...)]
+Her pure nails very high dedicating their onyx,
+Anguish, this midnight, upholds the lamp-bearer,
+Many vesperal dreams burned by the Phoenix
+That are not gathered in the funeral urn.
+
+--- ARTHUR RIMBAUD ---
+[The Drunken Boat]
+As I was floating down impassive Rivers,
+I no longer felt myself guided by haulers...
+I ran! And the Peninsulas delivered
+From their moorings have never known a chaos more triumphant.
+
+[Vowels]
+A black, E white, I red, U green, O blue: vowels,
+I shall tell, one day, your latent birth:
+A, black hairy corset of shining flies
+Which buzz around cruel stenches...
+
+[Sensation]
+In the blue summer evenings, I will go along the paths,
+Picnicked by the wheat, treading on the short grass:
+Dreaming, I will feel the coolness on my feet.
+I will let the wind bathe my bare head.
+
+[The Sleeper in the Valley]
+It is a green hollow where a river sings
+Madly catching on the grasses silver
+Rags...
+A young soldier, mouth open, bare head,
+And the nape of his neck bathing in cool blue cress,
+Sleeps.
+
+[A Season in Hell (Night of Hell)]
+I have swallowed a famous gulp of poison.
+Three times blessed be the mistake that came to me!
+My entrails burn. The violence of the venom twists my limbs.
+
+[Departure]
+Seen enough. The vision has been met in all airs.
+Had enough. Sounds of cities in the evening, and in the sun, and always.
+Known enough. The stations of life. — O Sounds and Visions!
+Departure in new affection and new noise!
+
+[Mystic]
+On the slope of the bank, the angels revolve their woolen robes
+In the pastures of steel and emerald.
+Meadows of flames leap up...
+
+[Barbarian]
+The pavilion of bloody meat on the silk of seas and arctic flowers;
+(They do not exist.)
+Recovered from the old fanfares of heroism—which still attack our hearts and heads—far from the ancient assassins.
+
+[After the Deluge]
+As soon as the idea of the Flood had subsided,
+A hare stopped in the clover and swinging flowerbells and said a prayer to the rainbow through the spider's web.
+
+[Phrases]
+I have stretched ropes from steeple to steeple;
+Garlands from window to window;
+Golden chains from star to star,
+And I dance.
+
+--- PAUL VERLAINE ---
+[Art Poétique]
+Music before all things,
+And for that prefer the Odd
+More vague and soluble in air,
+With nothing in it that weighs or poses.
+
+[Autumn Song (Chanson d'automne)]
+The long sobs
+Of the violins
+Of autumn
+Wound my heart
+With a monotonous
+Languor.
+
+[Moonlight (Clair de lune)]
+Your soul is a chosen landscape
+Where charming masqueraders and bergamaskers go
+Playing the lute and dancing and almost
+Sad beneath their fantastic disguises.
+
+[Il pleut dans mon coeur]
+It rains in my heart
+As it rains on the town;
+What is this languor
+That penetrates my heart?
+
+[Green]
+Here are fruits, flowers, leaves, and branches,
+And here is my heart which beats only for you.
+Do not tear it with your two white hands,
+And may the poor thing please your eyes today.
+
+[Sentimental Colloquy]
+In the old park, frozen and solitary,
+Two forms have just passed by.
+Their eyes are dead and their lips are soft,
+And one can hardly hear their words.
+
+[My Familiar Dream]
+I often have this strange and penetrating dream
+Of an unknown woman, whom I love, and who loves me
+And who is never, each time, quite the same,
+Nor quite another...
+
+[Spleen]
+The roses were all red,
+The ivy was all black.
+Dear, you move your head,
+And revive my despair.
+
+[Wisdom (Sagesse)]
+The sky is, above the roof,
+So blue, so calm!
+A tree, above the roof,
+Rocks its palm.
+
+[Parsifal]
+Parsifal has vanquished the Girls, their gentle babble
+and amusing luxuriance—and his slope ascending
+towards the Wound... he worships the spear...
+
+--- JULES LAFORGUE ---
+[The Winter Coming]
+Sentimental blockades! Cargoes from the Levant!
+Oh, falling rain! Oh, falling night! Oh, the wind!
+All Hallows’ Day, Christmas, and the New Year,
+Oh, in the drizzling, all my chimneys...
+
+[Pierrot]
+On a neck hidden in stiff lace,
+Under a cold mask like the moon,
+With eyes of emerald green in a swoon,
+Pierrot wanders, leaving no trace.
+
+[Complaint of the King of Thule]
+There was a King of Thule,
+Whom no one imitated,
+Who loved apart, in hiw way,
+Only his solitude.
+
+[Complaint of the Moon in the Provinces]
+Ah! beautiful Full Moon,
+Big like a fortune!
+Where are you going, retreat?
+Over the river of yellowish silk...
+
+[Lament of the Organist of Notre-Dame de Nice]
+The winter sun sets slowly,
+Cruel and yellow like a quince,
+And my poor heart weeps in silence
+Here in the loft, alone and lonely.
+
+[Another Complaint of Lord Pierrot]
+Usually, she is the one who begins,
+I let her do, being divine!
+I look into her eyes, leaning...
+And it is the impossible that dominates.
+
+[The Mystery of the Three Horns]
+A hunting horn sounds in the woods,
+Calling the stag, calling the doe.
+But the forest is empty and low,
+No one answers, no one understood.
+
+[Solo by Moonlight]
+I smoke, facing the night,
+My cigarette mimics the fog...
+O unbalanced constellations,
+J’en ai assez de vos rotations!
+
+[Simple Agony]
+Skeptical? No. Believer? No.
+I watch the circus of the world.
+And death is the only girl
+Who really smiles at the end of the show.
+
+[Sunday]
+Sunday, Sunday, boring day.
+The piano sounds in the street.
+Someone plays a waltz, off-beat.
+And life passes, grey on grey.
+
+--- TRISTAN CORBIÈRE ---
+[The Toad]
+A song in a windless night...
+Look: under the shadow of the stone,
+A toad! —Living gargoyle.
+Horror. But look closely:
+His eye shines like gold.
+
+[Epitaph]
+Mixer of ashes: quack!
+He killed himself out of skill...
+Too genius to be ugly,
+Too ugly to include genius...
+A soul? — a stomach!
+
+[Litany of Sleep]
+You who snore upon the Just,
+Sleep, pure conscience of the unjust!
+Sleep, sad lover of the night,
+Close the curtain, kill the light.
+
+[Paris by Night]
+It’s the sea—calm flat.
+And the great tide crying...
+It’s not the city—it’s a world
+Drowning in the heavy fog curled.
+
+[Insomnia]
+Insomnia, impalpable beast!
+Is it love? Is it remorse?
+That gnaws my brain without divorce?
+Why do you visit my poor feast?
+
+[To the Eternal Feminine]
+Eternal idol, stupid and vain!
+Man pays you with his sweat and pain.
+You smile, you paint your lips red,
+While ideas die in his head.
+
+[Rondel]
+It makes dark in the child's room.
+The ghost comes out of the tomb.
+Silence. The clock ticks.
+Fear plays its old tricks.
+
+[Steam Boat]
+Smoke, smoke, little boat!
+Dirty the blue sky, dirty the sea.
+Man must conquer, man must be
+Master of nature, by rote.
+
+[Letter from Mexico]
+You ask me if I die?
+No, I rot gently under the sun.
+Here life and death are one.
+Only the flies multiply.
+
+[Cries of theblind]
+The eye of stone, the look of lead.
+They pass, tapping the ground.
+Dead to the light, dead to the sound.
+Living tombs among the dead.
+
+--- PAUL VALÉRY ---
+[The Cemetery by the Sea (Le Cimetière marin)]
+This quiet roof, where doves are walking,
+Trembles between the pines, between the tombs;
+Just noon composes with its fires
+The sea, the sea, always recommencing!
+After a thought, O what a reward
+Is a long gaze over the calm of gods!
+
+[The Footsteps (Les Pas)]
+Your steps, children of my silence,
+Saintly, slowly placed,
+Towards the bed of my vigilance
+Proceed, mute and frozen.
+Person, pure shadow, divine presence...
+
+[The Pomegranate]
+Hard pomegranates, slightly opening
+To yield your seeds in excess,
+Assuming the heat of a forehead where a press
+Has made the ruby blood burst...
+
+[The Bee]
+Whatever stinging, however deadly,
+I place my Golden dream on thee;
+There is only one thing: to see
+The light, whatever the pain be.
+
+[The Spinner]
+The garden spins its green and blue,
+The thread of water, the web of dew.
+I feel the world turning in me,
+Sleeping spinner of eternity.
+
+[Palm]
+An angel places at my table
+Bread, wine, and a simple fruit...
+He says nothing, but his wing
+Touches my brow in the absolute.
+
+[Helen]
+I am the blue of the sea,
+I am the white of the foam.
+The ships burn for me,
+And the heroes never come home.
+
+[Narcissus]
+I see myself, I love myself.
+The water is my only friend.
+In the mirror, without end,
+I kiss the lips of myself.
+
+[Interior]
+A slave with long eyes charged with molting
+Water, milk, the iris, and the rose,
+Serves the mirror of my repose
+With shadows, secrets, and revolt.
+
+[The Young Fate (La Jeune Parque)]
+Who weeps there, if not the simple wind,
+At this hour of diamonds alone?
+But who weeps, so near to myself,
+At the moment of tears unknown?
+
+--- MAURICE MAETERLINCK ---
+[Hothouses (Serres chaudes)]
+O hothouse in the middle of the woods!
+And your doors forever closed!
+And all that is under your dome,
+And under my soul, in your analogies!
+
+[The Diving Bell]
+Blue glass, green water,
+Silence surrounds me like a wall.
+Strange flowers without perfume
+Grow in the garden of the gloom.
+
+[Prayer]
+Lord, have pity on my blood,
+Have pity on my pale skin.
+I am a child of the night,
+Afraid of the burning light.
+
+[Ennui]
+The peacocks of ennui,
+White as the snow,
+Walk in the garden of my woe,
+Slowly, under the moonless sky.
+
+[Hunt]
+My soul is a hunting dog,
+Chasing the stag of dreams.
+Through the marshes, through the streams,
+Lost in the eternal fog.
+
+[Hospital]
+The smell of ether and of death.
+Rows of beds like white tombs.
+Someone sighs with their last breath.
+Life ends in these rooms.
+
+[Winter Desires]
+I want the ice, the snow, the cold.
+To freeze the fever of my brain.
+To kill the desire, to kill the pain.
+To be a statue, white and old.
+
+[Amen]
+So be it. The end is near.
+I accept the silence and the fear.
+Close the book, blow out the light.
+Welcome the long, dark night.
+
+[Songs]
+Seven girls of Orlamonde,
+When the fairy was dead,
+The seven girls of Orlamonde,
+Searched for the sun.
+
+[Reflections]
+Reflections in the stagnant water.
+Faces that I used to know.
+Ghosts of days long ago.
+Drowning in the muddy slaughter.
+
+--- JEAN MORÉAS ---
+[Stanzas (I)]
+Leaves of autumn, leaves of red,
+You fall like drops of blood.
+The tree is naked, the tree is dead.
+So is my heart in the mud.
+
+[Stanzas (II)]
+The classic form, the rigorous line.
+No more vague dreams, no more mist.
+I want the marble, I want the wine,
+Clear and strong, carefully kissed.
+
+[Stanzas (III)]
+Do not tell me of the new.
+I love the old, the ancient ways.
+The Greek sun, the Roman days.
+Everything else is false and untrue.
+
+[Epitaph]
+Here lies a poet who tried
+To discipline the wild rhyme.
+He failed, he suffered, he died.
+But he loved beauty in his time.
+
+[The Sea]
+The sea is a great sculptor.
+It carves the rocks, it shapes the sand.
+It holds the world in its hand.
+Mighty, cruel, and pure.
+
+[Silence]
+Silence is the highest art.
+Better than words, better than song.
+It speaks directly to the heart,
+Where we truly belong.
+
+[Melancholy]
+Sweet melancholy, my old friend.
+You sit beside me at the fire.
+We watch the flames ascend and end.
+We have no hope, no desire.
+
+[The Garden]
+Order, symmetry, grace.
+The trees are trimmed, the paths are straight.
+Everything is in its place.
+Peaceful, perfect, and sedate.
+
+[Evening]
+The sun goes down, the shadows grow.
+The day is done, the work is through.
+There is nothing left to know.
+Only the dark, and me, and you.
+
+[Farewell]
+Goodbye to youth, goodbye to love.
+I welcome age, and wisdom's cold.
+Like a star high above,
+Distant, shiny, and old.
+
+--- GUSTAVE KAHN ---
+[Nomadic Palaces]
+My dream is a palace of clouds,
+Floating in the azure sky.
+Changing shape as the winds fly,
+Far from the noisy crowds.
+
+[Free Verse]
+Break the cage, break the bar!
+Let the rhythm be free as a bird.
+Let every unique emotion be heard.
+Follow the music, follow the star.
+
+[Intermezzo]
+A moment of pause, a breath.
+Between the pain and the joy.
+A broken toy, a fading wreath.
+Life is a game, death is a boy.
+
+[City]
+The city hums, the city screams.
+Electric lights, iron wheels.
+A monster that never feels.
+Eating our souls, eating our dreams.
+
+[Night Watch]
+Watching the stars from the roof.
+Are they eyes? Are they holes?
+Burning diamonds, burning coals.
+Silent, distant, and aloof.
+
+[Song of the Gold]
+Gold is the king, gold is the lord.
+It buys the woman, it buys the sword.
+It shines in the dark, it shines in the mud.
+It drinks our sweat, it drinks our blood.
+
+[Orient]
+Perfumes of amber, silk of red.
+Distant lands of sun and spice.
+Every pleasure has a price.
+Dreams of a harem in my head.
+
+[The White Page]
+The terror of the white page.
+Waiting for the ink to stain.
+To capture the joy, capture the pain.
+A silent, empty stage.
+
+[Violin]
+The bow cuts the string like a knife.
+A cry of wood, a cry of soul.
+Making the broken pieces whole.
+Music is stronger than life.
+
+[Finale]
+The curtain falls, the play is done.
+The actors wash their painted face.
+Leaving no memory, no trace.
+Beneath the setting sun.

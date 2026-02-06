@@ -1,0 +1,186 @@
+Style: The Sonnet
+Period: 13th Century - Present
+Key Characteristic: 14 lines, Iambic Pentameter (typically), strict rhyme scheme (Petrarchan or Shakespearean), Volta (Turn).
+
+### 🏛️ REFERENCE AUTHORS & WORKS
+- William Shakespeare (Sonnets) - The English master. ABAB CDCD EFEF GG.
+- Francesco Petrarca (Canzoniere) - The originator. ABBA ABBA CDE CDE. Laura.
+- Edmund Spenser (Amoretti) - Interlocking rhyme scheme (Spenserian).
+- Sir Philip Sidney (Astrophil and Stella) - First major English sequence.
+- John Milton (Sonnets) - Political, personal, "On His Blindness".
+- William Wordsworth (Miscellaneous Sonnets) - Nature, liberty, "The Sonnet's Scanty Plot".
+- Elizabeth Barrett Browning (Sonnets from the Portuguese) - Intense personal love.
+- Christina Rossetti (Monna Innominata) - Devotional, melancholic.
+- John Keats (Sonnets) - "Bright Star", "Chapman's Homer".
+- Edna St. Vincent Millay (Sonnets) - Modern twist on the classic form.
+
+### 🧬 STRUCTURAL PATTERNS (YAML)
+ideology:
+  - Compressed emotion
+  - Dialectic argument (Thesis -> Antithesis -> Synthesis/Volta)
+  - Love, Time, Mortality, Art
+  
+techniques:
+  - Iambic Pentameter (da-DUM da-DUM da-DUM da-DUM da-DUM)
+  - The Volta (Change in tone/argument at line 9 or 13)
+  - Conceit (Extended metaphor)
+  - Blazon (Cataloging body parts)
+
+vocabulary:
+  - Time, love, eyes, heart, soul, death, star, sky
+
+### 📜 ANTHOLOGY EXAMPLES (GROUND TRUTH)
+
+--- WILLIAM SHAKESPEARE ---
+[Sonnet 18]
+Shall I compare thee to a summer's day?
+Thou art more lovely and more temperate:
+Rough winds do shake the darling buds of May,
+And summer's lease hath all too short a date...
+
+[Sonnet 130]
+My mistress' eyes are nothing like the sun;
+Coral is far more red than her lips' red;
+If snow be white, why then her breasts are dun;
+If hairs be wires, black wires grow on her head.
+
+[Sonnet 116]
+Let me not to the marriage of true minds
+Admit impediments. Love is not love
+Which alters when it alteration finds,
+Or bends with the remover to remove.
+
+[Sonnet 29]
+When, in disgrace with fortune and men’s eyes,
+I all alone beweep my outcast state,
+And trouble deaf heaven with my bootless cries,
+And look upon myself and curse my fate.
+
+[Sonnet 73]
+That time of year thou mayst in me behold
+When yellow leaves, or none, or few, do hang
+Upon those boughs which shake against the cold,
+Bare ruin'd choirs, where late the sweet birds sang.
+
+--- FRANCESCO PETRARCA ---
+[Sonnet 90 (Era il giorno ch’al sol...)]
+It was the day the sun's ray had turned pale
+With pity for the suffering of his Maker,
+When I was caught, and I put up no fight,
+My lady, for your precious eyes unbound me.
+
+[Sonnet 132 (S’amor non è...)]
+If no love is, O God, what fele I so?
+And if love is, what thing and which is he?
+If love be good, from whence cometh my woe?
+If it be wick, a wonder thinketh me.
+
+[Sonnet 3 (La gola e 'l sonno...)]
+Gluttony and sleep and pillows of sloth
+Have banished every virtue from the world,
+So that nature, wandering from her course,
+Is almost overcome by custom's force.
+
+--- EDMUND SPENSER ---
+[Sonnet 75 (One day I wrote her name...)]
+One day I wrote her name upon the strand,
+But came the waves and washed it away:
+Again I wrote it with a second hand,
+But came the tide, and made my pains his prey.
+
+[Sonnet 30 (My love is like to ice...)]
+My love is like to ice, and I to fire:
+How comes it then that this her cold so great
+Is not dissolved through my so hot desire,
+But harder grows the more I her entreat?
+
+--- SIR PHILIP SIDNEY ---
+[Sonnet 1 (Loving in truth...)]
+Loving in truth, and fain in verse my love to show,
+That the dear She might take some pleasure of my pain...
+"Fool," said my Muse to me, "look in thy heart, and write."
+
+[Sonnet 31 (With how sad steps, O Moon...)]
+With how sad steps, O Moon, thou climb'st the skies!
+How silently, and with how wan a face!
+What, may it be that even in heavenly place
+That busy archer his sharp arrows tries?
+
+--- JOHN MILTON ---
+[When I Consider How My Light is Spent]
+When I consider how my light is spent,
+Ere half my days, in this dark world and wide,
+And that one Talent which is death to hide,
+Lodged with me useless.
+
+[On the Late Massacre in Piedmont]
+Avenge, O Lord, thy slaughtered saints, whose bones
+Lie scattered on the Alpine mountains cold,
+Even them who kept thy truth so pure of old
+When all our fathers worshipped stocks and stones.
+
+--- WILLIAM WORDSWORTH ---
+[Nuns Fret Not]
+Nuns fret not at their convent’s narrow room;
+And hermits are contented with their cells;
+And students with their pensive citadels...
+ In truth the prison, into which we doom
+ Ourselves, no prison is.
+
+[The World Is Too Much With Us]
+The world is too much with us; late and soon,
+Getting and spending, we lay waste our powers;
+Little we see in Nature that is ours;
+We have given our hearts away, a sordid boon!
+
+--- ELIZABETH BARRETT BROWNING ---
+[Sonnet 43 (How do I love thee?)]
+How do I love thee? Let me count the ways.
+I love thee to the depth and breadth and height
+My soul can reach, when feeling out of sight
+For the ends of being and ideal grace.
+
+[Sonnet 14 (If thou must love me...)]
+If thou must love me, let it be for nought
+Except for love's sake only. Do not say,
+"I love her for her smile—her look—her way
+Of speaking gently."
+
+--- CHRISTINA ROSSETTI ---
+[Remember]
+Remember me when I am gone away,
+Gone far away into the silent land;
+When you can no more hold me by the hand,
+Nor I half turn to go yet turning stay.
+
+[The World]
+By day she woos me, soft, exceeding fair:
+But all night as the moon so changeth she;
+Loathsome and foul with hideous leprosy,
+And subtle serpents gliding in her hair.
+
+--- JOHN KEATS ---
+[On First Looking into Chapman's Homer]
+Much have I travell'd in the realms of gold,
+And many goodly states and kingdoms seen;
+Round many western islands have I been
+Which bards in fealty to Apollo hold.
+
+[Bright Star]
+Bright star, would I were steadfast as thou art—
+Not in lone splendour hung aloft the night
+And watching, with eternal lids apart,
+Like nature's patient, sleepless Eremite.
+
+--- EDNA ST. VINCENT MILLAY ---
+[What lips my lips have kissed]
+What lips my lips have kissed, and where, and why,
+I have forgotten, and what arms have lain
+Under my head till morning; but the rain
+Is full of ghosts tonight, that tap and sigh.
+
+[Love is not all]
+Love is not all: it is not meat nor drink
+Nor slumber nor a roof against the rain;
+Nor yet a floating spar to men that sink
+And rise and sink and rise and sink again.

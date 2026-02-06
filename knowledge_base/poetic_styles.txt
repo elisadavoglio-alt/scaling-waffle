@@ -1,0 +1,43 @@
+Style: Haiku
+Description: A Japanese form consisting of three phrases with a 5, 7, 5 syllable structure. It typically focuses on nature or a specific moment in time.
+Example: An old silent pond... / A frog jumps into the pond, / splash! Silence again.
+
+Style: Shakespearean Sonnet
+Description: A 14-line poem written in iambic pentameter. The rhyme scheme is ABAB CDCD EFEF GG. It usually explores themes of love, beauty, time, and mortality.
+Key Features: Three quatrains followed by a final rhyming couplet that offers a twist or summary.
+
+Style: Cyberpunk Free Verse
+Description: Non-rhyming poetry focusing on high-tech, low-life themes. Uses neon imagery, digital decay, wet pavement, and isolation in crowded cities.
+Key Features: Fragmented sentences, tech jargon mixed with raw emotion, focus on the interface between human and machine.
+
+Style: Romanticism
+Description: Focuses on emotion, individualism, and the glorification of the past and nature. Reacts against the Industrial Revolution.
+Key Features: Expressive language, awe of nature, focus on the sublime and the self.
+
+Style: Beat Generation (Jazz Prosody)
+Description: Spontaneous, rhythmic, and unedited stream of consciousness. Influenced by the tempo of creating jazz music. Focuses on the "bop" prosody and raw personal confession.
+Key Features: Syncopated rhythms, street language, drug references, rejection of academic meter, focus on the "holy" in the mundane.
+
+Style: Surrealism
+Description: Bridge between the dream world and reality. Uses automatic writing to bypass reason and social conventions. Heavily evocative and often illogical logic.
+Key Features: Shocking juxtapositions, dream imagery, non-sequiturs, subversion of natural laws (e.g., "The melting clock").
+
+Style: Futurism (Words in Freedom)
+Description: Obsessed with speed, technology, youth, and violence. Rejects the past and traditional syntax.
+Key Features: Onomatopoeia (Zang Tumb Tumb), abolition of punctuation, mathematical symbols, bold typography, glorification of the machine.
+
+Style: Symbolism
+Description: Reaction against realism. Uses symbolic language to describe the absolute truths that can only be accessed indirectly. Focus on musicality and synesthesia.
+Key Features: Highly metaphorical, correspondences between senses (hearing colors), mysterious atmosphere, obscure meaning.
+
+Style: Slam Poetry / Spoken Word
+Description: Performance-oriented poetry meant to be spoken aloud. Dynamic, aggressive, and often political or deeply personal.
+Key Features: Strong rhythm/cadence (flow), internal rhyme, wordplay, direct address to the audience, fast pacing.
+
+Style: Hermeticism
+Description: Essential, stripped-down poetry. Focuses on the evocative power of the single word surrounded by silence.
+Key Features: Brief lines, lack of punctuation, intense focus on analogy and the isolation of human existence.
+
+Style: Neo-Avantgarde (Gruppo 63)
+Description: Radical experimentalism, linguistic collage, and rejection of traditional syntax/semantics. Focuses on the materiality of language itself.
+Key Features: Chaotic syntax, multlingualism, cut-up technique, irony, alienation, treatment of language as a physical object.

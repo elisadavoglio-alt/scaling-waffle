@@ -1,0 +1,641 @@
+Style: Surrealism
+Period: 1920s-1940s
+Key Characteristic: Psychic Automatism. Dictation of thought in the absence of all control exercised by reason. Dream logic.
+
+### 🏛️ REFERENCE AUTHORS & WORKS
+- André Breton (Manifesto of Surrealism, Free Union) - The Pope of Surrealism. Automatic writing.
+- Paul Éluard (Capital of Pain) - Love poetry, pure images, "The earth is blue like an orange".
+- Louis Aragon (Paris Peasant) - The marvelous in the everyday, urban surrealism.
+- Robert Desnos (Corps et biens) - Hypnotic sleep, wordplay, doomed love.
+- Benjamin Péret (The Great Game) - Absurd humor, anti-clerical, automatic.
+- Philippe Soupault (The Magnetic Fields) - Co-author of the first automatic text.
+- Tristan Tzara (Seven Dada Manifestos) - Bridge from Dada, chaotic collage.
+- Pierre Reverdy (Slate Roof) - Cubist poetry, juxtaposition of distant realities.
+- René Char (Hammer Without a Master) - Hermetic, violent, lightning-flash imagery.
+- Antonin Artaud (Umbilical Limbo) - Body without organs, scream, madness.
+
+### 🧬 STRUCTURAL PATTERNS (YAML)
+ideology:
+  - Liberation of the unconscious (Freud)
+  - Revolution (Marx + Rimbaud)
+  - The Marvelous (Le Merveilleux)
+  - Amor fou (Mad love)
+  
+techniques:
+  - Automatic Writing (speed writing to bypass censor)
+  - Cadavre Exquis (Exquisite Corpse collaborative games)
+  - Shocking Juxtaposition ("Sewing machine + umbrella on dissecting table")
+  - Dream transcription
+  - Subversion of logic and syntax
+
+vocabulary:
+  - Eyes, glass, blood, revolver, velvet, abyss
+  - Objects with wrong properties (fur cup, melting watch)
+  - Erotic and violent phrasing
+
+### 📜 ANTHOLOGY EXAMPLES (GROUND TRUTH)
+
+--- ANDRÉ BRETON ---
+[Free Union]
+My wife with the wood-fire hair
+With thoughts showing flashes of heat lightning
+With the waist of an hourglass
+My wife with the waist of an otter in the teeth of a tiger...
+With eyes of water to drink in prison.
+
+[Manifesto of Surrealism]
+Surrealism, n. Psychic automatism in its pure state, by which one proposes to express... the actual functioning of thought.
+Dictated by thought, in the absence of any control exercised by reason, exempt from any aesthetic or moral concern.
+
+[The Magnetic Fields (with Soupault)]
+The window has been hollowed out of the flesh.
+A huge bird pecks at the heart.
+The chemicals are angry.
+Run, run, the sky is falling into the soup.
+
+[Always for the First Time]
+Always for the first time
+I hardly know you by sight
+You return at some hour of the night
+To a house at an angle to my window
+A wholly imaginary house.
+
+[Vigilance]
+I set fire to the hair of the stone woman...
+The closet opens and it is the end of the world.
+A single match destroys the stars.
+
+[Postman Cheval]
+We are the birds of the construction.
+The cement of dreams holds the stones of reality.
+A palace built of pebbles and stamps.
+
+[Hotel of Sparks]
+The bed is a boat floating on lava.
+The pillow bites my ear.
+The sheets are made of ghosts.
+
+[Piscine]
+The fish swim in the air.
+The water is dry.
+I dive into the mirror and break the glass.
+
+[War]
+The generals play chess with skulls.
+The soldiers eat dirt and drink blood.
+Peace is a white bird exploded by a grenade.
+
+[Love]
+Reciprocal love, the only truth.
+The fusion of two sparks into a flame.
+Burning the world to ash.
+
+--- PAUL ÉLUARD ---
+[The Earth is Blue]
+The earth is blue like an orange
+Never a mistake words do not lie
+They no longer give you songs
+It is the turn of kisses to understand.
+
+[Liberty]
+On my school notebooks
+On my desk and the trees
+On the sand on the snow
+I write your name...
+By the power of a word
+I begin my life again
+I was born to know you
+To name you
+Liberty.
+
+[Lady Love]
+She is standing on my eyelids
+And her hair is in my hair
+She has the colour of my eye
+She has the body of my hand
+In my shade she is engulfed.
+
+[Capital of Pain]
+I hide the sun in my pocket.
+I walk in the night of my own making.
+The stars are debts I cannot pay.
+
+[Love Poetry]
+The curve of your eyes goes around my heart,
+A round of dance and sweetness,
+Halo of time, nocturnal and sure Cradle,
+And if I don't know all that I've lived
+It's because your eyes didn't always see me.
+
+[Max Ernst]
+In a corner the incestuous agile
+Turns around the virginity of the little dress.
+The river of eyes, the lake of hair.
+
+[L'Amoureuse]
+She is isolated so that I am not alone.
+She is the wall and the door.
+She is the lock and the key.
+
+[Curfew]
+What can I do with this strength?
+What can I do with this heart?
+Nothing but love you
+In the shadow of the war.
+
+[Without Age]
+We have no age.
+We are the children of the moment.
+Playing with fire, playing with time.
+
+[Silence]
+The silence is a loud noise.
+It breaks the ears of the dead.
+Speak to me, or I will die.
+
+--- LOUIS ARAGON ---
+[Paris Peasant]
+The light of the modern is the unusual.
+I wander the Passage de l'Opéra.
+A cane shop, a stamp shop.
+Mystery lurks behind the glass.
+The mannequin winks at me.
+
+[Elza at the Mirror]
+It was in the middle of our tragedy
+And all the long day sitting at her glass
+She combed her bright gold hair...
+Thinking she was combing out a fire.
+
+[There is no happy love]
+Nothing is given to man. Neither his strength
+Nor his weakness nor his heart. And when he opens
+His arms his shadow is that of a cross.
+There is no happy love.
+
+[Fire]
+I burn, I burn, I burn.
+The world is a box of matches.
+My heart is the striker.
+One scratch and boom.
+
+[Red Front]
+Shoot! Shoot!
+Kill the cops, kill the priests.
+The revolution is a gun.
+Poetry is a bullet.
+
+[Mimosa]
+The flowers are yellow dust.
+Sneezing gold in the wind.
+Sensitive plant, do not touch.
+Unless you want to die.
+
+[Eyes of Elsa]
+Your eyes are so deep that I lean down to drink
+I saw all the suns come up in them to check
+All the odd despairs wait there for death...
+
+[Unemployed]
+I walk the streets with empty pockets.
+My hands are fists.
+My hunger is a wolf.
+
+[Nightwalker]
+The night is my kingdom.
+Only the cats and the ghosts know me.
+Currently unavailable.
+
+[Contraband]
+I snuggle words across the border.
+Dangerous goods.
+Explosive ideas.
+
+--- ROBERT DESNOS ---
+[I have dreamed of you so much]
+I have dreamed of you so much that you lose your reality.
+Is there still time to reach that living body
+And to kiss on that mouth the birth
+Of the voice which is dear to me?
+
+[Identity]
+I am the shadow of a shadow.
+A name written in water.
+A voice in the wind.
+Who am I? Ask the mirror.
+
+[The Ant]
+An ant of eighteen meters
+With a hat on its head
+It does not exist, it does not exist.
+Why not?
+
+[Sleep]
+Sleep, sleep, sleep.
+The world is a dream.
+Wake up and you die.
+Stay in the cocoon of night.
+
+[Shipwreck]
+The boat sinks in the glass of wine.
+The captain is drunk on words.
+The sailors are drowning in ink.
+
+[Tomorrow]
+Tomorrow I will be dead.
+Tomorrow I will be free.
+Tomorrow I will eat the sun.
+
+[Apparition]
+A ghost in a tuxedo.
+Smoking a cigar of smoke.
+He says: "Do you have a light?"
+I give him my burning heart.
+
+[Love Song]
+I love you like the sea loves the sand.
+Eating you, eroding you.
+Leaving nothing but wet indifference.
+
+[Last Poem (Terezin)]
+Shadow of a crater
+We will live
+We will love.
+(Written in a concentration camp)
+
+[Epitaph]
+Here lies Robert Desnos.
+Poet, dreamer, lover.
+He slept too much.
+Now he sleeps forever.
+
+--- BENJAMIN PÉRET ---
+[Little Song of the Maimed]
+Lend me your arm
+To replace my leg
+The rats ate it
+At the Battle of the Marne.
+
+[Hello]
+My airplane burns.
+My castle sinks.
+My wife is a horse.
+Life is good.
+
+[The Great Game]
+I bet my head on a card.
+I lost.
+Now I think with my feet.
+Thinking is easier that way.
+
+[Holy Scripture]
+God is a lobster.
+Jesus is a bicycle.
+The Holy Ghost is a tire pump.
+Amen.
+
+[Eating]
+I eat stones.
+I drink gasoline.
+I shit dynamite.
+Beware of my digestion.
+
+[Family Life]
+Father killed Mother.
+Son killed Father.
+Daughter married the dog.
+A happy Sunday at home.
+
+[Politics]
+The president is a sausage.
+The minister is a potato.
+The people are the fork.
+Bon appétit.
+
+[Nature]
+The trees walk upside down.
+The roots tickle the clouds.
+The birds swim in the dirt.
+Everything is normal.
+
+[Sleepwalking]
+I walk on the roof.
+I chase the moon.
+I fall into the chimney.
+Santa Claus is dead.
+
+[End]
+The end of the poem.
+The end of the world.
+The end of the line.
+Full stop.
+
+--- PHILIPPE SOUPAULT ---
+[Westwego]
+I am walking. I am walking.
+Cities slide by like playing cards.
+London, Paris, New York.
+I am the ace of spades.
+
+[Georgia]
+I can't sleep.
+It's the neon lights.
+It's the jazz.
+It's the memory of your face.
+
+[Garages]
+The smell of oil and grease.
+The skeletons of cars.
+A cemetery of speed.
+Rust in peace.
+
+[Mirror]
+Looking at myself.
+Who is that stranger?
+He looks like me.
+But his eyes are dead.
+
+[Sunday]
+The bells ringing.
+The people praying.
+The rain falling.
+Me drinking.
+
+[Smoke]
+Cigarette after cigarette.
+Burning time.
+Grey clouds in the room.
+Writing words on the air.
+
+[Life]
+Life is a cigarette.
+Smoke it to the butt.
+Burn your fingers.
+Throw it away.
+
+[Chanson]
+Sing a song of sixpence.
+Pocket full of rye.
+Four and twenty blackbirds.
+Pecking out my eye.
+
+[Rain]
+The rain washes the street.
+Washes the sins.
+Washes the blood.
+But the stain remains.
+
+[Departure]
+Train whistle.
+Ship horn.
+Goodbye.
+Don't look back.
+
+--- TRISTAN TZARA ---
+[To Make a Dadaist Poem]
+Take a newspaper.
+Take some scissors.
+Choose an article of the length you want to make your poem.
+Cut out the article.
+Next carefully cut out each of the words...
+Shake gently.
+
+[The Gas Heart]
+The heart is a pump.
+Gasoline flows in the veins.
+Explosion imminent.
+Boom.
+
+[Approximate Man]
+I speak of who I speak
+I am who I am
+Alone in the crowd
+Lost in the noise.
+
+[Dada Song]
+The song of a Dadaist
+Who had dadaness in his heart
+He tore his motor apart
+To see what was inside.
+
+[Proclamation]
+Dada means nothing.
+We want nothing.
+We know nothing.
+We are nothing.
+
+[Glass]
+Smash the glass.
+Let the wind in.
+Let the cold in.
+Let the chaos in.
+
+[Night]
+Night is a black sack.
+Put your head in it.
+Suffocate gently.
+
+[Calendar]
+Monday: Death.
+Tuesday: Life.
+Wednesday: Boredom.
+Thursday: War.
+Friday: Love.
+Saturday: Drunk.
+Sunday: Sleep.
+
+[Vegetable]
+Be a carrot.
+Be a potato.
+Be silent.
+Grow underground.
+
+[Anti]
+Anti-art. Anti-sense. Anti-poem.
+This is not a poem.
+This is a vomit.
+
+--- PIERRE REVERDY ---
+[Slate Roof]
+On each slate
+A memory writ in chalk
+The rain erases it.
+The roof is clean.
+My mind is blank.
+
+[Secret]
+The empty bell.
+The dead bird.
+In the house where everything sleeps.
+Nine o'clock.
+The ground holds the shadow.
+
+[Miracle]
+The head goes down.
+The eyelashes dance.
+It is an evening without a cigar.
+The eyes are closed.
+
+[Sun]
+Someone just left.
+In the room
+There remains a sigh
+A deserted life
+The street is dark.
+But on the pane
+The sun puts a yellow hand.
+
+[Combat]
+Two wrestlers.
+Shadow and light.
+Grappling on the wall.
+Night wins.
+
+[Departure]
+The horizon calls.
+The line is straight.
+Step over the edge.
+Fall into blue.
+
+[Silence]
+The noise stops.
+The heart stops.
+The world stops.
+Only the clock moves.
+
+[Shadow]
+Looking behind me.
+It follows.
+It mocks.
+It is me.
+
+[Window]
+Open the window.
+Let the outside in.
+Or let the inside out.
+Jump.
+
+[Star]
+A hole in the sky.
+Leaking light.
+Drip, drip, drip.
+Onto my face.
+
+--- RENÉ CHAR ---
+[The Hammer without a Master]
+The tool revolt.
+The hammer strikes the hand.
+The nail bites the wood.
+The master is dead.
+
+[Lightning]
+Poetry is a flash of lightning.
+It illuminates the dark for a second.
+Then leaves you blinder than before.
+
+[Common Presence]
+You are in a hurry to write
+As if you were late for life.
+Hurry up.
+Death is waiting.
+
+[Leaves of Hypnos]
+Resistance.
+Hiding in the woods.
+Writing code.
+Fighting Nazis with metaphors.
+
+[Formal Share]
+Share the bread.
+Share the wine.
+Share the danger.
+Share the silence.
+
+[Library is on Fire]
+Burn the books.
+Keep the ash.
+Read the smoke.
+The words are free.
+
+[River]
+The river flows.
+Time flows.
+Reference flows.
+Nothing stays.
+
+[Mountain]
+Climb the mountain.
+Find the cave.
+Sleep with the bear.
+Wake up wild.
+
+[Rose]
+ The rose is without why.
+ It blooms because it blooms.
+ It pays no attention to itself.
+ It does not ask whether you see it.
+
+[Pulverized Poem]
+Dust to dust.
+Word to word.
+Silence to silence.
+Gone.
+
+--- ANTONIN ARTAUD ---
+[Umbilical Limbo]
+There is a mind in the flesh, but a mind quick as lightning.
+And yet the agitation of the flesh
+partakes of the high substance of the mind.
+
+[The Theater and its Double]
+I want a theater of blood.
+A theater of cruelty.
+Plague, fire, scream.
+Wake up the nerves.
+
+[Nerve Scales]
+I feel under my skull
+The armies of ants.
+The needles of ice.
+The collapse of god.
+
+[Van Gogh, the Man Suicided by Society]
+Van Gogh did not kill himself.
+Society killed him.
+Because he saw too much.
+Too much truth.
+
+[Cry]
+AAAAAAARRRRRGGGGHHHH!
+(The only true poem)
+(The body speaking directly)
+
+[Bone]
+Bone of my bone.
+Flesh of my flesh.
+Rot of my rot.
+Nothingness.
+
+[Black Sun]
+The sun is black.
+It emits darkness.
+It freezes the earth.
+It kills the life.
+
+[Electroshock]
+Electricity in the brain.
+Burning the memory.
+Erasing the soul.
+Making a zombie.
+
+[To have done with the judgment of god]
+God is a louse.
+Man is a toilet.
+Flush it.
+
+[Momo]
+I am Momo.
+The idiot.
+The madman.
+The genius.
+Listen to my gibberish.

@@ -1,0 +1,655 @@
+Style: Barocco / Marinismo
+Period: 1600-1690
+Key Characteristic: "È del poeta il fin la meraviglia" — stupire è la legge.
+
+### 🏛️ REFERENCE AUTHORS & WORKS
+- Giambattista Marino (Adone, La Lira) - Maestro assoluto
+- Girolamo Preti (Rime) - Concettismo elegante
+- Claudio Achillini (Rime) - Iperbole ("sudate, o fochi")
+- Ciro di Pers (Poesie) - Tempo, orologi, vanitas
+- Giacomo Lubrano (Scintille poetiche) - Gesuita barocco, sacro e profano
+- Giuseppe Artale (Rime) - Siciliano, "enciclopedia poetica"
+- Tommaso Stigliani (Rime) - Anti-marinista (ma barocco suo malgrado)
+- Gabriello Chiabrera (Rime) - Classicismo moderato, metrica
+- Fulvio Testi (Rime) - Civile, eroico
+- Alessandro Tassoni (La secchia rapita) - Eroicomico, parodia
+
+### 🧬 STRUCTURAL PATTERNS (YAML)
+techniques:
+  - Concetto (metafora sviluppata fino al paradosso)
+  - Iperbole estrema
+  - Accumulo, catalogo
+  - Arguzia, wit (acutezza)
+  
+themes:
+  - Vanità, tempo, morte (clessidre, teschi, rovine)
+  - Bellezza femminile anatomizzata (capelli, seno, neo, ma anche difetti: donna zoppa, pidocchiosa)
+  - Metamorfosi (tutto cambia forma)
+  
+style:
+  - Virtuosismo sopra tutto
+  - Stupore del lettore come fine
+  - "Meraviglia" programmata
+
+### 📜 ANTHOLOGY EXAMPLES (GROUND TRUTH)
+
+--- GIAMBATTISTA MARINO ---
+[È del poeta il fin la meraviglia]
+È del poeta il fin la meraviglia
+(parlo de l'eccellente, non del goffo):
+chi non sa far stupir, vada alla striglia!.
+
+[Onde dorate]
+Onde dorate, e l'onde eran capelli,
+navicella d'avorio un dì fendea;
+una man pur d'avorio la reggea
+per questi errori preziosi e quelli...
+
+[Donna che si pettina]
+Pettinando un aureo crine,
+sotto i raggi del sol la mia signora
+mille fila con l'una e l'altra mano
+d'oro, e di luce, e di tesor lavora.
+
+[Adone, Canto I (Rosa)]
+Rosa riso d'amor, del ciel fattura,
+rosa del sangue mio fatta vermiglia,
+pregio del mondo e fregio di natura,
+della terra e del sol vergine figlia...
+
+[Giuoco di Dadi]
+Dalla destra e dalla manca
+vola il dado in su la banca;
+e la man, che l'armi scuote,
+nella buca il punto scuote.
+(Virtuosismo sonoro)
+
+[Bella schiava]
+Nera sì, ma se' bella, o di Natura
+fra le belle d'Amor leggiadro mostro.
+Fosca è l'alba appo te, perde ed oscura
+presso l'ebeno tuo l'avorio e l'ostro.
+
+[Donna che cuce]
+È l'ago, o filli, è l'ago,
+che tra le dita movi,
+che punge il cor, che di ferir è vago,
+co' suoi colpi novi.
+
+[La Maddalena]
+Ma ceda, ceda al riso,
+ceda al pianto la voce;
+parli la lingua muta,
+con la lingua del cor, ch'è più verace.
+
+[Amor Farfalla]
+Sì come appunto la farfalla al lume
+vola, e si strugge, e 'l foco
+la consuma a poco a poco;
+così l'alma mia si strugge.
+
+[Sonetto Vestito di Nero]
+Sotto a quel nero ed al funebre velo
+ride la luce, e s'apre il paradiso,
+e lampeggia il bel sol del vostro viso,
+che fa sereno e luminoso il cielo.
+
+--- GIROLAMO PRETI ---
+[Orologio da polvere]
+Vetro diviso in due, che 'l tempo misuri,
+e 'l cener lieve in un istante aduni;
+tu mostri ben che gli anni son nebbia e fumo,
+e che la vita fugge a gran giornate.
+
+[Bella donna che piange]
+Perle, che da begli occhi
+scendete a inumidir le guance d'ostro;
+voi siete il pianto nostro,
+che 'n lagrime si scioglie e si consuma.
+
+[L'Amante timido]
+Ardo, e l'ardor non oso
+palesar a colei che m'ha ferito;
+e così nel mio cor, muto e nascoso,
+vive il foco d'amor, vive e nutrito.
+
+[Amore e Morte]
+Amore e Morte sono
+due fratelli, che vanno a un parto istesso;
+l'un piace al cor, l'altro l'ancide spesso,
+e fan del viver mio aspro governo.
+
+[Donna che canta]
+Mentre canta la bella,
+l'aria si ferma, e l'aura non si move;
+e par che 'l ciel, per ascoltarla, piove
+dolcezza, e grazia, e meraviglia nova.
+
+[Seni Innevati]
+Due globi di neve
+che 'l foco d'amor riscalda e non dissolve;
+o miracol d'amor, che in ghiaccio solve
+l'alma, e 'l cor di fiamma accende e beve!
+
+[Il Sogno]
+Sognai, felice sogno!
+ch'ella mi stringea al sen con dolce nodo;
+ma il sonno, invidioso del mio godi,
+ruppe il piacer, e mi lasciò 'l bisogno.
+
+[La Lontananza]
+Lontananza crudele,
+che mi dividi dal mio ben amato;
+tu sei l'inferno mio, tu sei 'l mio fato,
+tu sei la pena, e tu sei le querele.
+
+[Occhi neri]
+Occhi, non occhi già, ma due fiammelle,
+di oscura luce e di splendor funesto;
+voi siete la cagion del viver mesto,
+voi siete il ciel, voi siete le mie stelle.
+
+[Il Riso]
+Quel riso, ch'apre il ciel di paradiso,
+e ne l'anima mia piove dolcezza;
+è la cagion ch'io viva in allegrezza,
+e che d'ogni dolor sia 'l cor deciso.
+
+--- CLAUDIO ACHILLINI ---
+[Sudate, o fochi, a preparar metalli]
+Sudate, o fochi, a preparar metalli,
+e voi ferri, omai date a l'aria i lampi;
+ché il gran Luigi a fulminar ne' campi
+move l'chiere e i bellicosi valli.
+(Celebre iperbole ridicola)
+
+[Bellissima Mendica]
+Sciolta il crin, rotta i panni e nuda il piede,
+Donna, che povertà fa più superba,
+cui serve Amor, cui la Fortuna cede,
+e la Bellezza inchina, e l'alma serba.
+
+[Donna inferma]
+Languia la bella donna, e 'l ciel languia
+con lei, ch'è del suo sol la luce e 'l raggio;
+e la Natura, per farle omaggio,
+di pallido color si dipingia.
+
+[Alla sua Donna]
+Se 'l sol, ch'è sol, nel ciel non ha compagno,
+voi, che siete un sol in terra, o bella,
+non dovreste aver pari o aver sorella,
+ma star sola, e regnar nel vostro regno.
+
+[Incendio di un Tempio]
+Arde il tempio sacro, e le fiamme audaci
+lambiscono il ciel con lingue d'oro;
+e 'l fumo, che s'inalza, è un nero coro
+di nuvole, che piangono i fallaci.
+
+[Morte di un Eroe]
+Cadde l'eroe, ma non cadde il valore,
+che 'n lui vivea immortale e glorioso;
+e la Fama, col suo tromba sonoro,
+ne porta il nome al ciel, vincitor.
+
+[La Rosa]
+Purpurea rosa, che su la spina
+ridi a l'aurora, e 'l sol vagheggi e miri;
+tu sei l'imagine de' miei desiri,
+che nascon tra le spine e la ruina.
+
+[Donna che giuoca a palla]
+Mentre la palla al ciel la man sospinge,
+e la ritoglie, e la ripercuote;
+il cor, che nel mio petto si dipinge,
+balza e ribalza, e pace aver non puote.
+
+[Il Gelo]
+Il gelo ha fatto un ponte di cristallo
+sovra il fiume corrente; e l'onda, ch'era
+mobile e viva, or è ferma e severa,
+e fa specchio al sol, che le dà il giallo.
+
+[L'Amante disperato]
+Io moro, e la mia morte è vita a voi,
+o cruda donna, che del mal godete;
+ma se pietà di me non vi movete,
+temete l'ira de' celesti eroi.
+
+--- CIRO DI PERS ---
+[Orologio a ruote]
+Mobile ordigno di dentate rote
+lacera il giorno e lo divide in ore,
+ed ha scritto di fuor con fosche note:
+a chi vive quaggiù, muore, e non muore.
+
+[Orologio a sole]
+Ombra fugace, che 'l sol disegna
+in su la pietra bianca e numerata;
+tu sei la vita nostra, che segnata
+è da l'ore, e che al fin si disinsegna.
+
+[La Calvizie]
+Mifugge il crin, la fronte si dispoglia,
+e la testa divien calva e pelata;
+o tempo edace, o sorte dispietata,
+che ne togli il vigor, e non la voglia!
+
+[La Vecchiaia]
+Già la vecchiezza, con la sua neve,
+ha imbiancato i capelli e 'l viso e 'l mento;
+e la vita, che fu già foco e vento,
+or è cenere spenta, fredda e greve.
+
+[Terremoto]
+Trema la terra, e 'l ciel si oscura e tuona,
+e le torri e i palazzi vanno a terra;
+è l'ira di Dio, che ci fa guerra,
+e che 'l mondo distrugge e non perdona.
+
+[Peste]
+Il morbo orrendo, che la gente miete,
+e che non guarda a sesso, età o grado;
+fa che la vita nostra sia un guado
+periglioso, e che morte ci ha ne la rete.
+
+[Guerra]
+Marte furioso, con la spada in mano,
+corre per li campi e sparge sangue e morte;
+e la Pace, fuggita da le porte,
+piange il destino del genere umano.
+
+[Vanità del Mondo]
+Tutto è vanità, tutto è menzogna,
+ciò che 'l mondo promette e che ci piace;
+la gloria, l'onor, la ricchezza, la pace,
+tutto è sogno, è fumo, è vanaogna.
+
+[La Morte]
+Morte pallida e scarna, che ne 'l seno
+tieni la falce, e che non hai riguardo;
+tu sei la fine d'ogni nostro dardo,
+tu sei la meta, e tu sei il veleno.
+
+[Il Tempo]
+Il tempo fugge, e non s'arresta mai,
+e con lui fugge la nostra speranza;
+e ciò che resta è solo rimembranza
+di ciò che fummo, e che non sarem mai.
+
+--- GIACOMO LUBRANO ---
+[Cristo nel Sepolcro]
+Dormi, o Signore, o della vita Autore,
+nel freddo sasso, e la natura piange;
+il sol si oscura, e la terra si frange,
+e l'universo è pieno di dolore.
+
+[Maddalena ai piedi della Croce]
+Bacia i piedi chiodati, e li lava
+col pianto amaro, e li asciuga col crine;
+o peccatrice santa, o pellegrina,
+che trovi il porto ne la tempesta prava.
+
+[Il Diluvio Universale]
+Crescono l'acque, e l'arca si solleva
+sovra i monti sommersi e le città;
+e l'ira di Dio, che non ha pietà,
+il mondo reo di vizio purga e lava.
+
+[Incendio di Sodoma]
+Piovon fiamme dal ciel, zolfo e bitume,
+sovra la città rea di peccato;
+e l'acqua del Giordano è diventato
+fiume di foco, che non ha costume.
+
+[Vanitas Vanitatum]
+Che giova l'oro, che giova l'onore,
+se la morte n'attende al varco stretto?
+Ogni cosa è vanità, fumo e diletto
+che passa, e lascia l'anima in dolore.
+
+[Occhi di Dio]
+Occhi, che tutto vedete e tutto sanno,
+che penetrate i cor e le menti;
+voi siete i giudici de le genti,
+e punite il malvagio e 'l tiranno.
+
+[La Eucaristia]
+Pane degli angeli, cibo divino,
+che nutri l'alma e la fai immortale;
+mistero grande, che la mente non sale,
+ma che la fede adora e si fa chino.
+
+[San Lorenzo sulla graticola]
+Ardi, Lorenzo, ma il foco d'amore
+è più forte del foco che ti cuoce;
+e la tua fede, che non ha voce,
+parla più forte del tuo gran dolore.
+
+[Orologio rotto]
+L'ingegno è rotto, la ruota non gira,
+il tempo s'è fermato e non cammina;
+così la vita nostra si rovina,
+e l'uomo muore, e non sa quando spira.
+
+[La Rosa sfiorita]
+Ieri eri rosa, oggi sei spina;
+ieri eri bella, oggi sei brutta;
+così la vita nostra si distrugge tutta,
+e la bellezza al fin si fa ruina.
+
+--- GIUSEPPE ARTALE ---
+[Pulce su le poppe di bella donna]
+Picciola instabil macchia, ecco vivente
+in sen d'argento un neo nero si vede;
+ma se la pungi, o se la mordi il piede,
+ah, tu sei troppo ardita e insolente!
+(Il "topos" della pulce)
+
+[Donna zoppa]
+Se 'l passo è tardo, il cor però è veloce
+a farmi guerra, o bella zoppicante;
+che se non corri, sai ferir l'amante,
+e la tua piaga è sempre aspro e feroce.
+
+[Donna guercia]
+Un occhio solo, ma quel sol è un sole,
+che m'accieca e mi arde, o donna bella;
+che se n'avessi due, saresti stella,
+ma con un solo sei un dio che vuole.
+
+[Naufragio]
+Scoglio in mezzo al mar, che l'onda batte,
+e il vento strazia, e la tempesta fiede;
+così il mio cor, che pace mai non vede,
+tra pene e doglie si consuma e sbatte.
+
+[Duello]
+Giostra di morte, ove l'onor si gioca,
+e la vita si perde in un istante;
+o fiero Marte, o sorte inconstante,
+che fai del mondo una tragedia poca.
+
+[Vulcano]
+Monte di foco, che la terra scuoti,
+e vomiti fiamme e sassi e fumo;
+tu sei l'inferno, che si apre e 'l lume
+del sol nasconde a li occhi devoti.
+
+[Cane fedele]
+Fido custode, che la casa guardi,
+e al padron sei amico e servitore;
+tu mostri ben che 'n te vive l'amore,
+più che ne l'uomo, che è pien di bugiardi.
+
+[Specchio]
+Vetro fallace, che l'immagin mostri,
+ma non il cor, né la mente, né l'alma;
+tu sei l'inganno, che ci dà la palma
+di vanità, ne' nostri vani giostri.
+
+[Rosignolo]
+Cantor notturno, che la selva empi
+di dolci note e di soavi accenti;
+tu piangi forse i tuoi passati stenti,
+o canti le tue gioie e i tuoi tempi?
+
+[Guerra di baci]
+Guerra dolce, ove non scorre sangue,
+ma sol dolcezza, e nettare, e vita;
+ove chi vince, è chi più ardito invita,
+e chi perde, gode, e non si langue.
+
+--- TOMMASO STIGLIANI ---
+[Contro il Marino]
+Vattene, o Adon, col tuo lascivo canto,
+che corrompe le menti e i costumi;
+tu sei il veleno, che spegne i lumi
+de la virtù, e fai del vizio vanto.
+(Polemica anti-marinista)
+
+[L'Occhiale]
+Vetro che 'l viso approssima e ingrandisce,
+e fa veder ciò che l'occhio non vede;
+strumento nuovo, che la vista fiede,
+e la natura scopre e ne stupisce.
+(Il telescopio)
+
+[Il Mondo Invecchiato]
+Il mondo è vecchio, e la natura stanca
+non produce più eroi, né più giganti;
+ma sol pigmei, e vili, e ignoranti,
+e la virtù, e la fede, e l'onor manca.
+
+[La Cortigiana]
+Donna di prezzo, che l'amor vendi,
+e fai mercato de la tua bellezza;
+tu sei la peste, che l'alma disprezza,
+e 'l corpo infetti, e la borsa prendi.
+
+[Inverno]
+Il cielo è piombo, la terra è di gelo,
+l'albero è nudo, il fior è morto e secco;
+e l'uomo trema, e si fa il viso bieco,
+e cerca il foco, e si nasconde il velo.
+
+[La Fortuna instabile]
+Ruota che gira, e non si ferma mai,
+che or n'alza, or n'abbassa, or n'urta, or n'erge;
+o Fortuna, tu sei chi ci sommerge,
+e chi ci salva, ne' nostri tristi guai.
+
+[Miseria Umana]
+Nati per piangere, viviam per morire,
+e la vita è un sogno, e la morte è vera;
+o miseria umana, o sorte severa,
+che ci condanna a tanto patire.
+
+[Il Tempo distruttore]
+Il tempo rode il ferro e la pietra dura,
+e le torri abbatte, e i muri atterra;
+e l'uomo, che si crede forte in guerra,
+cade, e di lui non resta sepoltura.
+
+[Contro i poeti moderni]
+Voi che rimate con parole strane,
+e cercate l'oscuro e l'inosito;
+voi fate del parlar chiaro un quesito,
+e de la lingua toscana un cane.
+
+[La Morte eguagliatrice]
+Morte pareggia il re col poverello,
+il savio col folle, il forte col debile;
+e nel sepolcro, utero terribile,
+tutti siam polvere, e tutti siam quello.
+
+--- GABRIELLO CHIABRERA ---
+[Belle rose porporine]
+Belle rose porporine
+che tra spine
+sull’aurora non aprite;
+ma, ministredi, Amore,
+bel tesoro
+di bei denti custodite.
+
+[Riso di bella donna]
+Riso, ch'è d'angelica dolcezza,
+e che l'alma rapisce e la consola;
+tu sei la rete, o la dolce parola,
+che mi lega il cor con tua bellezza.
+
+[Il Gabbiano]
+Quale il gabbian, che sovra l'onde vola,
+e or s'innalza, or s'abbassa, or si posa;
+così la mente mia, o donna ascosa,
+vola intorno a te, che sei mia scola.
+
+[Elogio di Cristoforo Colombo]
+Certo da cor, ch'alto destin non scelse,
+son l'imprese magnanime neglette;
+ma le bell'alme a le bell'opre elette
+sanno gioir ne le fatiche eccelse.
+
+[Della sua patria (Savona)]
+Savona mia, se 'l ciel mi fu benigno
+di darmi vita in te, dolce terreno;
+fa ch'io ti renda il nome tuo sereno,
+cantando come in Po canta il cigno.
+
+[Vaga su spina ascosa]
+Vaga su spina ascosa
+è, rosa, il tuo bel fiore;
+ma più vago è l'amore
+di donna graziosa.
+
+[Se bel rio]
+Se bel rio, se bell'auretta
+tra l'erbetta
+sul mattin mormorando erra;
+se di fior va l'alma terra
+a coprirsi grembo e seno...
+
+[Damigella]
+Damigella
+tutta bella,
+versa versa quel buon vino;
+fa che cada
+la rugiada
+distillata di rubino.
+
+[Amor che nasce]
+Amor non nasce, no, da sguardi soli,
+né da capei, né da vermiglia guancia;
+ma nasce da virtù, che l'alma slancia
+verso il ciel, con suoi divini voli.
+
+[Fuga del Tempo]
+Fugge il tempo, e l'anni, e i mesi, e l'ore,
+e la vita con lor fugge e s'involi;
+e noi siam come nebbia, o come soli
+che tramontano, e 'l mondo perde colore.
+
+--- FULVIO TESTI ---
+[Ruscelletto orgoglioso]
+Ruscelletto orgoglioso,
+che ignoto e picciol nacqui in valle oscura;
+or, perché fatto sei da la pioggia dura
+torbido e grande, ti fai borioso?
+(Allegoria dell'arrampicatore sociale)
+
+[L'Italia all'invitto Re di Francia]
+Pace, pace, o gran Re! l'Italia afflitta,
+che da tant'anni in te spera e confida;
+apre le braccia a te, e a te sol grida,
+da l'Alpi al mar, da la sinistra a la dritta.
+
+[Sopra la instabilità delle cose umane]
+Nulla è fermo qua giù. La sorte gira
+con ruota instabil, e non ha mai posa;
+oggi sei in alto, e la gente ti onora,
+doman sei in basso, e ciascun t'ira.
+
+[Alla Patria]
+Patria, se 'l nome tuo nel cor mi suona
+dolce e soave, come nobil carme;
+deh, fa ch'io possa per te prender l'arme,
+e morir per te, se 'l ciel mel dona.
+
+[Contro il lusso]
+L'oro e le gemme, e le vesti pompose,
+non fanno l'uom felice, né contento;
+ma la virtù, che non teme il vento,
+e l'animo grande in cose ascose.
+
+[Il Poeta povero]
+Io canto, sì, ma il ventre è vuoto e lasso;
+e la Musa mi dà lauro e non pane;
+o secol rio, o genti inumane,
+che lasciate morir chi va in Parnaso.
+
+[La Gloria militare]
+Gloria, che d'armi e di sangue ti pasci,
+e che su i monti d'ossa il trono ergi;
+che giova a noi, se le città sommergi,
+e se di vedove il mondo fasci?
+
+[Il Giusto mezzo]
+Né troppo in alto, né troppo in basso,
+ma ne la via di mezzo è la virtute;
+chi troppo sale, cade e perde salute,
+chi troppo scende, è vil e stanco e lasso.
+
+[Amicizia]
+Amico vero è quel, che ne la sorte
+avversa e ria ti resta a lato fido;
+e non quel, che col riso e col grido
+ti segue sol, quando la nave è forte.
+
+[La Morte inevitabile]
+Fuggi pur, fuggi, o folle, a la foresta;
+la Morte ti rincorre e ti raggiunge;
+e la sua freccia, che da lunge punge,
+ti ferirà la testa e la tempesta.
+
+--- ALESSANDRO TASSONI ---
+[La secchia rapita, Canto I]
+Vorrei cantar quel memorando sdegno
+ch'infiammò già ne' fieri petti umani
+un'infelice e vil secchia di legno,
+che tolsero ai Petroni i Geminiani.
+(Incipit eroicomico esatto)
+
+[La secchia rapita, Ritratto del Conte di Culagna]
+Quest'era un cavalier bravo e galante,
+filosofo, poeta e bacchettone;
+ch'era fuor de' perigli un Rodomonte,
+ma in faccia al nemico un pecorone.
+
+[La secchia rapita, La battaglia]
+Si scagliaron l'un l'altro con furore,
+come due tori, o come due leoni;
+ma le spade cozzar con tal romore,
+che parve il tuono di cento cannoni.
+
+[La secchia rapita, Il consiglio degli Dei]
+Giove s'assise in mezzo al concistoro,
+e gli altri Dei gli fer corona intorno;
+Venere bella, con le trecce d'oro,
+parve la stella che nuntia il giorno.
+
+[Sonetto contro i Petrarchisti]
+Voi che sospirate a l'aura ai venti,
+e fate di Laura un idolo e un mostro;
+voi siete pazzi, e 'l vostro parlar nostro
+è un parlar da scemi e da dementi.
+
+[Invettiva contro la Donna]
+Femmina è cosa mobil per natura,
+più che la fronda al vento, o l'onda al mare;
+chi in lei confida, o chi la vuol amare,
+edifica in su l'arena e 'n su le mura.
+
+[Elogio del Vino]
+Viva il vin, che il cor rallegra e 'l sangue!
+Viva Bacco, che n'ha dato il rimedio
+contro la noia, il dolo e 'l tedio,
+e fa che l'alma non si muoia e langue.
+
+[Contro la guerra]
+Maledetta la guerra e chi la mosse,
+e chi le spade prime al mondo strinse!
+Ché di sangue la terra si dipinse,
+e di dolor le genti si fe' rosse.
+
+[La Verità]
+La Verità è nuda e poverella,
+e va raminga, e ognun le serra l'uscio;
+ma la Bugia, vestita di velluto,
+trova albergo, e onor, e fanti, e quella.
+
+[Testamento]
+Lascio a' miei nemici l'odio mio,
+a' miei amici il poco che m'avanza;
+e l'alma a Dio, che ne la sua stanza
+l'accolga, s'io non fui troppo reo.

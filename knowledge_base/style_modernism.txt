@@ -1,0 +1,733 @@
+Style: Modernism
+Period: 1910-1945
+Key Characteristic: Il mondo spezzato. "These fragments I have shored against my ruins".
+
+### 🏛️ REFERENCE AUTHORS & WORKS
+- T.S. Eliot (The Waste Land, Four Quartets) - Mitologia, frammento
+- Ezra Pound (Cantos, "In a Station of the Metro") - Imagism, ideogramma
+- W.B. Yeats (The Tower, Byzantium poems) - Simbolo, spiralità
+- Wallace Stevens (Harmonium) - Immaginazione/realtà
+- William Carlos Williams (Spring and All) - "No ideas but in things"
+- H.D. (Hilda Doolittle) (Sea Garden) - Imagismo puro
+- Marianne Moore (Observations) - Precisione
+- Hart Crane (The Bridge) - Epico moderno
+- E.E. Cummings (Tulips and Chimneys) - Tipografia
+- Mina Loy (Songs to Joannes) - Futurismo femminista
+
+### 🧬 STRUCTURAL PATTERNS (YAML)
+techniques:
+  - Frammento, montaggio
+  - Allusione mitologica
+  - Free verse rigoroso
+  - Imagism: "direct treatment of the thing"
+  - Correlativo oggettivo (Eliot)
+  
+themes:
+  - Crisi civilizzazione
+  - Tempo circolare/simultaneo
+  - Arte vs. caos
+  
+style:
+  - Difficoltà come valore
+  - Citazioni, plurilinguismo
+  - Impersonalità
+
+### 📜 ANTHOLOGY EXAMPLES (GROUND TRUTH)
+
+--- T.S. ELIOT ---
+[The Waste Land]
+April is the cruellest month, breeding
+Lilacs out of the dead land, mixing
+Memory and desire, stirring
+Dull roots with spring rain.
+
+[The Waste Land]
+Unreal City,
+Under the brown fog of a winter dawn,
+A crowd flowed over London Bridge, so many,
+I had not thought death had undone so many.
+Sighs, short and infrequent, were exhaled,
+And each man fixed his eyes before his feet.
+
+[The Waste Land]
+These fragments I have shored against my ruins
+Why then Ile fit you. Hieronymo's mad againe.
+Datta. Dayadhvam. Damyata.
+Shantih shantih shantih
+
+[The Love Song of J. Alfred Prufrock]
+Let us go then, you and I,
+When the evening is spread out against the sky
+Like a patient etherized upon a table;
+Let us go, through certain half-deserted streets,
+The muttering retreats
+Of restless nights in one-night cheap hotels.
+
+[The Love Song of J. Alfred Prufrock]
+I have measured out my life with coffee spoons;
+I know the voices dying with a dying fall
+Beneath the music from a farther room.
+So how should I presume?
+
+[The Hollow Men]
+We are the hollow men
+We are the stuffed men
+Leaning together
+Headpiece filled with straw. Alas!
+
+[The Hollow Men]
+This is the way the world ends
+This is the way the world ends
+This is the way the world ends
+Not with a bang but a whimper.
+
+[Four Quartets: Burnt Norton]
+Time present and time past
+Are both perhaps present in time future,
+And time future contained in time past.
+If all time is eternally present
+All time is unredeemable.
+
+[Four Quartets: Little Gidding]
+We shall not cease from exploration
+And the end of all our exploring
+Will be to arrive where we started
+And know the place for the first time.
+
+[Gerontion]
+Thoughts of a dry brain in a dry season.
+
+--- EZRA POUND ---
+[In a Station of the Metro]
+The apparition of these faces in the crowd;
+Petals on a wet, black bough.
+
+[Canto I]
+And then went down to the ship,
+Set keel to breakers, forth on the godly sea, and
+We set up mast and sail on that swart ship,
+Bore sheep aboard her, and our bodies also
+Heavy with weeping.
+
+[Canto XLV - With Usura]
+With usura hath no man a house of good stone
+each block cut smooth and well fitting
+that design might cover their face,
+with usura
+hath no man a painted paradise on his church wall.
+
+[Hugh Selwyn Mauberley]
+For three years, out of key with his time,
+He strove to resuscitate the dead art
+Of poetry; to maintain "the sublime"
+In the old sense. Wrong from the start—
+
+[Portrait d'une Femme]
+Your mind and you are our Sargasso Sea,
+London has swept about you this score years
+And bright ships left you this or that in fee:
+Ideas, old gossip, oddments of all things.
+
+[The Return]
+See, they return; ah, see the tentative
+Movements, and the slow feet,
+The trouble in the pace and the uncertain
+Wavering!
+
+[Canto LXXXI]
+Pull down thy vanity, it is not man
+Made courage, or made order, or made grace,
+Pull down thy vanity, I say pull down.
+Learn of the green world what can be thy place.
+
+[The River-Merchant's Wife]
+While my hair was still cut straight across my forehead
+I played about the front gate, pulling flowers.
+You came by on bamboo stilts, playing horse,
+You walked about my seat, playing with blue plums.
+
+[Ancient Music]
+Winter is icummen in,
+Lhude sing Goddamm.
+Raineth drop and staineth slop,
+And how the wind doth ramm!
+Sing: Goddamm.
+
+[Lament of the Frontier Guard]
+By the North Gate, the wind blows full of sand,
+Lonely from the beginning of time until now!
+Trees fall, the grass goes yellow with autumn.
+I climb the towers and towers to watch out the barbarous land.
+
+--- W.B. YEATS ---
+[The Second Coming]
+Turning and turning in the widening gyre
+The falcon cannot hear the falconer;
+Things fall apart; the centre cannot hold;
+Mere anarchy is loosed upon the world.
+
+[The Second Coming]
+The best lack all conviction, while the worst
+Are full of passionate intensity.
+
+[Sailing to Byzantium]
+That is no country for old men. The young
+In one another's arms, birds in the trees
+—Those dying generations—at their song,
+The salmon-falls, the mackerel-crowded seas.
+
+[Leda and the Swan]
+A sudden blow: the great wings beating still
+Above the staggering girl, her thighs caressed
+By the dark webs, her nape caught in his bill,
+He holds her helpless breast upon his breast.
+
+[Among School Children]
+O body swayed to music, O brightening glance,
+How can we know the dancer from the dance?
+
+[Easter, 1916]
+All changed, changed utterly:
+A terrible beauty is born.
+
+[The Lake Isle of Innisfree]
+I will arise and go now, and go to Innisfree,
+And a small cabin build there, of clay and wattles made;
+Nine bean-rows will I have there, a hive for the honey-bee,
+And live alone in the bee-loud glade.
+
+[When You Are Old]
+When you are old and grey and full of sleep,
+And nodding by the fire, take down this book,
+And slowly read, and dream of the soft look
+Your eyes had once, and of their shadows deep.
+
+[The Circus Animals' Desertion]
+I must lie down where all the ladders start
+In the foul rag and bone shop of the heart.
+
+[Byzantium]
+The unpurged images of day recede;
+The Emperor's drunken soldiery are abed;
+Night resonance recedes, night-walkers' song
+After great cathedral gong.
+
+--- WALLACE STEVENS ---
+[The Emperor of Ice-Cream]
+Call the roller of big cigars,
+The muscular one, and bid him whip
+In kitchen cups concupiscent curds.
+Let the wenches dawdle in such dress
+As they are used to wear, and let the boys
+Bring flowers in last month's newspapers.
+Let be be finale of seem.
+The only emperor is the emperor of ice-cream.
+
+[Thirteen Ways of Looking at a Blackbird]
+I
+Among twenty snowy mountains,
+The only moving thing
+Was the eye of the blackbird.
+
+[Thirteen Ways of Looking at a Blackbird]
+V
+I do not know which to prefer,
+The beauty of inflections
+Or the beauty of innuendoes,
+The blackbird whistling
+Or just after.
+
+[Sunday Morning]
+Complacencies of the peignoir, and late
+Coffee and oranges in a sunny chair,
+And the green freedom of a cockatoo
+Upon a rug mingle to dissipate
+The holy hush of ancient sacrifice.
+
+[The Idea of Order at Key West]
+She sang beyond the genius of the sea.
+The water never formed to mind or voice,
+Like a body wholly body, fluttering
+Its empty sleeves; and yet its mimic motion
+Made constant cry, caused constantly a cry.
+
+[Anecdote of the Jar]
+I placed a jar in Tennessee,
+And round it was, upon a hill.
+It made the slovenly wilderness
+Surround that hill.
+
+[The Snow Man]
+One must have a mind of winter
+To regard the frost and the boughs
+Of the pine-trees crusted with snow;
+...
+And have been cold a long time
+To behold the junipers shagged with ice,
+The spruces rough in the distant glitter.
+
+[The Man on the Dump]
+The dump is full of images.
+Days pass like papers from a press.
+The bouquets come here in the wood.
+So the sun, and so the moon.
+
+[Of Modern Poetry]
+The poem of the mind in the act of finding
+What will suffice. It has not always had
+To find: the scene was set; it repeated what
+Was in the script.
+
+[Final Soliloquy of the Interior Paramour]
+Light the first light of evening, as in a room
+In which we rest and, for small reason, think
+The world imagined is the ultimate good.
+
+--- WILLIAM CARLOS WILLIAMS ---
+[The Red Wheelbarrow]
+so much depends
+upon
+a red wheel
+barrow
+glazed with rain
+water
+beside the white
+chickens.
+
+[This Is Just To Say]
+I have eaten
+the plums
+that were in
+the icebox
+and which
+you were probably
+saving
+for breakfast
+Forgive me
+they were delicious
+so sweet
+and so cold.
+
+[Spring and All]
+By the road to the contagious hospital
+under the surge of the blue
+mottled clouds driven from the
+northeast-a cold wind.
+
+[Danse Russe]
+If I when my wife is sleeping
+and the baby and Kathleen
+are sleeping
+and the sun is a flame-white disc
+in silken mists
+above shining trees...
+
+[Portrait of a Lady]
+Your thighs are appletrees
+whose blossoms touch the sky.
+Which sky? The sky
+wherewatteau hung a lady's
+slipper.
+
+[The Great Figure]
+Among the rain
+and lights
+I saw the figure 5
+in gold
+on a red
+firetruck.
+
+[Tract]
+I will teach you my townspeople
+how to perform a funeral
+for you have it over a troop
+of artists—
+unless one should scour the world—
+you have the ground sense necessary.
+
+[Queen-Anne's-Lace]
+Her body is not so white as
+anemony petals nor so smooth—nor
+so remote a thing. It is a field
+of the wild carrot taking
+the field by force.
+
+[To Elsie]
+The pure products of America
+go crazy—
+mountain folk from Kentucky
+or the ribbed north end of
+Jersey.
+
+[Landscape with the Fall of Icarus]
+According to Brueghel
+when Icarus fell
+it was spring
+a farmer was ploughing
+his field
+the whole pageantry
+of the year was
+awake tingling.
+
+--- H.D. (HILDA DOOLITTLE) ---
+[Sea Rose]
+Rose, harsh rose,
+marred and with stint of petals,
+meagre flower, thin,
+sparse of leaf,
+more precious
+than a wet rose
+single on a stem.
+
+[Sea Poppies]
+Amber husk
+fluted with gold,
+fruit on the sand,
+marked with a rich grain,
+treasure
+spilled near the shrub-pines
+to bleach on the boulders.
+
+[Oread]
+Whirl up, sea—
+whirl your pointed pines,
+splash your great pines
+on our rocks,
+hurl your green over us,
+cover us with your pools of fir.
+
+[Storm]
+You crash over the trees,
+you crack the live branch—
+the branch is white,
+the green crushed,
+each leaf is rent like split wood.
+
+[Garden]
+You are clear
+O rose, cut in rock,
+hard as the descent of hail.
+I could scrape the colour
+from the petals
+like spilt dye from a rock.
+
+[Heat]
+O wind, rend open the heat,
+cut apart the heat,
+rend it to tatters.
+Fruit cannot drop
+through this thick air—
+fruit cannot fall into heat
+that presses up and blunts
+the points of pears.
+
+[Helen]
+All Greece hates
+the still eyes in the white face,
+the lustre as of olives
+where she stands,
+and the white hands.
+
+[The Walls Do Not Fall]
+An incident here and there,
+and rails gone (for guns)
+from your (and my) old town square.
+
+[The Pool]
+Are you alive?
+I touch you.
+You quiver like a sea-fish.
+I cover you with my net.
+What are you—banded one?
+
+[Eurydice]
+So you have swept me back,
+I who could have walked with the live souls
+above the earth,
+I who could have slept among the live flowers
+at last.
+
+--- MARIANNE MOORE ---
+[Poetry]
+I, too, dislike it: there are things that are important beyond all this fiddle.
+Reading it, however, with a perfect contempt for it, one discovers in
+it after all, a place for the genuine.
+
+[The Fish]
+wade
+through black jade.
+Of the crow-blue mussel-shells, one keeps
+adjusting the ash-heaps;
+opening and shutting itself like
+an
+injured fan.
+
+[No Swan So Fine]
+"No water so still as the
+dead fountains of Versailles." No swan,
+with swart blind look askance
+and gondoliering legs, so fine
+as the chintz china one with fawn-
+brown eyes and toothed gold
+collar on to show whose bird it was.
+
+[The Steenbok]
+The small steenbok
+or grysbok,
+moves through the scrub—
+a skipping little buck—
+on tiptoe.
+
+[A Grave]
+Man looking into the sea,
+taking the view from those who have as much right to it as you have to it yourself,
+it is human nature to stand in the middle of a thing,
+but you cannot stand in the middle of this.
+
+[The Pangolin]
+Another armored animal—scale
+lapping scale with spruce-cone regularity until they
+form the uninterrupted central
+tail-row!
+
+[Silence]
+My father used to say,
+"Superior people never make long visits,
+have to be shown Longfellow's grave
+or the glass flowers at Harvard."
+
+[Marriage]
+This institution,
+perhaps one should say enterprise
+out of respect for which
+one says one need not change one’s mind
+about a thing one has believed in.
+
+[An Octopus]
+of ice. Deceptively reserved and flat,
+it lies "in grandeur and in mass"
+beneath a sea of shifting snow-dunes;
+dots of cyclamen-red and maroon on its clearly defined
+pseudo-podia.
+
+[To a Snail]
+If "compression is the first grace of style,"
+you have it. Contractility is a virtue
+as modesty is a virtue.
+
+--- HART CRANE ---
+[To Brooklyn Bridge]
+How many dawns, chill from his rippling rest
+The seagull’s wings shall dip and pivot him,
+Shedding white rings of tumult, building high
+Over the chained bay waters Liberty—
+
+[Proem: To Brooklyn Bridge]
+And Thee, across the harbor, silver-paced
+As though the sun took step of thee, yet left
+Some motion ever unspent in thy stride,—
+Implicitly thy freedom staying thee!
+
+[The Broken Tower]
+The bell-rope that gathers God at dawn
+Dispatches me as though I dropped down the knell
+Of a spent day - to wander the cathedral lawn
+From pit to crucifix, feet chill on steps from hell.
+
+[Voyages]
+Infinite consanguinity it bears—
+This tendered theme of you that light
+Retrieves from sea plains where the sky
+Resigns a breast that every wave enthrones.
+
+[Chaplinesque]
+We make our meek adjustments,
+Contented with such random consolations
+As the wind deposits
+In slithered and too ample pockets.
+
+[My Grandmother's Love Letters]
+There are no stars to-night
+But those of memory.
+Yet how much room for memory there is
+In the loose girdle of soft rain.
+
+[At Melville's Tomb]
+Often beneath the wave, wide from this ledge
+The dice of drowned men's bones he saw bequeath
+An embassy. Their numbers as he watched,
+Beat on the dusty shore and were obscured.
+
+[The River]
+Stick your patent name on a signboard
+brother—all over—going west—young man
+Tintex—Japalac—Certain-teed Overalls ads
+and lands sakes! under the new playbill ripped...
+
+[The Dance]
+The swift red flesh, a winter king—
+Who squired the glacier woman down the sky?
+She ran the neighing canyons all the spring;
+She spouted arms; she rose with maize—to die.
+
+[Cutty Sark]
+I met a man in South Street, tall—
+a nervous shark tooth swung on his chain.
+His eyes pressed through green grass
+—green glasses, or bar lights made them
+so.
+
+--- E.E. CUMMINGS ---
+[in Just-]
+in Just-
+spring          when the world is mud-
+luscious the little
+lame balloonman
+whistles          far          and wee
+
+[l(a]
+l(a
+le
+af
+fa
+ll
+s)
+one
+l
+iness
+
+[anyone lived in a pretty how town]
+anyone lived in a pretty how town
+(with up so floating many bells down)
+spring summer autumn winter
+he sang his didn't he danced his did.
+
+[i carry your heart with me(i carry it in]
+i carry your heart with me(i carry it in
+my heart)i am never without it(anywhere
+i go you go,my dear;and whatever is done
+by only me is your doing,my darling)
+
+[buffalo bill's]
+Buffalo Bill's
+defunct
+who used to
+ride a watersmooth-silver
+stallion
+and break onetwothreefourfive pigeonsjustlikethat
+Jesus
+he was a handsome man
+
+[somewhere i have never travelled,gladly beyond]
+somewhere i have never travelled,gladly beyond
+any experience,your eyes have their silence:
+in your most frail gesture are things which enclose me,
+or which i cannot touch because they are too near
+
+[r-p-o-p-h-e-s-s-a-g-r]
+r-p-o-p-h-e-s-s-a-g-r
+    who
+a)s w(e loo)k
+upnowgath
+      PPEGORHRASS
+eringint(o-
+aThe):l
+eA
+!p:
+
+[since feeling is first]
+since feeling is first
+who pays any attention
+to the syntax of things
+will never wholly kiss you;
+wholly to be a fool
+while Spring is in the world
+
+[my father moved through dooms of love]
+my father moved through dooms of love
+through sames of am through haves of give,
+singing each morning out of each night
+my father moved through depths of height
+
+[next to of course god america i]
+"next to of course god america i
+love you land of the pilgrims' and so forth oh
+say can you see by the dawn's early my
+country 'tis of centuries come and go"
+
+--- MINA LOY ---
+[Songs to Joannes, I]
+Spawn of fantasies
+Silting the appraisable
+Pig Cupid     his rosy snout
+Rooting erotic garbage
+"Once upon a time"
+Pulls a weed     white star-topped
+
+[Songs to Joannes, II]
+The skin-sack
+In which a wanton duality
+Packed
+All the completions of my infructuous impulses
+Something the shape of a man
+
+[Lunar Baedeker]
+A silver Lucifer
+serves
+cocaine in cornucopias
+To some somnambulists
+of adolescent thighs
+draped
+in satirical draperies
+
+[Der Blinde Junge]
+The damnable tediousness
+of adolescence
+eliminated
+by a sudden blow
+The void that the eyes were
+stare inward
+into the skull-look.
+
+[Love Songs]
+We might have given birth to a butterfly
+With the daily news
+Printed in blood on its wings
+
+[Parturition]
+I am the centre
+Of a circle of pain
+Exceeding its boundaries in every direction
+The business of the bland sun
+Has no more coincidence with me
+Than with the dead
+
+[Apology of Genius]
+Ostracized as we are with God
+The watchers of the civilized wastes
+reverse their signals on our track
+
+[Gertrude Stein]
+Curie
+of the laboratory
+of vocabulary
+she crushed
+the tonnage
+of consciousness
+congealed to phrases
+
+[Brancusi's Golden Bird]
+The toy
+become the aesthetic archetype
+As if
+some patient peasant God
+had rubbed and rubbed
+the Alpha and Omega
+of Form
+
+[Feminist Manifesto]
+The feminist movement as at present instituted is
+Inadequate. 
+Women must destroy in themselves, the desire to be loved
+The desire to be lovable
+The desire to be understood.

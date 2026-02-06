@@ -1,0 +1,745 @@
+Style: Black Arts Movement
+Period: 1965-1975
+Key Characteristic: Arte come arma. "We want a black poem. And a Black World."
+
+### 🏛️ REFERENCE AUTHORS & WORKS
+- Amiri Baraka (Black Magic) - Militante
+- Nikki Giovanni (Black Feeling, Black Talk) - Accessibile
+- Sonia Sanchez (We a BaddDDD People) - Performance
+- Haki Madhubuti (Don L. Lee) (Think Black) - Didattico
+- Jayne Cortez (Pissstained Stairs) - Jazz, surreale
+- Lucille Clifton (Good Woman) - Corpo, storia
+- Audre Lorde (The Black Unicorn) - Lesbica, mitica
+- Etheridge Knight (Poems from Prison) - Carcere
+- Larry Neal (Black Fire) - Manifesto
+- Carolyn Rodgers (How I Got Ovah) - Spiritualità
+
+### 🧬 STRUCTURAL PATTERNS (YAML)
+ideology:
+  - Arte come arma
+  - Separatismo estetico
+  - African aesthetics
+  - Anti-integrazionismo
+  
+techniques:
+  - Oralità, performance
+  - Call and response
+  - Vernacular militante
+  - Ripetizione rituale
+  
+themes:
+  - Black Power
+  - Africa (mythic home vs political reality)
+  - Rivoluzione
+  - Comunità
+
+### 📜 ANTHOLOGY EXAMPLES (GROUND TRUTH)
+
+--- AMIRI BARAKA ---
+[Black Art]
+Poems are bullshit unless they are
+teeth or trees or lemons piled
+on a step. Or black ladies dying
+of men leaving nickel hearts
+beating them down. Fuck poems
+and they are useful, wd they shoot
+come at you, love what you are,
+breathe like wrestlers...
+
+[SOS]
+Calling black people
+Calling all black people, man woman child
+Wherever you are, calling you, urgent, come in
+Black People, come in, wherever you are, urgent, calling...
+
+[Ka 'Ba]
+A closed window looks down
+on a dirty courtyard, and black people
+call across or scream across or walk across
+defying physics in the stream of their will.
+Our world is full of sound
+Our world is more lovely than anyone's
+tho we suffer, and kill each other
+and sometimes fail to walk the air.
+
+[It's Nation Time]
+Time to get
+together
+time to be one strong fast black energy
+space one pulsating muscle
+in one body — it’s nation time...
+
+[Incident]
+He came back and shot the rich white man
+who painted the walls of his house.
+
+[Leroy]
+I wanted to know my mother when she sat
+looking upon art, and moved me through it.
+She was very black and very beautiful
+and knew about the stars/ and the earth.
+
+[Leadbelly Gives an Autograph]
+Pat your foot
+and turn
+the corner. Nat King Cole screams
+in the box.
+The blind man
+eats his
+dinner.
+
+[Answers in Progress]
+Walk through life
+beautiful more than anything
+stand in the sunlight
+walk through life
+love all the things
+that make you strong, be lovers, be anything
+but what you are not.
+
+[Wise, Why's, Y's]
+If you ever find yourself, some where
+lost and surrounded by enemies
+who won't let you speak in your own language
+who destroy your statues & instruments...
+
+[Dope]
+It must be the devil
+It must be the devil
+It must be the devil...
+uuu uuuuu uuuuuuuu!
+
+--- NIKKI GIOVANNI ---
+[Ego Tripping]
+I was born in the congo
+I walked to the fertile crescent and built
+the sphinx
+I designed a pyramid so tough that a star
+that only glows every one hundred years falls
+into the center giving divine perfect light
+I am bad...
+
+[Nikki-Rosa]
+childhood remembrances are always a drag
+if you're Black
+you always remember things like living in Woodlawn
+with no inside toilet
+and if you become famous or something
+they never talk about how happy you were to have your mother
+all to yourself...
+
+[Revolutionary Music]
+you've just got to dig it
+everything is
+music
+everything is
+silence.
+
+[Beautiful Black Men]
+i wanta say just gotta say something
+bout those beautiful beautiful beautiful outasight
+black men
+with they afros
+walking down the street...
+
+[Knoxville, Tennessee]
+I always like summer
+best
+you can eat fresh corn
+from daddy's garden
+and okra
+and greens
+and cabbage...
+
+[My House]
+i only want to
+be there to kiss you
+as you want to be kissed
+when you need to be kissed
+where i want to kiss you...
+
+[Dreams]
+in my younger years
+before i learned
+black people aren't
+supposed to dream
+i wanted to be
+a raelet...
+
+[Adulthood]
+for a long time i thought
+if i could just get a job
+and a husband
+and a home of my own
+everything would be alright.
+
+[Woman Poems]
+you see, my whole life
+is tied up
+to unhappiness.
+
+[Choices]
+if i can't do
+what i want to do
+then my job is to not
+do what i don't want
+to do.
+
+--- SONIA SANCHEZ ---
+[homecoming]
+i have been a
+way so long
+once after college i returned
+tourist style
+to watch all
+the niggers killing
+themselves with
+three-for-ones...
+
+[Poem at Thirty]
+it is midnight
+no magical bewitching
+hour for me
+i know only that
+i am here waiting
+remembering that
+once as a child
+i walked two
+miles in my sleep.
+
+[a/coltrane/poem]
+my favorite things
+is u/blowen
+yo/favorite things...
+stretchin the mind
+till it bursts past the limits of
+exactness.
+
+[for our lady]
+billie.
+if someone
+had loved u
+like u
+shud have
+been loved
+ain't no tellin what
+u wud have been.
+
+[blk/rhetoric]
+who's gonna make all
+that beautiful blk / rhetoric
+mean something.
+i mean
+like
+who's gonna take
+the words
+blk / is / beautiful
+and make more of it
+than blk / capitalism.
+
+[Summer Words of a Sistuh Addict]
+magnetic
+needle
+fell off
+the phonograph
+an hour ago
+and
+i
+can't
+fix
+it.
+
+[Ballad]
+forgive me if i laugh
+you are so sure of love
+you are so sure of peace
+you are so sure of god.
+
+[To Blk/Record/Buyers]
+don't play me no
+righteous bros.
+white people
+ain't rt bout nothing
+no mo.
+
+[Haiku]
+i have looked into
+my father's eyes and seen an
+african sunset.
+
+[Tanka]
+i shall become a
+collector of me
+and put meat on my soul.
+
+--- HAKI MADHUBUTI (Don L. Lee) ---
+[But He Was Cool]
+super-cool
+ultrablack
+a tan/purple
+had a beautiful shade.
+he had a double-natural
+that wd put the sisters to shame.
+he was
+cool-cool
+so cool
+him almost stopped breathing.
+
+[We Walk the Way of the New World]
+we run the dangercourse.
+the way of the
+interceptor/bomber
+pledge allegiance to
+the wall.
+
+[Assassination]
+it was a wild
+night...
+the wind
+howled
+broke glass
+& we
+died
+some more.
+
+[Big Momma]
+at sixty-eight
+she moves freely,
+is often right
+about things.
+she has
+seen the world
+through
+black eyes.
+
+[Don't Cry, Scream]
+into the streets
+into the streets
+into the streets
+with the music
+the rhythm
+the beat.
+
+[The Self-Hatred of Don L. Lee]
+i loved my
+country
+but my country
+did not love
+me.
+
+[Nigerian Unity/or Little Niggers Killing Little Niggers]
+suppose
+just suppose
+we could
+unite.
+
+[Re-Act to White]
+re-act
+to white
+actions
+with black
+actions.
+
+[Message to a Blackman]
+we need
+scholars
+we need
+warriors
+we need
+builders.
+
+[Move!]
+move
+move
+move
+move
+into
+blackness.
+
+--- JAYNE CORTEZ ---
+[Pissstained Stairs]
+And I wanted to be
+a storm
+a hurricane
+a tornado
+sweeping through
+the projects
+cleaning up
+the pissstained stairs.
+
+[I Am New York City]
+I am New York City
+here is my brain of hot sauce
+my tobacco teeth
+my subway hair...
+I am New York City
+blood of the whole world
+boiling in my veins.
+
+[Jazz Fan Looks Back]
+I crisscrossed with Monk
+Wailed with Bud
+Counted every star with Stitt
+Sang "Don't Blame Me" with Sarah...
+
+[How Long Has Trane Been Gone]
+How long has Trane been gone
+and who is that
+trying to play like him?
+
+[Find Your Own Voice]
+Find your own voice
+and use it
+use it
+use it.
+
+[There It Is]
+And if we don't fight
+if we don't resist
+if we don't organize and unify and
+get the power to control our own lives
+then we will wear
+the exaggerated look of captivity
+the stylized look of submission...
+
+[Festivals and Funerals]
+No more festivals
+until we have
+funerals for our
+enemies.
+
+[Rape]
+Whatever they do
+do not let them
+rape your mind.
+
+[Bumblebee]
+You are the queen
+of the hive
+and I am the drone
+dying for your love.
+
+[Poetry]
+Poetry is music
+Poetry is dance
+Poetry is life.
+
+--- LUCILLE CLIFTON ---
+[homage to my hips]
+these hips are big hips
+they need space to
+move around in.
+they don't fit into little
+petty places. these hips
+are free hips.
+they don't like to be held back.
+these hips have never been enslaved...
+
+[won't you celebrate with me]
+won't you celebrate with me
+what i have shaped into
+a kind of life? i had no model.
+born in babylon
+both nonwhite and woman
+what did i see to be except myself?
+i made it up here on this bridge between
+starshine and clay...
+
+[miss rosie]
+when i watch you
+wrapped up like garbage
+sitting, surrounded by the smell
+of too old potato peels
+or
+when i watch you
+in your old man's shoes
+with the little toe cut out
+sitting, waiting for your mind
+like next week's grocery...
+
+[the lost baby poem]
+the time i dropped your almost body down
+to meet the waters under the city
+and run one with the sewage to the sea
+what did i know about waters rushing back...
+
+[cutting greens]
+curling them around
+i hold their bodies in obscene embrace
+thinking of everything but kinship.
+collards and kale
+strain against each strange other...
+
+[at the cemetery, walnut grove plantation]
+nobody mentioned slaves
+and yet the curious tools
+shine with your fingerprints.
+
+[wishes for sons]
+i wish them cramps.
+i wish them a strange town
+and the last tampon.
+i wish them no 7-11.
+
+[good times]
+my daddy has paid the rent
+and the insurance man is gone
+and the lights is back on
+and my uncle brud has hit
+for one dollar straight
+and they is good times...
+
+[poem in praise of menstruation]
+if there is a river
+more beautiful than this
+bright as the blood
+red edge of the moon
+if there is a river
+more faithful than this
+returning each month
+to the same delta...
+
+[blessing the boats]
+may the tide
+that is entering even now
+the lip of our understanding
+carry you out
+beyond the face of fear...
+
+--- AUDRE LORDE ---
+[Coal]
+I is the total black, being spoken
+From the earth's inside.
+There are many kinds of open
+How a diamond comes into a knot of flame
+How sound comes into a word, coloured
+By who pays what for speaking.
+
+[The Black Unicorn]
+The black unicorn is greedy.
+The black unicorn is impatient.
+'The black unicorn was mistaken
+for a shadow
+or symbol
+and taken
+through a cold country
+where mist painted mockeries
+of my fury.
+It is not on her lap where the horn rests
+but deep in her moonpit
+growing.
+
+[Power]
+The difference between poetry and rhetoric
+is being ready to kill
+yourself
+instead of your children.
+
+[Who Said It Was Simple]
+There are so many roots to the tree of anger
+that sometimes the branches shatter
+before they bear.
+
+[A Litany for Survival]
+For those of us who live at the shoreline
+standing upon the constant edges of decision
+crucial and alone
+for those of us who cannot indulge
+the passing dreams of choice...
+
+[Hanging Fire]
+I am fourteen
+and my skin has betrayed me
+the boy I cannot live without
+still sucks his thumb
+in secret
+how come my knees are
+always so ashy...
+
+[Martha]
+I can only love you
+by trying to remember
+how you looked
+before you died.
+
+[Afterimages]
+However the image enters
+its force remains within
+my eyes
+rockstrewn caves where dragonfish evolve...
+
+[Uses of the Erotic: The Erotic as Power]
+The erotic is a measure between the beginnings of our sense of self and the chaos of our strongest feelings.
+
+[Stations]
+Some women wait for something
+to change
+and nothing does change
+so they change
+themselves.
+
+--- ETHERIDGE KNIGHT ---
+[The Idea of Ancestry]
+Taped to the wall of my cell are 47 pictures: 47 black faces: my father, mother, grandmothers (1 dead), grand fathers (both dead), brothers, sisters, uncles, aunts, cousins (1st & 2nd), nieces, and nephews.
+
+[Hard Rock Returns to Prison from the Hospital for the Criminal Insane]
+Hard Rock was "known not to take no shit
+From nobody," and he had the scars to prove it:
+Split purple lips, lumped ears, welts above
+His yellow eyes, and one long scar that cut
+Across his temple and plowed through a thick
+Canopy of kinky hair.
+
+[He Sees Through Stone]
+He sees through stone
+he has the secret eyes
+this old black one
+who under prison skies
+sits pressed by the sun...
+
+[For Freckle-Faced Gerald]
+Now you take ol Rufus. He beat drums, was free and yellin 'Hey! Hey!'
+singing 'da da da da da da da da'
+when they marched him down to the hole.
+
+[Feeling Fucked Up]
+Lord she's gone done it.
+Gone. Done. It.
+Me here. Imagine.
+Me. Here.
+
+[A Poem for Myself]
+I was born in Mississippi;
+I walked barefooted in the mud.
+Born black in Mississippi,
+Walked barefooted in the mud.
+
+[Ilu, the Talking Drum]
+The drum is a woman
+The drum is a woman
+Beat her implies
+Love.
+
+[Dark Prophecy: I Sing of Shine]
+And, yeah, I sing of Shine
+and the Titanic,
+and how Shine swam to save his life.
+
+[Apology for Apostasy?]
+Soft songs, like birds, die in poison air
+So my song cannot now be candy.
+Anger rots the oak and elm;
+Roses are useless against the steamroller.
+
+[Belly Song]
+This is a belly song,
+I sing it for you
+Old belly,
+Round belly,
+Full belly...
+
+--- LARRY NEAL ---
+[Don't Say Goodbye to the Pork-Pie Hat]
+Don't say goodbye to the pork-pie hat
+that rolled along on the spirited
+vectors of a Charlie Parker solo...
+
+[Black Fire]
+We start the fire
+We are the fire
+We burn the past
+We burn the pain.
+
+[Kulu Se Mama]
+Love is the spirit
+Love is the power
+Love is the people.
+
+[Malcolm X - An Autobiography]
+I was a hustler
+I was a pimp
+I was a junkie
+I was a leader.
+
+[For Our Women]
+Black women
+Timeless mothers
+Ancient queens
+Carrying the future.
+
+[Rhythm Is a Groove]
+Rhythm is a groove
+Rhythm is a move
+Rhythm is the truth.
+
+[Shine]
+Shine, Shine, Shine
+Keep on swimming
+Shine.
+
+[Ghost Poem]
+The ghosts of the ancestors
+Are walking in the streets
+Demanding justice.
+
+[Morning Raga]
+The sun rises black
+The sun rises strong
+The sun rises singing our song.
+
+[Holy Days]
+These are the holy days
+The days of war
+The days of birth.
+
+--- CAROLYN RODGERS ---
+[how i got ovah]
+I can tell you
+about them
+I can tell you
+how I got ovah
+Lord, how I got ovah.
+
+[Jesus Was a Black Man]
+Jesus was a black man
+I know
+I saw him in my daddy's face.
+
+[It Is Deep]
+It is deep
+to be black
+in America.
+
+[Mama's God]
+Mama's God
+is a strong God
+a fierce God
+a loving God.
+
+[For H.W. Fuller]
+A giant fell
+and the earth shook
+and we all cried.
+
+[Poem for Some Black Women]
+We are the ones
+who hold the world
+together.
+
+[We're Only Human]
+We make mistakes
+We fall down
+We get up.
+
+[Growing Up]
+Growing up black
+is a full time job.
+
+[Masquerade]
+Take off the mask
+Let the beauty shine.
+
+[Testimony]
+I testify
+to the power of love
+to the power of blackness.

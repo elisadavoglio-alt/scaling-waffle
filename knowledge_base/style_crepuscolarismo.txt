@@ -1,0 +1,658 @@
+Style: Crepuscolarismo
+Period: 1903-1911
+Key Characteristic: "Io mi vergogno, sì, mi vergogno d'essere un poeta!" — il poeta dimesso, la poesia delle "buone cose di pessimo gusto".
+
+### 🏛️ REFERENCE AUTHORS & WORKS
+- Guido Gozzano (I colloqui, La signorina Felicita) - Il maestro dell'ironia malinconica
+- Sergio Corazzini (Piccolo libro inutile) - Il "piccolo fanciullo che piange", malattia
+- Marino Moretti (Poesie scritte col lapis) - Quotidiano, domestico, "a Cesena"
+- Fausto Maria Martini (Poesie provinciali) - Provincia, intimismo
+- Corrado Govoni (Le fiale, Armonia in grigio et in silenzio) - Pre-futurista, cataloghi tristi
+- Aldo Palazzeschi (Lanterna, I cavalli bianchi) - Gioco malinconico, "Chi sono?"
+- Carlo Chiaves (Sogno e ironia) - Torinese, ironia amara
+- Nino Oxilia (Canti brevi) - Giovinezza bruciata, bozzettismo
+- Giulio Gianelli (Ombre) - Simbolista dimesso, religioso
+- Carlo Vallini (Un giorno) - Noia, morte, rinuncia
+
+### 🧬 STRUCTURAL PATTERNS (YAML)
+themes:
+  - Piccole cose (oggetti inutili, vecchi, "buone cose di pessimo gusto")
+  - Provincia, noia domenicale, salotti polverosi
+  - Malattia (tisi), morte annunciata, ospedali
+  - Vergogna della poesia (poesia come "ciarpame reietto")
+  - Ironia su sé stesso e sul Sublime (anti-D'Annunzio)
+
+techniques:
+  - Lessico basso, quotidiano (caffè, ciabatte, farmacia)
+  - Enjambment prosastico (spezzare il verso per farlo sembrare prosa)
+  - Diminutivi ("piccolo", "povero", "triste")
+  - Catalogo di oggetti banali
+  - Rima ironica (camicie/Carni, Nietzsche/camicie)
+
+tone:
+  - Dimesso, sussurrato, "voce di fanciullo"
+  - Ironico, distaccato
+  - Nostalgia senza enfasi
+
+### 📜 ANTHOLOGY EXAMPLES (GROUND TRUTH)
+
+--- GUIDO GOZZANO ---
+[La signorina Felicita ovvero la Felicità]
+Signorina Felicita, a quest'ora
+scende la sera nel giardino antico
+della tua casa. Nel mio cuore amico
+scende il ricordo. E ti rivedo ancora,
+e Ivrea rivedo e la cerulea Dora
+e quel dolce paese che non dico.
+
+[La signorina Felicita (L'interno)]
+Tu non fai versi. Tagli le camicie
+per tuo padre: hai fatta la seconda
+classe, t'han detto che la Terra è tonda,
+ma tu non credi... E non mediti Nietzsche...
+Mi piaci. Mi piaci perché sei felice
+e perché sei bruttina, o mia gioconda.
+
+[Totò Merùmeni]
+Col suo giardino incolto, le sale vaste, i bei
+balconi secentisti guarniti di verzura,
+la villa sembra tolta da certi versi miei,
+sembra la villa tipo, del Libro di Lettura...
+Totò Merùmeni non ha venticinque anni, tempra
+sdegnosa, molta cultura e gusto in opere d'inchiostro,
+scarso cervello, scarsa morale, spaventosa
+chiaroveggenza: è il vero figlio del tempo nostro.
+
+[L'amica di nonna Speranza]
+Loreto impagliato ed il busto d'Alfieri, di Napoleone
+i fiori in cornice (le buone cose di pessimo gusto),
+il caminetto un po' tetro, le scatole senza confetti,
+i frutti di marmo protetti dalle campane di vetro...
+
+[Invernale]
+...Carolavano al suono del "Danubio Blu"...
+Tu non ricordi? Sotto le volte, enormi
+lampadari di cristallo, specchiere
+d'oro, dame, cavalieri, giubbe e sparati...
+
+[La via del rifugio]
+Non chiedo più nulla. Mi basta
+questo silenzio, questa pace stanca.
+La vita è una signora casta
+che passa vestita di bianco.
+
+[Le due strade]
+Tra la china e la riva, a mezza strada,
+una fanciulla ride, e la sua bocca
+vermiglia par che a morder m'invita
+la vita dolce che non si tocca.
+
+[Alle soglie]
+Mio cuore, monello giocondo che ride pur anco?
+Mio cuore, fanciullo che ha tanto sofferto e pianto?
+La morte è una signora vestita di nero,
+che viene a prenderti per mano, davvero.
+
+[Parabola]
+Il bambino guarda il giuoco
+della vita con occhi fissi;
+non sa che dondola su un abisso
+di nulla, appeso a un filo di fuoco.
+
+[Il più bel giorno]
+Non fu quello, non fu...
+Fu un giorno di grigio e di pioggia,
+in cui non accadde nulla,
+ma il cuore batteva di più.
+
+--- SERGIO CORAZZINI ---
+[Desolazione del povero poeta sentimentale]
+Perché tu mi dici: poeta?
+Io non sono un poeta.
+Io non sono che un piccolo fanciullo che piange.
+Vedi: non ho che le lagrime da offrire al Silenzio.
+Perché tu mi dici: poeta?
+
+[Piccolo libro inutile]
+Io mi vergogno, sì, mi vergogno
+d'essere un poeta!
+E non v'è, mi sembra,
+nessun mestiere più inutile del mio.
+
+[Toblack]
+E moriremo. E non avremo amato
+mai, e non avremo vissuto mai.
+La morte ci coglierà sul prato
+dei sogni, dove non crescono i fiorai.
+
+[Bando]
+Oggi ho venduto la mia anima
+per un soldo bucato.
+Chi la vuole? È un'anima
+triste, che ha molto peccato.
+
+[Dialogo di marionette]
+Siamo due burattini di legno,
+che fingono di avere un cuore.
+Il filo che ci muove è un disegno
+di un dio che non ha amore.
+
+[La morte di Tantalo]
+Ho sete, ho sete di vita!
+Ma l'acqua si ritira
+appena avvicino le labbra,
+e resto con la bocca inaridita.
+
+[Sonetto amaro]
+Tutto è finito. La commedia è sciolta.
+Il pubblico fischia, o forse applaude.
+Io resto solo, per l'ultima volta,
+a recitare la mia propria laude.
+
+[Invito]
+Vieni con me, in un paese lontano,
+dove non si muore e non si soffre.
+Lì potremo tenerci per mano,
+e dimenticare ciò che il mondo offre.
+
+[Pomeriggio]
+Il sole entra nella stanza vuota,
+e danza sul pulviscolo d'oro.
+Io guardo e taccio, e la mia vita ignota
+scorre via come un tesoro.
+
+[Preghiera]
+Signore, abbi pietà di noi,
+piccoli poeti inutili.
+Dacci almeno il pane dei tuoi
+sogni, se non quello dei rutuli.
+
+--- MARINO MORETTI ---
+[A Cesena]
+Piove. È mercoledì. Sono a Cesena,
+ospite della mia sorella sposa,
+sposa da sei, da sette mesi appena...
+Battono la binari, verso la tosa
+del giardino, lenti, uguali, i rintocchi.
+
+[La signora che cuce]
+Cuce la signora, cuce e tace.
+Il filo va e viene, come un pensiero.
+La stanza è piena di una dolce pace,
+e fuori il mondo sembra meno nero.
+
+[Io non ho nulla]
+Io non ho nulla da dire, nulla da dare.
+La mia poesia è fatta di matita,
+che si cancella solo a guardare,
+ed è leggerà come la vita.
+
+[Il giardino della stazione]
+Pochifiori, un sedile di ferro,
+la ghiaia bianca, il fischio del treno.
+Qui aspetto qualcuno che non verrò,
+o forse aspetto solo il sereno.
+
+[La domenica]
+Domenica triste, domenica vuota,
+di campane e di gente vestita a festa.
+Io resto a casa, a girare la ruota
+dei miei pensieri, che mai non s'arresta.
+
+[Mia madre]
+Mia madre è piccola, curva, canuta.
+Mi guarda con occhi di tenerezza.
+Lei sa tutto, anche se sta muta,
+lei è la mia sola, vera certezza.
+
+[La scuola]
+I banchi di legno, l'inchiostro neri,
+il maestro severo che ci fa paura.
+Ma fuori la finestra, i pensieri
+volano liberi, oltre le mura.
+
+[Le cose]
+Amo le cose che non hanno voce,
+la sedia impagliata, il vecchio baule.
+Loro mi parlano, in modo veloce,
+di vite passate, di gioie e di ule.
+
+[Sera di provincia]
+Le luci si accendono a una a una,
+la piazza si svuota, il caffè chiude.
+Resta solo il cane che abbaia alla luna,
+e la mia anima, che si illude.
+
+[Fine]
+Non voglio gloria, non voglio alloro.
+Voglio solo un angolo di pace,
+dove poter piangere il mio tesoro
+perduto, e tacere, tacere, tace.
+
+--- FAUSTO MARIA MARTINI ---
+[Poesie provinciali]
+Io sono un poeta di provincia,
+che canta le piazze e i vicoli stretti.
+La mia musa non è una principessa,
+ma una servetta che rifà i letti.
+
+[Sabato sera]
+La gente passeggia su e giù per il corso,
+le ragazze ridono, i vecchi sbadigliano.
+Io guardo tutto con un certo rimorso,
+come se avessi rubato il loro bagaglio.
+
+[La partenza]
+Partire è un po' morire, si dice.
+Ma restare è morire un po' per volta.
+In questo borgo che non ha fenice,
+la vita è una pagina mai svolta.
+
+[Il circo]
+È arrivato il circo, con i suoi colori
+sbiaditi e la musica stonata.
+I bambini guardano con batticuori,
+io guardo la tristezza mascherata.
+
+[La pioggia]
+Piove sui tetti, piove sulle strade.
+La noia scende come una nebbia.
+Vorrei fuggire, andare in altre contrade,
+ma resto qui, prigioniero nella gabbia.
+
+[Mia cugina]
+Mia cugina è bella, ma un po' sciocca.
+Sogna l'amore da romanzo rosa.
+Io le sorrido, e le tocco la bocca,
+e le dico che la vita è un'altra cosa.
+
+[Il ritorno]
+Sono tornato, dopo tanto tempo.
+Tutto è uguale, tutto è cambiato.
+Gli amici sono vecchi, il cielo è un lampo,
+e io mi sento un estraneo, un ammalato.
+
+[Vespro]
+Suona l'avemaria. Le donne in nero
+vanno in chiesa, a capo chino.
+Io resto fuori, col mio pensiero
+che non sa pregare, povero bambino.
+
+[Il caffè]
+Il solito caffè, la solita gente.
+Si parla di niente, si gioca a carte.
+La vita passa, inutilmente,
+e noi stiamo qui, a farci da parte.
+
+[Epitaffio]
+Qui giace un uomo che non fece nulla,
+né bene né male, visse e morì.
+La terra lo copre, la morte lo culla,
+e nessuno saprà mai chi fu, chi.
+
+--- CORRADO GOVONI ---
+(Fase crepuscolare - Le fiale)
+[Le fiale]
+Ho raccolto le mie lacrime in fiale
+di vetro sottile, color di rosa.
+Sono il profumo del mio male,
+l'essenza della mia vita noiosa.
+
+[Il giardino chiuso]
+C'è un giardino chiuso da alte mura,
+dove non entra mai il sole.
+Lì crescono fiori di paura,
+e piante che non hanno parole.
+
+[La mendicante]
+Una vecchia cenciosa mi tende la mano.
+Ha gli occhi acquosi, la voce fessa.
+Le do un soldo, e mi sento un sovrano
+che ha fatto la grazia a una contessa.
+
+[Organetto]
+L'organetto suona una vecchia canzone,
+sotto la mia finestra, nel cortile.
+Mi stringe il cuore questa passione
+di musica povera, triste e gentile.
+
+[Le monache]
+Passano le monache, silenziose,
+coi loro volti bianchi e i veli neri.
+Sembrano spettri, o spose
+di un Dio che abita nei cimiteri.
+
+[Il cimitero]
+Mi piace passeggiare tra le tombe,
+leggere i nomi, le date, le frasi.
+Qui c'è la pace, qui non ci son bombe,
+qui tutti dormono nelle lor case.
+
+[La bambola]
+Una bambola rotta, buttata via,
+nel fango della strada, sotto la pioggia.
+Ha un occhio solo, e tanta malinconia,
+povera figlia di una reggia.
+
+[Tristezza]
+Tristezza, compagna fedele e cara,
+che non mi lasci mai, né giorno né notte.
+Tu sei la mia sposa, la mia bara,
+la mia dolcezza e le mie botte.
+
+[Il malato]
+Sono malato, tossisco e sputo.
+La febbre mi brucia, il freddo mi gela.
+Guardo il soffitto, e sto muto,
+aspettando che si strappi la tela.
+
+[Autunno]
+Cadono le foglie, gialle e rosse.
+La natura muore, per rinascere.
+Ma io, che ho nel petto tante tosse,
+morirò per sempre, senza rinascere.
+
+--- ALDO PALAZZESCHI ---
+(Fase crepuscolare - Lanterna)
+[I fiori]
+Mi piacciono le rose? No.
+I gigli? Nemmeno.
+Io amo i fiori che non hanno nome,
+i fiori di carta, i fiori di fieno,
+i fiori che nascono nel veleno.
+
+[La lanterna]
+Una piccola luce nella notte scura.
+Non illumina molto, ma consola.
+È la speranza, è la paura,
+è la mia anima che vola sola.
+
+[Specchio]
+Mi guardo allo specchio e non mi riconosco.
+Chi è quell'uomo con la faccia stanca?
+È un estraneo, un tipo losco,
+o sono io, che la vita sbanca?
+
+[Il convento]
+Silenzio, pace, preghiera.
+Vorrei farmi frate, e non pensar più.
+Vivere in una cella, mattina e sera,
+e guardare il cielo, lassù.
+
+[La giostra]
+Gira la giostra, co' suoi cavalli
+di legno dipinto e oro falso.
+I bambini ridono, fanno balli,
+io guardo e piango, e non so il perché, scalzo.
+
+[Ara Mara Amara (Ripresa)]
+Ara mara amara.
+La vita è chiara,
+la vita è scura,
+la vita è dura.
+
+[Rio Bo (Ripresa)]
+Tre casettine...
+(Simbolo di piccolezza e semplicità)
+
+[Cobalto]
+Un cielo di cobalto, finto e bello.
+Vorrei viverci dentro, dipinto.
+Senza dolori, senza fardello,
+in un mondo di favola,into.
+
+[Hubel]
+Il mio cane Hubel, fedele amico.
+Lui non mi chiede versi, né gloria.
+Gli basta un osso, un posto antico,
+e mi regala la sua memoria.
+
+[Commiato]
+Addio, poesia, addio sogni.
+Divento un uomo serio, un borghese.
+Smetterò di scrivere, di aver bisogni,
+e pagherò le tasse e le spese.
+
+--- CARLO CHIAVES ---
+[Sogno e ironia]
+Sogno un amore grande e puro,
+ma poi rido di me e del mio sogno.
+La vita è un muro, un muro duro,
+e l'amore è solo un bisogno.
+
+[Interno]
+La pendola batte le ore lente.
+Il gatto dorme sulla poltrona.
+Io leggo un libro, e non sento niente
+se non il vuoto che mi incorona.
+
+[La visita]
+È venuta una zia a farmi visita.
+Ha parlato di malattie e di morti.
+Io l'ascoltavo, con faccia compita,
+ma dentro di me urlavo ai porti.
+
+[Noia estiva]
+Il sole scotta, le mosche ronzano.
+Non c'è nulla da fare, nulla da dire.
+I giorni passano, e si assomigliano,
+e io aspetto solo di morire.
+
+[Il pianoforte]
+Qualcuno suona il piano, lontano.
+Un valzer triste, scordato.
+Mi ricorda un tempo, invano,
+in cui forse sono stato amato.
+
+[Disillusione]
+Credevo di essere un genio, un dio.
+Invece sono un povero diavolo.
+La mia arte è mediocre, il mio io
+è piccolo, meschino, e cavolo.
+
+[La passeggiata]
+Cammino per la città deserta.
+Guardo le vetrine, le luci spente.
+Mi sento un ladro, una scoperta,
+un intruso tra la gente.
+
+[Rpianto]
+Ah, se potessi tornare indietro!
+Farei tutto diverso, tutto nuovo.
+Ma il tempo è un vetro, un vetro tetro,
+che non si rompe, e non ci smuovo.
+
+[Ironia finale]
+Rido, rido per non piangere.
+La vita è una beffa, uno scherzo.
+Chi la prende sul serio, si fa frangere,
+chi ride, forse, ne esce terzo.
+
+[Congedo]
+Vi lascio, amici, vi lascio il mondo.
+Io me ne vado in punta di piedi.
+Non cercatemi, non sono in fondo,
+sono volato via, tra gli eredi.
+
+--- NINO OXILIA ---
+[Canti brevi]
+La vita è breve, l'arte è lunga?
+No, anche l'arte è breve, fugace.
+Scrivo canzoni che il vento allunga,
+e che domani nessuno piace.
+
+[Giovinezza]
+Eravamo giovani, belli e forti.
+Avevamo il mondo nelle mani.
+Ora siamo stanchi, tristi e morti,
+e non abbiamo più domani.
+
+[L'addio]
+Ti saluto, amore mio, ti saluto.
+Parto per la guerra, non tornerò.
+Tienimi nel cuore, come un aiuto,
+quando la sera scenderò.
+
+[Studenti]
+Goliardia, vino, canti e risate.
+La vita universitaria è bella.
+Ma poi finisce, e le giornate
+diventano grigie come una cella.
+
+[Torino]
+Torino mia, città quadrata.
+Città di nebbia e di cioccolato.
+Sei la mia culla, la mia amata,
+il mio destino, il mio peccato.
+
+[La sartina]
+Cuce la sartina, canta e sogna.
+Sogna il principe azzurro, l'amore.
+Ma la vita è dura, è una menzogna,
+e le regala solo dolore.
+
+[Crepuscolo]
+Scende la sera, viola e rosa.
+Il Valentino si copre d'ombra.
+È l'ora triste, l'ora pensosa,
+in cui l'anima si sgombra.
+
+[Il Po]
+Il fiume scorre, placido e scuro.
+Porta via i rifiuti e i pensieri.
+Vorrei buttarmi dentro, sicuro
+di trovare la pace di ieri.
+
+[Ultima canzone]
+Canto per l'ultima volta, amici.
+Domani sarò fango, sarò terra.
+Canto i miei sogni, le mie radici,
+prima che mi prenda la guerra.
+
+[Requiem]
+Riposa in pace, poeta ignoto.
+Non hai lasciato segni, né gloria.
+Il tuo passaggio è stato un vuoto,
+una parentesi nella storia.
+
+--- GIULIO GIANELLI ---
+[Ombre]
+Vedo ombre ovunque, ombre cinesi.
+La realtà è un'illusione ottica.
+Noi siamo ombre, siamo pesi
+di un sogno che non ha logica.
+
+[La fede]
+Cerco Dio nelle chiese vuote.
+Cerco la fede che ho perduto.
+Ma trovo solo statue immote,
+e un silenzio che mi sta muto.
+
+[Carità]
+Dare tutto, non chiedere nulla.
+Amare i poveri, gli ultimi, i soli.
+Questa è la via, questa è la culla
+della vera gioia, senza voli.
+
+[La suora]
+Insieme agli ammalati, notte e giorno.
+Pulisce piaghe, asciuga sudori.
+Lei è l'angelo che fa ritorno,
+portando la luce nei cuori.
+
+[Natale]
+Gesù nasce in una stalla fredda.
+Nessuno lo vuole, nessuno lo sa.
+Solo i poveri, la gente scredda,
+lo riconoscono nella povertà.
+
+[Sera]
+La sera scende come una mano
+che accarezza la terra stanca.
+Io prego piano, prego invano,
+per questa vita che mi manca.
+
+[Morte di un bambino]
+Un angioletto è volato in cielo.
+La madre piange, disperata.
+Ma lui ora gioca col velo
+della Madonna, l'Addolorata.
+
+[Rassegnazione mistica]
+Sia fatta la tua volontà, Signore.
+Accetto il dolore, accetto il male.
+Offro a te il mio povero cuore,
+come un fiore che non vale.
+
+[Silenzio di Dio]
+Dio tace. Il cielo è vuoto.
+L'uomo grida, ma non c'è risposta.
+La fede è un salto nel remoto,
+una scommessa che ci costa.
+
+[Amen]
+Così sia. Tutto finisce.
+La vita, il sogno, la poesia.
+Resta solo Dio, che ci unisce
+nell'eterna armonia.
+
+--- CARLO VALLINI ---
+[Un giorno]
+Mi sveglio. Mi lavo. Mi vesto.
+Esco. Cammino. Guardo.
+Torno. Mangio. Mi spoglio.
+Dormo. E questo è tutto, codardo.
+
+[La rinuncia]
+Rinuncio ai sogni, rinuncio all'arte.
+Rinuncio all'amore, alla gloria.
+Mi metto in un angolo, in disparte,
+fuori dalla vita, fuori dalla storia.
+
+[L'uomo medio]
+Voglio essere un uomo medio, uguale
+a tutti gli altri, senza pretese.
+Leggere il giornale, non farmi male,
+e pagare puntuale le spese.
+
+[La noia mortale]
+Che noia, che noia, che noia!
+Niente mi piace, niente mi tocca.
+La vita è un brodo, non una gioia,
+che si raffredda nella bocca.
+
+[Il suicidio mancato]
+Volevo uccidermi, ieri sera.
+Avevo la pistola in mano.
+Ma poi ho pensato: a che val, spera?
+Tanto moriremo tutti, piano.
+
+[La morte]
+La morte è l'unica cosa vera.
+L'unica certezza che abbiamo.
+Perché temerla? È una frontiera
+che tutti, prima o poi, passiamo.
+
+[Amici morti]
+Gozzano è morto. Corazzini è morto.
+Tutti i migliori se ne vanno.
+Io resto qui, come un aborto,
+a contare i giorni del mio anno.
+
+[Il passato]
+Il passato mi pesa sulle spalle
+come un sacco di pietre nere.
+Vorrei buttarlo giù nella valle,
+ma è incollato al mio sedere.
+
+[Futuro grigio]
+Non vedo luce nel mio domani.
+Solo nebbia, pioggia, grigiore.
+Sarò un vecchio con le mani
+tremanti, e il gelo nel cuore.
+
+[Epilogo]
+Fine della storia. Chiudete il libro.
+Non c'è lieto fine, non c'è morale.
+Solo un uomo che ha perso l'equilibrio,
+e che cade nel vuoto, male.

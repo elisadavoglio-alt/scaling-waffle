@@ -1,0 +1,679 @@
+Style: Confessional Poetry
+Period: 1959-1970 (and beyond)
+Key Characteristic: "I" esposto, vulnerabile. "Dying is an art, like everything else. I do it exceptionally well."
+
+### 🏛️ REFERENCE AUTHORS & WORKS
+- Sylvia Plath (Ariel, The Bell Jar poems) - Morte, rinascita
+- Anne Sexton (Live or Die, Transformations) - Follia, tabù
+- Robert Lowell (Life Studies) - Famiglia, breakdown
+- John Berryman (Dream Songs) - Io moltiplicato
+- W.D. Snodgrass (Heart's Needle) - Divorzio, figlia
+- Theodore Roethke (The Lost Son) - Padre, natura
+- Delmore Schwartz (In Dreams Begin Responsibilities) - Neurosi
+- Randall Jarrell (The Woman at the Washington Zoo) - Solitudine
+- Elizabeth Bishop (Geography III) - Perdita (riservata)
+- Sharon Olds (The Father) - Corpo, famiglia
+
+### 🧬 STRUCTURAL PATTERNS (YAML)
+core:
+  - "I" esposto, vulnerabile
+  - Tabù (sesso, morte, follia, famiglia)
+  - Psicoterapia come fonte
+  
+techniques:
+  - Dettaglio autobiografico
+  - Registro intimo/brutale
+  - Metafora del corpo
+  - Verso controllato anche in contenuti estremi
+  
+themes:
+  - Suicide, depression
+  - Genitori, figli
+  - Matrimonio, divorzio
+  - Corpo femminile (Plath, Sexton)
+
+### 📜 ANTHOLOGY EXAMPLES (GROUND TRUTH)
+
+--- SYLVIA PLATH ---
+[Lady Lazarus]
+Dying
+Is an art, like everything else.
+I do it exceptionally well.
+I do it so it feels like hell.
+I do it so it feels real.
+I guess you could say I’ve a call.
+
+[Daddy]
+You do not do, you do not do
+Any more, black shoe
+In which I have lived like a foot
+For thirty years, poor and white,
+Barely daring to breathe or Achoo.
+
+[Daddy]
+At twenty I tried to die
+And get back, back, back to you.
+I thought even the bones would do.
+But they pulled me out of the sack,
+And they stuck me together with glue.
+
+[Ariel]
+Stasis in darkness.
+Then the substanceless blue
+Pour of tor and distances.
+God’s lioness,
+How one we grow,
+Pivot of heels and knees...
+
+[Tulips]
+The tulips are too excitable, it is winter here.
+Look how white everything is, how quiet, how snowed-in.
+I am learning peacefulness, lying by myself quietly
+As the light lies on these white walls, this bed, these hands.
+
+[The Applicant]
+First, are you our sort of a person?
+Do you wear
+A glass eye, false teeth or a crutch,
+A brace or a hook,
+Rubber breasts or a rubber crotch,
+Stitches to show something's missing?
+
+[Edge]
+The woman is perfected.
+Her dead
+Body wears the smile of accomplishment,
+The illusion of a Greek necessity
+Flows in the scrolls of her toga.
+
+[Morning Song]
+Love set you going like a fat gold watch.
+The midwife slapped your footsoles, and your bald cry
+Took its place among the elements.
+
+[Cut]
+What a thrill —
+My thumb instead of an onion.
+The top quite gone
+Except for a sort of a hinge
+Of skin...
+
+[Mad Girl's Love Song]
+I shut my eyes and all the world drops dead;
+I lift my lids and all is born again.
+(I think I made you up inside my head.)
+The stars go waltzing out in blue and red.
+
+--- ANNE SEXTON ---
+[Her Kind]
+I have gone out, a possessed witch,
+haunting the black air, braver at night;
+dreaming evil, I have done my hitch
+over the plain houses, light by light:
+lonely thing, twelve-fingered, out of mind.
+A woman like that is not a woman, quite.
+I have been her kind.
+
+[The Truth the Dead Know]
+Gone, I say and walk from church,
+refusing the stiff procession to the grave,
+letting the dead ride alone in the hearse.
+It is June. I am tired of being brave.
+
+[Wanting to Die]
+Since you ask, most days I cannot remember.
+I walk in my clothing, unmarked by that voyage.
+Then the almost unnameable lust returns.
+Even then I have nothing against life.
+I know well the grass blades you mention,
+the furniture you have placed under the sun.
+
+[Unknown Girl in the Maternity Ward]
+Child, the current of your breath is six days long.
+You lie, a small knuckle on my white bed;
+lie, fisted like a snail, so small and strong
+at my breast. Your lips are animals; you are fed...
+
+[The Double Image]
+I am thirty this November.
+You are still small, in your fourth year.
+We stand watching the yellow leaves go queer,
+flapping in the winter rain...
+
+[Menstruation at Forty]
+I was thinking of a son.
+The womb is not a clock
+or a bell tolling,
+but in the eleventh month of its life
+I feel the November
+of the body as well as of the calendar.
+
+[Cinderella]
+You always read about it:
+the plumber with twelve children
+who wins the Irish Sweepstakes.
+From toilets to riches.
+That story.
+
+[Little Girl, My String Bean, My Lovely Woman]
+My daughter, at eleven
+(almost twelve), is like a garden.
+Oh, darling! Born in that sweet birthday suit
+and having owned it and known it for so long...
+
+[45 Mercy Street]
+In my dream,
+drilling into the marrow
+of my entire bone,
+my real dream,
+I'm walking up and down Beacon Hill
+searching for a street sign...
+
+[Self in 1958]
+What is reality?
+I am a plaster doll; I pose
+with eyes that cut open without fanfare
+or dismiss.
+
+--- ROBERT LOWELL ---
+[Skunk Hour]
+Nautilus Island’s hermit
+heiress still lives through winter in her Spartan cottage;
+her sheep still graze above the sea.
+Her son’s a bishop. Her farmer
+is first selectman in our village;
+she’s in her dotage.
+
+[Skunk Hour]
+One dark night,
+my Tudor Ford climbed the hill's skull;
+I watched for love-cars. Lights turned down,
+they lay together, hull to hull,
+where the graveyard shelves on the town...
+My mind's not right.
+
+[For the Union Dead]
+The old South Boston Aquarium stands
+in a Sahara of snow now. Its broken windows are boarded.
+The bronze weathervane cod has lost half its scales.
+The airy tanks are dry.
+
+[Memories of West Street and Lepke]
+Only teaching on Tuesdays, book-worming
+in pajamas fresh from the washer each morning,
+I hog a whole house on Boston's
+"hardly passionate Marlborough Street"...
+
+[Home After Three Months Away]
+Gone now the baby's nurse,
+a lioness who ruled the roost
+and made the Mother cry.
+She used to tie
+gobbets of porkrind in bowknots of gauze...
+
+[Man and Wife]
+Tamed by Miltown, we lie on Mother's bed;
+the rising sun in war paint dyes us red;
+in broad daylight her gilded bed-posts shine,
+abandoned, almost Dionysian.
+
+[The Quaker Graveyard in Nantucket]
+A brackish reach of shoal off Madaket,—
+The sea was still breaking violently and night
+Had steamed into our North Atlantic Fleet,
+When the drowned sailor clutched the drag-net.
+
+[To Speak of Woe That Is in Marriage]
+"It is the future generation that presses into being by means of these exuberant feelings and supersensible soap bubbles of ours."
+The hot night makes us keep our bedroom windows open.
+Our magnolia blossoms. Life begins to happen.
+
+[Waking in the Blue]
+The night attendant, a B.U. sophomore,
+rouses from the mare's-nest of his drowsy head
+propped on The Meaning of Meaning.
+He catwalks down our corridor.
+Azure day
+makes my agonized blue window bleaker.
+
+[Eye and Tooth]
+My whole eye was sunset red,
+the old cut cornea throbbed,
+I saw things darkly,
+as through an unwashed goldfish globe.
+
+--- JOHN BERRYMAN ---
+[Dream Song 14]
+Life, friends, is boring. We must not say so.
+After all, the sky flashes, the great sea yearns,
+we ourselves flash and yearn,
+and moreover my mother told me as a boy
+(repeatingly) ‘Ever to confess you’re bored
+means you have no Inner Resources.’
+
+[Dream Song 1]
+Huffy Henry hid the day,
+unappeasable Henry sulked.
+I see his point,—a trying to put things over.
+It was the thought that they thought
+they could do it made Henry wicked & away.
+But he should have come out and talked.
+
+[Dream Song 4]
+There sat down, once, a thing on Henry's heart
+só heavy, if he had a hundred years
+& more, & weeping, sleepless, in all them time
+Henry could not make good.
+
+[Dream Song 29]
+There sat down, once, a thing on Henry's heart
+só heavy, if he had a hundred years
+& more, & weeping, sleepless, in all them time
+Henry could not make good.
+Starts again always in Henry's ears
+the little cough somewhere, an odour, a chime.
+
+[Dream Song 76: Henry's Confession]
+Nothin very bad happen to me lately.
+How you explain that? — I explain that, Mr Bones,
+terms o' your bafflin odd sobriety.
+Sobriety & fastin play the devil
+with a man's pleasantries.
+
+[Dream Song 384]
+The marker slants, flowerless, day's almost done,
+I stand above my father's grave with rage,
+often, often before
+I've made this awful pilgrimage to one
+who cannot visit me, who tore his page
+out: I come back for more.
+
+[Dream Song 382]
+At Henry's bier let some thing fall out well:
+enter there none who somewhat has to sell,
+the music ancient & the flowers few.
+
+[The Ball Poem]
+What is the boy now, who has lost his ball,
+What, what is he to do? I saw it go
+Merrily bouncing, down the street, and then
+Merrily over—there it is in the water!
+
+[Homage to Mistress Bradstreet]
+The Governor your husband lived so long
+moved you not, restless, waiting for him?
+Still, you were a patient woman.
+I love you, Anne.
+
+[Winter Landscape]
+The three men, coming down the winter hill
+In brown and red and narrow green—
+and some dogs, like a black splash on the snow,
+and a black splash on the snow.
+
+--- W.D. SNODGRASS ---
+[Heart's Needle, 1]
+Child of my winter, born
+When the new fallen soldiers froze
+In open field, and snow
+Glazed all the stiffened stalks
+And the brown cattails.
+
+[Heart's Needle, 2]
+Late April and you are three; today
+We dug your garden in the park.
+To ease the paths that your small feet
+Have worn for you,
+I spaded up the bed using a fork.
+
+[Mementos, 1]
+Sorting out letters and piles of my old
+Cancelled checks, old clippings, and yellow note cards
+That meant something once, I happened to find
+Your picture. That picture. I stopped there cold.
+
+[Mementos, 2]
+I found them there today in the attic
+Under some old clothes: two braids of hair
+She'd saved from the time she was a girl...
+
+[April Inventory]
+The green catalpa tree has turned
+All white; the cherry blooms once more.
+In one whole year I haven’t learned
+A blessed thing they pay you for.
+
+[The Campus on the Hill]
+Up the reputable walks of old established trees
+They stalk, children of the nouveaux riches.
+Chimes
+Of the tall Clock Tower drench their heads in glees
+Of a championship football team.
+
+[The Examination]
+Under the thick beams of that swirly smoking light,
+The black robes are methodically pacing..
+
+[Leaving the Motel]
+Outside, the last kids on a school bus
+Are waving. It gets late.
+We must get going now, write
+our names in the guest book and pay.
+
+[Viewing the Body]
+I saw the light
+Of the sun, the moon, and the stars
+Go out, and the cars
+Go by effectively.
+
+[A Flat One]
+Old Fritz, on this rotating bed
+For seven wasted months you lay
+Dying piecemeal in that dead
+Grayish pyjamas.
+
+--- THEODORE ROETHKE ---
+[My Papa's Waltz]
+The whiskey on your breath
+Could make a small boy dizzy;
+But I hung on like death:
+Such waltzing was not easy.
+
+[The Lost Son]
+At Woodlawn I heard the dead cry:
+I was lulled by the slamming of iron,
+A slow drip over stones,
+Toads brooding wells.
+
+[Cuttings]
+Sticks-in-a-drowsy-droop seem to lean;
+In-between floating bodies of green,
+Loll-loll,
+They’re sleeping.
+
+[Cuttings (later)]
+This urge, wrestle, resurrection of dry sticks,
+Cut stems struggling to put down feet,
+What saint strained so much,
+Rose on such lopped limbs to a new life?
+
+[Root Cellar]
+Nothing would sleep in that cellar, dank as a ditch,
+Bulbs broke out of boxes hunting for chinks in the dark,
+Shoots dangled and drooped,
+Lolling obscenely from mildewed crates.
+
+[The Waking]
+I wake to sleep, and take my waking slow.
+I feel my fate in what I cannot fear.
+I learn by going where I have to go.
+
+[Elegy for Jane]
+I remember the neckcurls, limp and damp as tendrils;
+And her quick look, a sidelong pickerel smile;
+And how, once startled into talk, the light syllables leaped for her,
+And she balanced in the delight of her thought...
+
+[In a Dark Time]
+In a dark time, the eye begins to see,
+I meet my shadow in the deepening shade;
+I hear my echo in the echoing wood—
+A lord of nature weeping to a tree.
+
+[The Geranium]
+When I put her out, once, by the garbage pail,
+She looked so limp and bedraggled,
+So foolish and trusting, like a sick poodle,
+Or a wizened aster in late September.
+
+[Wish for a Young Wife]
+My lizard, my lively writher,
+May your limbs never wither,
+May the eyes in your face
+Survive the green ice
+Of envy's mean gaze.
+
+--- DELMORE SCHWARTZ ---
+[In Dreams Begin Responsibilities]
+I think it is the year 1909. 
+I feel as if I were in a motion picture theatre, 
+the long arm of the light crossing the darkness and spinning, 
+my eyes fixed on the screen.
+
+[The Heavy Bear Who Goes With Me]
+The heavy bear who goes with me,
+A manifold honey to smear his face,
+Clumsy and lumbering here and there,
+The central ton of every place...
+
+[Calmly We Walk through This April’s Day]
+Calmly we walk through this April’s day,
+Metropolitan poetry here and there,
+In the park sit pauper and rentier,
+The screaming children, the motor-car
+Fugitive about us, staying...
+
+[Tired and Unhappy, You Think of Houses]
+Tired and unhappy, you think of houses
+Soft-carpeted and warm in the December evening,
+While snow’s white weight on the roof, in the driving dark...
+
+[Starlight Like Intuition Pierced the Twelve]
+The starlight like intuition pierced the twelve,
+The brittle night sky sparkled like a tune
+Lapped round the world...
+
+[Baudelaire]
+When I fall asleep, and even during sleep,
+I hear, quite plainly, voices speaking...
+
+[Socrates' Ghost Must Haunt Me Now]
+Socrates' ghost must haunt me now,
+Not only the old bad life,
+But the questions that he asked
+About the nature of the good and bad...
+
+[For the One Who Would Not Take His Life in His Hands]
+Athlete, virtuoso,
+Training for happiness,
+Bend your knees, springing up and down...
+
+[A Dog Named Ego]
+A dog named Ego, the snowflakes as kisses
+Fluttered, ran, came with me in all weathers,
+Trotted, side-stepped, hairy...
+
+[Seurat's Sunday Afternoon along the Seine]
+What are they looking at?
+Is it the river?
+The sun?
+The eternity of Sunday?
+
+--- RANDALL JARRELL ---
+[The Death of the Ball Turret Gunner]
+From my mother’s sleep I fell into the State,
+And I hunched in its belly till my wet fur froze.
+Six miles from earth, loosed from its dream of life,
+I woke to black flak and the nightmare fighters.
+When I died they washed me out of the turret with a hose.
+
+[The Woman at the Washington Zoo]
+The saris go by me from the embassies.
+Cloth from the moon. Cloth from another planet.
+They look back at the leopard like the leopard.
+And I...
+this print of mine, that has kept its color
+Alive through so many cleanings...
+
+[Next Day]
+Moving from Cheer to Joy, from Joy to All,
+I take a box
+And add it to my wild rice, my Cornish game hens.
+The slacked or shorted, basketed, identical
+Food-gathering flocks
+Are selves I overlook.
+
+[90 North]
+At home, in my flannel gown, like a bear to its floe,
+I clambered to bed; up the globe's impossible sides
+ I sailed all night—till at last, with a week of my life,
+I was found and taken home.
+
+[Losses]
+It was not dying: everybody died.
+It was not dying: we had died before
+In the routine crashes--and our fields
+Called up the papers, wrote home to our folks...
+
+[The Lost World]
+On my way home, I pass a cameraman
+On a platform on the bumper of a car
+Shooting the Hollywood Boulevard Christmas Parade.
+
+[Eighth Air Force]
+If, in an odd angle of the hutment,
+A puppy laps the water from a can
+Of flowers, and the drunk sergeant shaving
+Whistles O Paradiso!...
+
+[The Elementary Scene]
+Looking back in my mind I can see
+The white sun like a tin plate
+Over the wooden turning of the weeds;
+And the street jerking like a fiddle-string...
+
+[A Camp in the Prussian Forest]
+I walk beside the prisoners to the road.
+Load on puffed load,
+Their corpses, stacked like sodden wood,
+Lie barred or galled with blood...
+
+[Thinking of the Lost World]
+This spoonful of chocolate tapioca
+Tastes like—like the vanilla, chocolate, strawberry
+Ice-cream cone I bought when I was six...
+
+--- ELIZABETH BISHOP ---
+[One Art]
+The art of losing isn’t hard to master;
+so many things seem filled with the intent
+to be lost that their loss is no disaster.
+
+[The Fish]
+I caught a tremendous fish
+and held him beside the boat
+half out of water, with my hook
+fast in a corner of his mouth.
+He didn't fight.
+He hadn't fought at all.
+
+[In the Waiting Room]
+In Worcester, Massachusetts,
+I went with Aunt Consuelo
+to keep her dentist’s appointment
+and sat and waited for her
+in the dentist’s waiting room.
+
+[Sestina]
+September rain falls on the house.
+In the failing light, the old grandmother
+sits in the kitchen with the child
+beside the Little Marvel Stove...
+
+[The Moose]
+For a moment longer,
+by craning backward,
+the moose can be seen
+on the moonlit macadam;
+then there's a dim
+smell of moose, an acrid
+smell of gasoline.
+
+[Filling Station]
+Oh, but it is dirty!
+—this little filling station,
+oil-soaked, oil-permeated
+to a disturbing, over-all
+black translucency.
+Be careful with that match!
+
+[Questions of Travel]
+There are too many waterfalls here; the crowded streams
+hurry too rapidly down to the sea,
+and the pressure of so many clouds on the mountaintops
+makes them spill over the sides...
+
+[At the Fishhouses]
+Although it is a cold evening,
+down by one of the fishhouses
+an old man sits netting,
+his net, in the gloaming almost invisible...
+
+[The Armadillo]
+This is the time of year
+when almost every night
+the frail, illegal fire balloons appear.
+Climbing the mountain height...
+
+[Sandpiper]
+The roaring alongside he takes for granted,
+and that every so often the world is bound to shake.
+He runs, he runs to the south, finical, awkward,
+in a state of controlled panic...
+
+--- SHARON OLDS ---
+[The Father]
+I have not been able to forgive my father
+for his face, for the look in his eyes
+when he watched me.
+
+[I Go Back to May 1937]
+I see them standing at the formal gates of their colleges,
+I see my father strolling out
+under the ochre sandstone arch...
+I want to go up to them and say Stop,
+don't do it—she's the wrong woman,
+he's the wrong man...
+
+[The Language of the Brag]
+I have wanted excellence in the knife-throw,
+I have wanted to use my exceptionally strong and accurate arms
+and my straight spine...
+
+[Stag's Leap]
+The worst thing in the world
+is the pain of the stag
+when the hunter brings him down.
+
+[Sex Without Love]
+How do they do it, the ones who make love
+without love? Beautiful as dancers,
+gliding over each other like ice-skaters...
+
+[The Race]
+When I got to the airport I rushed up to the desk
+and they told me the flight was cancelled.
+The doctors had said my father would not live
+through the night...
+
+[Ecstasy]
+As we made love for the third day,
+clouded with the sperm of the dead
+and the milk of the living...
+
+[The Death of Marilyn Monroe]
+The ambulance men touched her cold
+body, lifted it, heavy as iron,
+onto the stretcher, tried to close the
+mouth, closed the eyes...
+
+[Topography]
+After we flew across the country we
+got in bed, laid our bodies
+delicately together, like maps laid
+face to face...
+
+[Fate]
+Then I knew that I had been right
+not to worry when his train was late.
+I knew that he would come back.

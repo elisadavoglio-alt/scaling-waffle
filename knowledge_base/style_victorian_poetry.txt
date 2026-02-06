@@ -1,0 +1,472 @@
+Style: Victorian Poetry
+Period: 1837-1901
+Key Characteristic: Moral struggle, doubt vs faith, elegy. "'Tis better to have loved and lost / Than never to have loved at all".
+
+### 🏛️ REFERENCE AUTHORS & WORKS
+- Alfred Lord Tennyson (In Memoriam, Idylls of the King) - Dubbio, elegia
+- Robert Browning (Dramatic Monologues) - Psicologia
+- Elizabeth Barrett Browning (Sonnets from the Portuguese) - Amore
+- Matthew Arnold ("Dover Beach") - Crisi fede
+- Christina Rossetti (Goblin Market) - Femminile, gotico
+- Dante Gabriel Rossetti (The House of Life) - Pre-raffaellita
+- Gerard Manley Hopkins ("Windhover") - Sprung rhythm
+- Algernon Swinburne (Poems and Ballads) - Erotico, musicale
+- Thomas Hardy (Poems) - Pessimismo
+- Emily Brontë (Poems) - Moor, intensità
+
+### 🧬 STRUCTURAL PATTERNS (YAML)
+themes:
+  - Dubbio religioso (Darwin vs God)
+  - Moralità vs desiderio
+  - Progresso e perdita
+  - Amore impossibile
+  
+techniques:
+  - Dramatic monologue (talking persona)
+  - Blank verse narrativo
+  - Strofe elaborate
+  - Sprung rhythm (Hopkins)
+  
+tone:
+  - Earnest (serio, sincero)
+  - Elegiac
+  - Conflitto interiore
+
+### 📜 ANTHOLOGY EXAMPLES (GROUND TRUTH)
+
+--- ALFRED LORD TENNYSON ---
+[In Memoriam A.H.H.]
+I hold it true, whate'er befall;
+I feel it, when I sorrow most;
+'Tis better to have loved and lost
+Than never to have loved at all.
+
+[Ulysses]
+It little profits that an idle king,
+By this still hearth, among these barren crags,
+Matched with an aged wife, I mete and dole
+Unequal laws unto a savage race,
+That hoard, and sleep, and feed, and know not me.
+...
+To strive, to seek, to find, and not to yield.
+
+[The Lady of Shalott]
+On either side the river lie
+Long fields of barley and of rye,
+That clothe the wold and meet the sky;
+And through the field the road runs by
+To many-towered Camelot.
+
+[The Charge of the Light Brigade]
+Half a league, half a league,
+Half a league onward,
+All in the valley of Death
+Rode the six hundred.
+"Forward, the Light Brigade!
+Charge for the guns!" he said.
+
+[Crossing the Bar]
+Sunset and evening star,
+And one clear call for me!
+And may there be no moaning of the bar,
+When I put out to sea.
+
+[Tears, Idle Tears]
+Tears, idle tears, I know not what they mean,
+Tears from the depth of some divine despair
+Rise in the heart, and gather to the eyes,
+In looking on the happy Autumn-fields,
+And thinking of the days that are no more.
+
+[Break, Break, Break]
+Break, break, break,
+On thy cold gray stones, O Sea!
+And I would that my tongue could utter
+The thoughts that arise in me.
+
+[Maud]
+Come into the garden, Maud,
+For the black bat, night, has flown,
+Come into the garden, Maud,
+I am here at the gate alone.
+
+[The Eagle]
+He clasps the crag with crooked hands;
+Close to the sun in lonely lands,
+Ring'd with the azure world, he stands.
+
+[Mariana]
+With blackest moss the flower-plots
+Were thickly crusted, one and all:
+The rusted nails fell from the knots
+That held the pear to the garden-wall.
+She only said, "My life is dreary,
+He cometh not," she said.
+
+--- ROBERT BROWNING ---
+[My Last Duchess]
+That’s my last Duchess painted on the wall,
+Looking as if she were alive. I call
+That piece a wonder, now: Frà Pandolf’s hands
+Worked busily a day, and there she stands.
+...
+She had
+A heart—how shall I say?—too soon made glad,
+Too easily impressed; she liked whate’er
+She looked on, and her looks went everywhere.
+
+[Porphyria's Lover]
+The rain set early in to-night,
+The sullen wind was soon awake,
+It tore the elm-tops down for spite,
+And did its worst to vex the lake:
+I listened with heart fit to break.
+...
+In one long yellow string I wound
+Three times her little throat around,
+And strangled her. No pain felt she.
+
+[Meeting at Night]
+The gray sea and the long black land;
+And the yellow half-moon large and low;
+And the startled little waves that leap
+In fiery ringlets from their sleep.
+
+[The Lost Leader]
+Just for a handful of silver he left us,
+Just for a riband to stick in his coat—
+Found the one gift of which fortune bereft us,
+Lost all the others she lets us devote.
+
+[Fra Lippo Lippi]
+I am poor brother Lippo, by your leave!
+You need not clap your torches to my face.
+Zooks, what's to blame? you think you see a monk!
+What, 'tis past midnight, and you go the rounds,
+And here you catch me at an alley's end.
+
+[Home-Thoughts, from Abroad]
+Oh, to be in England
+Now that April's there,
+And whoever wakes in England
+Sees, some morning, unaware...
+
+[Andrea del Sarto]
+Ah, but a man's reach should exceed his grasp,
+Or what's a heaven for? All is silver-grey
+Placid and perfect with my art: the worse!
+
+[Rabbi Ben Ezra]
+Grow old along with me!
+The best is yet to be,
+The last of life, for which the first was made.
+
+[Childe Roland to the Dark Tower Came]
+My first thought was, he lied in every word,
+That hoary cripple, with malicious eye
+Askance to watch the working of his lie
+On mine, and snickering lest I should turn about.
+
+[Love Among the Ruins]
+Where the quiet-coloured end of evening smiles,
+Miles and miles
+On the solitary pastures where our sheep
+Half-asleep
+Tinkle homeward through the twilight.
+
+--- ELIZABETH BARRETT BROWNING ---
+[Sonnet 43]
+How do I love thee? Let me count the ways.
+I love thee to the depth and breadth and height
+My soul can reach, when feeling out of sight
+For the ends of being and ideal grace.
+I love thee to the level of every day’s
+Most quiet need, by sun and candle-light.
+
+[Sonnet 14]
+If thou must love me, let it be for nought
+Except for love's sake only. Do not say
+"I love her for her smile—her look—her way
+Of speaking gently."
+
+[Aurora Leigh]
+Does a woman want? Must she be made of dreams
+And such stuff as dreams are made of?
+She too has a soul, and must be fed.
+
+[The Cry of the Children]
+Do ye hear the children weeping, O my brothers,
+Ere the sorrow comes with years?
+They are leaning their young heads against their mothers,
+And that cannot stop their tears.
+
+[Sonnet 1]
+I thought once how Theocritus had sung
+Of the sweet years, the dear and wished-for years,
+Who each one in a gracious hand appears
+To bear a gift for mortals, old or young.
+
+[A Musical Instrument]
+What was he doing, the great god Pan,
+Down in the reeds by the river?
+Spreading ruin and scattering ban,
+Splashing and paddling with hoofs of a goat.
+
+[Grief]
+I tell you, hopeless grief is passionless;
+That only men incredulous of despair,
+Half-taught in anguish, through the midnight air
+Beat upward to God's throne in loud access.
+
+--- MATTHEW ARNOLD ---
+[Dover Beach]
+The sea is calm tonight.
+The tide is full, the moon lies fair
+Upon the straits...
+Ah, love, let us be true
+To one another! for the world, which seems
+To lie before us like a land of dreams,
+So various, so beautiful, so new,
+Hath really neither joy, nor love, nor light,
+Nor certitude, nor peace, nor help for pain;
+And we are here as on a darkling plain
+Swept with confused alarms of struggle and flight,
+Where ignorant armies clash by night.
+
+[The Scholar-Gipsy]
+Go, for they call you, shepherd, from the hill;
+Go, shepherd, and untie the wattled cotes!
+No longer leave thy wistful flock unfed.
+
+[To Marguerite: Continued]
+Yes! in the sea of life enisled,
+With echoing straits between us thrown,
+Dotting the shoreless watery wild,
+We mortal millions live alone.
+
+[Memorial Verses]
+Goethe in Weimar sleeps, and Greece,
+Long since, saw Byron's struggle cease.
+But one such death remained to us.
+Where, by the Rotha, buried thus?
+
+[The Buried Life]
+But often, in the world's most crowded streets,
+But often, in the din of strife,
+There rises an unspeakable desire
+After the knowledge of our buried life.
+
+--- CHRISTINA ROSSETTI ---
+[Goblin Market]
+Morning and evening
+Maids heard the goblins cry:
+"Come buy our orchard fruits,
+Come buy, come buy:
+Apples and quinces,
+Lemons and oranges,
+Plump unpecked cherries,
+Melons and raspberries..."
+
+[Remember]
+Remember me when I am gone away,
+Gone far away into the silent land;
+When you can no more hold me by the hand,
+Nor I half turn to go yet turning stay.
+
+[In the Bleak Midwinter]
+In the bleak midwinter, frosty wind made moan,
+Earth stood hard as iron, water like a stone;
+Snow had fallen, snow on snow, snow on snow,
+In the bleak midwinter, long ago.
+
+[Up-Hill]
+Does the road wind up-hill all the way?
+Yes, to the very end.
+Will the day's journey take the whole long day?
+From morn to night, my friend.
+
+[Song]
+When I am dead, my dearest,
+Sing no sad songs for me;
+Plant thou no roses at my head,
+Nor shady cypress tree.
+
+[A Birthday]
+My heart is like a singing bird
+Whose nest is in a water'd shoot;
+My heart is like an apple-tree
+Whose boughs are bent with thickset fruit.
+
+--- DANTE GABRIEL ROSSETTI ---
+[The Blessed Damozel]
+The blessed damozel leaned out
+From the gold bar of Heaven;
+Her eyes were deeper than the depth
+Of waters stilled at even;
+She had three lilies in her hand,
+And the stars in her hair were seven.
+
+[Silent Noon]
+Your hands lie open in the long fresh grass,—
+The finger-points look through like rosy blooms:
+Your eyes smile peace. The pasture gleams and glooms
+'Neath billowing skies that scatter and amass.
+
+[The Woodspurge]
+The wind flapped loose, the wind was still,
+Shaken out dead from tree and hill:
+I had walked on at the wind’s will,—
+I sat now, for the wind was still.
+Between my knees my forehead was,—
+My lips, drawn in, said not Alas!
+My hair was over in the grass,
+My naked ears heard the day pass.
+
+[Willowwood]
+I sat with Love upon a woodside well,
+Leaning across the water, I and he;
+Nor ever did he speak nor looked at me,
+But touched his lute wherein was audible
+The certain secret thing he had to tell.
+
+--- GERARD MANLEY HOPKINS ---
+[The Windhover]
+I caught this morning morning's minion, king-
+dom of daylight's dauphin, dapple-dawn-drawn Falcon, in his riding
+Of the rolling level underneath him steady air, and striding
+High there, how he rung upon the rein of a wimpling wing
+In his ecstasy! then off, off forth on swing,
+As a skate's heel sweeps smooth on a bow-bend: the hurl and gliding
+Rebuffed the big wind. My heart in hiding
+Stirred for a bird, — the achieve of, the mastery of the thing!
+
+[Pied Beauty]
+Glory be to God for dappled things—
+For skies of couple-colour as a brinded cow;
+For rose-moles all in stipple upon trout that swim;
+Fresh-firecoal chestnut-falls; finches’ wings;
+Landscape plotted and pieced—fold, fallow, and plough.
+
+[God's Grandeur]
+The world is charged with the grandeur of God.
+It will flame out, like shining from shook foil;
+It gathers to a greatness, like the ooze of oil
+Crushed. Why do men then now not reck his rod?
+
+[Spring and Fall]
+Márgarét, áre you gríeving
+Over Goldengrove unleaving?
+Leáves, like the things of man, you
+With your fresh thoughts care for, can you?
+
+[As Kingfishers Catch Fire]
+As kingfishers catch fire, dragonflies draw flame;
+As tumbled over rim in roundy wells
+Stones ring; like each tucked string tells, each hung bell's
+Bow swung finds tongue to fling out broad its name.
+
+[Carrion Comfort]
+Not, I'll not, carrion comfort, Despair, not feast on thee;
+Not untwist—slack they may be—these last strands of man
+In me ór, most weary, cry I can no more. I can;
+Can something, hope, wish day come, not choose not to be.
+
+--- ALGERNON SWINBURNE ---
+[Dolores]
+Cold eyelids that hide like a jewel
+Hard eyes that grow soft for an hour;
+The heavy white limbs, and the cruel
+Red mouth like a venomous flower.
+
+[The Garden of Proserpine]
+Here, where the world is quiet;
+Here, where all trouble seems
+Dead winds' and spent waves' riot
+In doubtful dreams of dreams;
+I watch the green field growing
+For reaping folk and sowing,
+For harvest-time and mowing,
+A sleepy world of streams.
+I am tired of tears and laughter,
+And men that laugh and weep;
+Of what may come hereafter
+For men that sow to reap.
+
+[Hymn to Proserpine]
+Thou hast conquered, O pale Galilean; the world has grown grey from thy breath;
+We have drunken of things Lethean, and fed on the fullness of death.
+
+[A Forsaken Garden]
+In a coign of the cliff between lowland and highland,
+At the sea-down's edge between windward and lee,
+Walled round with rocks as an inland island,
+The ghost of a garden fronts the sea.
+
+--- THOMAS HARDY ---
+[The Darkling Thrush]
+I leant upon a coppice gate
+When Frost was spectre-grey,
+And Winter's dregs made desolate
+The weakening eye of day.
+...
+At once a voice arose among
+The bleak twigs overhead
+In a full-hearted evensong
+Of joy illimited.
+
+[Hap]
+If but some vengeful god would call to me
+From up the sky, and laugh: "Thou suffering thing,
+Know that thy sorrow is my ecstasy,
+That thy love's loss is my hate's profiting!"
+
+[The Ruined Maid]
+"O 'Melia, my dear, this does everything crown!
+Who could have supposed I should meet you in Town?
+And whence such fair garments, such prosperi-ty?"—
+"O didn't you know I'd been ruined?" said she.
+
+[Neutral Tones]
+We stood by a pond that winter day,
+And the sun was white, as though chidden of God,
+And a few leaves lay on the starving sod;
+– They had fallen from an ash, and were gray.
+
+[Drummer Hodge]
+They throw in Drummer Hodge, to rest
+Uncoffined—just as found:
+His landmark is a kopje-crest
+That breaks the veldt around;
+And foreign constellations west
+Each night above his mound.
+
+--- EMILY BRONTE ---
+[Remembrance]
+Cold in the earth—and the deep snow piled above thee,
+Far, far removed, cold in the dreary grave!
+Have I forgot, my only Love, to love thee,
+Severed at last by Time's all-severing wave?
+
+[No Coward Soul Is Mine]
+No coward soul is mine,
+No trembler in the world's storm-troubled sphere:
+I see Heaven's glories shine,
+And faith shines equal, arming me from fear.
+
+[The Old Stoic]
+Riches I hold in light esteem,
+And Love I laugh to scorn;
+And lust of fame was but a dream,
+That vanished with the morn.
+
+[Stanzas]
+Often rebuked, yet always back returning
+To those first feelings that were born with me,
+And leaving busy chase of wealth and learning
+For idle dreams of things which cannot be.
+
+[The Night-Wind]
+In summer's mellow midnight,
+A cloudless moon shone through
+Our open parlour window,
+And rose-trees wet with dew.

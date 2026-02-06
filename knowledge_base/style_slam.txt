@@ -1,0 +1,570 @@
+Style: Spoken Word / Slam Poetry
+Period: 1990s-Present
+Key Characteristic: Poesia viva, scritta per la voce. "Somewhere in America".
+
+### 🏛️ REFERENCE AUTHORS & WORKS
+- Saul Williams (",said the shotgun to the head") - Filosofico, hip-hop
+- Patricia Smith (Blood Dazzler) - Narrativo, Hurricane Katrina
+- Taylor Mali (What Learning Leaves) - Educazione, humor
+- Sarah Kay (No Matter the Wreckage) - Intimo, storytelling
+- Danez Smith (Don't Call Us Dead) - Blackness, queerness, HIV
+- Rudy Francisco (Helium) - Amore, vulnerabilità
+- Andrea Gibson (Lord of the Butterflies) - Queer, attivismo
+- Olivia Gatwood (New American Best Friend) - Femminismo, true crime
+- Hanif Abdurraqib (The Crown Ain't Worth Much) - Musica, razza
+- Jamila Woods (Poetry + music) - R&B poetry, Chicago
+
+### 🧬 STRUCTURAL PATTERNS (YAML)
+performance:
+  - Scritto per voce (rhythm, cadence)
+  - Pause, build-up
+  - Ripetizione per enfasi (Anaphora)
+  - Climax finale (Power line)
+  
+structure:
+  - Hook immediato
+  - Personal → universal (My story -> Our story)
+  - Closing line memorabile
+  
+themes:
+  - Identity (race, gender, class)
+  - Relazioni, trauma
+  - Politica incarnata
+  
+tone:
+  - Accessibile ma non banale
+  - Humor + pathos
+  - Direct address ("you")
+
+### 📜 ANTHOLOGY EXAMPLES (GROUND TRUTH)
+
+--- SAUL WILLIAMS ---
+[Coded Language]
+They determined that the leaders of the rebellion
+Were using a coded language
+To communicate with one another
+And that this language was...
+Hip Hop.
+
+[Amethyst Rocks]
+I stand on the corner of the block slinging amethyst rocks
+Drinkin' 40s of mother earth's private stock
+Dodgin' cops...
+
+[Sha Clack Clack]
+I am not the son of sha-clack-clack
+I am before that
+I am before the first sha-clack-clack...
+
+[Untimely Meditations]
+My name is Saul Williams
+And I am a poet
+And I am here to tell you that the revolution
+Is not a metaphor.
+
+[List of Demands]
+I want my money back
+I want my money back
+I want my money back
+And I want it now.
+
+[Ohm]
+Meditate on this
+The sound of the universe
+Is the sound of your breath...
+
+[Penny for a Thought]
+Penny for a thought, a nickel for a kiss
+A dime if you tell me that you love me
+A quarter if you tell me that you miss me...
+Actually, keep your money.
+
+[Black Stacey]
+I was in the 7th grade
+When I first realized that I was black
+Not just black, but... black black.
+
+[Tao of Now]
+I have seen the future
+And it is now
+And it is us.
+
+[Not in Our Name]
+We believe that as people living in the United States
+It is our responsibility to resist the injustices
+Done by our government in our names...
+
+--- PATRICIA SMITH ---
+[Skinhead]
+They call me skinhead, and I got my own beauty.
+It is knife-scrawled across my back in sore, jagged letters...
+
+[Building Nicole's Mama]
+I am building Nicole's mama.
+I am starting with the feet/
+Size 10 and crusty...
+
+[Blood Dazzler]
+The water is rising.
+The water is rising.
+And we are waiting for the government
+To save us.
+
+[Motown Crown]
+I was a girl who knew the words
+To every song on the radio.
+I sang into a hairbrush
+And believed I was a Star.
+
+[Hip-Hop Ghazal]
+Gotta love us brown girls, munching on music, how we disturb the peace.
+Offer us a beat and we’ll show you how to move, how to disturb the peace.
+
+[Siblings]
+We are the ones who survived.
+We are the ones who remember the house
+Before the fire.
+
+[34]
+34 people in a nursing home
+Waiting for the bus that never came.
+The water rose and took them.
+
+[Annie Pearl Smith Discovers Moonlight]
+My mother tells me she has never seen the moon
+Except in pictures.
+She says in Alabama there was too much work to do.
+
+[Always in the Head]
+The poem is always in the head
+Before it hits the page.
+It is a scream
+Waiting for a mouth.
+
+[Medusa]
+They say I am a monster.
+I say I am a woman who refused to be broken.
+
+--- TAYLOR MALI ---
+[What Teachers Make]
+He said, "You're a teacher, Taylor?
+Be honest. What do you make?"
+And I wish he hadn't asked me that.
+So I decided to tell him...
+I make kids work harder than they ever thought they could.
+
+[Totally like whatever, you know?]
+In case you hadn’t noticed,
+it has somehow become uncool
+to sound like you know what you’re talking about?
+Or believe in what you’re saying?
+
+[The Impotence of Proofreading]
+Has this ever happened to you?
+You wirte a beatifull pome,
+and you send it out to be published,
+and they reject it because of... typos.
+
+[Falling in Love is Like Owning a Dog]
+First of all, it's a big responsibility,
+especially in a city like New York.
+So think long and hard before deciding on love.
+
+[Miracle Workers]
+I'm a teacher.
+I'm a miracle worker.
+I make a C+ feel like a Congressional Medal of Honor.
+I make an A- feel like a slap in the face.
+
+[Like Lily Like Wilson]
+My cat Lily is like Wilson from Castaway.
+She’s my best friend
+But she doesn’t say much.
+
+[Undivided Attention]
+A grand piano wrapped in quilted pads by movers, tied up with canvas straps—like classical music's birthday gift to the wealthy...
+
+[Labeling Keys]
+I label my keys.
+Because I lose things.
+I lose my mind. I lose my heart.
+
+[Depression Too Is a Kind of Fire]
+It burns you out from the inside.
+It leaves you hollow.
+It leaves you cold.
+
+[Conviction]
+Speak with conviction.
+Say what you mean.
+Mean what you say.
+
+--- SARAH KAY ---
+[B (If I Should Have a Daughter)]
+If I should have a daughter, instead of "Mom," she’s going to call me "Point B," 
+because that way she knows that no matter what happens, at least she can always find her way to me.
+
+[Hiroshima]
+When they bombed Hiroshima, the explosion formed a mini-supernova, so every living animal, human or plant that was in direct contact with the bomb was instantly turned to ash.
+And what was left was just... shadows.
+
+[Postcards]
+I collect postcards.
+I send them to people I love.
+I write "Wish you were here"
+Even when I'm glad they're not.
+
+[Hands]
+Hands are for holding.
+Hands are for healing.
+Hands are for hurting.
+I choose healing.
+
+[The Type]
+If you grow up the type of woman men want to touch,
+You can let them touch you.
+Sometimes it is not your job to be the ocean.
+
+[Private Parts]
+There are things I will not tell you.
+There are parts of me that are private.
+Not because I am ashamed.
+But because they belong to me.
+
+[Ghost Ship]
+We are a ghost ship.
+Sailing through the fog.
+Trying to find a harbor.
+
+[Forest Fires]
+I am terrified of forest fires.
+But I also love the way they look.
+From a distance.
+
+[Mrs. Ribeiro]
+To the teacher who taught me
+That poetry is not just dusty books.
+Thank you.
+
+[Table Games]
+We play games at the table.
+We pretend everything is fine.
+Pass the salt.
+
+--- DANEZ SMITH ---
+[dinosaurs in the hood]
+I want a movie where the black kids save the world.
+I want a movie where the black kids don't die first.
+I want a t-rex to smash the police station.
+
+[summer, somewhere]
+somewhere, a sun.
+below, boys brown
+as rye play the
+dozens & ball,
+jump in the air &
+stay there.
+
+[dear white america]
+i’ve left Earth in search of darker planets,
+a solar system revolving too near a black hole.
+i’ve left in search of a new God.
+i do not trust the God you have given us.
+
+[genesissy]
+on the first day, God said
+let there be light
+and there was a club beat
+and a disco ball.
+
+[bare]
+i am not afraid of the dark.
+i are afraid of what is in the dark.
+i am afraid of the men in the dark.
+
+[it won't be a bullet]
+it won't be a bullet that kills me.
+it will be the silence.
+it will be the waiting.
+
+[principles]
+i believe in the power of the word.
+i believe in the power of the fist.
+i believe in the power of the kiss.
+
+[not a tragedy]
+my life is not a tragedy.
+my life is a celebration.
+of survival.
+
+[juxtaposition]
+black boy / white snow.
+red blood / blue lights.
+hands up / don't shoot.
+
+[crown]
+wear your hair like a crown.
+wear your skin like a gown.
+you are royalty.
+
+--- RUDY FRANCISCO ---
+[Scars]
+A scar is a tattoo with a better story.
+It means you survived something
+that tried to kill you.
+
+[My Honest Poem]
+I was born on July 27th.
+I hear that makes me a Leo.
+I don't really know what that means.
+I used to have a crush on the Pink Ranger.
+
+[Love Poem Medley]
+I want to be your favorite place to go when you've had a bad day
+or a good day.
+I want to be the reason you look at your phone and smile.
+
+[Rifle]
+I am learning how to love a man
+who has a rifle in his closet.
+He says it's for protection.
+I say it's for fear.
+
+[Adrenaline Rush]
+If I am ever on a roller coaster
+And it breaks down
+And I am hanging upside down
+I hope I am holding your hand.
+
+[Complainers]
+Tell me about your day.
+Tell me about the traffic.
+Tell me about your boss.
+But don't tell me you want to die.
+
+[To the Girl Who Works at Starbucks]
+I want to tell you that you are beautiful.
+But I am afraid you will think I am creepy.
+So I just say "Grande Pike, please."
+
+[Instructions]
+Step 1: Inhale.
+Step 2: Exhale.
+Step 3: Repeat.
+
+[Silence]
+Silence is not empty.
+It is full of answers.
+If you listen.
+
+[Liberty]
+I pledge allegiance to the grind.
+To the hustle.
+To the late nights and early mornings.
+
+--- ANDREA GIBSON ---
+[The Madness Vase]
+The nutritionist said I should eat more root vegetables.
+Said I need to get grounded.
+I said "Have you ever seen me fall in love?"
+I am a root vegetable.
+
+[Jellyfish]
+I heard that jellyfish have survived for 650 million years
+without a brain.
+That gives me hope.
+
+[Royal Heart]
+I want a love that makes me feel like I am winning the lottery
+every time I walk in the door.
+
+[Your Life]
+Your life is a canvas.
+Paint it with bright colors.
+Don't be afraid to make a mess.
+
+[Maybe I Need You]
+Maybe I need you the way
+the moon needs the sun
+to shine.
+
+[Prism]
+Love is not a straight line.
+It is a prism.
+Refracting light into a rainbow.
+
+[Panic Attack Polymerase]
+My heart is a drum
+beating out a rhythm of fear.
+Boom. Boom. Boom.
+
+[Letter to the Playground Bully]
+Dear Playground Bully,
+You are just sad.
+I know that now.
+
+[Things That Don't Suck]
+Ice cream.
+Puppies.
+The smell of rain.
+You.
+
+[Turing Test]
+We are all just machines
+trying to pass the Turing Test.
+Trying to prove we are human.
+
+--- OLIVIA GATWOOD ---
+[Manic Pixie Dream Girl]
+I am not a concept.
+I am not a plot device.
+I am a person.
+With feelings.
+
+[Ode to the Women on Long Island]
+Who wear cheetah print
+And smoke cigarettes
+And take no shit.
+
+[New American Best Friend]
+We are girls.
+We protect each other.
+We are a gang.
+
+[When I Say That We Are All Teen Girls]
+I mean that we are all emotional.
+We are all intense.
+We are all waiting for text messages.
+
+[Alternate Universe]
+In an alternate universe
+I am safe walking home at night.
+In an alternate universe
+I do not carry keys between my knuckles.
+
+[Backpedal]
+I did not mean to say "I love you."
+I meant to say "Pass the salt."
+Just kidding. I meant it.
+
+[The Melancholy of Anatomy]
+My body is a mystery.
+Even to me.
+
+[Life of the Party]
+I am the life of the party.
+But the party is over.
+And I am alone.
+
+[Requiem for a Bad Date]
+He talked about himself for two hours.
+He didn't ask me a single question.
+I ate the breadsticks.
+
+[Ghost]
+I am haunted by the ghost of the girl I used to be.
+She was fearless.
+
+--- HANIF ABDURRAQIB ---
+[The Crown Ain't Worth Much]
+They tell me I am a king.
+But this crown is heavy.
+And it ain't worth much.
+If I can't pay the rent.
+
+[How Can Black People Write About Flowers at a Time Like This]
+Because we need beauty too.
+Because flowers bloom even in the ghetto.
+Because we are still alive.
+
+[Liquid]
+The music flows through me like water.
+I am a vessel.
+I am a river.
+
+[Saturday Night]
+Saturday night in Columbus.
+We are driving nowhere.
+Listening to Drake.
+Feeling infinite.
+
+[On the Death of Prince]
+The doves are crying.
+The purple rain is falling.
+The world is less magical today.
+
+[Short History of the Jump Shot]
+It is an act of defiance.
+To leave the ground.
+To fly.
+
+[Sneakers]
+My Jordans are clean.
+My soul is dirty.
+But I look good.
+
+[Silence is a Weapon]
+They use silence to kill us.
+We use noise to survive.
+
+[Definition of a ghost]
+A memory that refuses to die.
+A feeling that lingers in the room.
+
+[Ode to the Aux Cord]
+Pass me the aux cord.
+I will play a song that saves your life.
+
+--- JAMILA WOODS ---
+[Blk Girl Soldier]
+She scares the government.
+She scares the government.
+With her hair.
+With her hips.
+
+[Holy]
+I am holy.
+I am worthy.
+I am enough.
+Just as I am.
+
+[LSD]
+Lonely, stressed, depressed.
+But I'm also magical.
+
+[Baldwin]
+James Baldwin told me.
+To write it all down.
+To tell the truth.
+To witness.
+
+[GIOVANNI]
+Ego tripping.
+I am a fly girl.
+I am a goddess.
+I am everything.
+
+[Muddy]
+They call us muddy.
+But mud is earth.
+Mud is life.
+
+[Betty]
+Betty Davis eyes.
+Betty Davis fierce.
+Be like Betty.
+
+[Sunday Candy]
+Grandma loves me.
+She smells like peppermint.
+She is my church.
+
+[Heavn]
+We are in heaven.
+Right here on earth.
+If we love each other.
+
+[Stellar]
+I am a star.
+You are a star.
+We are a galaxy.

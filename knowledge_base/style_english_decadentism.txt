@@ -1,0 +1,489 @@
+Style: English Decadentism
+Period: 1890-1900
+Key Characteristic: "I have nothing to declare except my genius" — Art for Art's sake, morbid beauty, urban sin.
+
+### 🏛️ REFERENCE AUTHORS & WORKS
+- Oscar Wilde (The Sphinx, Ballad of Reading Gaol) - The Prince of Aesthetes, wit, prison tragedy
+- Arthur Symons (Silhouettes, London Nights) - The translator of French Symbolism, impressionist urbanity
+- Ernest Dowson ("Cynara", Verses) - "I have been faithful to thee, Cynara! in my fashion", despair, roses
+- Lionel Johnson (Poems) - Catholic mysticism, dark angel, alcohol
+- Aubrey Beardsley (Under the Hill) - The illustrator poet, grotesque elegance
+- John Gray (Silverpoints) - The original "Dorian Gray", preciousness
+- Theodore Wratislaw (Orchids) - Eroticism, artificiality
+- Olive Custance (Opals) - Female voice, Sapphic undertones
+- Lord Alfred Douglas ("Bosie") (Poems) - "The love that dare not speak its name"
+- Michael Field (Katherine Bradley + Edith Cooper) (Long Ago) - Dual voice, classical lyricism
+
+### 🧬 STRUCTURAL PATTERNS (YAML)
+themes:
+  - Art for Art's sake (aestheticism over morality)
+  - Urban melancholy (gaslight, shadows, London nights)
+  - Artificiality vs Nature (make-up, costume, orchids)
+  - Sin and Repentance (Catholic guilt mixed with hedonism)
+  - Femme Fatale and refined erotica
+
+techniques:
+  - French forms (villanelle, rondeau) adapted to English
+  - Synesthesia and musicality (Verlaine's influence)
+  - Precious vocabulary (jade, porphyry, nard, ivory)
+  - Ennui and languor
+
+tone:
+  - Witty, cynical, but deeply melancholic
+  - The pose of the dandy
+  - Obsession with fleeing youth and beauty
+
+### 📜 ANTHOLOGY EXAMPLES (GROUND TRUTH)
+
+--- OSCAR WILDE ---
+[The Sphinx]
+In a dim corner of my room for longer than my fancy thinks
+A beautiful and silent Sphinx has watched me through the shifting gloom.
+Inviolate and immobile she does not rise she does not stir
+For silver moons are naught to her and naught to her the suns that reel.
+
+[The Ballad of Reading Gaol]
+Yet each man kills the thing he loves,
+By each let this be heard,
+Some do it with a bitter look,
+Some with a flattering word,
+The coward does it with a kiss,
+The brave man with a sword!
+
+[Impression du Matin]
+The Thames nocturne of blue and gold
+Changed to a Harmony in grey:
+A barge with ochre-coloured hay
+Dropt from the wharf: and chill and cold
+The yellow fog came down and crept
+At bridges till the houses walls
+Seemed changed to shadows and St. Paul's
+Loomed like a bubble o'er the town.
+
+[Symphony in Yellow]
+An omnibus across the bridge
+Crawls like a yellow butterfly
+And, here and there, a passer-by
+Shows like a little restless midge.
+Big barges full of yellow hay
+Are moored against the shadowy wharf,
+And, like a yellow silken scarf,
+The thick fog hangs along the quay.
+
+[Helas!]
+To drift with every passion till my soul
+Is a stringed lute on which all winds can play,
+Is it for this that I have given away
+Mine ancient wisdom, and austere control?
+
+[The Harlot's House]
+We caught the tread of dancing feet,
+We loitered down the moonlit street,
+And stopped beneath the harlot's house.
+Inside, above the din and fray,
+We heard the loud musicians play
+The 'Treues Liebes Herz' of Strauss.
+
+[Requiescat]
+Tread lightly, she is near
+Under the snow,
+Speak gently, she can hear
+The daisies grow.
+
+[Ave Imperatrix]
+Set in this stormy Northern sea,
+Queen of these restless fields of tide,
+England! what shall men say of thee,
+Before whose feet the worlds divide?
+
+[Flower of Love]
+Sweet, I blame you not, for mine the fault was, had I not been made of common clay
+I had climbed the higher heights unclimbed yet, seen the fuller air, the larger day.
+
+[Sonnet on Hearing the Dies Irae Sung in the Sistine Chapel]
+Nay, Lord, not thus! white lilies in the spring,
+Sad olive-groves, or silver-breasted dove,
+Teach me more clearly of Thy life and love
+Than terrors of red flame and thundering.
+
+--- ARTHUR SYMONS ---
+[Pastel]
+The light of our cigarettes
+Went and came in the gloom:
+It was dark in the little room.
+Dark, and then, in the dark,
+Sudden, a flash, a glow,
+And a hand and a ring I know.
+
+[White Heliotrope]
+The feverish room and that white bed,
+The tumbled skirts upon a chair,
+The novel flung half-open there,
+Hat, hair-pins, puffs, and paints, and red...
+
+[Javanese Dancers]
+Twitched strings, the clang of metal, beaten drums,
+Dull, shrill, continuous, disquieting;
+And now the stealthy dancer comes
+Undulantly with cat-like steps that cling...
+
+[London Nights]
+My life is like a music-hall,
+Where, in the impotence of rage,
+Chained by enchantment to the stall,
+I see myself upon the stage
+Dance to amuse a music-hall.
+
+[The Absinthe-Drinker]
+Gently I wave the visible world away.
+Far off, I hear a roar, afar yet near,
+Far off and strange, a voice is in my ear,
+And is the voice my own? the words I say?
+
+[Maquillage]
+The charm of rouge on fragile cheeks,
+Pearl-powder, and, about the eyes,
+The dark and lustrous Eastern dyes;
+The floating odour that bespeaks
+A Muse of fragrance, not of thought...
+
+[Emmy]
+Emmy's exquisite youth and her virginal air,
+Eyes and teeth in the flash of a musical smile,
+Come to me out of the past, and I see her there
+As I saw her once for a while.
+
+[Nora on the Pavement]
+As Nora on the pavement
+Dances, and she entrances the grey hour
+Into the laughing circle of her power,
+The magic circle of her glances...
+
+[Stella Maris]
+The joy of infinite ocean,
+The joy of the unquiet earth,
+And the joy of the storm's mirth,
+And the joy of the stars' motion.
+
+[Credo]
+Each moment is a ray of passion, perfect,
+Create of its own fervour, and then dead;
+And we, the dust and ash of things, are led
+By the same law to the same end, wreckt.
+
+--- ERNEST DOWSON ---
+[Non Sum Qualis Eram Bonae Sub Regno Cynarae]
+Last night, ah, yesternight, betwixt her lips and mine
+There fell thy shadow, Cynara! thy breath was shed
+Upon my soul between the kisses and the wine;
+And I was desolate and sick of an old passion,
+Yea, I was desolate and bowed my head:
+I have been faithful to thee, Cynara! in my fashion.
+
+[Vitae Summa Brevis Spem Nos Vetat Incohare Longam]
+They are not long, the weeping and the laughter,
+Love and desire and hate:
+I think they have no portion in us after
+We pass the gate.
+
+[Dregs]
+The fire is out, and spent the warmth thereof,
+(This is the end of every song man sings!)
+The golden wine is drunk, the dregs remain,
+Bitter as wormwood and as salt as pain;
+And health and hope have gone the way of love
+Into the drear oblivion of lost things.
+
+[Villanelle of the Poet's Road]
+Wine and woman and song,
+Three things garnish our way:
+Yet is day over long.
+
+[Extreme Unction]
+Upon the eyes, the lips, the feet,
+On all the passages of sense,
+The atoning oil is spread with sweet
+Renewal of lost innocence.
+
+[Impenitentia Ultima]
+Before my light goes out, for ever, if God should give me a choice of graces,
+I would not reck of length of days, nor crave for things to be;
+But cry: "One day of the great lost days, one face of all the faces,
+Grant me to see and touch once more and nothing more to see."
+
+[To One in Bedlam]
+With delicate, mad hands, behind his sordid bars,
+Surely he hath his posies, which they tear and twine;
+Those scentless wisps of straw, that miserably line
+His strait, caged universe, whereat the dull world stares.
+
+[Autumnal]
+Pale amber sunlight falls across
+The reddening October trees,
+That hardly sway before a breeze
+As soft as summer: summer's loss
+Seems little, dear! on days like these.
+
+[Vesperal]
+Strange grows the river on the sunless evenings!
+The river comforts me, grown spectral, vague and dumb:
+Long was the day; at last the consoling shadows come:
+Heavily allow the petals of my heart's red rose.
+
+[A Valediction]
+If we must part,
+Then let it be like this;
+Not heart on heart,
+Nor with the useless anguish of a kiss;
+But touch mine hand and say:
+"Until to-morrow or some other day."
+
+--- LIONEL JOHNSON ---
+[The Dark Angel]
+Dark Angel, with thine aching lust
+To rid the world of penitence:
+Malicious Angel, who still dost
+My soul such subtile violence!
+Because of thee, no thought, no thing,
+Abides for me undesecrate:
+Dark Angel, ever on the wing,
+Who never reachest me too late!
+
+[By the Statue of King Charles at Charing Cross]
+Comely and calm, he rides
+Hard by his own Whitehall:
+Only the night wind glides:
+No crowds, nor rebels, brawl.
+
+[The Precept of Silence]
+I know you: solitary griefs,
+Desolate passions, aching hours!
+I know you: tremulous beliefs,
+Agonized hopes, and ashen flowers!
+
+[Mystic and Cavalier]
+Go from me: I am one of those, who fall.
+What! hath no cold wind swept your heart at all,
+In my sad company? Before the end,
+Go from me, dear my friend!
+
+[To a Traveller]
+The mountains, and the lonely death at last
+Upon the lonely mountains: O the cold!
+O the great solitudes and winds of old!
+The silence of the earth's eternal past.
+
+[Plato in London]
+The pure flame of one taper fall
+Over the old and comely page:
+No harsh, mocking voice to call
+In from the early morning age.
+
+[The Destroyer of a Soul]
+I hate you with a necessary hate.
+First, I will fight you in your strength: and then,
+I will enjoy your weakness: yes, at length,
+I will enjoy your weakness and your fate.
+
+[Dead]
+In Merioneth, over the sad moor,
+Drives the rain, the cold wind blows:
+Past the ruinous grey door,
+Crying of a dead man's woes.
+
+[Sancta Silvarum]
+Deep music of the ancient forest!
+Through glades and coverts I move:
+And meet the gods, when the day is hoarest
+With golden mist in the grove.
+
+[Bagley Wood]
+The night is full of stars, full of stars,
+And the dark wood of dreams:
+But the great Silence, with its iron bars,
+Shuts out the world that seems.
+
+--- AUBREY BEARDSLEY ---
+[The Three Musicians]
+Along the path that skirts the wood,
+The three musicians wend their way,
+Pleased with their thoughts, each other's mood,
+Franz Himmel's latest roundelay,
+The morning's work, a new-found theme,
+their breakfast and the summer day.
+
+[The Ballad of a Barber]
+Here is the tale of Carrousel,
+The barber of Meridian Street.
+He cut, and coiffed, and shaved so well,
+That all the world was at his feet.
+
+[Under the Hill (Dedication)]
+To the most noble and beautiful,
+The Prince of the Artificial,
+The Lover of the Unnatural,
+The Priest of the Perverse.
+
+[Catullus]
+Catullus! through the thicket of the years,
+One hears thy voice, a crystal bell that rings;
+One sees thee, with thy loves, thy hates, thy fears,
+Thy doves, thy kisses, and thy sufferings.
+
+--- JOHN GRAY ---
+[The Flying Fish]
+The birds that fly, the fish that swim,
+In the blue water and the air,
+Content them with the portion there
+That falls to each of them.
+
+[Mishka]
+Mishka is poet among the beasts.
+The lion is the poet of the East.
+The bear explains the North. The West
+Is interpreted by the eagle's breast.
+
+[Poem]
+Geranium, houseleek, laid in oblong beds
+On the trim grass. The daisies'leprous stain
+Is fresh. Each night the daisies burst again,
+Though every day the gardener crops their heads.
+
+[Femmes Damnées]
+Like cattle in a pen the women lie,
+Their eyes are fixed and hard, and full of hate;
+They wait, and watching, do not seem to wait,
+Staring with eyes that see not at the sky.
+
+[Les Demoiselles de Sauve]
+Beautiful ladies through the orchard pass;
+Bend under crutched-boughs, lashed with dying green;
+Pave with their rustling skirts the grass;
+Scent the faint morning air with Moreen.
+
+--- THEODORE WRATISLAW ---
+[Orchids]
+Orange and purple, shot with white and gold,
+They swoon in heavy odours where they lie,
+Like eyes of strange sins that I might behold
+And die.
+
+[The Music-Hall]
+The curtain falls. The music plays.
+The audience claps and shouts its praise.
+The painted women on the stage
+Bow and retire, the pets of the age.
+
+[Hothouse Flowers]
+I hate the flowers of the field, the grass,
+The simple lilies and the roses red.
+Give me the orchids in their house of glass,
+Where strange and subtle scents are shed.
+
+[Palm Sunday]
+The palms are green in the church to-day,
+But the hearts of men are dry and grey.
+We sing Hosanna with lips of clay,
+But our souls are far away.
+
+[Satiety]
+I am tired of passion and of pain,
+Of the fever that burns in the blood.
+I long for the cool and the gentle rain,
+And the silence of the wood.
+
+--- OLIVE CUSTANCE ---
+[The White Statue]
+I love you, silent statue! for your sake
+My songs are heavy with a vague desire.
+I want to touch your hands and feet and make
+Your cold white body kindle into fire.
+
+[Peacocks]
+In gorgeous plumage, azure, gold and green,
+They trample the pale flowers, and their shrill cry
+Rends the blue air...
+
+[Opals]
+My soul is like an opal,
+All grey and blue and green,
+With moving fires of ruby
+And flashes of unseen.
+
+[Twilight]
+The day is dead, and the night is dying,
+And the world is grey and cold.
+Only the wind is crying, crying,
+Like a lost child on the wold.
+
+[Doubts]
+Do you love me? I ask the question
+Of the silence and the stars.
+But they give me no suggestion,
+Only the night with its bars.
+
+--- LORD ALFRED DOUGLAS ---
+[Two Loves]
+"I am true Love, I fill
+The hearts of boy and girl with mutual flame."
+Then sighing said the other, "Have thy will,
+I am the Love that dare not speak its name."
+
+[The Dead Poet (On Wilde)]
+I dreamed of him last night, I saw his face
+All radiant and unshadowed of distress,
+And as of old, in music measureless,
+I heard his golden voice and marked him trace
+Under the common thing the hidden grace.
+
+[Impression de Nuit]
+See what a mass of gems the city wears
+Upon her broad night-bosom! row on row
+Rubies and emeralds and amethysts glow.
+See! that huge circle like a necklace, stares...
+
+[Rejected]
+If I had been a king and you a queen,
+We might have walked in majesty and pride.
+But I am poor and you are poor, I ween,
+So we must walk in silence side by side.
+
+[Plainte Eternelle]
+The sun sinks down into the sea,
+The night comes up the sky.
+My heart is sad for memory
+Of days that go not by.
+
+--- MICHAEL FIELD (KATHERINE BRADLEY & EDITH COOPER) ---
+[La Gioconda]
+Historic, side-long, implicating eyes;
+A smile of velvet's lustre on the cheek;
+Calm lips the smile leads upward; hand that lies
+Glowing and soft, the patience in its rest
+Of cruelty that waits and doth not seek.
+
+[Cyclamens]
+They are terribly white,
+There is snow on the ground,
+And a moon on the snow at night;
+The sky is cut by the winter light;
+Yet I, who have all these things, have found
+Suddenly back in my heart the sound
+Of a day that was dead.
+
+[A Dyer]
+I love the dyer's art,
+To dip the white wool in the vat,
+And watch the colour start
+And spread, and make the old new.
+
+[Sweeter Far]
+Sweeter far than the rose
+Is the lily that blows
+In the valley of dreams.
+
+[Constancy]
+I love her with a love that cannot die.
+It is the sun that lights my winter sky.
+It is the star that guides me through the night.
+It is my strength, my glory, and my light.

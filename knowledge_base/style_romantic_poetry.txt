@@ -1,0 +1,378 @@
+Style: Romantic Poetry
+Period: 1789-1850
+Key Characteristic: Imaginazione e natura. "I wandered lonely as a cloud".
+
+### 🏛️ REFERENCE AUTHORS & WORKS
+- William Wordsworth (Lyrical Ballads, Prelude) - Natura, infanzia
+- Samuel Taylor Coleridge (Kubla Khan, Ancient Mariner) - Visionario
+- John Keats (Odes, Hyperion) - Bellezza, mortalità
+- Percy Bysshe Shelley (Prometheus Unbound, Odes) - Ribellione
+- Lord Byron (Don Juan, Childe Harold) - Ironia, passione
+- William Blake (Songs of Innocence/Experience) - Misticismo
+- John Clare (Poems) - Natura rurale
+- Charlotte Smith (Elegiac Sonnets) - Malinconia
+- Felicia Hemans (Records of Woman) - Femminile
+- Letitia Elizabeth Landon (L.E.L.) (Poems) - Sensibilità
+
+### 🧬 STRUCTURAL PATTERNS (YAML)
+themes:
+  - Natura come maestra/specchio
+  - Sublime (terrore + meraviglia)
+  - Infanzia, memoria
+  - Libertà, ribellione
+  - Immaginazione creatrice
+  
+techniques:
+  - Personificazione della natura
+  - Apostrofe ("O wild West Wind!")
+  - Imagery sensoriale
+  - Verso sciolto o odi complesse
+  
+vocabulary:
+  - Elevato, musicale
+  - Lessico naturale
+
+### 📜 ANTHOLOGY EXAMPLES (GROUND TRUTH)
+
+--- WILLIAM WORDSWORTH ---
+[I Wandered Lonely as a Cloud]
+I wandered lonely as a cloud
+That floats on high o'er vales and hills,
+When all at once I saw a crowd,
+A host, of golden daffodils;
+Beside the lake, beneath the trees,
+Fluttering and dancing in the breeze.
+
+[Lines Composed a Few Miles above Tintern Abbey]
+Five years have past; five summers, with the length
+Of five long winters! and again I hear
+These waters, rolling from their mountain-springs
+With a soft inland murmur.—Once again
+Do I behold these steep and lofty cliffs,
+That on a wild secluded scene impress
+Thoughts of more deep seclusion.
+
+[The Prelude, Book I]
+Fair seed-time had my soul, and I grew up
+Fostered alike by beauty and by fear:
+Much favoured in my birthplace, and no less
+In that beloved Vale to which erelong
+We were transplanted—there were we let loose
+For sports of wider range.
+
+[My Heart Leaps Up]
+My heart leaps up when I behold 
+A rainbow in the sky:
+So was it when my life began; 
+So is it now I am a man; 
+So be it when I shall grow old, 
+Or let me die!
+The Child is father of the Man.
+
+[Composed upon Westminster Bridge, September 3, 1802]
+Earth has not anything to show more fair:
+Dull would he be of soul who could pass by
+A sight so touching in its majesty:
+This City now doth, like a garment, wear
+The beauty of the morning; silent, bare.
+
+[Ode: Intimations of Immortality]
+There was a time when meadow, grove, and stream,
+The earth, and every common sight,
+To me did seem
+Apparelled in celestial light,
+The glory and the freshness of a dream.
+
+[The World Is Too Much With Us]
+The world is too much with us; late and soon,
+Getting and spending, we lay waste our powers;
+Little we see in Nature that is ours;
+We have given our hearts away, a sordid boon!
+
+[She Dwelt among the Untrodden Ways]
+She dwelt among the untrodden ways
+Beside the springs of Dove,
+A Maid whom there were none to praise
+And very few to love:
+A violet by a mossy stone
+Half hidden from the eye!
+—Fair as a star, when only one
+Is shining in the sky.
+
+[The Solitary Reaper]
+Behold her, single in the field,
+Yon solitary Highland Lass!
+Reaping and singing by herself;
+Stop here, or gently pass!
+Alone she cuts and binds the grain,
+And sings a melancholy strain.
+
+--- SAMUEL TAYLOR COLERIDGE ---
+[Kubla Khan]
+In Xanadu did Kubla Khan
+A stately pleasure-dome decree:
+Where Alph, the sacred river, ran
+Through caverns measureless to man
+Down to a sunless sea.
+So twice five miles of fertile ground
+With walls and towers were girdled round.
+
+[The Rime of the Ancient Mariner, Part I]
+He holdeth him with his skinny hand,
+'There was a ship,' quoth he.
+'Hold off! unhand me, grey-beard loon!'
+Eftsoons his hand dropt he.
+He holds him with his glittering eye—
+The Wedding-Guest stood still,
+And listens like a three years' child.
+
+[The Rime of the Ancient Mariner, Part II]
+Water, water, everywhere,
+And all the boards did shrink;
+Water, water, everywhere,
+Nor any drop to drink.
+
+[Frost at Midnight]
+The Frost performs its secret ministry,
+Unhelped by any wind. The owlet’s cry
+Came loud—and hark, again! loud as before.
+The inmates of my cottage, all at rest,
+Have left me to that solitude, which suits
+Abstruser musings.
+
+[Dejection: An Ode]
+Late, late yestreen I saw the new Moon,
+With the old Moon in her arms;
+And I fear, I fear, my Master dear!
+We shall have a deadly storm.
+
+--- JOHN KEATS ---
+[Ode to a Nightingale]
+My heart aches, and a drowsy numbness pains
+My sense, as though of hemlock I had drunk,
+Or emptied some dull opiate to the drains
+One minute past, and Lethe-wards had sunk:
+'Tis not through envy of thy happy lot,
+But being too happy in thine happiness.
+
+[Ode on a Grecian Urn]
+Thou still unravished bride of quietness,
+Thou foster-child of silence and slow time,
+Sylvan historian, who canst thus express
+A flowery tale more sweetly than our rhyme.
+"Beauty is truth, truth beauty,"—that is all
+Ye know on earth, and all ye need to know.
+
+[To Autumn]
+Season of mists and mellow fruitfulness,
+Close bosom-friend of the maturing sun;
+Conspiring with him how to load and bless
+With fruit the vines that round the thatch-eves run;
+To bend with apples the mossed cottage-trees,
+And fill all fruit with ripeness to the core.
+
+[La Belle Dame sans Merci]
+O what can ail thee, knight-at-arms,
+Alone and palely loitering?
+The sedge has withered from the lake,
+And no birds sing.
+I met a lady in the meads,
+Full beautiful—a faery’s child.
+
+[Bright Star]
+Bright star, would I were steadfast as thou art—
+Not in lone splendour hung aloft the night
+And watching, with eternal lids apart,
+Like nature's patient, sleepless Eremite.
+
+[Ode on Melancholy]
+No, no, go not to Lethe, neither twist
+Wolf's-bane, tight-rooted, for its poisonous wine;
+Nor suffer thy pale forehead to be kiss'd
+By nightshade, ruby grape of Proserpine.
+
+--- PERCY BYSSHE SHELLEY ---
+[Ozymandias]
+I met a traveller from an antique land,
+Who said—“Two vast and trunkless legs of stone
+Stand in the desert. . . . Near them, on the sand,
+Half sunk a shattered visage lies, whose frown,
+And wrinkled lip, and sneer of cold command...
+
+[Ode to the West Wind]
+O wild West Wind, thou breath of Autumn's being,
+Thou, from whose unseen presence the leaves dead
+Are driven, like ghosts from an enchanter fleeing,
+Yellow, and black, and pale, and hectic red.
+
+[To a Skylark]
+Hail to thee, blithe Spirit!
+Bird thou never wert,
+That from Heaven, or near it,
+Pourest thy full heart
+In profuse strains of unpremeditated art.
+
+[Adonais]
+I weep for Adonais—he is dead!
+O, weep for Adonais! though our tears
+Thaw not the frost which binds so dear a head!
+And thou, sad Hour, selected from all years
+To mourn our loss, rouse thy obscure compeers.
+
+[Music, When Soft Voices Die]
+Music, when soft voices die,
+Vibrates in the memory—
+Odours, when sweet violets sicken,
+Live within the sense they quicken.
+
+--- LORD BYRON ---
+[She Walks in Beauty]
+She walks in beauty, like the night
+Of cloudless climes and starry skies;
+And all that’s best of dark and bright
+Meet in her aspect and her eyes;
+Thus mellowed to that tender light
+Which heaven to gaudy day denies.
+
+[Don Juan, Canto I]
+I want a hero: an uncommon want,
+When every year and month sends forth a new one,
+Till, after cloying the gazettes with cant,
+The age discovers he is not the true one.
+
+[Childe Harold's Pilgrimage]
+There is a pleasure in the pathless woods,
+There is a rapture on the lonely shore,
+There is society, where none intrudes,
+By the deep sea, and music in its roar:
+I love not Man the less, but Nature more.
+
+[So, we'll go no more a roving]
+So, we'll go no more a roving
+So late into the night,
+Though the heart be still as loving,
+And the moon be still as bright.
+
+[Darkness]
+I had a dream, which was not all a dream.
+The bright sun was extinguish'd, and the stars
+Did wander darkling in the eternal space,
+Rayless, and pathless...
+
+--- WILLIAM BLAKE ---
+[The Tyger]
+Tyger Tyger, burning bright,
+In the forests of the night;
+What immortal hand or eye,
+Could frame thy fearful symmetry?
+
+[The Lamb]
+Little Lamb who made thee?
+Dost thou know who made thee?
+Gave thee life & bid thee feed.
+By the stream & o'er the mead;
+Gave thee clothing of delight,
+Softest clothing wooly bright.
+
+[London]
+I wander thro' each charter'd street,
+Near where the charter'd Thames does flow.
+And mark in every face I meet
+Marks of weakness, marks of woe.
+
+[The Sick Rose]
+O Rose thou art sick.
+The invisible worm,
+That flies in the night
+In the howling storm:
+Has found out thy bed
+Of crimson joy.
+
+[Auguries of Innocence]
+To see a World in a Grain of Sand
+And a Heaven in a Wild Flower 
+Hold Infinity in the palm of your hand 
+And Eternity in an hour.
+
+--- JOHN CLARE ---
+[I Am!]
+I am—yet what I am none cares or knows;
+My friends forsake me like a memory lost;
+I am the self-consumer of my woes—
+They rise and vanish in oblivious host,
+Like shadows in love’s frenzied stifled throes.
+
+[The Badger]
+When midnight comes a host of dogs and men
+Go out and track the badger to his den,
+And put a sack within the hole, and lie
+Till the old grunting badger passes by.
+
+[The Yellowhammer]
+When shall I see the white-thorn leaves agen,
+And yellowhammers gathering the dry bents
+By the dyke side, on stilly moor or fen,
+Feathered with love and nature's good intents.
+
+--- CHARLOTTE SMITH ---
+[Sonnet: To the South Downs]
+Ah! hills beloved!—where once a happy child,
+Your beechen shades, 'your turf, your flowers among,'
+I wove your blue-bells into garlands wild,
+And woke your echoes with my artless song.
+
+[Beachy Head]
+On thy stupendous summit, rock sublime!
+That o'er the channel rear'd, half way at sea,
+The mariner at early morning hails,
+I would recline; while Fancy should go forth,
+And represent the strange and awful hour.
+
+[Sonnet: Written at the Close of Spring]
+The garlands fade that Spring so lately wove,
+Each simple flower, which she had nursed in dew,
+Anemonies, that spangled every grove,
+The primrose wan, and hare-bell mildly blue.
+No more shall violets linger in the dell...
+
+--- FELICIA HEMANS ---
+[Casabianca]
+The boy stood on the burning deck
+Whence all but he had fled;
+The flame that lit the battle's wreck
+Shone round him o'er the dead.
+Yet beautiful and bright he stood,
+As born to rule the storm...
+
+[The Homes of England]
+The stately Homes of England,
+How beautiful they stand!
+Amidst their tall ancestral trees,
+O’er all the pleasant land.
+
+[The Graves of a Household]
+They grew in beauty, side by side,
+They filled one home with glee;—
+Their graves are severed, far and wide,
+By mount, and stream, and sea.
+
+--- LETITIA ELIZABETH LANDON (L.E.L.) ---
+[The Factory]
+There is an engine, huge and dark,
+That mutters in its dungeon room;
+Its huge wheels turn, and the red spark
+Is scattered through the gloom.
+
+[Revenge]
+Ay, gaze upon her, rose-wreathed hair,
+And cheek of lovely red:
+The eye of blue, the brow of snow,
+The lips of ruby red.
+She implies a softer, gentler power,
+Than ever warrior knew.
+
+[Love's Last Lesson]
+Teach it me, if you can,—forgetfulness!
+I surely shall be apt learner now;
+The lesson of long years is come at last,
+Correcting all the errors of the past.

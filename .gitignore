@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# ChromaDB (Local Vector Store - Rebuild on deployment)
+chroma_db/
+06_Poetry_Agent/chroma_db/
+
+# MacOS
+.DS_Store

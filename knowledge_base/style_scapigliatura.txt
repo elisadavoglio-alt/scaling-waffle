@@ -1,0 +1,657 @@
+Style: Scapigliatura
+Period: 1860-1880
+Key Characteristic: "Noi siamo i figli dei padri ammalati" — ribellione, dualism, e autodistruzione.
+
+### 🏛️ REFERENCE AUTHORS & WORKS
+- Emilio Praga (Penombre) - Bohème, "Preludio"
+- Arrigo Boito (Libro dei versi, "Dualismo") - Intellettuale, Mefistofele
+- Iginio Ugo Tarchetti (Disjecta) - Maledettismo, macabro
+- Giovanni Camerana (Versi) - Paesaggi interiori, malinconia suicida
+- Cletto Arrighi (Prosa/poesia) - Milano, inventore del termine
+- Antonio Ghislanzoni (Versi) - Ironico, librettista
+- Felice Cameroni (Critico) - Naturalismo, anti-borghese
+- Vittorio Betteloni (Versi) - Quotidiano, anti-eroico
+- Olindo Guerrini (Lorenzo Stecchetti) (Postuma) - Scandaloso, realista
+- Ferdinando Fontana (Versi) - Milanese, sociale
+
+### 🧬 STRUCTURAL PATTERNS (YAML)
+themes:
+  - Bohème, miseria, vizio (assenzio, taverne)
+  - Dualismo (ideale/reale, angelo/demone, luce/ombra)
+  - Morte, malattia, follia (anatomia, vermi)
+  - Anti-borghesia (sfida al "manzonismo" e al perbenismo)
+
+techniques:
+  - Contrasti violenti (sacro/profano)
+  - Lessico del brutto, del morboso (realismo anatomico)
+  - Ironia autodistruttiva
+  - Metrica sperimentale (polimetria, rottura dell'idillio)
+
+influences:
+  - Baudelaire (Fleurs du Mal)
+  - Poe (Gotico)
+  - Heine (Ironia)
+
+### 📜 ANTHOLOGY EXAMPLES (GROUND TRUTH)
+
+--- EMILIO PRAGA ---
+[Preludio (Penombre)]
+Noi siamo i figli dei padri ammalati:
+aquile al tempo di mutar le piume,
+svolazziam muti, attoniti, affamati,
+sull'agonia di un nume.
+
+[Preludio]
+Casto poeta che l'Italia adora,
+veglio gentil che i giovani non sanno...
+(Contro Manzoni)
+Tu puoi morir!... Degli antecristi è l'ora!
+Cristo è rimorto!
+
+[Vendetta postuma]
+Quando sarò sotterra, e la mia carne
+sarà pastura ai vermi e alla putredine;
+tu verrai forse a piangere, a pregarne,
+sopra le mie ruine.
+
+[Noia]
+Or che mi resta? La noia, la noia,
+che mi divora l'anima e il cervello;
+vorrei morire, ma la morte è boia
+che si fa attender, come un ritornello.
+
+[Mestizia]
+Piovea: la terra e il ciel eran tinti
+d'un color grigio, freddo, funeral;
+ed io pensavo ai miei sogni estinti,
+e al mio destino, amaro e fatale.
+
+[A tavola]
+Beviam! Che la vita è breve e fugace,
+e la morte ci attende al varco;
+beviam l'oblio, che l'anima tace,
+e il corpo si sente più leggero e scarco.
+
+[All'assenzio]
+Verde liquore, che mi dai l'ebbrezza
+e l'illusione di un mondo migliore;
+tu sei la mia sola, vera, amante,
+che non tradisce mai il mio dolore.
+
+[La strada]
+Fango e rumore, e gente che si affretta,
+ognuno con il suo peso e il suo guaio;
+ed io cammino, senza una meta,
+come uno spettro in mezzo al vespaio.
+
+[Il dubbio]
+Credere? E in che? Se tutto è menzogna,
+se Dio è un sogno, e l'uomo è un verme;
+meglio il nulla, meglio la vergogna
+di non aver fede, che viver inerme.
+
+[Fine]
+È finita la commedia, amici miei;
+calate il sipario, spegnete le luci;
+io me ne vado tra gli dèi o gli atei,
+dove non servono più croci o duci.
+
+--- ARRIGO BOITO ---
+[Dualismo]
+Son luce ed ombra; angelica
+farfalla o verme immondo,
+sono un caduto cherubo,
+dannato a errar sul mondo,
+o un demone che sale,
+affaticando l'ale,
+verso un lontano ciel.
+
+[Dualismo]
+Ecco perché nell'intime
+viscere un'eco ho inteso,
+come un lamento lugubre
+d'un angelo che ha peso,
+e che per voglia ria,
+o per fatal pazzia,
+si stacca dal suo ciel.
+
+[Lezione d'anatomia]
+Scienza, vattene! Tu scarnifichi
+la vita e l'illusione;
+tu ci mostri i nervi e i tendini,
+e spegni la passione.
+Lascia che io sogni ancora,
+almeno per un'ora.
+
+[A un monaco]
+Tu preghi, o frate, nella tua cella,
+e credi di salvar l'anima tua;
+ma fuori il mondo urla e si ribella,
+e la tua pace è una bugia, la tua!
+
+[Case nuove]
+Case, casacce, brute, allineate,
+come soldati in fila per la paga;
+voi siete il segno d'una età malata,
+che il bello ignora e l'utile invaga.
+
+[Il Re Orso]
+Orso, che balli al suon del tamburello,
+coi ferri al naso e la catena al collo;
+tu sei l'immagine del mio cervello,
+che balla e ride, ma si sente un crollo.
+
+[Nenia]
+Dormi, fanciullo, che la vita è trista,
+e il risveglio sarà pien di dolore;
+goditi il sonno, che la tua vista
+non veda ancora il mondo e il suo orrore.
+
+[Mefistofele (Prologo in cielo)]
+Ave, Signor degli Angeli e dei Santi!
+Io son lo Spirito che nega sempre;
+e tutto ciò che nasce,
+degno è ch'ei perea!
+
+[Mefistofele (Son lo Spirito)]
+Son lo Spirito che nega
+Sempre, tutto; l'astro, il fior...
+Il mio ghigno e la mia bieca
+Faccia getta ombra nel cuor.
+
+[George Gordon]
+Byron, fratello! Tu che il mar solcasti
+con la tua barca e il tuo genio fiero;
+ove sei ora? Forse tra gli astri,
+o nel nulla eterno, nel mistero?
+
+--- IGINIO UGO TARCHETTI ---
+[Memento]
+Quando bacerai le mie labbra
+pensa che un giorno saran polvere;
+quando stringerai le mie mani,
+pensa che i vermi le mangeranno.
+
+[Fosca]
+O donna, o mostro, o malattia vivente,
+che mi attrarre e mi repingi insieme;
+tu sei la morte che si fa presente,
+e che mi chiama con le sue voci estreme.
+
+[Un osso di morto]
+Ho trovato un osso nel mio giardino,
+bianco, pulito, levigato dal tempo;
+era forse un re, o un assassino?
+Ora è solo un sasso, freddo e scemo.
+
+[Amore nell'arte]
+Io t'amo non per te, ma per l'idea
+che ho di te, che è bella e pura;
+tu sei la tela dove la mia dea
+dipinge i sogni della sua natura.
+
+[Il bacio del vampiro]
+Il tuo bacio mi succhia la vita,
+ma è dolce morire sul tuo seno;
+o donna fatale, o ferita
+che non guarisce, o dolce veleno.
+
+[Paesaggio macabro]
+Cipressi neri su un cielo di piombo,
+croci storte e tombe scoperchiate;
+questo è il mio regno, il mio mondo,
+dove le anime vagano disperate.
+
+[La lettera]
+Scrivo col sangue del mio cuore infranto,
+su questa carta che sa di profumo;
+ti dico addio, ti dico il mio pianto,
+prima di perdermi nel fumo.
+
+[Allucinazione]
+Vedo volti che ridono nel buio,
+sento voci che chiamano il mio nome;
+son pazzo forse? O è il mondo buio
+che mi rivela le sue vere forme?
+
+[La maschera]
+Tutti portiamo una maschera al viso,
+per nascondere il pianto o la paura;
+ma sotto la maschera, il sorriso
+è solo una smorfia, una tortura.
+
+[Epigrafe]
+Qui giace un uomo che non visse mai,
+perché la vita gli fece paura;
+passò sognando i suoi eterni guai,
+e trovò pace solo in sepoltura.
+
+--- GIOVANNI CAMERANA ---
+[Sera di novembre]
+La nebbia scende umida e pesante,
+e avvolge i tetti e le vie deserte;
+mi sento solo, come un viandante
+che ha perso la strada e le porte aperte.
+
+[Paesaggio]
+Un albero stecchito contro il cielo,
+un corvo nero che gracida e vola;
+questo è il quadro del mio animo, il velo
+che copre la mia vita, trista e sola.
+
+[Ritratto]
+Aveva gli occhi cupi e profondi,
+come due laghi di acqua stagnante;
+e sulle labbra, pallide e monde,
+un sorriso amaro e delirante.
+
+[Interno]
+La stanza è buia, il fuoco è spento,
+solo una lampada illumina il tavolo;
+l'orologio batte il tempo lento,
+ed io scrivo versi che non salvo.
+
+[Campane]
+Suonano a morto le campane lontane,
+un rintocco sordo che mi ferisce;
+forse è un presagio delle mie strane
+voglie di fine, che il cor nutrisce.
+
+[Tramonto alpino]
+Il sole insanguina le cime bianche,
+come una ferita che non si chiude;
+e le ombre salgono, lunghe e stanche,
+a coprire le valli e le palude.
+
+[Notte insonne]
+Mi giro e rigiro nel letto sudato,
+ma il sonno fugge e i pensieri tornano;
+fantasmi del passato, o mostri nati
+dal mio cervello che non riposano.
+
+[La mia musa]
+La mia musa è una donna vestita a lutto,
+che piange sempre e non ride mai;
+mi porta fiori di cimitero e tutto
+ciò che sa di morte e di guai.
+
+[Addio]
+Lascio questo mondo senza rimpianto,
+perché nulla mi ha dato se non dolore;
+vado nel nulla, o forse nel santo
+riposo, dove tace il cuore.
+
+[Spleen]
+Noia, infinita noia, che mi opprime,
+come una cappa di piombo fuso;
+nulla mi piace, nulla mi redime,
+tutto è grigio, inutile e chiuso.
+
+--- CLETTO ARRIGHI ---
+[La Scapigliatura milanese]
+Siamo scapigliati, siamo diversi,
+siamo ribelli al vostro decoro;
+scriviamo prose e scriviamo versi
+che sanno di vino, di sangue e d'oro.
+
+[Milano]
+Milano che lavora e che guadagna,
+Milano che corre e non si ferma;
+ma sotto i portici, la nostra lagna
+canta la vita che si disferma.
+
+[In osteria]
+Tra fumo e puzzo di vino cattivo,
+passiamo le notti a discuter d'arte;
+siamo poveri in canna, ma io scrivo
+parole che bruciano come le carte.
+
+[La musa plebea]
+Non canto dame, non canto eroi,
+canto la serva, l'operaio, il ladro;
+canto la vita che vive tra noi,
+nella strada, nel fango, nel quadro.
+
+[Contro il Romanticismo]
+Basta coi sospiri, basta coi fiori,
+basta con le lune e i laghi d'argento;
+vogliamo il vero, con i suoi odori,
+anche se puzza, anche se è vento.
+
+[Il suicida]
+Si è gettato nel Naviglio stanotte,
+un povero diavolo senza un soldo;
+Milano dormiva, le porte rotte
+del suo destino non fecero un toldo.
+
+[La bohème]
+Vivere alla giornata, senza domani,
+amare donne che non ci aman più;
+mangiare pane secco e sogni vani,
+questa è la vita che ci piace, a lu'.
+
+[Invettiva]
+Voi borghesi grassi e soddisfatti,
+che ci guardate con disprezzo e orrore;
+voi non sapete i nostri patti
+con la miseria, con l'arte e l'amore.
+
+[Amico traditore]
+Credevo in te, come in un fratello,
+ma mi hai venduto per un piatto d'oro;
+ora ti sputo in faccia il mio fiele,
+e ti cancello dal mio tesoro.
+
+[Epilogo]
+La commedia è finita, cala il sipario.
+Gli attori son stanchi, il pubblico è andato.
+Resta solo il silenzio, solitario,
+e un applauso che non è mai nato.
+
+--- ANTONIO GHISLANZONI ---
+[Gli artisti da teatro]
+Siamo pagliacci, siamo attori,
+che vendon l'anima per un applauso;
+ma dietro le quinte, i nostri cuori
+piangono il vero, non il plauso.
+
+[Aida (Versi per Verdi)]
+Celeste Aida, forma divina,
+mistico serto di luce e fior;
+del mio pensiero tu sei regina,
+tu di mia vita sei lo splendor.
+(La Scapigliatura entra nell'opera)
+
+[Il librettista]
+Scrivo parole per la musica altrui,
+servo devoto del grande Maestro;
+ma i versi son miei, i sogni son bui,
+e la mia gloria è solo un capestro.
+
+[Ironia]
+Rido del mondo, rido di me,
+rido del pianto che mi bagna il viso;
+l'ironia è l'arma, è il mio re,
+che mi protegge dal paradiso.
+
+[La critica]
+I critici abbaiano, ma l'arte passa;
+la carovana non si ferma mai.
+Lasciateli dire, la loro cassa
+è piena di invidia e di guai.
+
+[Futuro]
+Verrà un tempo in cui l'arte sarà
+libera e vera, senza padroni;
+ma io non ci sarò, sarò già
+polvere muta sotto i balconi.
+
+[Donne e Poesia]
+Le donne amano i poeti morti,
+ma i vivi li lasciano morir di fame;
+o donne, siate un po' più corti
+coi vostri amori, e men infame.
+
+[Il fiasco]
+Hanno fischiato la mia opera nuova,
+il pubblico bue non ha capito nulla;
+ma io non mi piego, faccio un'altra prova,
+e canto ancora, come una fanciulla.
+
+[Vecchiaia d'artista]
+I capelli bianchi, la voce tremante,
+le mani che non reggono la penna;
+triste è la fine di chi fu gigante,
+e ora è solo un'ombra che accenna.
+
+[Testamento buffo]
+Lascio i miei debiti ai creditori,
+le mie poesie al vento che passa;
+e il mio corpo ai medici dottori,
+perché ci studino la mia carcassa.
+
+--- FELICE CAMERONI ---
+[Realismo]
+Basta con le favole, guardiamo il vero!
+La vita è sporca, è dura, è crudele.
+Il poeta deve essere sincero,
+e dipingere il fango e il fiele.
+
+[Zola]
+Grande maestro, che hai scoperchiato
+le fogne di Parigi e dell'umano;
+tu ci hai insegnato che il peccato
+è ovunque, nel ricco e nel villano.
+
+[Critica sociale]
+Vedete quel palazzo? È fatto di sangue
+dei poveri operai che l'han costruito.
+E dentro, il ricco balla e non langue,
+mentre fuori il popolo è stito.
+
+[Estetica del brutto]
+Il bello non è solo il fiore o il cielo,
+il bello è anche la piaga che suppura;
+se l'arte è vera, toglie ogni velo,
+e mostra l'orrore della natura.
+
+[Contro l'accademia]
+Professori parrucconi, tacete!
+La vostra arte è morta e sepolta.
+Noi siamo il nuovo, noi siamo la sete
+di verità, che il mondo ascolta.
+
+[Il povero]
+Guardatelo, dorme sotto un ponte,
+coperto di stracci e di pidocchi;
+lui è il cristo moderno, la fonte
+di ogni accusa ai nostri occhi.
+
+[La prostituta]
+Non disprezzatela, è una vittima
+della società che la vende e compra;
+il suo corpo è merce, ma l'anima
+forse è più pura della vostra ombra.
+
+[Scienza e Arte]
+La scienza anatomizza il corpo umano,
+l'arte anatomizza l'anima e il cuore;
+insieme camminano, mano nella mano,
+per svelare il mistero del dolore.
+
+[Materialismo]
+Siamo materia, solo materia,
+che pensa, che soffre, che si disfa;
+non c'è spirito, non c'è miseria
+che non sia carne che si soddisfa.
+
+[Avanti!]
+Avanti, giovani, rompete gli schemi!
+Il futuro è vostro, se osate dire
+ciò che nessuno ha detto, senza temi,
+senza paura di soffrire.
+
+--- VITTORIO BETTELONI ---
+[Innamorati]
+Passeggiamo insieme sotto i portici,
+tu mi guardi e ridi, io ti guardo e taccio;
+non siamo eroi, non siamo vortici,
+siamo due ragazzi che si danno il braccio.
+(Anticipazione del Crepuscolarismo)
+
+[La vita quotidiana]
+Mi alzo, mi lavo, bevo il caffè,
+vado a lavoro, torno, mangio, dormo.
+Questa è la vita, non c'è un perché,
+non c'è un dramma, non c'è un frastuono.
+
+[Piccole cose]
+Amo le piccole cose, il gatto che fusa,
+il sole che entra dalla finestra aperta;
+non cerco glorie, non cerco la musa,
+mi basta la vita, semplice e certa.
+
+[Mia moglie]
+Non è una dea, non è una fata,
+è una donna vera, che cuce e stira;
+ma quando ride, la mia giornata
+s'illumina tutta, e il cuore respira.
+
+[I bambini]
+Giocano in piazza, corrono e gridano,
+coi volti sporchi e gli occhi ridenti;
+loro son saggi, loro si fidano
+della vita, e non hanno lamenti.
+
+[Domenica]
+Giorno di festa, giorno di noia,
+tutti vestiti a festa passeggiano;
+io resto a casa, con la mia gioia
+di far niente, mentre gli altri festeggiano.
+
+[Vecchi amici]
+Ci ritroviamo al solito caffè,
+parliamo di politica e di donne;
+siamo ingrassati, siamo un po' ahimè,
+ma l'amicizia è salda come colonne.
+
+[Ricordi di gioventù]
+Ti ricordi quando eravamo studenti?
+Sognavamo di conquistare il mondo.
+Ora siamo qui, coi capelli argenti,
+e il mondo gira sempre in tondo.
+
+[Rassegnazione]
+Ho accettato la vita com'è,
+senza grandi slanci, senza pretese.
+Forse ho sbagliato, forse non c'è
+altra via per non farci le spese.
+
+[Fine giornata]
+Spengo la luce, chiudo gli occhi stanchi.
+Domani sarà un altro giorno uguale.
+Ma in fondo, tra i neri e i bianchi,
+la vita non è poi così male.
+
+--- OLINDO GUERRINI (LORENZO STECCHETTI) ---
+[Postuma (Prologo)]
+Questi versi son nati da un amore
+che mi ha ucciso, eppur mi ha fatto vivo;
+leggeteli, o donne, col batticuore,
+son scritti col sangue, non con l'ivo.
+
+[Il canto dell'odio]
+Io t'odio, o donna, t'odio di un odio
+che è pari all'amore che t'ho portato;
+vorrei vederti morta sul podio
+della tua bellezza, che m'ha dannato.
+(Celebre poesia scandalosa)
+
+[Bacia]
+Bacia, bacia, che il tempo vola!
+Le labbra son fatte per essere baciate.
+Domani saremo nella tomba sola,
+e le nostre bocche saran gelate.
+
+[Fior di siepe]
+Sono un povero fiore di siepe,
+che nessuno guarda, nessuno coglie;
+ma ho il mio profumo, ho la mia quiete,
+e non invidio le rose e le foglie.
+
+[Polemica]
+Dicono che i miei versi son osceni,
+che corrompo i giovani e le fanciulle.
+Ipocriti! Voi siete pieni
+di vizi nascosti nelle vostre culle.
+
+[Realismo spicciolo]
+Mi piace il vino, le donne e il canto,
+non sono un angelo, sono un uomo.
+Se questo è vizio, me ne vanto,
+almeno vivo e non mi consumo.
+
+[Alla mia donna]
+Non sei fedele, lo so, lo so;
+ma sei così bella quando menti.
+Ingannami ancora, dimmi di no,
+mentre mi stringi coi tuoi serpenti.
+
+[Morte di un poeta]
+È morto tisico, in una soffitta,
+senza un amico, senza un conforto.
+La società l'aveva traflitta,
+ora lo piange, ma lui è morto.
+
+[Venenum]
+Il tuo amore è un veleno dolce,
+che bevo a sorsi, sapendo che uccide.
+Ma è l'unica cosa che mi molce,
+l'unica gioia che mi sorride.
+
+[Epigrafe buffa]
+Qui giace Stecchetti, poeta maledetto,
+che amò troppo e scrisse troppo poco.
+Pregate per lui, o andate a letto,
+tanto per lui è finito il gioco.
+
+--- FERDINANDO FONTANA ---
+[La nebbia]
+Sale la nebbia dai canali scuri,
+avvolge Milano in un manto grigio.
+Sembra che il cielo ci mandi sturi,
+o che prepari un tristo prodigio.
+
+[Il Naviglio]
+Scorre l'acqua sporca e lenta,
+porta via i rifiuti della città.
+Così la vita, che ci tormenta,
+scorre verso l'eternità.
+
+[Povera gente]
+Vedo le donne che lavano i panni,
+con le mani rosse e la schiena curva.
+Vedo gli operai coi loro affanni,
+e la fame che li turba.
+
+[Rivolta]
+Un giorno il popolo si alzerà,
+stanco di piangere e di servire.
+E allora, signori, si vedrà
+chi ha il diritto di gioire.
+
+[Dialetto e Lingua]
+Parlo la lingua del mio paese,
+perché è schietta, è forte, è vera.
+L'italiano è bello per le imprese,
+ma il dialetto è per la preghiera.
+
+[Inverno a Milano]
+Freddo cane, neve che cade,
+brividi che corrono per le ossa.
+Poveri cristi per le strade,
+cercano un buco, una fossa.
+
+[La fabbrica]
+Fumo nero, rumore di macchine,
+uomini che diventano ingranaggi.
+Questa è la civiltà delleacchine,
+che distrugge i verdi paessaggi.
+
+[Speranza sociale]
+Spero in un mondo più giusto e buono,
+dove nessuno debba soffrire.
+Forse è un sogno, forse è un dono
+che solo i poeti sanno ardire.
+
+[Musica di strada]
+Un organetto suona all'angolo,
+una vecchia canzone d'amore.
+La gente passa, io mi strangolo
+di nostalgia per il mio cuore.
+
+[Commiato]
+Addio, Milano, madre e matrigna,
+ti lascio i miei versi e la mia vita.
+Sei bella e brutta, dolce e maligna,
+sei la mia gioia e la mia ferita.

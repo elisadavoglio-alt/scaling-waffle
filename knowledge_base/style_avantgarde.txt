@@ -1,0 +1,259 @@
+Style: Dada & Historical Avant-Garde
+Period: 1916-1923
+Key Characteristic: Anti-art, nonsense, collage, sound poetry, provocation. "Dada means nothing."
+
+### 🏛️ REFERENCE AUTHORS & WORKS
+- Tristan Tzara (Seven Dada Manifestos) - The chaotic leader. "Cut-up" method.
+- Hugo Ball (Karawane) - Sound poetry (Lautgedichte), magical bishop.
+- Kurt Schwitters (Ursonate) - Merz, collage, recycling trash into art.
+- Hans Arp (The Cloud Pump) - Chance operations, biomorphic forms.
+- Francis Picabia (391) - Mechanomorphic drawings/poems, nihilism.
+- Richard Huelsenbeck (Dada Drumming) - Rhythm, violence, primitive energy.
+- Emmy Hennings (Dada Poems) - Cabaret Voltaire star, opium, madness.
+- Marcel Duchamp (The Large Glass / Rrose Sélavy) - Puns, readymades, intellectual play.
+- Max Ernst (Fatagaga) - Collage novels, dream logic.
+- Theo van Doesburg (De Stijl / I.K. Bonset) - Constructivist Dada, typography.
+
+### 🧬 STRUCTURAL PATTERNS (YAML)
+ideology:
+  - Total rejection of logic, war, and bourgeois values
+  - Destruction of "Art" with a capital A
+  - Embrace of chance, chaos, and absurdity
+  
+techniques:
+  - Sound Poetry ("Gadji beri bimba")
+  - Cut-Up / Collage (Newspaper clippings)
+  - Simultaneous Poems (Multiple voices reading different things at once)
+  - Typography as visual art
+  - Readymades (Context shifting)
+
+vocabulary:
+  - Nonsense syllables (ba, um, zii)
+  - Industrial/Mechanical terms mixed with organic
+  - Shocking obscenities or banalities
+
+### 📜 ANTHOLOGY EXAMPLES (GROUND TRUTH)
+
+--- TRISTAN TZARA ---
+[To Make a Dadaist Poem]
+Take a newspaper.
+Take some scissors.
+Choose an article of the length you want to make your poem.
+Cut out the article.
+Next carefully cut out each of the words...
+Shake gently.
+
+[Proclamation without Pretension]
+Dada is a virgin microbe.
+Dada is against the high cost of living.
+Dada is a chameleon of rapid and interested change.
+Dada is against the future.
+
+[Drug]
+The supreme drug is the word.
+Inject it into your veins.
+Die laughing.
+
+[Vegetable]
+Be a vegetable.
+Think like a cucumber.
+Dream like a cabbage.
+Rot like a tomato.
+
+--- HUGO BALL ---
+[Karawane]
+jolifanto bambla o falli bambla
+grossiga m'pfa habla horem
+egiga goramen
+higo bloiko russula huju
+hollaka hollala
+anlogo bung
+blago bung
+blago bung
+bosso fataka
+ü üü ü
+schampa wulla wussa ólobo
+hey tatta gôrem
+eschige zunbada
+wulubu ssubudu ulu w ssubudu
+tumba ba- umf
+kusagauma
+ba - umf
+
+[Gadji beri bimba]
+gadji beri bimba glandridi laula lonni cadori
+gadjama gramma berida bimbala glandri galassassa
+laulitalomini gadji beri bin blassa glassala...
+
+[Cabaret Voltaire]
+We are the circus.
+We are the noise.
+We are the anti-music.
+Come and lose your mind.
+
+--- KURT SCHWITTERS ---
+[Ursonate (Overture)]
+Fümms bö wö tää zää Uu,
+pögiff,
+kwii Ee.
+Oooooooooooooooooooooooo,
+dll rrrrr beeeee bö
+dll rrrrr beeeee bö fümms bö...
+
+[Merz Poem 1]
+Newspapers, tickets, scraps of wood.
+The city's trash is my palette.
+I glue the world back together wrong.
+
+[An Anna Blume]
+Oh thou, beloved of my twenty-seven senses,
+I love thine!
+Thou thee thee thine, I thine, thou mine...
+Who are you, uncounted woman?
+You are — are you? — people say that you be.
+
+--- HANS ARP ---
+[The Cloud Pump]
+The cloud pump pumps the clouds directly into the brain.
+The brain swell with rain.
+Ideas drip like wet socks.
+
+[Kaspar is Dead]
+Woe, our good Kaspar is dead.
+Who will now carry the burning flag hidden in the pigtail of clouds?
+Who will now turn the coffee mill in the primeval forest?
+Who will now entice the idyllic deer with petals?
+
+[Stones]
+I am a stone.
+You are a stone.
+We are stones.
+Let us sink.
+
+--- FRANCIS PICABIA ---
+[Cannibal Dada]
+Art is dead.
+Long live the machine.
+The machine has no soul.
+The machine is honest.
+The machine eats time.
+
+[391]
+The world is a wheel.
+It turns and turns.
+And goes nowhere.
+Like a dog chasing its tail.
+
+[Jesus Christ Rastaquouère]
+God is a Jewish banker.
+Jesus is a tourist.
+The Virgin Mary is a waitress.
+Dada is the tip.
+
+--- RICHARD HUELSENBECK ---
+[End of the World]
+The cows fall from the roof.
+The sun is black.
+The generals have wooden heads.
+Boom boom boom.
+
+[Phantastische Gebete]
+Birribum birribum.
+The ox bellows.
+The priest prays.
+The cannon fires.
+All is one noise.
+
+[Dada Drumming]
+Beat the drum.
+Beat the logic.
+Beat the silence.
+Make noise until they bleed.
+
+--- EMMY HENNINGS ---
+[After the Cabaret]
+I go home in the morning light.
+My face is painted white.
+My heart is black.
+I am a ghost of the night.
+
+[Morfin]
+The needle is my lover.
+The liquid is my god.
+Sleep is my heaven.
+Death is my friend.
+
+[Prison]
+Four walls.
+One window.
+No exit.
+Just like life.
+
+--- MARCEL DUCHAMP ---
+[L.H.O.O.Q.]
+She has a hot ass.
+(Elle a chaud au cul).
+Mona Lisa with a mustache.
+Desecrate the idol.
+
+[The Bride Stripped Bare by Her Bachelors, Even]
+The mechanism of desire.
+The chocolate grinder.
+The torture of delays.
+Love is a machine that fails.
+
+[Rrose Sélavy]
+Eros, c'est la vie.
+Love is life.
+Rose is life.
+Pink is life.
+Puns are life.
+
+--- MAX ERNST ---
+[The Hat Makes the Man]
+A stack of hats.
+A stack of empty heads.
+Style over substance.
+Fashion is fascism.
+
+[Une Semaine de Bonté]
+Bird-men, lion-women.
+Collage of nightmares.
+Victorian engravings gone wrong.
+Domestic violence in the parlor.
+
+[The Elephant Celebes]
+A machine-elephant.
+A headless woman.
+The dream logic supreme.
+Reality is a bore.
+
+--- THEO VAN DOESBURG (I.K. BONSET) ---
+[X-Images]
+Type is image.
+Letters are bricks.
+Build a tower of babel.
+Destroy meaning with form.
+
+[Letter Sound Images]
+A B C D
+Bang!
+E F G H
+Crash!
+I J K L
+Silence.
+
+[Manifesto II]
+The word is dead.
+Long live the letter.
+The sentence is dead.
+Long live the sound.
+The book is dead.
+Long live the poster.
+
+[Concrete Poetry]
+Black square.
+White square.
+Red square.
+No emotion.
+Just truth.
