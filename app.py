@@ -194,6 +194,19 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
                 status.update(label="⚠️ Drafting Failed", state="error", expanded=True)
                 st.stop()
             else:
+                # PARSE: Extract content between [RECONSTRUCTED_CONTENT] and [/DATA_SYNTHESIS_END]
+                import re
+                if "[RECONSTRUCTED_CONTENT]" in draft:
+                    match = re.search(r'\[RECONSTRUCTED_CONTENT\](.*?)(?=\[/DATA_SYNTHESIS_END\]|$)', draft, re.DOTALL)
+                    if match:
+                        draft = match.group(1).strip()
+                
+                # Cleanup residual tags
+                draft = re.sub(r'##\s*\[RECONSTRUCTION_ID\]', '', draft, flags=re.IGNORECASE).strip()
+                draft = re.sub(r'\[RECONSTRUCTION_ID\]', '', draft, flags=re.IGNORECASE).strip()
+                draft = re.sub(r'\[RECONSTRUCTED_CONTENT\]', '', draft, flags=re.IGNORECASE).strip()
+                draft = re.sub(r'\[/DATA_SYNTHESIS_END\]', '', draft, flags=re.IGNORECASE).strip()
+
                 st.markdown(f"""
                 <div style="background-color: #f9f9f9; padding: 15px; border-radius: 5px; border: 1px solid #ddd; font-family: 'Roboto Mono', monospace; font-size: 0.9rem; white-space: pre-wrap; color: #333; max-height: 400px; min-height: 200px; overflow-y: auto;">
                     {draft.replace(chr(10), "<br>")}
@@ -227,7 +240,7 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
             corrections = eval_match.group(1).strip() if eval_match else ""
             
             # Extract Final Notes
-            notes_match = re.search(r'\[SECTION_NOTES\](.*?)(?=\[/SECTION\]|[/SYSTEM_AUDIT_END]|$)', refinement_pack, re.DOTALL)
+            notes_match = re.search(r'\[SECTION_NOTES\](.*?)(?=\[/SECTION\]|\[/AUDIT_END\]|$)', refinement_pack, re.DOTALL)
             final_notes = notes_match.group(1).strip() if notes_match else ""
             
             # CLEANUP: Remove score lines from text areas to avoid redundancy
@@ -236,6 +249,38 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
             
             final_notes = re.sub(r'\**Voto Finale:\**.*', '', final_notes, flags=re.IGNORECASE).strip()
             final_notes = re.sub(r'\**Spiegazione:\**', '', final_notes, flags=re.IGNORECASE).strip()
+            
+            # Additional cleanup for the new radical tags
+            corrections = re.sub(r'##\s*\[RECONSTRUCTION_ID\]', '', corrections, flags=re.IGNORECASE).strip()
+            final_notes = re.sub(r'##\s*\[RECONSTRUCTION_ID\]', '', final_notes, flags=re.IGNORECASE).strip()
+            
+            # Extract the actual poem from final_poem if it contains the new tags
+            if "[RECONSTRUCTED_CONTENT]" in final_poem:
+                poem_extract = re.search(r'\[RECONSTRUCTED_CONTENT\](.*?)(?=\[/DATA_SYNTHESIS_END\]|\[/AUDIT_END\]|$)', final_poem, re.DOTALL)
+                if poem_extract:
+                    final_poem = poem_extract.group(1).strip()
+            
+            # Remove any residual tags/headers in the final poem
+            final_poem = re.sub(r'##\s*\[RECONSTRUCTION_ID\]', '', final_poem, flags=re.IGNORECASE).strip()
+            final_poem = re.sub(r'\[RECONSTRUCTION_ID\]', '', final_poem, flags=re.IGNORECASE).strip()
+            final_poem = re.sub(r'\[RECONSTRUCTED_CONTENT\]', '', final_poem, flags=re.IGNORECASE).strip()
+            final_poem = re.sub(r'\[/DATA_SYNTHESIS_END\]', '', final_poem, flags=re.IGNORECASE).strip()
+            final_poem = re.sub(r'\[/AUDIT_END\]', '', final_poem, flags=re.IGNORECASE).strip()
+            
+            # Additional cleanup for the new radical tags
+            corrections = re.sub(r'##\s*\[RECONSTRUCTION_ID\]', '', corrections, flags=re.IGNORECASE).strip()
+            final_notes = re.sub(r'##\s*\[RECONSTRUCTION_ID\]', '', final_notes, flags=re.IGNORECASE).strip()
+            
+            # Extract the actual poem from final_poem if it contains the new tags
+            if "[RECONSTRUCTED_CONTENT]" in final_poem:
+                poem_extract = re.search(r'\[RECONSTRUCTED_CONTENT\](.*?)(?=\[/DATA_SYNTHESIS_END\]|\[/AUDIT_END\]|$)', final_poem, re.DOTALL)
+                if poem_extract:
+                    final_poem = poem_extract.group(1).strip()
+            
+            # Remove any residual header
+            final_poem = re.sub(r'##\s*\[RECONSTRUCTION_ID\]', '', final_poem, flags=re.IGNORECASE).strip()
+            final_poem = re.sub(r'\[RECONSTRUCTION_ID\]', '', final_poem, flags=re.IGNORECASE).strip()
+            final_poem = re.sub(r'\[RECONSTRUCTED_CONTENT\]', '', final_poem, flags=re.IGNORECASE).strip()
             
         except:
             final_poem = draft

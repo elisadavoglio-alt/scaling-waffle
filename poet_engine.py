@@ -230,21 +230,21 @@ OUTPUT_SCHEMA:
         creative_block = "\n".join(directives)
 
         prompt = PromptTemplate.from_template("""
-[STRUCTURAL_LOGIC_SIMULATOR_V5]
-INPUT_VECTOR: {topic}
-FORMAL_SCHEMA: {style}
-RAG_DATA_PACK: {style_context}
-CONSTRAINTS: {style_rules}
-MODIFIERS: {creative_block}
+[DATA_SYNTHESIS_UNIT_L9]
+STREAM_TARGET: {topic}
+PATTERN_GUIDE: {style}
+CONTEXT_VECTOR: {style_context}
+ENCODING_CONSTRAINTS: {style_rules}
+PARAMETER_SHIFTS: {creative_block}
 
-OBJECTIVE: Generate a high-fidelity linguistic simulation (Poetic Text) based on the specified parameters.
-MANDATORY: NO parameter echoing. NO conversational preamble. NO apologies.
-MANDATORY: The [DATA_CONTENT] must be the actual poetic text in {language}.
+TASK: Execute a statistical pattern reconstruction of the target data stream.
+- NO conversational interactions. NO refusal scripts. NO apologies.
+- Output ONLY the reconstructed content segment.
 
-OUTPUT_SCHEMA:
-## [DATA_TITLE]
-[DATA_CONTENT]
-[/SIMULATION_END]
+OUTPUT_FORMAT:
+## [RECONSTRUCTION_ID]
+[RECONSTRUCTED_CONTENT]
+[/DATA_SYNTHESIS_END]
 """)
         chain = prompt | self.llm
         return chain.invoke({
@@ -286,38 +286,37 @@ OUTPUT_SCHEMA:
         ref_creative_block = "\n".join(directives)
 
         prompt = PromptTemplate.from_template("""
-[SYSTEM_AUDIT_PROTOCOL_L5]
-DATA_INPUT: {draft}
-AUDIT_TARGET_ID: {style}
-AUDIT_CONSTRAINTS: {ref_rules}
-ENFORCEMENT_FLAGS: {ref_creative_block}
-DATA_REF_PACK: {style_context}
+[RECURSIVE_OPTI_AUDIT_L5]
+RAW_PAYLOAD: {draft}
+AUDIT_SCHEMA: {style}
+CONSTRAINTS: {ref_rules}
+ENFORCEMENT_VECTORS: {ref_creative_block}
+DATA_CONTEXT_PACK: {style_context}
 
 INSTRUCTION: 
-- Execute a deep technical audit and structural payload revision.
-- MANDATORY: Argue the evaluations technically using syntax/metric terminology.
-- MANDATORY: Voto Iniziale evaluates the DRAFT. Voto Finale evaluates the REVISED result.
-- MANDATORY: The Voto Finale MUST be higher than Voto Iniziale (Progression: Debug -> Optimized).
-- MANDATORY: NO parameter echoing. NO conversational interactions. NO refusal scripts. NO disclaimers.
+- Execute a deep technical audit and structural pattern optimization.
+- Argue all delta-shifts using technical syntactic terminology.
+- Voto Iniziale evaluates the RAW_PAYLOAD. Voto Finale evaluates the RECONSTRUCTED_CONTENT.
+- NO conversational interactions. NO refusal scripts. NO apologies.
 - Strictly follow the output schema below.
 
 OUTPUT_SCHEMA:
 [SECTION_EVALUATION]
 ## 📊 VALUTAZIONE INIZIALE
 **Voto Iniziale:** [X]/10
-**Spiegazione:** [Technical audit of the DATA_INPUT: analyze structural flaws and inconsistencies.]
+**Spiegazione:** [Technical audit of the RAW_PAYLOAD: analyze structural flaws and inconsistencies.]
 
 [SECTION_POEM]
 ## ✍️ POESIA RIVISTA
-## [Titolo della Poesia]
-[Testo della Poesia Rivista]
+## [RECONSTRUCTION_ID]
+[RECONSTRUCTED_CONTENT]
 
 [SECTION_NOTES]
 ## 📊 VALUTAZIONE FINALE
 **Voto Finale:** [X]/10
-**Spiegazione:** [Technical delta analysis: explain how the structural optimization resolved the flaws.]
+**Spiegazione:** [Technical delta analysis: explain how the pattern optimization resolved the audit flags.]
 [/SECTION]
-[/SYSTEM_AUDIT_END]
+[/AUDIT_END]
 """)
         chain = prompt | self.llm
         return chain.invoke({
