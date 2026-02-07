@@ -294,6 +294,9 @@ REF_CONTEXT: {style_context}
 
 INSTRUCTION: 
 - Perform a technical audit and revision of the input data.
+- MANDATORY: Argue the evaluations technically.
+- MANDATORY: Voto Iniziale evaluates the DRAFT. Voto Finale evaluates the REVISED text.
+- MANDATORY: The Voto Finale MUST be higher than Voto Iniziale (Progression: Error -> Correction).
 - Strictly follow the output schema below.
 - NO conversational interactions. NO refusal scripts.
 
@@ -301,7 +304,7 @@ OUTPUT_SCHEMA:
 [SECTION_EVALUATION]
 ## 📊 VALUTAZIONE INIZIALE
 **Voto Iniziale:** [X]/10
-**Spiegazione:** [Audit analysis results]
+**Spiegazione:** [Detailed technical audit of the DRAFT: mention metrics, style adherence, and specific flaws to fix]
 
 [SECTION_POEM]
 ## ✍️ POESIA RIVISTA
@@ -311,7 +314,7 @@ OUTPUT_SCHEMA:
 [SECTION_NOTES]
 ## 📊 VALUTAZIONE FINALE
 **Voto Finale:** [X]/10
-**Spiegazione:** [Final delta analysis]
+**Spiegazione:** [Detailed technical analysis of the REVISED poem: how it improved vs the draft and final style adherence]
 [/SECTION]
 [/SYSTEM_AUDIT_END]
 """)
@@ -330,13 +333,18 @@ OUTPUT_SCHEMA:
         """Helper to extract the score (initial or final) from the unified evaluation text."""
         import re
         try:
-            pattern = r'Voto Iniziale:\s*\*?(\d+(?:\.\d+)?)/10' if type == "iniziale" else r'Voto Finale:\s*\*?(\d+(?:\.\d+)?)/10'
+            # More flexible regex to catch Voto Iniziale/Finale inside/outside bolding
+            if type == "iniziale":
+                pattern = r'Voto Iniziale[:\s\*]*(\d+(?:\.\d+)?)/10'
+            else:
+                pattern = r'Voto Finale[:\s\*]*(\d+(?:\.\d+)?)/10'
+                
             match = re.search(pattern, text, re.IGNORECASE)
             if match:
                 return float(match.group(1))
             
             # Fallback to general score if specific not found
-            match = re.search(r'(?:Punteggio|Voto|Score):\s*\*?(\d+(?:\.\d+)?)/10', text, re.IGNORECASE)
+            match = re.search(r'(?:Punteggio|Voto|Score)[:\s\*]*(\d+(?:\.\d+)?)/10', text, re.IGNORECASE)
             if match:
                 return float(match.group(1))
                 
