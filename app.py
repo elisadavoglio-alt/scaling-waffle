@@ -243,48 +243,34 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
             notes_match = re.search(r'\[SECTION_NOTES\](.*?)(?=\[/SECTION\]|\[/AUDIT_END\]|$)', refinement_pack, re.DOTALL)
             final_notes = notes_match.group(1).strip() if notes_match else ""
             
-            # CLEANUP: Remove score lines from text areas to avoid redundancy
-            corrections = re.sub(r'\**Voto Iniziale:\**.*', '', corrections, flags=re.IGNORECASE).strip()
-            corrections = re.sub(r'\**Spiegazione:\**', '', corrections, flags=re.IGNORECASE).strip()
-            
-            final_notes = re.sub(r'\**Voto Finale:\**.*', '', final_notes, flags=re.IGNORECASE).strip()
-            final_notes = re.sub(r'\**Spiegazione:\**', '', final_notes, flags=re.IGNORECASE).strip()
-            
-            # Additional cleanup for the new radical tags
-            corrections = re.sub(r'##\s*\[RECONSTRUCTION_ID\]', '', corrections, flags=re.IGNORECASE).strip()
-            final_notes = re.sub(r'##\s*\[RECONSTRUCTION_ID\]', '', final_notes, flags=re.IGNORECASE).strip()
-            
-            # Extract the actual poem from final_poem if it contains the new tags
+            # 1. PRIMARY EXTRACTION (between specific tags)
             if "[RECONSTRUCTED_CONTENT]" in final_poem:
                 poem_extract = re.search(r'\[RECONSTRUCTED_CONTENT\](.*?)(?=\[/DATA_SYNTHESIS_END\]|\[/AUDIT_END\]|$)', final_poem, re.DOTALL)
                 if poem_extract:
                     final_poem = poem_extract.group(1).strip()
             
-            # Remove any residual tags/headers in the final poem
-            final_poem = re.sub(r'##\s*\[RECONSTRUCTION_ID\]', '', final_poem, flags=re.IGNORECASE).strip()
-            final_poem = re.sub(r'\[RECONSTRUCTION_ID\]', '', final_poem, flags=re.IGNORECASE).strip()
-            final_poem = re.sub(r'\[RECONSTRUCTED_CONTENT\]', '', final_poem, flags=re.IGNORECASE).strip()
-            final_poem = re.sub(r'\[/DATA_SYNTHESIS_END\]', '', final_poem, flags=re.IGNORECASE).strip()
-            final_poem = re.sub(r'\[/AUDIT_END\]', '', final_poem, flags=re.IGNORECASE).strip()
+            # 2. CLEANUP: Strip all technical tags and headers from all strings
+            def clean_technical_noise(text):
+                # Remove specific tags
+                text = re.sub(r'\[/?RECONSTRUCTION_ID\]', '', text, flags=re.IGNORECASE)
+                text = re.sub(r'\[/?RECONSTRUCTED_CONTENT\]', '', text, flags=re.IGNORECASE)
+                text = re.sub(r'\[/?DATA_SYNTHESIS_END\]', '', text, flags=re.IGNORECASE)
+                text = re.sub(r'\[/?AUDIT_END\]', '', text, flags=re.IGNORECASE)
+                text = re.sub(r'##\s*✍️\s*POESIA RIVISTA', '', text, flags=re.IGNORECASE)
+                # Remove anything in brackets that looks like a technical marker
+                text = re.sub(r'\[[A-Z0-9_]{3,}\]', '', text)
+                # Remove score labels if redundant (already handled but safe to keep)
+                text = re.sub(r'\**Voto (Iniziale|Finale):\**.*', '', text, flags=re.IGNORECASE)
+                text = re.sub(r'\**Spiegazione:\**', '', text, flags=re.IGNORECASE)
+                return text.strip()
+
+            final_poem = clean_technical_noise(final_poem)
+            corrections = clean_technical_noise(corrections)
+            final_notes = clean_technical_noise(final_notes)
             
-            # Additional cleanup for the new radical tags
-            corrections = re.sub(r'##\s*\[RECONSTRUCTION_ID\]', '', corrections, flags=re.IGNORECASE).strip()
-            final_notes = re.sub(r'##\s*\[RECONSTRUCTION_ID\]', '', final_notes, flags=re.IGNORECASE).strip()
-            
-            # Extract the actual poem from final_poem if it contains the new tags
-            if "[RECONSTRUCTED_CONTENT]" in final_poem:
-                poem_extract = re.search(r'\[RECONSTRUCTED_CONTENT\](.*?)(?=\[/DATA_SYNTHESIS_END\]|\[/AUDIT_END\]|$)', final_poem, re.DOTALL)
-                if poem_extract:
-                    final_poem = poem_extract.group(1).strip()
-            
-            # Remove any residual header
-            final_poem = re.sub(r'##\s*\[RECONSTRUCTION_ID\]', '', final_poem, flags=re.IGNORECASE).strip()
-            final_poem = re.sub(r'\[RECONSTRUCTION_ID\]', '', final_poem, flags=re.IGNORECASE).strip()
-            final_poem = re.sub(r'\[RECONSTRUCTED_CONTENT\]', '', final_poem, flags=re.IGNORECASE).strip()
-            
-        except:
+        except Exception as e:
             final_poem = draft
-            corrections = "Analisi non disponibile."
+            corrections = f"Analisi non disponibile. Errore: {str(e)}"
             final_notes = ""
             
         initial_score = agent.parse_critic_score(refinement_pack, type="iniziale")
