@@ -249,6 +249,8 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
         
         # C. DISPLAY IN REQUESTED ORDER: 1) Voto Iniziale/Spiegazione, 2) Poesia Rivista, 3) Voto Finale/Spiegazione
         
+        # 1. VALUTAZIONE INIZIALE (Audit della Bozza)
+        st.markdown(f"#### 📊 Valutazione Iniziale: {initial_score}/10")
         if corrections:
             st.info(corrections)
             
@@ -296,6 +298,8 @@ if st.session_state.gen_results:
     # So we show a clean mirror of Section 4.
     
     st.markdown("---")
+    # 1. VALUTAZIONE INIZIALE (Audit della Bozza)
+    st.markdown(f"#### 📊 Valutazione Iniziale: {res.get('initial_score', 5.0)}/10")
     if res.get('corrections'):
         st.info(res['corrections'])
 
@@ -303,6 +307,8 @@ if st.session_state.gen_results:
     st.markdown("#### 💎 Poesia Rivista (Archivio)")
     st.markdown(f"""<div style="background-color: #f0fff0; padding: 20px; border-radius: 8px; border: 1px solid #c3e6cb; font-family: 'serif'; font-size: 1.2rem; color: #155724; white-space: pre-wrap; margin-bottom: 20px;">{res['final_poem'].replace(chr(10), "<br>")}</div>""", unsafe_allow_html=True)
     
+    # 3. VALUTAZIONE FINALE (Revisione Completata)
+    st.markdown(f"#### 📊 Valutazione Finale: {res.get('final_score', 5.0)}/10")
     if res.get('final_notes'):
         st.success(res['final_notes'])
     
