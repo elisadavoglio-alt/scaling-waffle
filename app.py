@@ -269,6 +269,29 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
             
         st.download_button("💾 Scarica Poesia", final_poem, file_name="poesia_studio.txt")
         
+        # 4. INSIGHTS (Comparison, Sources, Metadata)
+        st.divider()
+        with st.expander("🔍 Approfondimenti (Insights)", expanded=True):
+            tab_diff, tab_sources, tab_analysis = st.tabs(["🔄 Confronto Versioni", "📜 Fonti (RAG)", "📊 Dettagli Tecnici"])
+            
+            with tab_diff:
+                st.markdown("### 🔄 Prima vs Dopo")
+                col1, col2 = st.columns(2)
+                with col1:
+                    st.markdown("**BOZZA ORIGINALE (V1)**")
+                    st.code(draft, language=None)
+                with col2:
+                    st.markdown("**POESIA RIVISTA (V2)**")
+                    st.code(final_poem, language=None)
+            
+            with tab_sources:
+                st.markdown("### 📜 Contesto di Stile")
+                st.info(style_context)
+                
+            with tab_analysis:
+                st.markdown("### 📊 Metadata Generazione")
+                st.json(analysis_data)
+        
         status.update(label=f"✅ Revisione Completata", state="complete", expanded=False)
 
         # Persistence (Save for refresh)
@@ -313,6 +336,29 @@ if st.session_state.gen_results:
         st.success(res['final_notes'])
     
     st.download_button("💾 Scarica Poesia", res['final_poem'], "poesia.txt", key="dl_btn_archive")
+    
+    # 4. INSIGHTS (Comparison, Sources, Metadata)
+    st.divider()
+    with st.expander("🔍 Approfondimenti (Insights - Archivio)", expanded=False):
+        tab_diff, tab_sources, tab_analysis = st.tabs(["🔄 Confronto Versioni", "📜 Fonti (RAG)", "📊 Dettagli Tecnici"])
+        
+        with tab_diff:
+            st.markdown("### 🔄 Prima vs Dopo")
+            col1, col2 = st.columns(2)
+            with col1:
+                st.markdown("**BOZZA ORIGINALE (V1)**")
+                st.code(res.get('draft', 'N/A'), language=None)
+            with col2:
+                st.markdown("**POESIA RIVISTA (V2)**")
+                st.code(res.get('final_poem', 'N/A'), language=None)
+        
+        with tab_sources:
+            st.markdown("### 📜 Contesto di Stile")
+            st.info(res.get('style_context', 'N/A'))
+            
+        with tab_analysis:
+            st.markdown("### 📊 Metadata Generazione")
+            st.json(res.get('analysis_data', {}))
 
 # Credits Footer (STRICT)
 st.markdown("<br><br><hr>", unsafe_allow_html=True)
