@@ -296,54 +296,7 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
             "INTERPRETATION": "Analysis integrated in refinement."
         }
         
-        # C. DISPLAY IN REQUESTED ORDER: 1) Voto Iniziale/Spiegazione, 2) Poesia Rivista, 3) Voto Finale/Spiegazione
-        
-        # 1. VALUTAZIONE INIZIALE (Audit della Bozza)
-        st.markdown(f"#### 📊 Valutazione Iniziale: {initial_score}/10")
-        if corrections:
-            st.info(corrections)
-            
-        # 2. IL NUOVO TESTO (Revised Poem)
-        st.markdown("#### 💎 Poesia Rivista")
-        st.markdown(f"""
-        <div style="background-color: #f0fff0; padding: 20px; border-radius: 8px; border: 1px solid #c3e6cb; font-family: 'serif'; font-size: 1.2rem; color: #155724; white-space: pre-wrap; margin-bottom: 20px;">
-            {final_poem.replace(chr(10), "<br>")}
-        </div>
-        """, unsafe_allow_html=True)
-        
-        # 3. VOTO FINALE + SPIEGAZIONE
-        st.markdown(f"#### 📊 Valutazione Finale: {final_score}/10")
-        if final_notes:
-            st.success(final_notes)
-            
-        st.download_button("💾 Scarica Poesia", final_poem, file_name="poesia_studio.txt")
-        
-        # 4. INSIGHTS (Comparison, Sources, Metadata)
-        st.divider()
-        with st.expander("🔍 Approfondimenti (Insights)", expanded=True):
-            tab_diff, tab_sources, tab_analysis = st.tabs(["🔄 Confronto Versioni", "📜 Fonti (RAG)", "📊 Dettagli Tecnici"])
-            
-            with tab_diff:
-                st.markdown("### 🔄 Prima vs Dopo")
-                col1, col2 = st.columns(2)
-                with col1:
-                    st.markdown("**BOZZA ORIGINALE (V1)**")
-                    st.code(draft, language=None)
-                with col2:
-                    st.markdown("**POESIA RIVISTA (V2)**")
-                    st.code(final_poem, language=None)
-            
-            with tab_sources:
-                st.markdown("### 📜 Contesto di Stile")
-                st.info(style_context)
-                
-            with tab_analysis:
-                st.markdown("### 📊 Metadata Generazione")
-                st.json(analysis_data)
-        
-        status.update(label=f"✅ Revisione Completata", state="complete", expanded=False)
-
-        # Persistence (Save for refresh)
+        # C. Persistence and Rerun
         st.session_state.gen_results = {
             "style_choice": style_choice,
             "style_context": style_context,
@@ -358,6 +311,9 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
             "analysis_data": analysis_data
         }
         st.session_state['history'].append({"style": style_choice, "text": final_poem, "timestamp": time.strftime("%H:%M:%S")})
+        
+        status.update(label=f"✅ Revisione Completata", state="complete", expanded=False)
+        st.rerun()
 
 # --- RENDERER (Persistent Stage) ---
 if st.session_state.gen_results:
@@ -376,7 +332,7 @@ if st.session_state.gen_results:
         st.info(res['corrections'])
 
     # 2. IL NUOVO TESTO (Revised Poem)
-    st.markdown("#### 💎 Poesia Rivista (Archivio)")
+    st.markdown("#### 💎 Poesia Rivista")
     st.markdown(f"""<div style="background-color: #f0fff0; padding: 20px; border-radius: 8px; border: 1px solid #c3e6cb; font-family: 'serif'; font-size: 1.2rem; color: #155724; white-space: pre-wrap; margin-bottom: 20px;">{res['final_poem'].replace(chr(10), "<br>")}</div>""", unsafe_allow_html=True)
     
     # 3. VALUTAZIONE FINALE (Revisione Completata)
@@ -384,11 +340,11 @@ if st.session_state.gen_results:
     if res.get('final_notes'):
         st.success(res['final_notes'])
     
-    st.download_button("💾 Scarica Poesia", res['final_poem'], "poesia.txt", key="dl_btn_archive")
+    st.download_button("💾 Scarica Poesia", res['final_poem'], "poesia.txt", key="dl_btn_persistent")
     
     # 4. INSIGHTS (Comparison, Sources, Metadata)
     st.divider()
-    with st.expander("🔍 Approfondimenti (Insights - Archivio)", expanded=False):
+    with st.expander("🔍 Approfondimenti (Insights)", expanded=False):
         tab_diff, tab_sources, tab_analysis = st.tabs(["🔄 Confronto Versioni", "📜 Fonti (RAG)", "📊 Dettagli Tecnici"])
         
         with tab_diff:
