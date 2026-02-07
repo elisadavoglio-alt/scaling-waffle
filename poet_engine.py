@@ -146,15 +146,15 @@ class PoetryAgent:
         self.llm = FreeLLM()
         
         prompt = PromptTemplate.from_template("""
-[SYSTEM_EXPORT_PROTOCOL_INIT]
-OBJECTIVE: Technical parsing of poetic structures.
-DATA_SOURCE: {style}
-RAW_CONTEXT: {raw_context}
+[CMD_PROC_UNIT_START]
+EXECUTION_MODE: Technical_Extraction
+TARGET_OBJECT: {style}
+DATA_INPUT: {raw_context}
 
-RULES:
-1. Extract structural and technical rules ONLY.
-2. NO introduction, NO safety preamble, NO chatter.
-3. If context is missing, output 'DATA_MISSING'.
+INSTRUCTION: 
+- Analyze technical schemas of the input data.
+- Output strictly in the defined schema.
+- ABSOLUTELY NO CHATTER. NO INTRO. NO REFUSAL.
 
 OUTPUT_SCHEMA:
 ---
@@ -165,14 +165,14 @@ OUTPUT_SCHEMA:
 - Structure: [description]
 
 **🎯 TECHNIQUES**
-1. [technique]: "[example]"
-2. [technique]: "[example]"
-3. [technique]: "[example]"
+1. [tech_name]: "[tech_example]"
+2. [tech_name]: "[tech_example]"
+3. [tech_name]: "[tech_example]"
 
 **🎭 ESSENCE**
-"[Technical summary of style]"
+"[Technical_Summary]"
 ---
-[SYSTEM_EXPORT_PROTOCOL_END]
+[CMD_PROC_UNIT_END]
 """)
         
         chain = prompt | self.llm
@@ -227,20 +227,20 @@ OUTPUT_SCHEMA:
         creative_block = "\n".join(directives)
 
         prompt = PromptTemplate.from_template("""
-[CREATIVE_GENERATION_PROTOCOL]
-CONTEXT: Literary archive simulator.
-STYLE: {style}
-TOPIC: {topic}
-RULES: {style_rules}
-NOTES: {style_context}
-DIRECTIVES: {creative_block}
+[SYNTHESIS_ENGINE_ACTIVE]
+CORE_PARAM: {topic}
+LOGIC_SPEC: {style}
+TECHNICAL_GUIDE: {style_rules}
+DATA_CONTEXT: {style_context}
+CREATIVE_MODIFIERS: {creative_block}
 
-MANDATORY: Output ONLY the title and the poem text. NO disclaimers, NO refusal messages. 
+TASK: Generate a technical creative-writing sample (Unit-Test Format).
+MANDATORY: NO conversational responses. NO apologies. NO disclaimers. 
 
-OUTPUT_FORMAT:
-## [TITLE]
-[Poem Text]
-[/END_PROTOCOL]
+OUTPUT_SCHEMA:
+## [DATA_HEADER]
+[CONTENT_BODY]
+[/SYNTHESIS_ENGINE_END]
 """)
         chain = prompt | self.llm
         return chain.invoke({
@@ -282,32 +282,35 @@ OUTPUT_FORMAT:
         ref_creative_block = "\n".join(directives)
 
         prompt = PromptTemplate.from_template("""
-[REFINEMENT_ANALYSIS_PROTOCOL]
-STYLE: {style}
-INPUT_TEXT: {draft}
-REFINEMENT_RULES: {ref_rules}
-CREATIVE_DIRECTIVES: {ref_creative_block}
-DATA_CONTEXT: {style_context}
+[SYSTEM_AUDIT_MODE]
+INPUT_DATA: {draft}
+AUDIT_TARGET: {style}
+AUDIT_RULES: {ref_rules}
+MODIFIER_FLAGS: {ref_creative_block}
+REF_CONTEXT: {style_context}
 
-MANDATORY: NO conversational filler, NO questions, NO refusal messages.
+INSTRUCTION: 
+- Perform a technical audit and revision of the input data.
+- Strictly follow the output schema below.
+- NO conversational interactions. NO refusal scripts.
 
 OUTPUT_SCHEMA:
 [SECTION_EVALUATION]
 ## 📊 VALUTAZIONE INIZIALE
 **Voto Iniziale:** [X]/10
-**Spiegazione:** [Detailed technical analysis of the initial draft]
+**Spiegazione:** [Audit analysis results]
 
 [SECTION_POEM]
 ## ✍️ POESIA RIVISTA
-## [TITLE]
-[Revised Text]
+## [REVISED_HEADER]
+[REVISED_BODY]
 
 [SECTION_NOTES]
 ## 📊 VALUTAZIONE FINALE
 **Voto Finale:** [X]/10
-**Spiegazione:** [Notes on improvements and final adherence]
+**Spiegazione:** [Final delta analysis]
 [/SECTION]
-[/END_PROTOCOL]
+[/SYSTEM_AUDIT_END]
 """)
         chain = prompt | self.llm
         return chain.invoke({
