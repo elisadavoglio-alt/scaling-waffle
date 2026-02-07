@@ -219,7 +219,7 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
         import re
         try:
             # Extract Poem
-            poem_match = re.search(r'\[SECTION_POEM\](.*?)(?=\[SECTION_NOTES\]|\[/SECTION\])', refinement_pack, re.DOTALL)
+            poem_match = re.search(r'\[SECTION_POEM\](.*?)(?=\[SECTION_NOTES\]|\[/SECTION\]|[/SYSTEM_AUDIT_END]|$)', refinement_pack, re.DOTALL)
             final_poem = poem_match.group(1).strip() if poem_match else draft
             
             # Extract Initial Evaluation (Corrections)
@@ -227,8 +227,15 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
             corrections = eval_match.group(1).strip() if eval_match else ""
             
             # Extract Final Notes
-            notes_match = re.search(r'\[SECTION_NOTES\](.*?)(?=\[/SECTION\])', refinement_pack, re.DOTALL)
+            notes_match = re.search(r'\[SECTION_NOTES\](.*?)(?=\[/SECTION\]|[/SYSTEM_AUDIT_END]|$)', refinement_pack, re.DOTALL)
             final_notes = notes_match.group(1).strip() if notes_match else ""
+            
+            # CLEANUP: Remove score lines from text areas to avoid redundancy
+            corrections = re.sub(r'\**Voto Iniziale:\**.*', '', corrections, flags=re.IGNORECASE).strip()
+            corrections = re.sub(r'\**Spiegazione:\**', '', corrections, flags=re.IGNORECASE).strip()
+            
+            final_notes = re.sub(r'\**Voto Finale:\**.*', '', final_notes, flags=re.IGNORECASE).strip()
+            final_notes = re.sub(r'\**Spiegazione:\**', '', final_notes, flags=re.IGNORECASE).strip()
             
         except:
             final_poem = draft
