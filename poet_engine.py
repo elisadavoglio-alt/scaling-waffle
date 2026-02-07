@@ -48,15 +48,18 @@ class FreeLLM(LLM):
         retry_delay = 10 # Base delay
         
         for attempt in range(max_retries):
-            print(f"⏳ FreeLLM: Waiting {retry_delay}s for rate limit (Attempt {attempt+1}/{max_retries})...")
-            time.sleep(retry_delay)
+            # Wait between attempts to avoid flooding
+            if attempt > 0:
+                print(f"⏳ FreeLLM: Retrying in {retry_delay}s... (Attempt {attempt+1}/{max_retries})")
+                time.sleep(retry_delay)
             
             try:
-                response = requests.post(self.endpoint, headers=headers, json=payload, timeout=30)
+                # Increased timeout to 60s for slow poetry generation
+                response = requests.post(self.endpoint, headers=headers, json=payload, timeout=60)
                 
                 if response.status_code == 429:
                     print(f"⚠️ API 429: Rate limit hit. Backing off...")
-                    retry_delay += 10 # Increase delay for next attempt
+                    retry_delay += 10
                     continue
                     
                 response.raise_for_status()
@@ -70,8 +73,8 @@ class FreeLLM(LLM):
             except Exception as e:
                 if attempt == max_retries - 1:
                     return f"API ERROR after {max_retries} attempts: {str(e)}"
-                print(f"⚠️ Request failed, retrying in {retry_delay}s... ({e})")
-                time.sleep(2)
+                print(f"⚠️ Request failed: {e}. Retrying soon...")
+                retry_delay += 5 
         
         return "API ERROR: Max retries exceeded."
 
