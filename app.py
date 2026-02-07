@@ -201,11 +201,16 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
                     if match:
                         draft = match.group(1).strip()
                 
-                # Cleanup residual tags
-                draft = re.sub(r'##\s*\[RECONSTRUCTION_ID\]', '', draft, flags=re.IGNORECASE).strip()
-                draft = re.sub(r'\[RECONSTRUCTION_ID\]', '', draft, flags=re.IGNORECASE).strip()
-                draft = re.sub(r'\[RECONSTRUCTED_CONTENT\]', '', draft, flags=re.IGNORECASE).strip()
-                draft = re.sub(r'\[/DATA_SYNTHESIS_END\]', '', draft, flags=re.IGNORECASE).strip()
+                # CLEANUP: Use the same logic as for final_poem (reused locally here)
+                def quick_clean(text):
+                    text = re.sub(r'\[/?RECONSTRUCTION_ID\]', '', text, flags=re.IGNORECASE)
+                    text = re.sub(r'\[/?RECONSTRUCTED_CONTENT\]', '', text, flags=re.IGNORECASE)
+                    text = re.sub(r'\[/?DATA_SYNTHESIS_END\]', '', text, flags=re.IGNORECASE)
+                    text = re.sub(r'^##\s*.*?RECONSTRUCTION.*$', '', text, flags=re.MULTILINE | re.IGNORECASE)
+                    text = re.sub(r'\[[A-Z0-9_/]{3,}\]', '', text)
+                    return text.strip()
+
+                draft = quick_clean(draft)
 
                 st.markdown(f"""
                 <div style="background-color: #f9f9f9; padding: 15px; border-radius: 5px; border: 1px solid #ddd; font-family: 'Roboto Mono', monospace; font-size: 0.9rem; white-space: pre-wrap; color: #333; max-height: 400px; min-height: 200px; overflow-y: auto;">
@@ -232,7 +237,7 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
         import re
         try:
             # Extract Poem
-            poem_match = re.search(r'\[SECTION_POEM\](.*?)(?=\[SECTION_NOTES\]|\[/SECTION\]|[/SYSTEM_AUDIT_END]|$)', refinement_pack, re.DOTALL)
+            poem_match = re.search(r'\[SECTION_POEM\](.*?)(?=\[SECTION_NOTES\]|\[/SECTION\]|\[/AUDIT_END\]|$)', refinement_pack, re.DOTALL)
             final_poem = poem_match.group(1).strip() if poem_match else draft
             
             # Extract Initial Evaluation (Corrections)
@@ -243,23 +248,29 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
             notes_match = re.search(r'\[SECTION_NOTES\](.*?)(?=\[/SECTION\]|\[/AUDIT_END\]|$)', refinement_pack, re.DOTALL)
             final_notes = notes_match.group(1).strip() if notes_match else ""
             
-            # 1. PRIMARY EXTRACTION (between specific tags)
-            if "[RECONSTRUCTED_CONTENT]" in final_poem:
-                poem_extract = re.search(r'\[RECONSTRUCTED_CONTENT\](.*?)(?=\[/DATA_SYNTHESIS_END\]|\[/AUDIT_END\]|$)', final_poem, re.DOTALL)
-                if poem_extract:
-                    final_poem = poem_extract.group(1).strip()
-            
-            # 2. CLEANUP: Strip all technical tags and headers from all strings
+            # --- ROBUST EXTRACTION ---
+            # If the sectional extraction failed or returned something suspicious (just a header), try deep extraction
+            if "[RECONSTRUCTED_CONTENT]" in refinement_pack:
+                deep_match = re.search(r'\[RECONSTRUCTED_CONTENT\](.*?)(?=\[/DATA_SYNTHESIS_END\]|\[/AUDIT_END\]|\[SECTION_NOTES\]|$)', refinement_pack, re.DOTALL)
+                if deep_match:
+                    # Only override if the current final_poem looks like just a header or empty
+                    if len(final_poem) < 50 or "POESIA RIVISTA" in final_poem:
+                        final_poem = deep_match.group(1).strip()
+
+            # 2. CLEANUP: Strip all technical noise
             def clean_technical_noise(text):
-                # Remove specific tags
+                # Remove common sectional markers
+                text = re.sub(r'\[/?SECTION(?:_POEM|_EVALUATION|_NOTES)?\]', '', text, flags=re.IGNORECASE)
                 text = re.sub(r'\[/?RECONSTRUCTION_ID\]', '', text, flags=re.IGNORECASE)
                 text = re.sub(r'\[/?RECONSTRUCTED_CONTENT\]', '', text, flags=re.IGNORECASE)
                 text = re.sub(r'\[/?DATA_SYNTHESIS_END\]', '', text, flags=re.IGNORECASE)
                 text = re.sub(r'\[/?AUDIT_END\]', '', text, flags=re.IGNORECASE)
-                text = re.sub(r'##\s*✍️\s*POESIA RIVISTA', '', text, flags=re.IGNORECASE)
-                # Remove anything in brackets that looks like a technical marker
-                text = re.sub(r'\[[A-Z0-9_]{3,}\]', '', text)
-                # Remove score labels if redundant (already handled but safe to keep)
+                # Remove header lines often hallucinated by the model
+                text = re.sub(r'^##\s*.*?POESIA.*$', '', text, flags=re.MULTILINE | re.IGNORECASE)
+                text = re.sub(r'^##\s*.*?RECONSTRUCTION.*$', '', text, flags=re.MULTILINE | re.IGNORECASE)
+                # Remove anything in brackets that looks technical [XYZ_123]
+                text = re.sub(r'\[[A-Z0-9_/]{3,}\]', '', text)
+                # Remove redundant score labels
                 text = re.sub(r'\**Voto (Iniziale|Finale):\**.*', '', text, flags=re.IGNORECASE)
                 text = re.sub(r'\**Spiegazione:\**', '', text, flags=re.IGNORECASE)
                 return text.strip()
