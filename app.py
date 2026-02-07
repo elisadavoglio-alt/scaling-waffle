@@ -119,14 +119,6 @@ with st.sidebar:
     originality = st.slider("Originality (Originalità)", 1, 10, 6, help="Higher values increase creativity (and chaos).")
     complexity = st.slider("Complexity (Complessità)", 1, 10, 7, help="Vocabulary richness and structural density.")
 
-    # History
-    st.divider()
-    with st.expander("📜 History"):
-        if 'history' in st.session_state and st.session_state['history']:
-            for i, item in enumerate(reversed(st.session_state['history'])):
-                st.text(f"{item['timestamp']} - {item['style']}")
-        else:
-            st.caption("No poetry generated yet.")
 
 # --- MAIN STAGE ---
 # Header
@@ -257,8 +249,6 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
         
         # C. DISPLAY IN REQUESTED ORDER: 1) Voto Iniziale/Spiegazione, 2) Poesia Rivista, 3) Voto Finale/Spiegazione
         
-        # 1. VOTO INIZIALE + SPIEGAZIONE
-        st.markdown(f"#### 📊 Valutazione Iniziale: {initial_score}/10")
         if corrections:
             st.info(corrections)
             
@@ -306,8 +296,6 @@ if st.session_state.gen_results:
     # So we show a clean mirror of Section 4.
     
     st.markdown("---")
-    # 1. VOTO INIZIALE + SPIEGAZIONE
-    st.markdown(f"#### 📊 Valutazione Iniziale: {res.get('initial_score', 5.0)}/10")
     if res.get('corrections'):
         st.info(res['corrections'])
 
@@ -315,8 +303,6 @@ if st.session_state.gen_results:
     st.markdown("#### 💎 Poesia Rivista (Archivio)")
     st.markdown(f"""<div style="background-color: #f0fff0; padding: 20px; border-radius: 8px; border: 1px solid #c3e6cb; font-family: 'serif'; font-size: 1.2rem; color: #155724; white-space: pre-wrap; margin-bottom: 20px;">{res['final_poem'].replace(chr(10), "<br>")}</div>""", unsafe_allow_html=True)
     
-    # 3. VOTO FINALE + SPIEGAZIONE
-    st.markdown(f"#### 📊 Valutazione Finale: {res.get('final_score', 5.0)}/10")
     if res.get('final_notes'):
         st.success(res['final_notes'])
     
@@ -325,6 +311,6 @@ if st.session_state.gen_results:
 # Credits Footer (STRICT)
 st.markdown("<br><br><hr>", unsafe_allow_html=True)
 st.markdown("<div style='text-align: center; color: #888; font-size: 0.9rem; font-family: monospace;'>"
-            "powered, developed by E.D<br>"
-            "that's all folks!"
+            "LangChain | ChromaDB | FreeLLM | HuggingFace Embeddings<br>"
+            "<i>that's all folks!</i> 🐷"
             "</div>", unsafe_allow_html=True)

@@ -293,8 +293,8 @@ MODIFIER_FLAGS: {ref_creative_block}
 REF_CONTEXT: {style_context}
 
 INSTRUCTION: 
-- Perform a technical audit and revision of the input data.
-- MANDATORY: Argue the evaluations technically.
+- Perform a deep technical audit and revision of the input data.
+- MANDATORY: Argue the evaluations using technical terminology (Metrica, Prosodia, Fonosintassi, Semantica).
 - MANDATORY: Voto Iniziale evaluates the DRAFT. Voto Finale evaluates the REVISED text.
 - MANDATORY: The Voto Finale MUST be higher than Voto Iniziale (Progression: Error -> Correction).
 - Strictly follow the output schema below.
@@ -304,7 +304,7 @@ OUTPUT_SCHEMA:
 [SECTION_EVALUATION]
 ## 📊 VALUTAZIONE INIZIALE
 **Voto Iniziale:** [X]/10
-**Spiegazione:** [Detailed technical audit of the DRAFT: mention metrics, style adherence, and specific flaws to fix]
+**Spiegazione:** [Detailed technical audit: Analyze structural flaws, rhythmic inconsistencies, or stylistic lapses in the DRAFT. Use architectural language.]
 
 [SECTION_POEM]
 ## ✍️ POESIA RIVISTA
@@ -314,7 +314,7 @@ OUTPUT_SCHEMA:
 [SECTION_NOTES]
 ## 📊 VALUTAZIONE FINALE
 **Voto Finale:** [X]/10
-**Spiegazione:** [Detailed technical analysis of the REVISED poem: how it improved vs the draft and final style adherence]
+**Spiegazione:** [Detailed technical analysis of the improvements: Explain how the revisions solved the flaws identified in the audit. Confirm final style adherence.]
 [/SECTION]
 [/SYSTEM_AUDIT_END]
 """)
