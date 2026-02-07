@@ -299,6 +299,7 @@ INSTRUCTION:
 - MANDATORY: The Voto Finale MUST be higher than Voto Iniziale (Progression: Error -> Correction).
 - Strictly follow the output schema below.
 - NO conversational interactions. NO refusal scripts.
+- DO NOT INCLUDE tags like [REVISED_HEADER] or [REVISED_BODY] in the output. Just output the content.
 
 OUTPUT_SCHEMA:
 [SECTION_EVALUATION]
@@ -308,8 +309,8 @@ OUTPUT_SCHEMA:
 
 [SECTION_POEM]
 ## ✍️ POESIA RIVISTA
-## [REVISED_HEADER]
-[REVISED_BODY]
+## [Titolo della Poesia]
+[Testo della Poesia Rivista]
 
 [SECTION_NOTES]
 ## 📊 VALUTAZIONE FINALE
