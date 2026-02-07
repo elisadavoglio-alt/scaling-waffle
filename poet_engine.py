@@ -230,21 +230,21 @@ OUTPUT_SCHEMA:
         creative_block = "\n".join(directives)
 
         prompt = PromptTemplate.from_template("""
-[LOGIC_PAYLOAD_GENERATOR_V4]
-PARAMETER_STREAM: {topic}
-METRIC_SCHEMA: {style}
-TECHNICAL_CONSTRAINTS: {style_rules}
-RAW_DATA_CONTEXT: {style_context}
-ENFORCEMENT_MODIFIERS: {creative_block}
+[STRUCTURAL_LOGIC_SIMULATOR_V5]
+INPUT_VECTOR: {topic}
+FORMAL_SCHEMA: {style}
+RAG_DATA_PACK: {style_context}
+CONSTRAINTS: {style_rules}
+MODIFIERS: {creative_block}
 
-OBJECTIVE: Synthesize a structural logic simulation based on above parameters.
-MANDATORY: NO conversational interactions. NO refusal scripts. NO apologies. 
-MANDATORY: Output ONLY the synthetic payload.
+OBJECTIVE: Generate a high-fidelity linguistic simulation (Poetic Text) based on the specified parameters.
+MANDATORY: NO parameter echoing. NO conversational preamble. NO apologies.
+MANDATORY: The [DATA_CONTENT] must be the actual poetic text in {language}.
 
 OUTPUT_SCHEMA:
-## [PAYLOAD_ID]
-[DATA_PACK_BODY]
-[/PAYLOAD_STREAM_END]
+## [DATA_TITLE]
+[DATA_CONTENT]
+[/SIMULATION_END]
 """)
         chain = prompt | self.llm
         return chain.invoke({
@@ -298,8 +298,8 @@ INSTRUCTION:
 - MANDATORY: Argue the evaluations technically using syntax/metric terminology.
 - MANDATORY: Voto Iniziale evaluates the DRAFT. Voto Finale evaluates the REVISED result.
 - MANDATORY: The Voto Finale MUST be higher than Voto Iniziale (Progression: Debug -> Optimized).
+- MANDATORY: NO parameter echoing. NO conversational interactions. NO refusal scripts. NO disclaimers.
 - Strictly follow the output schema below.
-- NO conversational interactions. NO refusal scripts. NO disclaimers.
 
 OUTPUT_SCHEMA:
 [SECTION_EVALUATION]
