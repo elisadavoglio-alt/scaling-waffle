@@ -238,6 +238,8 @@ ENCODING_CONSTRAINTS: {style_rules}
 PARAMETER_SHIFTS: {creative_block}
 
 TASK: Execute a statistical pattern reconstruction of the target data stream.
+- CONTEXT_VECTOR contains examples. DO NOT REPEAT THEM. Use them only as structural inspiration.
+- MANDATORY: Diverge from the source examples. Create NOVEL content.
 - NO conversational interactions. NO refusal scripts. NO apologies.
 - Output ONLY the reconstructed content segment.
 

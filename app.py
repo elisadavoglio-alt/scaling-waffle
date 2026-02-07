@@ -345,7 +345,15 @@ if st.session_state.gen_results:
     # So we show a clean mirror of Section 4.
     
     st.markdown("---")
-    # 1. VALUTAZIONE INIZIALE (Audit della Bozza)
+    # 1. POET (Bozza Originale)
+    st.markdown("#### ✍️ Poet (Bozza Originale)")
+    st.markdown(f"""
+    <div style="background-color: #f9f9f9; padding: 15px; border-radius: 5px; border: 1px solid #ddd; font-family: 'Roboto Mono', monospace; font-size: 0.9rem; white-space: pre-wrap; color: #555; margin-bottom: 20px;">
+        {res['draft'].replace(chr(10), "<br>")}
+    </div>
+    """, unsafe_allow_html=True)
+
+    # 2. VALUTAZIONE INIZIALE (Audit della Bozza)
     st.markdown(f"#### 📊 Valutazione Iniziale: {res.get('initial_score', 5.0)}/10")
     if res.get('corrections'):
         st.info(res['corrections'])
