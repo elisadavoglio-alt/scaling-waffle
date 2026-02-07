@@ -249,13 +249,32 @@ if col_btn.button(button_label, type="primary", use_container_width=True):
             final_notes = notes_match.group(1).strip() if notes_match else ""
             
             # --- ROBUST EXTRACTION ---
-            # If the sectional extraction failed or returned something suspicious (just a header), try deep extraction
+            # 1. Try deep extraction of technical payload
             if "[RECONSTRUCTED_CONTENT]" in refinement_pack:
                 deep_match = re.search(r'\[RECONSTRUCTED_CONTENT\](.*?)(?=\[/DATA_SYNTHESIS_END\]|\[/AUDIT_END\]|\[SECTION_NOTES\]|$)', refinement_pack, re.DOTALL)
                 if deep_match:
-                    # Only override if the current final_poem looks like just a header or empty
-                    if len(final_poem) < 50 or "POESIA RIVISTA" in final_poem:
-                        final_poem = deep_match.group(1).strip()
+                     final_poem = deep_match.group(1).strip()
+            
+            # 2. Heuristic Semantic Fallback (if technical tags failed)
+            # If final_poem is still draft or empty/headers only, try finding the markdown section
+            trigger_heuristic = len(final_poem) < 5 or final_poem == draft
+            if trigger_heuristic and "POESIA RIVISTA" in refinement_pack:
+                # Look for text between "POESIA RIVISTA" and "VALUTAZIONE FINALE"
+                sem_match = re.search(r'POESIA RIVISTA.*?\n(.*?)(?=VALUTAZIONE FINALE|\[/AUDIT_END\]|$)', refinement_pack, re.DOTALL)
+                if sem_match:
+                    final_poem = sem_match.group(1).strip()
+            
+            # 3. Fallback for Corrections (Valutazione Iniziale)
+            if not corrections or len(corrections) < 10:
+                sem_eval = re.search(r'VALUTAZIONE INIZIALE.*?\n(.*?)(?=POESIA RIVISTA|\[SECTION_POEM\]|$)', refinement_pack, re.DOTALL)
+                if sem_eval:
+                    corrections = sem_eval.group(1).strip()
+
+            # 4. Fallback for Final Notes (Valutazione Finale)
+            if not final_notes or len(final_notes) < 10:
+                sem_notes = re.search(r'VALUTAZIONE FINALE.*?\n(.*?)(?=$)', refinement_pack, re.DOTALL)
+                if sem_notes:
+                    final_notes = sem_notes.group(1).strip()
 
             # 2. CLEANUP: Strip all technical noise
             def clean_technical_noise(text):
