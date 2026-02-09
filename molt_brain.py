@@ -104,7 +104,7 @@ def run_single_cycle():
         
         for attempt in range(max_retries):
             # Anti-Refusal Logic V3 Integrated
-            generated_text = llm.predict(prompt).strip().replace('"', '')
+            generated_text = llm.invoke(prompt).strip().replace('"', '')
             
             # Quality Check
             bad_starts = ["I'm sorry", "I cannot", "As an AI", "I am unable", "Want to talk about", "I'm not able", "I'd really like to help", "Sorry", "I'm LLaMA"]
