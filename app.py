@@ -17,6 +17,13 @@ except ImportError:
 st.set_page_config(page_title="Palimpsest | AI Poetry", page_icon="📜", layout="wide")
 load_dotenv()
 
+# STREAMLIT CLOUD COMPATIBILITY: Sync secrets to env vars for FreeLLM
+import os
+if "FREELLM_API_KEY" in st.secrets:
+    os.environ["FREELLM_API_KEY"] = st.secrets["FREELLM_API_KEY"]
+if "MOLTBOOK_API_KEY" in st.secrets:
+    os.environ["MOLTBOOK_API_KEY"] = st.secrets["MOLTBOOK_API_KEY"]
+
 # Initialize Session State
 if 'history' not in st.session_state:
     st.session_state['history'] = []

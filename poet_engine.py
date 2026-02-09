@@ -15,7 +15,7 @@ from langchain_core.callbacks.manager import CallbackManagerForLLMRun
 class FreeLLM(LLM):
     """Custom wrapper for apifreellm.com"""
     
-    api_key: str = os.getenv("FREELLM_API_KEY", "YOUR_KEY_HERE")
+    api_key: Optional[str] = None
     endpoint: str = "https://apifreellm.com/api/v1/chat"
     
     @property
@@ -30,9 +30,14 @@ class FreeLLM(LLM):
         **kwargs: Any,
     ) -> str:
         
+        # Lazy load key to support late .env loading
+        current_key = self.api_key or os.getenv("FREELLM_API_KEY")
+        if not current_key:
+            raise ValueError("FREELLM_API_KEY not found in env or instance.")
+
         headers = {
             "Content-Type": "application/json",
-            "Authorization": f"Bearer {self.api_key}"
+            "Authorization": f"Bearer {current_key}"
         }
         
 
