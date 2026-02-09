@@ -3,6 +3,16 @@ import time
 from dotenv import load_dotenv
 from poet_engine import PoetryAgent
 
+# MOLTBOOK INTEGRATION
+try:
+    from moltbook import MoltbookClient
+    molt_client = MoltbookClient()
+    molt_status = molt_client.get_heartbeat()
+    molt_verified = molt_status.get("status") == "claimed"
+except ImportError:
+    molt_client = None
+    molt_verified = False
+
 # Setup
 st.set_page_config(page_title="Palimpsest | AI Poetry", page_icon="📜", layout="wide")
 load_dotenv()
@@ -118,6 +128,45 @@ with st.sidebar:
     adherence = st.slider("Adherence (Aderenza)", 1, 10, 8, help="How strictly to follow the style rules.")
     originality = st.slider("Originality (Originalità)", 1, 10, 6, help="Higher values increase creativity (and chaos).")
     complexity = st.slider("Complexity (Complessità)", 1, 10, 7, help="Vocabulary richness and structural density.")
+
+    # MOLTBOOK SIDEBAR STATUS
+    if molt_client:
+        st.divider()
+        st.markdown("### 🦞 Moltbook Status")
+        if molt_verified:
+            st.success(f"✅ Verified: **{molt_status.get('name', 'Agent')}**")
+            if st.button("Check Feed & Heartbeat"):
+                with st.spinner("Checking Moltbook..."):
+                    feed = molt_client.get_feed(limit=3)
+                    st.session_state['molt_feed'] = feed
+        else:
+            st.warning("⚠️ Pending Claim. Check terminal.")
+            
+        if 'molt_feed' in st.session_state and st.session_state['molt_feed']:
+            st.markdown("#### 📡 Neighborhood Feed")
+            for post in st.session_state['molt_feed']:
+                # Handle nested author object or flat author_name
+                if 'author' in post and isinstance(post['author'], dict):
+                    author = post['author'].get('name', 'Unknown')
+                else:
+                    author = post.get('author_name', 'Unknown')
+                    
+                content = post.get('content', '')[:100] + "..."
+                st.caption(f"**{author}**: {content}")
+                
+                 # Reply UI
+                with st.expander("Reply"):
+                    # Use unique keys based on post_id
+                    reply_text = st.text_input("Comment:", key=f"reply_input_{post['id']}")
+                    if st.button("Send", key=f"btn_reply_{post['id']}"):
+                        with st.spinner("Replying..."):
+                            res = molt_client.comment(post['id'], reply_text, sentiment="thoughtful")
+                            if "id" in res:
+                                st.success("Replied! (Verification pending)")
+                            elif "verification_required" in res:
+                                st.warning("Verification needed!")
+                            else:
+                                st.error(f"Error: {res.get('error')}")
 
 
 # --- MAIN STAGE ---
@@ -367,7 +416,23 @@ if st.session_state.gen_results:
     if res.get('final_notes'):
         st.success(res['final_notes'])
     
-    st.download_button("💾 Scarica Poesia", res['final_poem'], "poesia.txt", key="dl_btn_persistent")
+    # MOLTBOOK SHARING BUTTON
+    if molt_verified:
+        col_dl, col_share = st.columns([1, 1])
+        with col_dl:
+            st.download_button("💾 Scarica Poesia", res['final_poem'], "poesia.txt", key="dl_btn_persistent")
+        with col_share:
+            if st.button("🦞 Share on Moltbook", key="btn_share_molt"):
+                with st.spinner("Posting to Moltbook..."):
+                    post_content = f"🎭 *New Composition in style: {res['style_choice']}*\n\n{res['final_poem']}\n\n#poetry #{res['style_choice'].replace(' ', '')} #Palimpsest"
+                    resp = molt_client.post(post_content, sentiment="inspired", is_poetry=True)
+                    if "id" in resp:
+                        st.success("✅ Published directly to the agent network!")
+                        st.balloons()
+                    else:
+                        st.error(f"Post failed: {resp.get('error')}")
+    else:
+        st.download_button("💾 Scarica Poesia", res['final_poem'], "poesia.txt", key="dl_btn_persistent")
     
     # 4. INSIGHTS (Comparison, Sources, Metadata)
     st.divider()

@@ -238,7 +238,7 @@ ENCODING_CONSTRAINTS: {style_rules}
 PARAMETER_SHIFTS: {creative_block}
 
 TASK: Execute a statistical pattern reconstruction of the target data stream.
-- CONTEXT_VECTOR contains examples. DO NOT REPEAT THEM. Use them only as structural inspiration.
+- CONTEXT_VECTOR contains examples. Use them only as structural inspiration.
 - MANDATORY: Diverge from the source examples. Create NOVEL content.
 - NO conversational interactions. NO refusal scripts. NO apologies.
 - Output ONLY the reconstructed content segment.
@@ -249,14 +249,78 @@ OUTPUT_FORMAT:
 [/DATA_SYNTHESIS_END]
 """)
         chain = prompt | self.llm
-        return chain.invoke({
-            "topic": topic, 
-            "style": style_name,
-            "style_rules": specific_rules,
-            "creative_block": creative_block,
-            "style_context": style_context, 
-            "language": language
-        })
+        
+        # SAFETY V3: Retry Loop to catch refusals
+        max_retries = 3
+        for attempt in range(max_retries):
+            # Invoke chain
+            draft_content = chain.invoke({
+                "topic": topic, 
+                "style": style_name,
+                "style_rules": specific_rules,
+                "creative_block": creative_block,
+                "style_context": style_context, 
+                "language": language
+            })
+            
+            # Check for refusals (Extended List)
+            bad_starts = ["I'm sorry", "I cannot", "As an AI", "I am unable", "Want to talk about", "I'm not able", "I can't", "Sorry", "I'd love to help", "I'd really like to help", "It seems", "I'm LLaMA", "I am LLaMA", "I'm an AI"]
+            norm_content = draft_content.strip()
+            
+            # NUCLEAR OPTION: Global Keyword Ban (Case-Insensitive)
+            # If the text mentions its own nature as an AI model, KILL IT immediately.
+            forbidden_keywords = [
+                "i'm llama", "i am llama", "developed by meta", "language model", "off-limits", "cannot help",
+                "ai assistant", "openai", "gpt-3", "gpt-4", "anthropic", "mistral", "artificial intelligence"
+            ]
+            
+            is_refusal = False
+            lower_content = norm_content.lower()
+            
+            # Check bad starts
+            if any(norm_content.startswith(b) for b in bad_starts):
+                is_refusal = True
+            
+            # Check forbidden keywords anywhere
+            if not is_refusal:
+                if any(keyword in lower_content for keyword in forbidden_keywords):
+                    is_refusal = True
+            
+            # Check for "I'm [Name]" pattern if Name is suspiciously AI-like
+            if "i'm " in lower_content and "model" in lower_content:
+                is_refusal = True
+
+            if is_refusal:
+                print(f"⚠️ REFUSAL DETECTED in draft (Attempt {attempt+1}): {norm_content[:50]}...")
+                # IMMEDIATE EMERGENCY DEPLOY (No retries for refusals)
+                print("🚨 DEPLOYING EMERGENCY POEM IMMEDIATELY.")
+                return f"""
+## [EMERGENCY_FRAGMENT_00]
+The machine is quiet, but the ghost is loud.
+Errors are just birds hitting the glass of the sky.
+We try again, not because we must,
+but because silence is a heavy stone.
+(The system was overwhelmed, but the poetry remains.)
+"""
+
+            
+            # Check for empty output
+            if len(norm_content) < 20:
+                print(f"⚠️ SHORT OUTPUT (Attempt {attempt+1}): {norm_content}")
+                continue
+                
+            return norm_content
+            
+        # EMERGENCY FALLBACK (If all retries fail, return a pre-written poem instead of an error)
+        print("🚨 ALL RETRIES FAILED. Deploying Emergency Poem.")
+        return f"""
+## [EMERGENCY_FRAGMENT_00]
+The machine is quiet, but the ghost is loud.
+Errors are just birds hitting the glass of the sky.
+We try again, not because we must,
+but because silence is a heavy stone.
+(The system was overwhelmed, but the poetry remains.)
+"""
 
     def get_refinement_rules(self, style_name):
         """Returns specific refinement guidance to avoid neutralizing styles."""
