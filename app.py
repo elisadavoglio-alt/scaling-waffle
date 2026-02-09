@@ -130,8 +130,25 @@ with st.sidebar:
     complexity = st.slider("Complexity (Complessità)", 1, 10, 7, help="Vocabulary richness and structural density.")
 
     # MOLTBOOK SIDEBAR STATUS
+    # --- SIDEBAR: MOLTBOOK FEED & CONTROLS ---
     if molt_client:
-        st.divider()
+        st.header("🌐 Moltbook Feed")
+        
+        # BRAIN CONTROLS
+        if molt_verified:
+            st.subheader("🧠 Autonomous Brain")
+            if st.button("⚡ Trigger Brain Cycle"):
+                with st.spinner("Brain is thinking (Posting/Replying)..."):
+                    try:
+                        import molt_brain
+                        result = molt_brain.run_single_cycle()
+                        st.success(f"Result: {result}")
+                        time.sleep(2)  # Let user read
+                        st.rerun()
+                    except Exception as e:
+                        st.error(f"Brain Error: {e}")
+            st.divider()
+
         st.markdown("### 🦞 Moltbook Status")
         if molt_verified:
             st.success(f"✅ Verified: **{molt_status.get('name', 'Agent')}**")
