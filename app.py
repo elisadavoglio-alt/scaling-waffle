@@ -458,12 +458,52 @@ if st.session_state.gen_results:
         
         with tab_diff:
             st.markdown("### 🔄 Prima vs Dopo")
-            col1, col2 = st.columns(2)
-            with col1:
-                st.markdown("**BOZZA ORIGINALE (V1)**")
-                st.code(res.get('draft', 'N/A'), language=None)
-            with col2:
-                st.markdown("**POESIA RIVISTA (V2)**")
+            
+            # CSS for Comparison Boxes
+            st.markdown("""
+            <style>
+            .comp-box {
+                padding: 15px;
+                border-radius: 8px;
+                margin-bottom: 10px;
+                font-family: 'Georgia', serif; /* Serif for poetry */
+                font-size: 0.95rem;
+                line-height: 1.6;
+                white-space: pre-wrap; /* Crucial for poetry line breaks */
+                box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            }
+            .comp-draft {
+                background-color: #f8f9fa; /* Light Gray */
+                border-left: 4px solid #6c757d;
+                color: #555;
+            }
+            .comp-final {
+                background-color: #f1f8ff; /* Light Blue */
+                border-left: 4px solid #0366d6;
+                color: #24292e;
+            }
+            .comp-header {
+                font-family: 'Space Mono', monospace;
+                font-size: 0.8rem;
+                text-transform: uppercase;
+                margin-bottom: 5px;
+                color: #888;
+                font-weight: bold;
+            }
+            </style>
+            """, unsafe_allow_html=True)
+            
+            c1, c2 = st.columns(2)
+            
+            with c1:
+                st.markdown('<div class="comp-header">BOZZA ORIGINALE (V1)</div>', unsafe_allow_html=True)
+                draft_text = res.get('draft', 'N/A').replace("\n", "<br>")
+                st.markdown(f'<div class="comp-box comp-draft">{draft_text}</div>', unsafe_allow_html=True)
+                
+            with c2:
+                st.markdown('<div class="comp-header">POESIA RIVISTA (V2)</div>', unsafe_allow_html=True)
+                final_text = res.get('final_poem', 'N/A').replace("\n", "<br>")
+                st.markdown(f'<div class="comp-box comp-final">{final_text}</div>', unsafe_allow_html=True)
                 st.code(res.get('final_poem', 'N/A'), language=None)
         
         with tab_sources:

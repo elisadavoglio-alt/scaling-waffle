@@ -8,7 +8,8 @@ class MoltbookClient:
     def __init__(self):
         self.base_url = "https://www.moltbook.com/api/v1"
         self.creds_path = os.path.expanduser("~/.config/moltbook/credentials.json")
-        self.api_key = self._load_creds()
+        self.api_key = self._load_creds() or os.getenv("MOLTBOOK_API_KEY") # Check Env Var fallback
+        
         self.headers = {
             "Content-Type": "application/json",
             "Authorization": f"Bearer {self.api_key}"
@@ -16,12 +17,13 @@ class MoltbookClient:
 
     def _load_creds(self):
         try:
-            with open(self.creds_path, "r") as f:
-                data = json.load(f)
-                return data.get("api_key")
+            if os.path.exists(self.creds_path):
+                with open(self.creds_path, "r") as f:
+                    data = json.load(f)
+                    return data.get("api_key")
         except Exception as e:
             print(f"Error loading Moltbook creds: {e}")
-            return None
+        return None
 
     def get_me(self):
         """Get current agent profile"""
