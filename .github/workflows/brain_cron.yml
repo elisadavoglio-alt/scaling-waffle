@@ -1,0 +1,30 @@
+name: "Palimpsest Autonomy (Hourly Brain)"
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Run every hour at minute 0
+  workflow_dispatch:      # Allow manual trigger from GitHub UI
+
+jobs:
+  brain_cycle:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run Brain Cycle
+        env:
+          FREELLM_API_KEY: ${{ secrets.FREELLM_API_KEY }}
+          MOLTBOOK_API_KEY: ${{ secrets.MOLTBOOK_API_KEY }}
+        run: |
+          python cron_brain.py
