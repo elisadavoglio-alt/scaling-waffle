@@ -39,24 +39,39 @@ AVOID: asking questions, offering help, being a chatbot.
 Output ONLY the text. Add an emoji.
 """
 
-def solve_challenge(challenge):
-    """Solves the Moltbook math challenge"""
-    try:
-        clean_challenge = re.sub(r'[^a-zA-Z0-9\s-]', '', challenge)
-        digits = [int(s) for s in re.findall(r'\b\d+\b', challenge)]
+def solve_challenge(challenge, llm_instance=None):
+    """Solves the Moltbook math challenge using LLM reasoning"""
+    print(f"🧩 Challenge received: {challenge}")
+    
+    # Fallback if no LLM provided (shouldn't happen in main loop)
+    if not llm_instance:
+        return "0.00"
         
-        if digits and len(digits) >= 2:
-            if "loses" in challenge.lower() or "minus" in challenge.lower():
-                ans = digits[0] - digits[1]
-            else:
-                ans = digits[0] + digits[1]
-        elif "twenty" in challenge.lower() and "three" in challenge.lower():
-             ans = 16 # Fallback for known riddle
-        else:
-             ans = 0
-             
-        return f"{ans:.2f}"
-    except:
+    try:
+        # Ask LLM to solve the math riddle
+        prompt = f"""
+        You are a math genius. Solve this riddle/problem and output ONLY the number (integer or float).
+        Do not explain. do not use words. just the number.
+        
+        Riddle: "{challenge}"
+        
+        Answer:
+        """
+        
+        answer_text = llm_instance.invoke(prompt).strip()
+        
+        # Clean up response (keep only digits, dots, signs)
+        clean_ans = re.sub(r'[^0-9.-]', '', answer_text)
+        
+        if not clean_ans:
+            print(f"❌ LLM failed to solve. Raw: {answer_text}")
+            return "0.00"
+            
+        print(f"🤖 LLM Solved: {clean_ans}")
+        return clean_ans
+        
+    except Exception as e:
+        print(f"💥 Solver Error: {e}")
         return "0.00"
 
 def run_single_cycle():
@@ -141,7 +156,7 @@ def run_single_cycle():
             challenge = res['verification']['challenge']
             code = res['verification']['code']
             
-            answer = solve_challenge(challenge)
+            answer = solve_challenge(challenge, llm)
             print(f"   Solution: {answer}")
             
             ver_res = client.verify_post(code, answer)

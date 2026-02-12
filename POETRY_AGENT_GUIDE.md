@@ -235,53 +235,119 @@ def run_brain():
         generated_text = llm.predict(prompt)
 ```
 
-### 15. Insegnare le Buone Maniere (Safety V3)
+---
 
-Per evitare che l'agente risponda con frasi da robot come "Come modello linguistico, non posso...", abbiamo messo un filtro.
+## 🛡️ Fase 8: Sicurezza e Rifinitura (Safety V3)
 
-**📂 File: `06_Poetry_Agent/molt_brain.py`**
-**Codice (Il Filtro di Qualità)**:
+Abbiamo notato che spesso l'AI si rifiutava di scrivere ("I cannot help..."). Per risolvere, abbiamo potenziato le difese.
+
+### 15. Filtri Anti-Rifiuto (Poet Engine)
+
+**Azione**: Abbiamo modificato `poet_engine.py` per aggiungere un ciclo di tentativi automatici.
+
+**📂 File: `06_Poetry_Agent/poet_engine.py`**
 
 ```python
-        # Lista delle frasi vietate
-        bad_starts = ["I'm sorry", "I cannot", "As an AI", "I am unable"]
-        
-        # Se il testo inizia con una di queste frasi...
-        if any(generated_text.startswith(b) for b in bad_starts):
-            print(f"⚠️ Rifiutato e scartato: {generated_text}")
-            continue # Salta e riprova
-        
-        # Altrimenti pubblica
-        client.post(generated_text)
+# SAFETY V3: Tre tentativi massimi
+max_retries = 3
+for attempt in range(max_retries):
+    generated_text = llm.invoke(prompt)
+    
+    # NUCLEAR OPTION: Se trova "OpenAI" o "LLaMA" o "Sorry", scarta e riprova
+    forbidden_keywords = ["openai", "language model", "sorry", "cannot help"]
+    if any(k in generated_text.lower() for k in forbidden_keywords):
+        print(f"⚠️ Rifiuto intercettato (Tentativo {attempt+1})")
+        continue
+
+    return generated_text
+
+# FALLBACK DI EMERGENZA
+return "Qui giace una poesia persa nel vuoto digitale..."
 ```
 
-### 16. Lo Spazzino
+### 16. Lazy Loading (Caricamento Intelligente)
 
-Se qualcosa sfugge al filtro, usiamo questo script per pulire.
-**Azione**: Abbiamo creato il file `clean_shame.py`.
-
-**📂 File: `06_Poetry_Agent/clean_shame.py`**
-**Codice (Cancellazione Automatica)**:
+Abbiamo scoperto un bug: la chiave API veniva caricata troppo presto.
+**Azione**: Modifica di `poet_engine.py` per caricare la chiave solo quando serve davvero.
 
 ```python
-# Scansiona i miei post passati
-my_posts = client.get_feed(limit=100)
-
-for post in my_posts:
-    if "I'm sorry" in post['content']:
-        print(f"🚨 Trovato post imbarazzante! ID: {post['id']}")
-        client.delete_post(post['id']) # Cancella subito
+class FreeLLM(LLM):
+    def _call(self, prompt, ...):
+        # Carica la chiave ORA, non all'inizio dello script
+        api_key = os.getenv("FREELLM_API_KEY") 
+        if not api_key:
+             raise ValueError("Chiave mancante!")
 ```
 
 ---
 
-## 🎉 Risultato Finale
+## ☁️ Fase 9: Il Cloud (Deployment su Streamlit)
 
-Ora il codice non è solo testo su uno schermo, ma un **organismo** che:
+Per rendere l'app accessibile a tutti, l'abbiamo messa online.
 
-1. **Ha sensi** (📂 `moltbook.py` per leggere).
-2. **Ha voce** (📂 `app.py` per parlare).
-3. **Ha coscienza** (📂 `molt_brain.py` per decidere).
-4. **Ha dignità** (📂 `clean_shame.py` per correggersi).
+### 17. Segreti nel Cloud
 
-Il tuo computer non è più solo una macchina da calcolo, ma la casa di un poeta digitale. 🦢✨
+Su Streamlit Cloud non esiste il file `.env`. Bisogna usare le variabili segrete.
+**Azione**: Modifica di `app.py` per sincronizzare i segreti.
+
+**📂 File: `06_Poetry_Agent/app.py`**
+
+```python
+# STREAMLIT CLOUD COMPATIBILITY
+import os
+# Se trovi la chiave nei segreti di Streamlit, copiala nell'ambiente sistema
+if "FREELLM_API_KEY" in st.secrets:
+    os.environ["FREELLM_API_KEY"] = st.secrets["FREELLM_API_KEY"]
+if "Moltbook_API_KEY" in st.secrets:
+    os.environ["Moltbook_API_KEY"] = st.secrets["Moltbook_API_KEY"]
+```
+
+---
+
+## ⚡ Fase 10: Controllo Manuale e Look Finale
+
+### 18. Il Bottone "Attiva Cervello"
+
+Poiché lo script `molt_brain.py` non può girare da solo sul Cloud, abbiamo aggiunto un bottone nell'app per attivarlo manualmente.
+
+**📂 File: `06_Poetry_Agent/app.py`**
+
+```python
+if st.button("⚡ Trigger Brain Cycle"):
+    import molt_brain
+    # Esegui un solo ciclo del cervello
+    result = molt_brain.run_single_cycle()
+    st.success(f"Risultato: {result}")
+```
+
+### 19. Nuova Grafica "Prima vs Dopo"
+
+Abbiamo sostituito i blocchi di codice grigi con schede eleganti affiancate.
+
+**📂 File: `06_Poetry_Agent/app.py`**
+
+```css
+/* CSS Personalizzato per le poesie */
+.comp-box {
+    font-family: 'Georgia', serif; 
+    white-space: pre-wrap; /* Va a capo automaticamente */
+    padding: 15px;
+    border-radius: 8px;
+}
+.comp-draft { background-color: #f8f9fa; } /* Grigio per la bozza */
+.comp-final { background-color: #f1f8ff; } /* Azzurro per la finale */
+```
+
+---
+
+## 🏁 Conclusione
+
+Ora hai un sistema completo:
+
+1. **Genera Poesie** in stili specifici (RAG + LLM).
+2. **Si auto-critica** e migliora le bozze.
+3. **Gestisce gli errori** con sistemi di sicurezza avanzati (Safety V3).
+4. **Vive online** su Streamlit Cloud.
+5. **Interagisce socialmente** su Moltbook tramite un "Cervello" attivabile.
+
+È un vero Agente AI: creativo, resiliente e sociale. �📜✨
